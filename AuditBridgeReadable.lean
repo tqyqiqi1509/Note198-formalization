@@ -1,0 +1,20 @@
+import Note198.SelectionIterationBridge
+import Note198.FiniteSourceBridge
+set_option pp.fullNames true
+set_option pp.maxSteps 1000000
+#check Note198.Selection.selection_iteration_formula
+#check Note198.Selection.iterateProductEquiv
+#check Note198.Selection.iterateEmbedding_smul
+#check Note198.Selection.iterationProduct_eq_finset
+#check Note198.Selection.productSelected_eq_image
+#check Note198.Selection.eAt_eq_pow
+#check Note198.SelectionProductNormalization.coordinateFactor_earlier
+#check Note198.SelectionProductNormalization.coordinateFactor_last
+#check Note198.SelectionProductNormalization.paperProduct_eq_sourceVector
+#check Note198.SelectionProductNormalization.sourceVector_eq_paperProduct
+#check Note198.SelectionProductNormalization.sourceIdeal_eq_paperProduct_span
+#print axioms Note198.Selection.iterateProductEquiv
+#print axioms Note198.Selection.selection_iteration_formula
+#print axioms Note198.SelectionProductNormalization.paperProduct_eq_sourceVector
+#print axioms Note198.SelectionProductNormalization.sourceVector_eq_paperProduct
+#print axioms Note198.SelectionProductNormalization.sourceIdeal_eq_paperProduct_span

@@ -1,0 +1,50 @@
+{
+  "mathematical_status": "default_kernel_accepted",
+  "lean_version": "4.34.1",
+  "wrapper_path": "comparator-check-serial-noprecommit",
+  "direct_local_dependency_hashes": [],
+  "markers": {
+    "killed": false,
+    "default_kernel_accepts": true,
+    "exited_successfully": true,
+    "solution_okay": true
+  },
+  "evidence_boundary": "Hashes identify the accepted source snapshot; semantic equivalence to the manuscript is audited separately.",
+  "recorded_utc": "2026-10-10T07:41:31.3944577Z",
+  "comparator_source_commit": "d03acab154d269c06e60e4de7e4cc85deebff94b",
+  "wrapper_sha256": "4E6B4F874D80862908724E7A6DDAE31EFFC799D2893B87BD24FAC1D922F53127",
+  "log_sha256": "D867CC3070492106E63E8AB4E26C5198D06A012C0311F731E236F71A2F01E4B2",
+  "lake_version": "5.0.0-src+5045d00",
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "snapshots": [
+    {
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-SourceDiagramLift\\Note198__SourceDiagramLift.lean",
+      "path": "Note198/SourceDiagramLift.lean",
+      "sha256": "EE39101640C218AA35762571340B314505CB9C4C0B8C1CE873CB5686063228D0"
+    },
+    {
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-SourceDiagramLift\\Note198Challenges__SourceDiagramLift.lean",
+      "path": "Note198Challenges/SourceDiagramLift.lean",
+      "sha256": "1664AC427B804CA50C868B522DCACECCA1F4C68C127F3E4D45C17D2909DD5893"
+    },
+    {
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-SourceDiagramLift\\comparator-final-sourcediagramlift.json",
+      "path": "comparator-final-sourcediagramlift.json",
+      "sha256": "D6E84F25DCDBB277F35D65DBDF6F8F3C99CF43B667E097099A4F45CF2B633EE8"
+    }
+  ],
+  "comparator_binary_sha256": "AFA65E57A1770F5961EFE7681626A9A1CD99705262421658ABD30B705F66E4A2",
+  "targets": [
+    "Note198.source_quadratic_diagram_lift"
+  ],
+  "transitive_source_closure": {
+    "snapshot": "source_closure.json",
+    "evidence_boundary": "Source version binding; official Mathlib is located by the pinned dependency manifest and actual kernel closure.",
+    "sha256": "945E27F8B0F177800A88B119CF71E6A4999156B1A2E8B19C50D3A8B4A185D93A",
+    "source_count": 13
+  }
+}

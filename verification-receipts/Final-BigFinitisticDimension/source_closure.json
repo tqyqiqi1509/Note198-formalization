@@ -1,0 +1,77 @@
+{
+  "status": "source_version_manifest_only_not_kernel_acceptance",
+  "created_utc": "2026-10-10T08:15:54.959579+00:00",
+  "config": "comparator-final-bigfinitisticdimension.json",
+  "config_sha256": "9fa07ed51eab9f3d715d70eaf93272cc19d63a654b2e2b81110973c8b21afdf1",
+  "roots": [
+    "Note198Challenges.BigFinitisticDimension",
+    "Note198.BigFinitisticDimension"
+  ],
+  "target_names": [
+    "Note198.little_le_big"
+  ],
+  "source_count": 3,
+  "source_counts_by_provider": {
+    "Note198": 1,
+    "Note198Challenges": 1,
+    "immutable_OAI": 1
+  },
+  "sources": {
+    "Note198.BigFinitisticDimension": {
+      "path": "Note198/BigFinitisticDimension.lean",
+      "sha256": "d901b8eca023bd7f67a33299f1732bceb88db946cf9972c00a873d7071dbfbfb",
+      "byte_count": 2760,
+      "imports": [
+        "OAI.Algebra.Finitistic.Basic",
+        "Mathlib.Algebra.Category.ModuleCat.Projective",
+        "Mathlib.RingTheory.Finiteness.Basic"
+      ]
+    },
+    "Note198Challenges.BigFinitisticDimension": {
+      "path": "Note198Challenges/BigFinitisticDimension.lean",
+      "sha256": "fcf67ec09118d5aadc9ab1f5c07db9f284673fa88badb6cec8352a1d5b22de32",
+      "byte_count": 1424,
+      "imports": [
+        "OAI.Algebra.Finitistic.Basic",
+        "Mathlib.Algebra.Category.ModuleCat.Projective",
+        "Mathlib.RingTheory.Finiteness.Basic"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Basic": {
+      "path": "upstream/OAI/Algebra/Finitistic/Basic.lean",
+      "sha256": "8f5383a8b87e4f2b88e2a9491b641e164d95e0b09a7acccc0402c0d361762e67",
+      "byte_count": 2209,
+      "imports": [
+        "Mathlib.Algebra.Category.ModuleCat.Abelian",
+        "Mathlib.CategoryTheory.Abelian.Projective.Dimension",
+        "Mathlib.RingTheory.Finiteness.Defs"
+      ]
+    }
+  },
+  "external_imports": [
+    "Mathlib.Algebra.Category.ModuleCat.Abelian",
+    "Mathlib.Algebra.Category.ModuleCat.Projective",
+    "Mathlib.CategoryTheory.Abelian.Projective.Dimension",
+    "Mathlib.RingTheory.Finiteness.Basic",
+    "Mathlib.RingTheory.Finiteness.Defs"
+  ],
+  "dependency_manifest_references": {
+    "mathlib-pinned-manifest.json": {
+      "sha256": "8f67b2cf24143ac091cdb425e886c2164b2fc2d6fbccd6db9454b697f9541a67",
+      "byte_count": 2811
+    },
+    "dependency-provenance.json": {
+      "sha256": "865fe44eca60c02677a5964ec3569b0461f2144687723b34098945da951475b3",
+      "byte_count": 4677
+    },
+    "lean-toolchain": {
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+      "byte_count": 25
+    },
+    "verification/asymmetry_source_receipt.json": {
+      "sha256": "12e293322c776f72b17bf126caaad7421bf325da20e31fa0dab71143cefb4da6",
+      "byte_count": 14707
+    }
+  },
+  "binding_note": "The checker must confirm these bytes match its actual workspace and archive this manifest alongside the successful kernel log. This manifest alone proves no mathematical statement."
+}

@@ -1,0 +1,113 @@
+Running as unit: run-p1826510-i1870933.service
+Building Note198Challenges.PrimeFiniteQuotient
+⚠ [1892/1892] Replayed Note198Challenges.PrimeFiniteQuotient
+warning: Note198Challenges/PrimeFiniteQuotient.lean:304:54: This simp argument is unused:
+  CharP.cast_eq_zero R p
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [transvectionUnit, transvection, nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/PrimeFiniteQuotient.lean:506:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/PrimeFiniteQuotient.lean:507:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/PrimeFiniteQuotient.lean:570:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/PrimeFiniteQuotient.lean:571:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/PrimeFiniteQuotient.lean:577:8: declaration uses `sorry`
+warning: Note198Challenges/PrimeFiniteQuotient.lean:586:9: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Note198Challenges/PrimeFiniteQuotient.lean:586:11: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Note198Challenges/PrimeFiniteQuotient.lean:591:8: declaration uses `sorry`
+Build completed successfully (1892 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.PrimeGroup.quotientCentralEmbedding_range_eq_basis_closure, Note198.PrimeGroup.finite_central_quotient, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198Challenges.PrimeFiniteQuotient
+Building Note198.PrimeFiniteQuotient
+⚠ [1892/1892] Replayed Note198.PrimeFiniteQuotient
+warning: Note198/PrimeFiniteQuotient.lean:304:54: This simp argument is unused:
+  CharP.cast_eq_zero R p
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [transvectionUnit, transvection, nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:506:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:507:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:570:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:571:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:591:9: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Note198/PrimeFiniteQuotient.lean:591:11: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Build completed successfully (1892 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.PrimeGroup.quotientCentralEmbedding_range_eq_basis_closure, Note198.PrimeGroup.finite_central_quotient, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198.PrimeFiniteQuotient
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 33.998s
+             CPU time consumed: 31.648s
+                   Memory peak: 2.1G (swap: 30.6M)

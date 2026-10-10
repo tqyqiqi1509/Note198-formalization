@@ -1,0 +1,15 @@
+{
+  "challenge_module": "Note198Challenges.PrimeFiniteQuotient",
+  "solution_module": "Note198.PrimeFiniteQuotient",
+  "theorem_names": [
+    "Note198.PrimeGroup.quotientCentralEmbedding_range_eq_basis_closure",
+    "Note198.PrimeGroup.finite_central_quotient"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

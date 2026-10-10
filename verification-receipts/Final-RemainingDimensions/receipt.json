@@ -1,0 +1,55 @@
+{
+  "markers": {
+    "solution_okay": true,
+    "killed": false,
+    "exited_successfully": true,
+    "default_kernel_accepts": true
+  },
+  "direct_local_dependency_hashes": [
+    {
+      "path": "Note198/ActualDimensionFormulas.lean",
+      "sha256": "8A4AF6F621B4EDC07E5A919FF42C3EB8D610E94C75570913D7694C7430E39359"
+    }
+  ],
+  "snapshots": [
+    {
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-RemainingDimensions\\Note198__RemainingDimensions.lean",
+      "path": "Note198/RemainingDimensions.lean",
+      "sha256": "B992AA9CCC3A7A883993F635B2916C77FF17B59E59CB24474CA895E4CB329E01"
+    },
+    {
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-RemainingDimensions\\Note198Challenges__RemainingDimensions.lean",
+      "path": "Note198Challenges/RemainingDimensions.lean",
+      "sha256": "F275169E33AA7BB0D6A0BDFAB6629BB87F6F623F9357DB74D0383F9A9640E5F0"
+    },
+    {
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-RemainingDimensions\\comparator-remainingdimensions.json",
+      "path": "comparator-remainingdimensions.json",
+      "sha256": "0A98A2BE046A44B6D60236444EA2F46053AC3B35B5D7780BC3B69B65DCED4E07"
+    }
+  ],
+  "recorded_utc": "2026-10-10T05:35:20.8553615Z",
+  "mathematical_status": "default_kernel_accepted",
+  "lake_version": "5.0.0-src+5045d00",
+  "comparator_source_commit": "d03acab154d269c06e60e4de7e4cc85deebff94b",
+  "wrapper_path": "comparator-check-serial-noprecommit",
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "wrapper_sha256": "4E6B4F874D80862908724E7A6DDAE31EFFC799D2893B87BD24FAC1D922F53127",
+  "log_sha256": "DC6CE9287BA80F92FD0ECAD267062552EDD450EA36354791172B53EEE15B379E",
+  "targets": [
+    "Note198.RemainingDimensions.actual_dimensions"
+  ],
+  "evidence_boundary": "Hashes identify the accepted source snapshot; semantic equivalence to the manuscript is audited separately.",
+  "transitive_source_closure": {
+    "source_count": 267,
+    "snapshot": "source_closure.json",
+    "evidence_boundary": "Source version binding; official Mathlib is located by the pinned dependency manifest and actual kernel closure.",
+    "sha256": "1726245A8A1FC7F2AE0ED0C1E59BCBC285120EDBE9A2AD7DDDBC7286DB23D7E3"
+  },
+  "comparator_binary_sha256": "AFA65E57A1770F5961EFE7681626A9A1CD99705262421658ABD30B705F66E4A2",
+  "lean_version": "4.34.1"
+}

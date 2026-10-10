@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Note198Challenges.RemainingDirectedBound",
+  "solution_module": "Note198.RemainingDirectedBound",
+  "theorem_names": [
+    "Note198.RemainingDirectedBound.complete_directed_bound"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

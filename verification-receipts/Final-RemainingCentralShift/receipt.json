@@ -1,0 +1,55 @@
+{
+  "wrapper_path": "comparator-check-serial-noprecommit",
+  "mathematical_status": "default_kernel_accepted",
+  "lake_version": "5.0.0-src+5045d00",
+  "evidence_boundary": "Hashes identify the accepted source snapshot; semantic equivalence to the manuscript is audited separately.",
+  "lean_version": "4.34.1",
+  "comparator_binary_sha256": "AFA65E57A1770F5961EFE7681626A9A1CD99705262421658ABD30B705F66E4A2",
+  "wrapper_sha256": "4E6B4F874D80862908724E7A6DDAE31EFFC799D2893B87BD24FAC1D922F53127",
+  "snapshots": [
+    {
+      "path": "Note198/RemainingCentralShift.lean",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-RemainingCentralShift\\Note198__RemainingCentralShift.lean",
+      "sha256": "A782B4096BB4893F823A657F71A9C92091C6BEE856FC6728EF5847B837CA7BC2"
+    },
+    {
+      "path": "Note198Challenges/RemainingCentralShift.lean",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-RemainingCentralShift\\Note198Challenges__RemainingCentralShift.lean",
+      "sha256": "E8A98E1F495F9EBB78FB2BC1F078BB193F33D3FF98856E6520E9316CB744138F"
+    },
+    {
+      "path": "comparator-remainingcentralshift.json",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-RemainingCentralShift\\comparator-remainingcentralshift.json",
+      "sha256": "3F20475F44CFEEDA2087AE5829FD272859E1441B28BD47BA52B54CA620E8EFC8"
+    }
+  ],
+  "targets": [
+    "Note198.RemainingCentralShift.complete_central_shift"
+  ],
+  "markers": {
+    "solution_okay": true,
+    "killed": false,
+    "exited_successfully": true,
+    "default_kernel_accepts": true
+  },
+  "transitive_source_closure": {
+    "source_count": 5,
+    "sha256": "28D193D27A362E3E80602789EA0E6116A7F9D7D749A9E26979F2D8823D2A1860",
+    "snapshot": "source_closure.json",
+    "evidence_boundary": "Source version binding; official Mathlib is located by the pinned dependency manifest and actual kernel closure."
+  },
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "comparator_source_commit": "d03acab154d269c06e60e4de7e4cc85deebff94b",
+  "recorded_utc": "2026-10-10T03:40:32.9192303Z",
+  "direct_local_dependency_hashes": [
+    {
+      "path": "Note198/PrimePresentationBridge.lean",
+      "sha256": "C74752CD08237A77746E7826F1D3529F12CE7C621A4CF03B0CB14F15C0371B6B"
+    }
+  ],
+  "log_sha256": "70B81D02BB448244F03F4556914D05C849CD14C1350647EEF84CBD62BFB449CE"
+}

@@ -1,0 +1,63 @@
+{
+  "comparator_binary_sha256": "AFA65E57A1770F5961EFE7681626A9A1CD99705262421658ABD30B705F66E4A2",
+  "wrapper_sha256": "4E6B4F874D80862908724E7A6DDAE31EFFC799D2893B87BD24FAC1D922F53127",
+  "mathematical_status": "default_kernel_accepted",
+  "lake_version": "5.0.0-src+5045d00",
+  "targets": [
+    "Note198.RemainingRealization.fixed_selecting_bimodule_realization"
+  ],
+  "direct_local_dependency_hashes": [
+    {
+      "sha256": "1ECAC563518C6B33A16DCF77327F21573A61B885BF5B94A072179E59350FBCBF",
+      "path": "Note198/FinitePresentationEncoding.lean"
+    },
+    {
+      "sha256": "F1530915E3B3D81C085EE01FA8D30A5E1CDD9AA91BE4964EC52F03E26A5593DE",
+      "path": "Note198/SelectingDerivedFunctor.lean"
+    },
+    {
+      "sha256": "DC2D5E9582063E0C5FD37DA32925B72671FD238E580D01B7F006AADEBA23A888",
+      "path": "Note198/SelectingBimoduleProperties.lean"
+    }
+  ],
+  "snapshots": [
+    {
+      "path": "Note198/RemainingRealization.lean",
+      "sha256": "59DFBA984D0EC63D8B4D08F997C7161EC357EE517CCAEBDCBF1734AFE874E6E8",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-RemainingRealization\\Note198__RemainingRealization.lean"
+    },
+    {
+      "path": "Note198Challenges/RemainingRealization.lean",
+      "sha256": "4BADA3ABAC968228D4C2158A4B2F87363562322027A8C46E554357531690B8C8",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-RemainingRealization\\Note198Challenges__RemainingRealization.lean"
+    },
+    {
+      "path": "comparator-remainingrealization.json",
+      "sha256": "809E9EF1B63F8A3471B88CAEB020E21B11E1ADBFB0690D06AA205A6EC72530D8",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-RemainingRealization\\comparator-remainingrealization.json"
+    }
+  ],
+  "transitive_source_closure": {
+    "snapshot": "source_closure.json",
+    "sha256": "A21AF2CC9992FBE46FFA58249DB9711F04D5A78E7D62A76E13D77316B9176868",
+    "source_count": 264,
+    "evidence_boundary": "Source version binding; official Mathlib is located by the pinned dependency manifest and actual kernel closure."
+  },
+  "lean_version": "4.34.1",
+  "recorded_utc": "2026-10-10T04:06:33.2080541Z",
+  "markers": {
+    "default_kernel_accepts": true,
+    "solution_okay": true,
+    "killed": false,
+    "exited_successfully": true
+  },
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "log_sha256": "7554B3CA9EE50FB4CBDD8C782361A2EB2026935C0F04177812808AF032B04E64",
+  "comparator_source_commit": "d03acab154d269c06e60e4de7e4cc85deebff94b",
+  "wrapper_path": "comparator-check-serial-noprecommit",
+  "evidence_boundary": "Hashes identify the accepted source snapshot; semantic equivalence to the manuscript is audited separately."
+}

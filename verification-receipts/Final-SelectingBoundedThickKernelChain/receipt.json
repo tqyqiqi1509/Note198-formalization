@@ -1,0 +1,60 @@
+{
+  "targets": [
+    "Note198.SelectingBoundedThickKernelChain.literal_restricted_kernel_thick",
+    "Note198.SelectingBoundedThickKernelChain.literal_restricted_strict_chain"
+  ],
+  "snapshots": [
+    {
+      "path": "Note198/SelectingBoundedThickKernelChain.lean",
+      "sha256": "FD89616C8BA280A343845AF0B6684053115826B0126D399824C7198817FFD2B1",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-SelectingBoundedThickKernelChain\\Note198__SelectingBoundedThickKernelChain.lean"
+    },
+    {
+      "path": "Note198Challenges/SelectingBoundedThickKernelChain.lean",
+      "sha256": "E1EEF2D904AE4F749C278B4227D282D55A3DA99C156420402CDB78AE8F06937E",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-SelectingBoundedThickKernelChain\\Note198Challenges__SelectingBoundedThickKernelChain.lean"
+    },
+    {
+      "path": "comparator-final-selectingboundedthickkernelchain.json",
+      "sha256": "BE609D5F12D8D2E0BDBA36D4B057EDF87FE53D2D3AD3E4B3DEB0DC2D1BFA2B57",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-SelectingBoundedThickKernelChain\\comparator-final-selectingboundedthickkernelchain.json"
+    }
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "wrapper_sha256": "4E6B4F874D80862908724E7A6DDAE31EFFC799D2893B87BD24FAC1D922F53127",
+  "comparator_binary_sha256": "AFA65E57A1770F5961EFE7681626A9A1CD99705262421658ABD30B705F66E4A2",
+  "lean_version": "4.34.1",
+  "lake_version": "5.0.0-src+5045d00",
+  "direct_local_dependency_hashes": [
+    {
+      "path": "Note198/SelectingBoundedScope.lean",
+      "sha256": "0E19E356F98EB1AC543CFF1B597EBC9410697C72F875E4E4F731FE3B5610A49E"
+    },
+    {
+      "path": "Note198/ComplexBoundedFiniteSubcategory.lean",
+      "sha256": "EB77EB9BE59310546671AE21A14E343D1E4CE02288D1DCA3CFF8A6A0EC8DBC3F"
+    }
+  ],
+  "wrapper_path": "comparator-check-serial-noprecommit",
+  "log_sha256": "E63A1A5B71BB6C7C9DBFD62B36182EAA7E52718A89BBE08BE045876D4D8E4CD8",
+  "comparator_source_commit": "d03acab154d269c06e60e4de7e4cc85deebff94b",
+  "recorded_utc": "2026-10-10T06:58:00.7209752Z",
+  "transitive_source_closure": {
+    "evidence_boundary": "Source version binding; official Mathlib is located by the pinned dependency manifest and actual kernel closure.",
+    "snapshot": "source_closure.json",
+    "source_count": 574,
+    "sha256": "C47B08B279985BB6996B0FA2191B2BAC7CBAFA94E110D46060D3C924E9E74BE2"
+  },
+  "mathematical_status": "default_kernel_accepted",
+  "markers": {
+    "killed": false,
+    "solution_okay": true,
+    "exited_successfully": true,
+    "default_kernel_accepts": true
+  },
+  "evidence_boundary": "Hashes identify the accepted source snapshot; semantic equivalence to the manuscript is audited separately."
+}

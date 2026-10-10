@@ -1,0 +1,16 @@
+{
+  "challenge_module": "Note198Challenges.FiniteEncoding",
+  "solution_module": "Note198.FiniteEncoding",
+  "theorem_names": [
+    "Note198.encoding_of_finite_presentation",
+    "Note198.encoding_algebra_finiteDimensional",
+    "Note198.encoding_algebra_globalDimension_le_two"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

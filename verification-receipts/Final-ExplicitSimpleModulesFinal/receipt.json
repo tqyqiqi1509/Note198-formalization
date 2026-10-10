@@ -1,0 +1,67 @@
+{
+  "log_sha256": "B1B949A647822D63FD483AA1F3517DC78AAAAE96A0F03AB859628767AC03691C",
+  "comparator_binary_sha256": "AFA65E57A1770F5961EFE7681626A9A1CD99705262421658ABD30B705F66E4A2",
+  "markers": {
+    "exited_successfully": true,
+    "killed": false,
+    "solution_okay": true,
+    "default_kernel_accepts": true
+  },
+  "evidence_boundary": "Hashes identify the accepted source snapshot; semantic equivalence to the manuscript is audited separately.",
+  "direct_local_dependency_hashes": [
+    {
+      "path": "Note198/FiniteSelectionRestriction.lean",
+      "sha256": "4A29AA32B9BEF2E5EA48CAE189F972C0202C9DBD0C81C4417ABBC47C0BE4ABAB"
+    }
+  ],
+  "wrapper_sha256": "4E6B4F874D80862908724E7A6DDAE31EFFC799D2893B87BD24FAC1D922F53127",
+  "recorded_utc": "2026-10-10T08:12:29.6160226Z",
+  "lean_version": "4.34.1",
+  "snapshots": [
+    {
+      "sha256": "01446B20234DC571539D71268A24D83A69343F29FEA30BB09CF341AD7AD78F2B",
+      "path": "Note198/ExplicitSimpleModules.lean",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-ExplicitSimpleModulesFinal\\Note198__ExplicitSimpleModules.lean"
+    },
+    {
+      "sha256": "5345C5982AC87E2FACFC3C5D9ADBD14E953A298B20378BB1C25539D756AFEB4F",
+      "path": "Note198Challenges/ExplicitSimpleModulesFinal.lean",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-ExplicitSimpleModulesFinal\\Note198Challenges__ExplicitSimpleModulesFinal.lean"
+    },
+    {
+      "sha256": "0F3DF86654AAC8BD9B63F2C1E9255145D2962505177352AD44134C83288D9B62",
+      "path": "comparator-explicitsimplemodules-final.json",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-ExplicitSimpleModulesFinal\\comparator-explicitsimplemodules-final.json"
+    }
+  ],
+  "lake_version": "5.0.0-src+5045d00",
+  "mathematical_status": "default_kernel_accepted",
+  "targets": [
+    "Note198.ExplicitSimpleModules.T_original_basisVector",
+    "Note198.ExplicitSimpleModules.V_original_basisVector",
+    "Note198.ExplicitSimpleModules.explicit_operator_relators",
+    "Note198.ExplicitSimpleModules.fourierProjector_normalization",
+    "Note198.ExplicitSimpleModules.explicitModule_finiteDimensional",
+    "Note198.ExplicitSimpleModules.explicitModule_dimension",
+    "Note198.ExplicitSimpleModules.explicitModule_simple",
+    "Note198.ExplicitSimpleModules.explicitModule_central_action",
+    "Note198.ExplicitSimpleModules.explicitModule_idempotent_action",
+    "Note198.ExplicitSimpleModules.explicitVector_finiteDimensional",
+    "Note198.ExplicitSimpleModules.explicitVector_dimension",
+    "Note198.ExplicitSimpleModules.explicitModule_extinction",
+    "Note198.ExplicitSimpleModules.proposition_7_2"
+  ],
+  "wrapper_path": "comparator-check-serial-noprecommit",
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "comparator_source_commit": "d03acab154d269c06e60e4de7e4cc85deebff94b",
+  "transitive_source_closure": {
+    "source_count": 10,
+    "sha256": "3E6CCBC7AD89E6DA53062C45A159889089FC99CCA87E4F600C7D4A64177EEBE0",
+    "evidence_boundary": "Source version binding; official Mathlib is located by the pinned dependency manifest and actual kernel closure.",
+    "snapshot": "source_closure.json"
+  }
+}

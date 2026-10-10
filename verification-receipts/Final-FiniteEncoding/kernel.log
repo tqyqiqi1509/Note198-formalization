@@ -1,0 +1,104 @@
+Running as unit: run-p1988402-i2032838.service
+Building Note198Challenges.FiniteEncoding
+⚠ [1832/1869] Replayed Note198.Selection
+warning: Note198/Selection.lean:153:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2147/2149] Replayed Note198.FiniteAlgebraPresentation
+warning: Note198/FiniteAlgebraPresentation.lean:14:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/FiniteAlgebraPresentation.lean:33:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/FiniteAlgebraPresentation.lean:34:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2149/2149] Replayed Note198Challenges.FiniteEncoding
+warning: Note198Challenges/FiniteEncoding.lean:11:8: declaration uses `sorry`
+warning: Note198Challenges/FiniteEncoding.lean:17:8: declaration uses `sorry`
+warning: Note198Challenges/FiniteEncoding.lean:23:8: declaration uses `sorry`
+Build completed successfully (2149 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.encoding_of_finite_presentation, Note198.encoding_algebra_finiteDimensional, Note198.encoding_algebra_globalDimension_le_two, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198Challenges.FiniteEncoding
+Building Note198.FiniteEncoding
+⚠ [1837/1991] Replayed Note198.Selection
+warning: Note198/Selection.lean:153:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2146/2149] Replayed Note198.FiniteAlgebraPresentation
+warning: Note198/FiniteAlgebraPresentation.lean:14:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/FiniteAlgebraPresentation.lean:33:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/FiniteAlgebraPresentation.lean:34:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2149/2149] Replayed Note198.FiniteEncoding
+warning: Note198/FiniteEncoding.lean:17:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/FiniteEncoding.lean:18:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (2149 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.encoding_of_finite_presentation, Note198.encoding_algebra_finiteDimensional, Note198.encoding_algebra_globalDimension_le_two, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198.FiniteEncoding
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 1min 25.509s
+             CPU time consumed: 1min 13.097s
+                   Memory peak: 3G (swap: 181.7M)

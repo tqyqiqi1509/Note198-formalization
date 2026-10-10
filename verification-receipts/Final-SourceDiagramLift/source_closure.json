@@ -1,0 +1,184 @@
+{
+  "status": "source_version_manifest_only_not_kernel_acceptance",
+  "created_utc": "2026-10-10T03:03:08.437596+00:00",
+  "config": "comparator-final-sourcediagramlift.json",
+  "config_sha256": "d6e84f25dcdbb277f35d65dbdf6f8f3c99cf43b667e097099a4f45cf2b633ee8",
+  "roots": [
+    "Note198Challenges.SourceDiagramLift",
+    "Note198.SourceDiagramLift"
+  ],
+  "target_names": [
+    "Note198.source_quadratic_diagram_lift"
+  ],
+  "source_count": 13,
+  "source_counts_by_provider": {
+    "Note198": 1,
+    "Note198Challenges": 1,
+    "immutable_OAI": 11
+  },
+  "sources": {
+    "Note198.SourceDiagramLift": {
+      "path": "Note198/SourceDiagramLift.lean",
+      "sha256": "ee39101640c218aa35762571340b314505cb9c4c0b8c1ce873cb5686063228d0",
+      "byte_count": 1382,
+      "imports": [
+        "OAI.Algebra.Finitistic.Localization.DiagramLifting",
+        "OAI.Algebra.Finitistic.Localization.SourceShiftLinear"
+      ]
+    },
+    "Note198Challenges.SourceDiagramLift": {
+      "path": "Note198Challenges/SourceDiagramLift.lean",
+      "sha256": "1664ac427b804ca50c868b522dcacecca1f4c68c127f3e4d45c17d2909dd5893",
+      "byte_count": 1281,
+      "imports": [
+        "OAI.Algebra.Finitistic.Localization.DiagramLifting",
+        "OAI.Algebra.Finitistic.Localization.SourceShiftLinear"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Encoding.DirectedBound": {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/DirectedBound.lean",
+      "sha256": "6c1866aaf4afb153539676de3ca0cbeb7834ff9a617966eaed3435f42211d189",
+      "byte_count": 11454,
+      "imports": [
+        "Mathlib.Algebra.Category.ModuleCat.ProjectiveDimension",
+        "Mathlib.LinearAlgebra.TensorProduct.Tower",
+        "Mathlib.LinearAlgebra.Basis.VectorSpace",
+        "Mathlib.Algebra.Algebra.Opposite",
+        "Mathlib.Data.Fin.Rev",
+        "Mathlib.LinearAlgebra.FiniteDimensional.Defs"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Encoding.QuadraticEncoding": {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/QuadraticEncoding.lean",
+      "sha256": "955b2fe5e1ef088d4109ca0b12d317ea6dc891e6efd86e73917517b3b65c6a57",
+      "byte_count": 5002,
+      "imports": [
+        "OAI.Algebra.Finitistic.Encoding.ThreeVertexAlgebra",
+        "Mathlib.RingTheory.TensorProduct.Finite"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Encoding.ThreeVertexAlgebra": {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/ThreeVertexAlgebra.lean",
+      "sha256": "3174332b536a66c868cbeba821f03b56a97be16c8c18f4d4dc13af71aa31846d",
+      "byte_count": 6067,
+      "imports": [
+        "OAI.Algebra.Finitistic.Encoding.DirectedBound",
+        "Mathlib.LinearAlgebra.FiniteDimensional.Basic",
+        "Mathlib.Tactic.FinCases"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Localization.BoundedHomotopy": {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/BoundedHomotopy.lean",
+      "sha256": "aadb4ac94ab5cf90224355616509c28317f9f34f79aa921f654670b323b7266d",
+      "byte_count": 3984,
+      "imports": [
+        "Mathlib.Algebra.Homology.HomotopyCategory.Plus",
+        "Mathlib.Algebra.Homology.HomotopyCategory.Triangulated"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Localization.DiagramLifting": {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/DiagramLifting.lean",
+      "sha256": "5bf669cc510e155bc069285ba09980c2ebd71267dd6a1a0e4e71c878f84f6e0c",
+      "byte_count": 6936,
+      "imports": [
+        "Mathlib.CategoryTheory.Localization.CalculusOfFractions",
+        "Mathlib.CategoryTheory.Linear.LinearFunctor"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Localization.ProjectiveComplexes": {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/ProjectiveComplexes.lean",
+      "sha256": "9e88856f00e1ce4d3573d1621c679a63a57709afcce5c6670e84609bdfa36e5a",
+      "byte_count": 2535,
+      "imports": [
+        "OAI.Algebra.Finitistic.Localization.BoundedHomotopy",
+        "Mathlib.Algebra.Category.ModuleCat.Projective",
+        "Mathlib.Algebra.Category.ModuleCat.Biproducts",
+        "Mathlib.RingTheory.Finiteness.Prod",
+        "Mathlib.RingTheory.Finiteness.Basic"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Localization.SourceLinear": {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/SourceLinear.lean",
+      "sha256": "48cb33ef0f3986cff1085a9a352393c475ee80728dbb8255e8746177160a1a2d",
+      "byte_count": 551,
+      "imports": [
+        "OAI.Algebra.Finitistic.Localization.SourceVerdier"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Localization.SourceShiftLinear": {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/SourceShiftLinear.lean",
+      "sha256": "7374d8c254cdc32bba9cc2bc8fea6816c30bc2c217649100dd79eac41bd0dee4",
+      "byte_count": 1164,
+      "imports": [
+        "OAI.Algebra.Finitistic.Localization.SourceLinear"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Localization.SourceVerdier": {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/SourceVerdier.lean",
+      "sha256": "7f9bbfd3931a4efbf2a6ca34f0d7024be6f4dd419893afa61e257204122b584e",
+      "byte_count": 3968,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.VertexProjectives",
+        "OAI.Algebra.Finitistic.Encoding.QuadraticEncoding",
+        "OAI.Algebra.Finitistic.Localization.TwoConeVerdier"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Localization.TwoConeVerdier": {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/TwoConeVerdier.lean",
+      "sha256": "703861c85922eab539be326868c3176b8e0cfe138a6958c27b04cce7f7106b77",
+      "byte_count": 5666,
+      "imports": [
+        "Mathlib.CategoryTheory.Triangulated.Generators",
+        "Mathlib.CategoryTheory.Localization.Linear"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.VertexProjectives": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/VertexProjectives.lean",
+      "sha256": "d18ce959e1966df8a26113b0735c96a52be73dbd5acf0100979bca8e8162a4d6",
+      "byte_count": 2554,
+      "imports": [
+        "OAI.Algebra.Finitistic.Localization.ProjectiveComplexes"
+      ]
+    }
+  },
+  "external_imports": [
+    "Mathlib.Algebra.Algebra.Opposite",
+    "Mathlib.Algebra.Category.ModuleCat.Biproducts",
+    "Mathlib.Algebra.Category.ModuleCat.Projective",
+    "Mathlib.Algebra.Category.ModuleCat.ProjectiveDimension",
+    "Mathlib.Algebra.Homology.HomotopyCategory.Plus",
+    "Mathlib.Algebra.Homology.HomotopyCategory.Triangulated",
+    "Mathlib.CategoryTheory.Linear.LinearFunctor",
+    "Mathlib.CategoryTheory.Localization.CalculusOfFractions",
+    "Mathlib.CategoryTheory.Localization.Linear",
+    "Mathlib.CategoryTheory.Triangulated.Generators",
+    "Mathlib.Data.Fin.Rev",
+    "Mathlib.LinearAlgebra.Basis.VectorSpace",
+    "Mathlib.LinearAlgebra.FiniteDimensional.Basic",
+    "Mathlib.LinearAlgebra.FiniteDimensional.Defs",
+    "Mathlib.LinearAlgebra.TensorProduct.Tower",
+    "Mathlib.RingTheory.Finiteness.Basic",
+    "Mathlib.RingTheory.Finiteness.Prod",
+    "Mathlib.RingTheory.TensorProduct.Finite",
+    "Mathlib.Tactic.FinCases"
+  ],
+  "dependency_manifest_references": {
+    "mathlib-pinned-manifest.json": {
+      "sha256": "8f67b2cf24143ac091cdb425e886c2164b2fc2d6fbccd6db9454b697f9541a67",
+      "byte_count": 2811
+    },
+    "dependency-provenance.json": {
+      "sha256": "865fe44eca60c02677a5964ec3569b0461f2144687723b34098945da951475b3",
+      "byte_count": 4677
+    },
+    "lean-toolchain": {
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+      "byte_count": 25
+    },
+    "verification/asymmetry_source_receipt.json": {
+      "sha256": "12e293322c776f72b17bf126caaad7421bf325da20e31fa0dab71143cefb4da6",
+      "byte_count": 14707
+    }
+  },
+  "binding_note": "The checker must confirm these bytes match its actual workspace and archive this manifest alongside the successful kernel log. This manifest alone proves no mathematical statement."
+}

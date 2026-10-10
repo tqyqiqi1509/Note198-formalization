@@ -1,0 +1,55 @@
+{
+  "targets": [
+    "Note198.PrimeGroup.FifteenPresentation.lemma_2_2_fifteen"
+  ],
+  "markers": {
+    "default_kernel_accepts": true,
+    "killed": false,
+    "exited_successfully": true,
+    "solution_okay": true
+  },
+  "snapshots": [
+    {
+      "path": "Note198/PrimeFifteenPresentation.lean",
+      "sha256": "15272A81437C71D5069DD53816AE6895576B6315D23FB74FB9F130F23C705CEF",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-PrimeFifteenPresentation\\Note198__PrimeFifteenPresentation.lean"
+    },
+    {
+      "path": "Note198Challenges/PrimeFifteenPresentation.lean",
+      "sha256": "FBB484872112E1D4BB2C72337990174440004CFD3BDDCCD7679EA2C8E8BE0F7E",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-PrimeFifteenPresentation\\Note198Challenges__PrimeFifteenPresentation.lean"
+    },
+    {
+      "path": "comparator-final-primefifteenpresentation.json",
+      "sha256": "DC1F0608A31CAF74B8BBE3FC189BF57BB65C26B4AA7C32C1B8F6EB3582C6EF17",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-PrimeFifteenPresentation\\comparator-final-primefifteenpresentation.json"
+    }
+  ],
+  "wrapper_sha256": "4E6B4F874D80862908724E7A6DDAE31EFFC799D2893B87BD24FAC1D922F53127",
+  "lake_version": "5.0.0-src+5045d00",
+  "direct_local_dependency_hashes": [
+    {
+      "sha256": "46C062C74424183C05BB27F205A41B8DCE135855A56C6279187C739806D80506",
+      "path": "Note198/PrimeFinitePresentation.lean"
+    }
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "comparator_binary_sha256": "AFA65E57A1770F5961EFE7681626A9A1CD99705262421658ABD30B705F66E4A2",
+  "mathematical_status": "default_kernel_accepted",
+  "log_sha256": "6F41FA915FF0A80C8683DCB2DEB755FEA123600B6BA7AF25DDA9C6603E3FB82E",
+  "lean_version": "4.34.1",
+  "comparator_source_commit": "d03acab154d269c06e60e4de7e4cc85deebff94b",
+  "evidence_boundary": "Hashes identify the accepted source snapshot; semantic equivalence to the manuscript is audited separately.",
+  "wrapper_path": "comparator-check-serial-noprecommit",
+  "transitive_source_closure": {
+    "evidence_boundary": "Source version binding; official Mathlib is located by the pinned dependency manifest and actual kernel closure.",
+    "source_count": 4,
+    "sha256": "84B53AEB1BFDBB5A7F818B981237ED2A2CBE39DBB5FF0951F46429625BD46819",
+    "snapshot": "source_closure.json"
+  },
+  "recorded_utc": "2026-10-10T07:34:40.6236780Z"
+}

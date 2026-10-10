@@ -1,0 +1,34 @@
+Running as unit: run-p1048277-i1092541.service; invocation ID: e8d5a986cc2446619451d6ee452578f3
+Building Note198Challenges.FinitePresentationEncoding
+⚠ [2142/2142] Built Note198Challenges.FinitePresentationEncoding (9.2s)
+warning: Note198Challenges/FinitePresentationEncoding.lean:11:8: declaration uses `sorry`
+Build completed successfully (2142 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.exists_encoding_of_finite_presentation, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198Challenges.FinitePresentationEncoding
+Building Note198.FinitePresentationEncoding
+⚠ [2142/2142] Built Note198.FinitePresentationEncoding (3.5s)
+warning: Note198/FinitePresentationEncoding.lean:17:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/FinitePresentationEncoding.lean:18:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (2142 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.exists_encoding_of_finite_presentation, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198.FinitePresentationEncoding
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 32.953s
+             CPU time consumed: 26.756s
+                   Memory peak: 2.2G (swap: 130.1M)

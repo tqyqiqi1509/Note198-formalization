@@ -1,0 +1,20 @@
+Running as unit: run-p179225-i180353.service; invocation ID: 91139f86039947c5bd90b4faca63e123
+Building Note198Challenges.Core
+⚠ [2016/2016] Replayed Note198Challenges.Core
+warning: Note198Challenges/Core.lean:23:8: declaration uses `sorry`
+warning: Note198Challenges/Core.lean:44:8: declaration uses `sorry`
+warning: Note198Challenges/Core.lean:66:8: declaration uses `sorry`
+warning: Note198Challenges/Core.lean:82:8: declaration uses `sorry`
+Build completed successfully (2016 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.odd_double, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198Challenges.Core
+Building Note198.Core
+Build completed successfully (2016 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.odd_double, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198.Core
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 14.180s
+             CPU time consumed: 15.648s
+                   Memory peak: 647.3M (swap: 0B)

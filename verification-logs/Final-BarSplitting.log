@@ -1,0 +1,17 @@
+Running as unit: run-p177724-i178850.service; invocation ID: 9e1baf75cc7e460e8dd25b945f31e258
+Building Note198Challenges.BarSplitting
+⚠ [2028/2028] Replayed Note198Challenges.BarSplitting
+warning: Note198Challenges/BarSplitting.lean:16:8: declaration uses `sorry`
+Build completed successfully (2028 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.square_zero_derived_bar_splitting, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198Challenges.BarSplitting
+Building Note198.BarSplitting
+Build completed successfully (2028 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.square_zero_derived_bar_splitting, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198.BarSplitting
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 2min 16.915s
+             CPU time consumed: 2min 19.077s
+                   Memory peak: 1.4G (swap: 12.3M)

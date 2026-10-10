@@ -1,0 +1,15 @@
+{
+  "challenge_module": "Note198Challenges.SelectingBoundedThickKernelChain",
+  "solution_module": "Note198.SelectingBoundedThickKernelChain",
+  "theorem_names": [
+    "Note198.SelectingBoundedThickKernelChain.literal_restricted_kernel_thick",
+    "Note198.SelectingBoundedThickKernelChain.literal_restricted_strict_chain"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

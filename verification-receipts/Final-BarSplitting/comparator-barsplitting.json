@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Note198Challenges.BarSplitting",
+  "solution_module": "Note198.BarSplitting",
+  "theorem_names": [
+    "Note198.square_zero_derived_bar_splitting"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

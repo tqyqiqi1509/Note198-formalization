@@ -1,0 +1,17 @@
+Running as unit: run-p335636-i336819.service; invocation ID: 648ff217bbc04ce0be5f0d30ffa282a9
+Building Note198Challenges.SourceDiagramLift
+⚠ [2091/2091] Replayed Note198Challenges.SourceDiagramLift
+warning: Note198Challenges/SourceDiagramLift.lean:12:8: declaration uses `sorry`
+Build completed successfully (2091 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.source_quadratic_diagram_lift, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198Challenges.SourceDiagramLift
+Building Note198.SourceDiagramLift
+Build completed successfully (2091 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.source_quadratic_diagram_lift, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198.SourceDiagramLift
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 37.719s
+             CPU time consumed: 39.098s
+                   Memory peak: 845.9M (swap: 0B)

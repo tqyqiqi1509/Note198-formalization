@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Note198Challenges.RemainingCentralShift",
+  "solution_module": "Note198.RemainingCentralShift",
+  "theorem_names": [
+    "Note198.RemainingCentralShift.complete_central_shift"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

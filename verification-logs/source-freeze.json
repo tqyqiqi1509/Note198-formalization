@@ -1,0 +1,3079 @@
+{
+  "utc": "2026-10-10T12:21:34.660531+00:00",
+  "baseline_project": "/opt/codex-comparator/workspaces/note198-independent-audit-01a12537",
+  "project": "/opt/codex-comparator/workspaces/note198-bridges-01a125b7",
+  "base_sources_unchanged": [
+    {
+      "path": "Note198/EvaluationHom.lean",
+      "sha256": "ad56f42c31f7645436391ea848662efa0064ab6405dcc1f52c9db8ce5730775f"
+    },
+    {
+      "path": "Note198/RemainingLiftedDiagram.lean",
+      "sha256": "2e8b6daf3f6267feb7ccd5cab13b31d2f4d1eaad994341d9fc16c4fde391697d"
+    },
+    {
+      "path": "Note198/BigFinitisticDimension.lean",
+      "sha256": "d901b8eca023bd7f67a33299f1732bceb88db946cf9972c00a873d7071dbfbfb"
+    },
+    {
+      "path": "Note198/ComplexBinomialModuleDimension.lean",
+      "sha256": "6548cf23e2085e708a9d809e6ed375d89eab375e01fd8e02fb0048b1cb7d7c3e"
+    },
+    {
+      "path": "Note198/ComplexStupidTruncation.lean",
+      "sha256": "b4db413bc267a2025e9033dfec87d0188f626bc9022913e5309426d5132554f1"
+    },
+    {
+      "path": "Note198/ProductProjectiveDimension.lean",
+      "sha256": "e494ef6baca41d8bba2db0782feedb4550e345bee568e189577bafa712fdf30a"
+    },
+    {
+      "path": "Note198/SelectingBoundedThickKernelChain.lean",
+      "sha256": "fd89616c8ba280a343845af0b6684053115826b0126d399824c7198817ffd2b1"
+    },
+    {
+      "path": "Note198/SelectingFamilyExactFormula.lean",
+      "sha256": "4380effb5e341c5a9394eb066970269686f7a06c27f071d3ba568dd748085bed"
+    },
+    {
+      "path": "Note198/SelectingKernelChain.lean",
+      "sha256": "a2e8cce3c7485253f04e77909787ba896de34c181c03d11d99c64b9f17a8ca66"
+    },
+    {
+      "path": "Note198/GenericExactDimension.lean",
+      "sha256": "d9dc6ed42f728f0c66e975efff7e0131ee2497d5096e5705dbb5dc7b42f7b110"
+    },
+    {
+      "path": "Note198/DirectedRadical.lean",
+      "sha256": "6ca5161056447e349e0ff1144173bdbd0039f96b2df0f169535ca78a9e4f9cdc"
+    },
+    {
+      "path": "Note198/GroupAlgebraSelection.lean",
+      "sha256": "3a6cc7bfab45b45ae45feb854f9e3fd52cc60552ace967a99b9658f350cfb66a"
+    },
+    {
+      "path": "Note198/Core.lean",
+      "sha256": "64693b2b59175d97537f8cf97102c2aac1f952f042e48085d8c440fc967575e8"
+    },
+    {
+      "path": "Note198/BimoduleDerivedExact.lean",
+      "sha256": "a7fd80db0f44dea365166086a4cfd77b00d79ff0a2cce8c316e90a62780083d8"
+    },
+    {
+      "path": "Note198/SelectingOrdinaryBarComparison.lean",
+      "sha256": "1d6725e5931974c427a01350f1647aa6623cfe314b1e7b24c9c27627432c5071"
+    },
+    {
+      "path": "Note198/RadicalBase.lean",
+      "sha256": "40e21e0b7154c0ea7d348f7bb0edc1e512c744648eee05022fcbe05780caaca1"
+    },
+    {
+      "path": "Note198/RemainingDimensions.lean",
+      "sha256": "b992aa9ccc3a7a883993f635b2916c77ff17b59e59cb24474ca895e4cb329e01"
+    },
+    {
+      "path": "Note198/FiniteAlgebraPresentation.lean",
+      "sha256": "416433a71f800963c4a91119f969d1983dd22bdf638b91fa583b0ca39d480654"
+    },
+    {
+      "path": "Note198/EndomorphismSelection.lean",
+      "sha256": "d5d4142a0edff4ca34e37b4118a802845728a8541ce3e4dce1a497c7a97b3b3c"
+    },
+    {
+      "path": "Note198/PrimeFiniteQuotient.lean",
+      "sha256": "7a983738d311ba09278e386274d6f4bac2878407d4d4d455ebcfb41ad60b0767"
+    },
+    {
+      "path": "Note198/SelectingIteration.lean",
+      "sha256": "66b780d531a8f1bb19aeb65092010d311c2b8a0d3eff03a3a06c92a5d3d8cc8f"
+    },
+    {
+      "path": "Note198/ConstructedResidue.lean",
+      "sha256": "2e6b4a1831bbb1e1b5c93ce1eb76f257049b2df06b3a6e8f164b8ccaa92ab3ad"
+    },
+    {
+      "path": "Note198/ComplexFiniteBarDimension.lean",
+      "sha256": "74defd99e946eea1fe6b2dfdccb099fa15e058e72b7235b5db26268d3316ccb5"
+    },
+    {
+      "path": "Note198/GenericFiniteBar.lean",
+      "sha256": "3ad77dcc54960f8ad0919599eaa8d82a336b40ef44418c5d410db3e2257994e6"
+    },
+    {
+      "path": "Note198/FiniteTailCoproduct.lean",
+      "sha256": "4f3fbb71e58d976e41b5fa0f504eef4f6e1979973aa3cba0d01332acd7b87939"
+    },
+    {
+      "path": "Note198/SelectingAlgebraProperties.lean",
+      "sha256": "4f5c8b9b54c7f0b84d71007d0f2a33937d8bfac736c06522fd236f6b2bb7e303"
+    },
+    {
+      "path": "Note198/SelectingThickKernelChain.lean",
+      "sha256": "d964f9cd395eb4ac8725852e2c4d4ea4a399fde1f39709f61c4408c8de45695d"
+    },
+    {
+      "path": "Note198/EvaluationProjectiveNonzero.lean",
+      "sha256": "e87aac96ede1afb7d514beb599c015615d5a277119e496ccfbcd2c1afbedb4dc"
+    },
+    {
+      "path": "Note198/PrimeGroup.lean",
+      "sha256": "40cbae82e26786fb28859321f2fa9316de67ac330b1a1fd6db972c894646d90d"
+    },
+    {
+      "path": "Note198/SelectingCohomologyAssembly.lean",
+      "sha256": "b7160edb2d03d7984a8a2f0c8bfb9cec71ba6fe8453364f67c7023c7d59231e7"
+    },
+    {
+      "path": "Note198/SelectingTensorComparison.lean",
+      "sha256": "381adfacd55b2ae7de8179198f0fea0afcb0b6fb0736451b77fa6a0d64aa7669"
+    },
+    {
+      "path": "Note198/SelectingBimoduleProperties.lean",
+      "sha256": "dc2d5e9582063e0c5fd37da32925b72671fd238e580d01b7f006aadeba23a888"
+    },
+    {
+      "path": "Note198/GenericOddRealization.lean",
+      "sha256": "7a1c6f5e1a480e161ee11045d2448621b015f9a3d3167aa0d21bb5adeed51ba5"
+    },
+    {
+      "path": "Note198/SelectingBrickFamily.lean",
+      "sha256": "2ae87d508d3623222240f4b64f950c5801d5968d123f9be9e48b205bffd002e0"
+    },
+    {
+      "path": "Note198/SelectingFamilyInflatedModule.lean",
+      "sha256": "811aa840b9d9f7c8c72ad100a0a73d337ff6f610fa3260143b8637a46f85c1c8"
+    },
+    {
+      "path": "Note198/SelectingOrdinaryOdd.lean",
+      "sha256": "a0a28a8a7eb750898a2e34428e84b07a548584d33fedd08a73f7f6d2a2f5f375"
+    },
+    {
+      "path": "Note198/ScalarCornerEquiv.lean",
+      "sha256": "14e558dfb110b8babf9f7c38e22e7bacb1df46614f19c2fd20c223ead30b925b"
+    },
+    {
+      "path": "Note198/SelectingReferenceCohomology.lean",
+      "sha256": "ecf7d862d843568cfe216beb3e851dd47092690b28ce69a264ea1525b45637bb"
+    },
+    {
+      "path": "Note198/RemainingCentralShift.lean",
+      "sha256": "a782b4096bb4893f823a657f71a9c92091c6bee856fc6728ef5847b837ca7bc2"
+    },
+    {
+      "path": "Note198/SelectingFiniteBar.lean",
+      "sha256": "f8d406830373518a14656b99611211bb0b6883874e03e032c306b32408c70866"
+    },
+    {
+      "path": "Note198/SelectingOrdinaryOddSplit.lean",
+      "sha256": "5ac73cfc6f7028b27e8e5a09a10a537dc092798521b056c6f446f6ad38c600d0"
+    },
+    {
+      "path": "Note198/EvaluationSourceHom.lean",
+      "sha256": "70145da4914a7d941e7002ebb5b64d3b65b447a05c1caab0280d892ecc9d7c3b"
+    },
+    {
+      "path": "Note198/SelectingOrdinaryIteration.lean",
+      "sha256": "3fb1710ef6da53f3952997bf0abc83df680333329f7123ab6e7c687d45885deb"
+    },
+    {
+      "path": "Note198/RadicalWordPowers.lean",
+      "sha256": "83593182b5ac40582cbb300b6a127fb2173caa1362240570573e58ae8d24a2f0"
+    },
+    {
+      "path": "Note198/ConstructedCorners.lean",
+      "sha256": "54e7779c9bc48d529dc4efcb422bc882ab5760e1998181738cec3a0040f68d6a"
+    },
+    {
+      "path": "Note198/SelectingOrdinaryQ.lean",
+      "sha256": "76ae0fa73c1921b7c800d72725b1bdf75ce728d65bd08e17ed755495baa82898"
+    },
+    {
+      "path": "Note198/SelectingOrdinaryBimoduleComparison.lean",
+      "sha256": "1b4c431043b788516bcd1c17d6e31a40585aa749a66051205349267f84c84b63"
+    },
+    {
+      "path": "Note198/InflationHom.lean",
+      "sha256": "af0b00a935cc5559832e1838cc6ed8470f019e1e84ebc4a3f90172d06bd85906"
+    },
+    {
+      "path": "Note198/SelectingOrdinarySimulation.lean",
+      "sha256": "a4a7060ef557a68a86c174dddc7d5bb8fc5c34b69fbbea1d583d80348535b905"
+    },
+    {
+      "path": "Note198/SelectingTargetHomology.lean",
+      "sha256": "a8bb2f40229502bd65acaba7ceebe88f79138e061f55cd15ee6fa2a571a280d7"
+    },
+    {
+      "path": "Note198/FiniteSelectionRestriction.lean",
+      "sha256": "4a29aa32b9bef2e5ea48cae189f972c0202c9dbd0c81c4417abbc47c0be4abab"
+    },
+    {
+      "path": "Note198/ExplicitSimpleModules.lean",
+      "sha256": "01446b20234dc571539d71268a24d83a69343f29fea30bb09cf341ad7ad78f2b"
+    },
+    {
+      "path": "Note198/BimoduleTotalDegreewiseSplit.lean",
+      "sha256": "830c510904a39d352bd7fbd5c7ab8470219057d53a11384a64471cfbdcc0cf3f"
+    },
+    {
+      "path": "Note198/SelectingFamilyProjectiveDimension.lean",
+      "sha256": "a03d9c1b64a4fbcaad33f1e9f553e9179309036f08135f0da532ce07a0ceb68f"
+    },
+    {
+      "path": "Note198/SourceInflationHom.lean",
+      "sha256": "4dca69eade3f1633c5afebc773d1b7b993612f272801e3e9e0c524044d2399ad"
+    },
+    {
+      "path": "Note198/BimoduleTotalTriangleCompatibility.lean",
+      "sha256": "ee7b1d6babe65e4e28be5f5d688381c9f3633de5649bf9f34094697d087e3c6e"
+    },
+    {
+      "path": "Note198/SelectionIsomorphism.lean",
+      "sha256": "155b516e5ac924aede6cb6ba153288c2fef1d93c143935a0880e4515d21aabd6"
+    },
+    {
+      "path": "Note198/SelectingAsymmetry.lean",
+      "sha256": "ca6720c39e3fdcc5255e202e95ff1c4b6e5c955308f495085695e5f085505c54"
+    },
+    {
+      "path": "Note198/SafeResidueProjection.lean",
+      "sha256": "e05c7db060518140a278c7a901f5597a02a6df3082868c70783fb1bf7b6cb96c"
+    },
+    {
+      "path": "Note198/SelectingRealization.lean",
+      "sha256": "50a5eddfa675c644c18c525a3941196bb12b55b6de7bcebbd02cb74111bbee0b"
+    },
+    {
+      "path": "Note198/SelectingNativeEvaluation.lean",
+      "sha256": "99fd0779206f543b236cb866f479de0616616f9a98bb380bf3841c319342d6a1"
+    },
+    {
+      "path": "Note198/FiniteGlobalDimensionNormalization.lean",
+      "sha256": "59865aa0495a17cdcde3d997d43f92b9f7391ca68bc01ab84cef5b45f976d579"
+    },
+    {
+      "path": "Note198/Manuscript.lean",
+      "sha256": "7e0260550fbd690a1019af941eb80924fb485784b90946389aa4be3f2812322c"
+    },
+    {
+      "path": "Note198/SelectingRectificationData.lean",
+      "sha256": "982ce9db4b2c2159809a10e05a61e7f22e76b7c5f63454c205e94668b522206f"
+    },
+    {
+      "path": "Note198/PrimeFinitePresentation.lean",
+      "sha256": "46c062c74424183c05bb27f205a41b8dce135855a56c6279187c739806d80506"
+    },
+    {
+      "path": "Note198/ComplexProjectiveModels.lean",
+      "sha256": "4397e70040ab2a0cc1c3f9bbdac9fd79815d0d130ea615697bef53ccf4a6c592"
+    },
+    {
+      "path": "Note198/RadicalTensor.lean",
+      "sha256": "14cd70acba0501c72b2906b583bb6069408713fef6166905fd49125b73701911"
+    },
+    {
+      "path": "Note198/SelectingShiftedRealization.lean",
+      "sha256": "13badeb20ae15fbbd5547fba31c4642d15514ff2be8fdd6be326a7e1919b2f77"
+    },
+    {
+      "path": "Note198/SelectingChainHomology.lean",
+      "sha256": "765d0916ae2a39993e42a2c542e3e3a5b6266ff1f66b2b7a0b7e97cc2f1d8e2b"
+    },
+    {
+      "path": "Note198/EvaluationLoewy.lean",
+      "sha256": "e88906fe27511a319b3535fadeccc8154286f601b11e0d144f251b011dde9e47"
+    },
+    {
+      "path": "Note198/Selection.lean",
+      "sha256": "e96d78b9b03141b73b7c7d26fe08bc9b8a4d9a68cb71e8836ce817d5dc1224b8"
+    },
+    {
+      "path": "Note198/SelectingBoundedScope.lean",
+      "sha256": "0e19e356f98eb1ac543cff1b597ebc9410697c72f875e4e4f731fe3b5610a49e"
+    },
+    {
+      "path": "Note198/Radical.lean",
+      "sha256": "d3d999ab9e9eb0c86d266b411332b790dee5fdc8f1aee2c7f0c46add1be9bc07"
+    },
+    {
+      "path": "Note198/Arithmetic.lean",
+      "sha256": "7b53506bf32f2908fd16a3b0294e8d031ee730a2771fa54be3e0287844478401"
+    },
+    {
+      "path": "Note198/RemainingDirectedBound.lean",
+      "sha256": "b69272ea68a0cc4e504e8b8d596f079b00a54c96f9aaafb3ef456fee6170c7e6"
+    },
+    {
+      "path": "Note198/GenericPDDetection.lean",
+      "sha256": "bba7ab9c3bd74c587273eb7f622d3a65ea53b1472f3906b589281f94463b531a"
+    },
+    {
+      "path": "Note198/SelectingCohomologyVanishing.lean",
+      "sha256": "d89592176eb42a80e373b6e44bac1402bea83d1e9108749e59ac3618fcd514d5"
+    },
+    {
+      "path": "Note198/SelectingEvaluation.lean",
+      "sha256": "b0f2944fa9cbe4f6ed5a5edb40934dc97d1080eea8371fa26da46b5c434c130b"
+    },
+    {
+      "path": "Note198/MainPacket.lean",
+      "sha256": "99798eae6351521afae6d4283cac18018270676c33f213a85cfbea69d77b04d9"
+    },
+    {
+      "path": "Note198/SelectingSimpleFamily.lean",
+      "sha256": "cf97eb2456077bc2684aa6a02d508f9474660df471c084fabfec3edce3628192"
+    },
+    {
+      "path": "Note198/ComplexModuleDimension.lean",
+      "sha256": "655b17749dab51f71da8ac2f55e0b997896dabe5a2337073be8e325e1fef8b09"
+    },
+    {
+      "path": "Note198/SelectingModuleProperties.lean",
+      "sha256": "b17f3666a1591404305abe8e69874164bc315ff859be055406b64054cc76a001"
+    },
+    {
+      "path": "Note198/SelectingDerivedFunctor.lean",
+      "sha256": "f1530915e3b3d81c085ee01fa8d30a5e1cdd9aa91be4964ec52f03e26a5593de"
+    },
+    {
+      "path": "Note198/SelectingExactFunctor.lean",
+      "sha256": "a4acffef9df82d627702eaaea61f33e101aa09764cf692069cd10c471c01a440"
+    },
+    {
+      "path": "Note198/SelectingFamilyFiniteBar.lean",
+      "sha256": "3ddcee634842d63ba52cb1f3ba6bdae95c0a594eb53404138c24c69d5e455fa3"
+    },
+    {
+      "path": "Note198/GenericOddDouble.lean",
+      "sha256": "343ac2070d0def682b221da17d1c0c28455bbc4221e3a647233aba76b2292ad4"
+    },
+    {
+      "path": "Note198/ComplexBoundedFiniteSubcategory.lean",
+      "sha256": "eb77eb9be59310546671ae21a14e343d1e4ce02288d1dca3cff8a6a0ec8dbc3f"
+    },
+    {
+      "path": "Note198/RadicalConstructed.lean",
+      "sha256": "017571009fd5f7b5f4873b2b718e0038d2e42151ee1324523b5d20b3cc08cc8d"
+    },
+    {
+      "path": "Note198/SelectingRectification.lean",
+      "sha256": "a0de0b9ca7ba7b2fce541e737720e49ad02f539fd51d21831fcfc992e0907897"
+    },
+    {
+      "path": "Note198/ComplexDimensionOperations.lean",
+      "sha256": "d5d44a571b9cf26e12f3ce2b735562433791c14812805bd1d576e0133a3b4fc2"
+    },
+    {
+      "path": "Note198/TriangleObjectInverseImage.lean",
+      "sha256": "594b8c1c1b7708f693b3d76cd3e58bea7637d3ecdf10bf8befdf46fc7a89bb0c"
+    },
+    {
+      "path": "Note198/SelectingFamilyCountBounded.lean",
+      "sha256": "0f03cd98f9e01964741b159b80bdf8b7aee8503d5945a136dd50cdd1c7164cb1"
+    },
+    {
+      "path": "Note198/ActualDimensionFormulas.lean",
+      "sha256": "8a4af6f621b4edc07e5a919ff42c3eb8d610e94c75570913d7694c7430e39359"
+    },
+    {
+      "path": "Note198/BimoduleDerivedTriangleObjects.lean",
+      "sha256": "0b49dbe983fd07245ef1a16f79b0c4c969b5e71f057b8cdd9874015e4f6386b6"
+    },
+    {
+      "path": "Note198/RadicalResidueBridge.lean",
+      "sha256": "7a86e750a8708f5962614bd5ac8ce67ed13293ef320c272608bdcba75c36875b"
+    },
+    {
+      "path": "Note198/EnvelopingProjective.lean",
+      "sha256": "7f56b97381e9dfc9f9dd56ccb32a971e4ee49257d73ce896ee3a64abeec5c4a3"
+    },
+    {
+      "path": "Note198/EvaluationProjectiveDetection.lean",
+      "sha256": "d377449b7cbe1116a0bf6975795d3a50ad88bdf5126d3851c943c6fc86a938bc"
+    },
+    {
+      "path": "Note198/SelectingFamilyOddSigned.lean",
+      "sha256": "5c911c276ae82d93006b42446be39e16f76afb2e712dd401f9597e342bd645cb"
+    },
+    {
+      "path": "Note198/SelectingNativeAction.lean",
+      "sha256": "269172529eee2eac3b68456002ccf8e6b076725a9bc08ad2eeaf2d6fb086adb3"
+    },
+    {
+      "path": "Note198/NativeBaseChangeDetection.lean",
+      "sha256": "1abc970f692f3e42963bbf8f34bfccda79b06e27df289579a8b4439594107458"
+    },
+    {
+      "path": "Note198/RemainingOrdinarySimulation.lean",
+      "sha256": "69c766aad3d3e130829a0c440e452ed8f8a8e6a96e02971f264be50668833c54"
+    },
+    {
+      "path": "Note198/FiniteEncoding.lean",
+      "sha256": "a35c13b1df2805422d3ebadde0c18e790721597c3c22e2216369db94704bfba4"
+    },
+    {
+      "path": "Note198/SelectingFamilyQDimension.lean",
+      "sha256": "db279f31a3fafe47871b61c3a6c6773e31ec3ea56e193b149efe084ced750991"
+    },
+    {
+      "path": "Note198/GenericOddEvaluation.lean",
+      "sha256": "462e2d0cc4d239521c445193647c7417c71fcb26b37101bcb50a5c829a465a40"
+    },
+    {
+      "path": "Note198/DirectedResidue.lean",
+      "sha256": "26c32c83194e65421d24e2d04e1e9b233a568c70cb4ebb1f97a9ce67328e970a"
+    },
+    {
+      "path": "Note198/RadicalBlockBridge.lean",
+      "sha256": "8801e6aaa065f30c971c08d43e4db39a3cbf74e9ad9c1eeb2b9d549ed8b3d9ea"
+    },
+    {
+      "path": "Note198/InflationScalars.lean",
+      "sha256": "d97e3c7fc368e06a32ff2d427e412709aa382bc4f474625847db381b2ab14ddc"
+    },
+    {
+      "path": "Note198/SafeResidueBaseBar.lean",
+      "sha256": "d5a87f2b9edde33cb493a5a7fe762d80f63aa1a6ba5de0d77f0c8e828fe2751a"
+    },
+    {
+      "path": "Note198/NoncommutativeQuotient.lean",
+      "sha256": "84e1a050a361ad09a98399fe3733e077faf2ddbe452c8184d3718b5259ec74d9"
+    },
+    {
+      "path": "Note198/SimpleSelection.lean",
+      "sha256": "89b70682e6261d57fb6c6623654f6dc7478f69aa8566140e7f43b33f2df7fd51"
+    },
+    {
+      "path": "Note198/SelectingOrdinaryQStructures.lean",
+      "sha256": "8e8cc6b509de16bdcd1dd96d09871e9584071a4b23df65f921fba6c3dace77f8"
+    },
+    {
+      "path": "Note198/ComplexProjectiveDimension.lean",
+      "sha256": "7901a0af93d1a0220fb46b8e4484bb73265e50f9d4d58f4bd4f2422e83323e59"
+    },
+    {
+      "path": "Note198/BarSplitting.lean",
+      "sha256": "a43e6c2082a3151416a7caa9f17074f8e246296bbbd1648d1db8bce67cebf954"
+    },
+    {
+      "path": "Note198/ComplexExtensionTensor.lean",
+      "sha256": "8a6ed9e7336ad221a5afba66774d4fff1735af3fdb231aee7128a3a909db11dd"
+    },
+    {
+      "path": "Note198/SelectionEndomorphismBridge.lean",
+      "sha256": "3b3238170d57a3a57993454d442a7068a5ac9a48444b3392e9dccaba996744a4"
+    },
+    {
+      "path": "Note198/SafeResidueAssociativity.lean",
+      "sha256": "61c352fceb9f9b324f1e0f102dd5b781732600bf273b1e0992690aa0d856ed72"
+    },
+    {
+      "path": "Note198/ComplexCohomologyModels.lean",
+      "sha256": "1bc0d9b5842068a7a38e6f7ca4b62bed787d85212472c39fd869ba4abfde12e9"
+    },
+    {
+      "path": "Note198/GenericOddAction.lean",
+      "sha256": "034294bcdd603ac9dc0340f12f1b1641f59274574d8d11bf7be2d36b8fe3aac7"
+    },
+    {
+      "path": "Note198/InflatedLoewy.lean",
+      "sha256": "b60e95996611cc77cf2a8010c6bb85d8c3e05f7750f0c67cc317112022e48b89"
+    },
+    {
+      "path": "Note198/FinitePresentationEncoding.lean",
+      "sha256": "1ecac563518c6b33a16dcf77327f21573a61b885bf5b94a072179e59350fbcbf"
+    },
+    {
+      "path": "Note198/SelectingFamilyEvenSigned.lean",
+      "sha256": "82c9069c5563367cce836a901b0a1fb5e854de9d99e3b7b3ad5c77bc6097d704"
+    },
+    {
+      "path": "Note198/SimpleQuotient.lean",
+      "sha256": "8f71b928cd508b5c3d039c50381b7fcbe30b13e7a004e73799e49a12410b4630"
+    },
+    {
+      "path": "Note198/SelectingOrdinaryNonzero.lean",
+      "sha256": "37126cd467d2a13a2ae5ad3cc077518c707c4cf888b625ad2c24e3137271da72"
+    },
+    {
+      "path": "Note198/FiniteSelectionSource.lean",
+      "sha256": "aec687f2434c7fe4b2c7fb4fb52ed780b23505e5f680caeb757e0754e0a91ff8"
+    },
+    {
+      "path": "Note198/PrimeFifteenPresentation.lean",
+      "sha256": "15272a81437c71d5069dd53816ae6895576b6315d23fb74fb9f130f23c705cef"
+    },
+    {
+      "path": "Note198/RemainingAlgebraModules.lean",
+      "sha256": "15e04eb31a5b2fa17dfc31fe2ef0d7e4ee601fa66d670ccd70e4c01f4ffa882c"
+    },
+    {
+      "path": "Note198/SelectingImageComparison.lean",
+      "sha256": "0b824e41af49ba897f1600145749a8a111f4a0c2d929e104d499b668cd72af17"
+    },
+    {
+      "path": "Note198/GenericOddRectification.lean",
+      "sha256": "73b0a26464e5d0097e4a4d8615222d3c5d7db2b9258e948ed3f6e06489c7f111"
+    },
+    {
+      "path": "Note198/PrimePresentationBridge.lean",
+      "sha256": "c74752cd08237a77746e7826f1d3529f12ce7c621a4cf03b0cb14f15c0371b6b"
+    },
+    {
+      "path": "Note198/StandaloneGenericRectification.lean",
+      "sha256": "1748ba3940f93a4e8740ac06e3fb7578c677257b4b48c9b621aa1e8cbc9d6ac7"
+    },
+    {
+      "path": "Note198/ComplexBrickFamily.lean",
+      "sha256": "ede08fe736c5d0289e506952054c84905d3db10fa9286b5ad1c2fe9e264f1a1d"
+    },
+    {
+      "path": "Note198/ComplexResidueBaseChange.lean",
+      "sha256": "a8fd1cfd289ba1e47b8ef54a2b7784273606b4394fa1c12e9798ffb1963cdb67"
+    },
+    {
+      "path": "Note198/GenericTwoDegrees.lean",
+      "sha256": "61398095dfbe30be4fc49b0b304f9f79812aac210404f7f3a61b176e781b1aed"
+    },
+    {
+      "path": "Note198/OrdinaryProductDimensionExact.lean",
+      "sha256": "5c6abc3a9b7586980a7eefe651677b7acfe861ad7177ced3f8b8ad97a2a993c6"
+    },
+    {
+      "path": "Note198/CochainSplitConnectingShift.lean",
+      "sha256": "7538ee02c8ba8dc5ba2a338fd9dc4c58cf0905683bfd0c18ae8eb2cc6e43e5a3"
+    },
+    {
+      "path": "Note198/BimoduleTotalConnecting.lean",
+      "sha256": "0ab81c9bd4171c3cd942fb6b6374650b2b2dd70684af95afe791ea76cc4826ac"
+    },
+    {
+      "path": "Note198/SelectingTensorSplitting.lean",
+      "sha256": "d47b8520f9945e9e66f4835c37cf4bb7b0648b2ea793b96aee30aa9786efe2b0"
+    },
+    {
+      "path": "Note198/TensorGlobalDimensionHeight.lean",
+      "sha256": "916cf6919bd809b6382fe4fd4fbf7936668383412c739b889905ee3dbd6d4d18"
+    },
+    {
+      "path": "Note198/SelectingOrdinaryEvenSplit.lean",
+      "sha256": "153c5d0bc8ccfff9684b96e7cf249c7a9c8866ad508f10804d940954a74cf6bb"
+    },
+    {
+      "path": "Note198/RemainingRealization.lean",
+      "sha256": "59dfba984d0ec63d8b4d08f997c7161ec357ee517ccaebdcbf1734afe874e6e8"
+    },
+    {
+      "path": "Note198/GenericOddDiagramEvaluation.lean",
+      "sha256": "d697b696d4f491434d0c1938927d9291c7974dfd116ac7d23d79b0117280fb3c"
+    },
+    {
+      "path": "Note198/SelectingOrdinaryAlgebra.lean",
+      "sha256": "e1f53753f5053ce17c978ed818b374ce8c6e84260060fa4f190daec30b52d9e5"
+    },
+    {
+      "path": "Note198/FiniteMaximum.lean",
+      "sha256": "4c1c69efb557cb1d27d0ad9aebb660af6b14c4b8f8bd78d6752a4e5ff1ca7feb"
+    },
+    {
+      "path": "Note198/PrimitiveCorners.lean",
+      "sha256": "23c59974649dedc8133d8c527aacbb85f16123398b2aa95338deefa2b96b28c1"
+    },
+    {
+      "path": "Note198/SourceEndRing.lean",
+      "sha256": "6660d1df619720e02ebc8451c5371b36b07540b2cdeef85fe3d5fefc4877ee27"
+    },
+    {
+      "path": "Note198/RemainingKernelChain.lean",
+      "sha256": "81c7966a02cfad9d4ed24235e5db1b5e7acdd13bf2ee73d8831094db47eec21a"
+    },
+    {
+      "path": "Note198/SelectingMain.lean",
+      "sha256": "40e436de74ac90b361566838d91b1e2340f46ed46bea5d8ed2019116b79c2370"
+    },
+    {
+      "path": "Note198/SelectingFamilyCountDimensions.lean",
+      "sha256": "9e9f1123238a9c945327660b5967f098c84943c307230b1028f65dc57502b7f0"
+    },
+    {
+      "path": "Note198/SourceDiagramLift.lean",
+      "sha256": "ee39101640c218aa35762571340b314505cb9c4c0b8c1ce873cb5686063228d0"
+    },
+    {
+      "path": "Note198/GeneralFixedDiagram.lean",
+      "sha256": "1cfdcebe874725b97dd9ef8c4b4254c8da0d480c2ecf7d8295d79a65f1203d2d"
+    },
+    {
+      "path": "Note198/SelectingFamilyMaximum.lean",
+      "sha256": "d8d5d8094d940cdc8947bd625bbcdd94ed1acaffca2d6694206eb4a3bd372162"
+    },
+    {
+      "path": "Note198/BimoduleTotalConeSequence.lean",
+      "sha256": "19baed227e788a6cec1b412753e11c612979e1e8e9b74f603935dc72fc88950c"
+    },
+    {
+      "path": "Note198/SelectingTensor.lean",
+      "sha256": "5c4705db67b778b81209ab8608c32e82634005709f81448ced3618dc0ec86afe"
+    },
+    {
+      "path": "Note198Challenges/RemainingLiftedDiagram.lean",
+      "sha256": "41f00c52ecaf702cb2763074f3bf009f6db3a54532104b8ab43fac777df38b37"
+    },
+    {
+      "path": "Note198Challenges/BigFinitisticDimension.lean",
+      "sha256": "fcf67ec09118d5aadc9ab1f5c07db9f284673fa88badb6cec8352a1d5b22de32"
+    },
+    {
+      "path": "Note198Challenges/SelectingBoundedThickKernelChain.lean",
+      "sha256": "e1eef2d904ae4f749c278b4227d282d55a3da99c156420402cdb78ae8f06937e"
+    },
+    {
+      "path": "Note198Challenges/GenericExactDimension.lean",
+      "sha256": "5dbbbdcc5983334306dc3b65247a4eef59d86422666b085e063ec530558c992b"
+    },
+    {
+      "path": "Note198Challenges/Core.lean",
+      "sha256": "b1591abacfdc292197f5c75b3fa69a33e2d5ce578820a085d39d8a7dca0012e1"
+    },
+    {
+      "path": "Note198Challenges/RemainingDimensions.lean",
+      "sha256": "f275169e33aa7bb0d6a0bdfab6629bb87f6f623f9357db74d0383f9a9640e5f0"
+    },
+    {
+      "path": "Note198Challenges/PrimeFiniteQuotient.lean",
+      "sha256": "8a9761a49a41690df595ea37afcac86701101782264980d5858248d77a203c69"
+    },
+    {
+      "path": "Note198Challenges/SelectingIteration.lean",
+      "sha256": "411f696d07e2f20118d0ea121993586a804ec76d547ca88efb9212a1501026b1"
+    },
+    {
+      "path": "Note198Challenges/RemainingCentralShift.lean",
+      "sha256": "e8a98e1f495f9ebb78fb2bc1f078bb193f33d3ff98856e6520e9316cb744138f"
+    },
+    {
+      "path": "Note198Challenges/ExplicitSimpleModulesFinal.lean",
+      "sha256": "5345c5982ac87e2facfc3c5d9adbd14e953a298b20378bb1c25539d756afeb4f"
+    },
+    {
+      "path": "Note198Challenges/RemainingDirectedBound.lean",
+      "sha256": "13090cedcbc8f7b30c26ab37b8692a2e9d43eb18d4c6119c5e280df4771e347d"
+    },
+    {
+      "path": "Note198Challenges/GenericPDDetection.lean",
+      "sha256": "f6375c42407806746bc6eb4bef656e9c49c686d1dbfd6b603a3321aed15b0a5b"
+    },
+    {
+      "path": "Note198Challenges/MainPacket.lean",
+      "sha256": "ef1ac94c840bdba6dc050fd337157e27c3fa94d23778ce4583467c2b7f9ba0dd"
+    },
+    {
+      "path": "Note198Challenges/SelectingSimpleFamily.lean",
+      "sha256": "74f1fa25a136b91d8e2025cf937e33a7fcf625187dd81602953670470b5d9d67"
+    },
+    {
+      "path": "Note198Challenges/SelectingExactFunctor.lean",
+      "sha256": "1eb6c60aec53ff4666bfc4ff756eae9b6eb8a6e83a8e5253fa97b0c41e151d14"
+    },
+    {
+      "path": "Note198Challenges/RemainingOrdinarySimulation.lean",
+      "sha256": "e8cd66683370378e14caccf19ce67bfe76cce34793e51256b5156f4870859113"
+    },
+    {
+      "path": "Note198Challenges/FiniteEncoding.lean",
+      "sha256": "6e7690fac7c23517bbe7fba185a34bfb955a08046edf154f7de69be18dd98dd3"
+    },
+    {
+      "path": "Note198Challenges/BarSplitting.lean",
+      "sha256": "e874658658ae5b8ac9bced301b91bf5225335758cf235f08a33dc5ce04028cd0"
+    },
+    {
+      "path": "Note198Challenges/FinitePresentationEncoding.lean",
+      "sha256": "46696d5ffc24f9afc5d27cd37b6b24dcba4cbe4b7ffba692f0bef4ee88ce7d40"
+    },
+    {
+      "path": "Note198Challenges/PrimeFifteenPresentation.lean",
+      "sha256": "fbb484872112e1d4bb2c72337990174440004cfd3bddccd7679ea2c8e8be0f7e"
+    },
+    {
+      "path": "Note198Challenges/RemainingAlgebraModules.lean",
+      "sha256": "cb98034d0283438a811e00fe85d81fddc03a84af4344f1d60f68ff00e68643de"
+    },
+    {
+      "path": "Note198Challenges/StandaloneGenericRectification.lean",
+      "sha256": "c21044b7d6424497933a3b629b22d5d71f6f16a0f93d392d8ff5da6001d81423"
+    },
+    {
+      "path": "Note198Challenges/RemainingRealization.lean",
+      "sha256": "4bada3abac968228d4c2158a4b2f87363562322027a8c46e554357531690b8c8"
+    },
+    {
+      "path": "Note198Challenges/RemainingKernelChain.lean",
+      "sha256": "06ee502329e7f829f7f92adca47024d72763891d4d73019f186672937080f4ec"
+    },
+    {
+      "path": "Note198Challenges/SourceDiagramLift.lean",
+      "sha256": "1664ac427b804ca50c868b522dcacecca1f4c68c127f3e4d45c17d2909dd5893"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Model.lean",
+      "sha256": "cffd69033b8e8b0639411e8f89fb59891451ebafa0dbd542319595f7bc363e60"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Main.lean",
+      "sha256": "80c3411e8d580b81fabbde9ec500eee3e38f8baa0a4a099a3e5e7282518fafa0"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Asymmetry.lean",
+      "sha256": "93cb024ee38da393c8687858a38dc31550ab144b870b911ed749c4ea7eb06563"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/ZeroDimensions.lean",
+      "sha256": "b587c8e398e2d809a5ff3d17d10533acca9e6c5faf490ee302787c040e998060"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Basic.lean",
+      "sha256": "8f5383a8b87e4f2b88e2a9491b641e164d95e0b09a7acccc0402c0d361762e67"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Main.lean",
+      "sha256": "cd1bcd4b31913493d999dad452a5de94234c02cc48a6e9d64286a44c3def5df0"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Tensor/BalancedVertexImage.lean",
+      "sha256": "44760e0cea647dcde425cb7b9fb95de28c458b448726451e6502219fdd5afbd5"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Tensor/BalancedProjectiveLeft.lean",
+      "sha256": "92f456753962b6d0218690d7f9a748a82dcbf199463b37eba34da0c5fa490d2c"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Tensor/BalancedTensor.lean",
+      "sha256": "f2ec9275e5a27aebe4b65a97eccf2e66a95f14ae7d4d1f14d9b60680014b6752"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Tensor/BalancedVertexFunctor.lean",
+      "sha256": "9f4d9be4dc7b9f481af1735ea4d784ea5872e28f5fb4ddf884612b2fe8924e72"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Tensor/BalancedTensorMaps.lean",
+      "sha256": "97f952dfa684e234fc56752a085a70181d03c1ac21f280a99406d31a52753c48"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Tensor/IdempotentTensorMaps.lean",
+      "sha256": "2d8aa49a1bb36da6747f899f973f2fbfbfef8088f1d2f8dff662c248d0e39af6"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Tensor/IdempotentTensor.lean",
+      "sha256": "49b06efd8c49dff885223bf0cc8ed9794fe4b2722d6ea1fc18b03b28c958cff5"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Tensor/BalancedFreeLeft.lean",
+      "sha256": "15429e2f64b2e3e21ec212ca4e2b940acaf2ca8d8fa736e37a197afe67d9a9ff"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDDetection.lean",
+      "sha256": "663fc867b93c057cecef9a49ecbba2686bc67001d276e9c22c9e78770efbc0a2"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDResidueAssociativity.lean",
+      "sha256": "c19f4499a2bcba8ded183ced558b59d0d761be1fb53ed902412c12e16ea1aaed"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDResidueScalar.lean",
+      "sha256": "5fc47b8ddd09572748fcbe358853aa09613eded8b0d73c4e0455d04bc2e4c7a9"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDBaseBarConsumer.lean",
+      "sha256": "9adef3d74a5fa873a880ece503d44eea2f6bda0f415827f159f6da7052caee34"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDBarQuotientAction.lean",
+      "sha256": "09557d7857374e826ce59f9c2a67e2b9450d6d522db8f141604f529182e97f12"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDResidueBaseBar.lean",
+      "sha256": "a141ec490b7b630a5db1442e7558715be56a4d960ea84f75dbc8f24752c755c9"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDCoverRadical.lean",
+      "sha256": "297bbfc0dd7b0e0714a011f5bd0880e5a1e4fc2929a343288bc685a417089431"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDResidueTensor.lean",
+      "sha256": "a76809d9b1a26917c38c1385b0d4def2f9750a26f27b5c4e6cee72d459a7e669"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDResolutionDetection.lean",
+      "sha256": "37a3fef3affb467609de442ca9dc02cc92000efb99c23dbb72f7cdf70c3c01fb"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDSquareZeroResidue.lean",
+      "sha256": "270528307967c82d8307dbea54dd281e108b202483b9500e262ba62fc2ad159f"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDResidueRing.lean",
+      "sha256": "21e174d5023f4e5d9936864d39e34e166fad5ec098b6dae47db0118f1d56c966"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDCovers.lean",
+      "sha256": "44c7a7aacc3c76fc2dc95cd06524e047b6c733606c6bd420bc509277f571b56c"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDTensorFunctor.lean",
+      "sha256": "8429dd2b67296fa6ef5b683ca5a6f5b7cb248488cafc4b31d8248641d6dff1d1"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDBarDetection.lean",
+      "sha256": "b9eee6c4a86eaa2a34f3d31493c44c0ea8ee7595a631e172c86534c55defbd6f"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDAllSimples.lean",
+      "sha256": "313cf859fe36d797dd5ca97955c69732ea426b16298c17fe8c39f2479de15a38"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDMinimalResolution.lean",
+      "sha256": "43380040fda6c5b0fc0890e2c825b4057f4e800bf73b05e0fd265ae95fccf7ad"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDBalancedRight.lean",
+      "sha256": "2f5f93c4578a9135c1023a217defc38d26299a2f5ee3598ba0a0d2c4c1314466"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDDerivedBarConsumer.lean",
+      "sha256": "a89a5807f9adbc2ac57600b20761aa544967830aa9c425a2f2b892fbaa0dcd51"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDBarQuotient.lean",
+      "sha256": "71187d83c1cc2c1e724c5b8e14f384e070409385691ab1752cf253493ad8164b"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDSquareZero.lean",
+      "sha256": "085e3e16fca53eeeceef99deae5ab050184e91a3ecd86015bfa3e09f8d5b59b4"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDTor.lean",
+      "sha256": "ce16dd2c0806ff863da6440b90b148b3f0de50b662e7af90c7aef7b3c9e8de70"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDDimension.lean",
+      "sha256": "5578eb580bf7b8138499d503ea6be162405fa134b0167cddfed06d9fc8a65605"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDRadical.lean",
+      "sha256": "5566f43e3701ff24c38dd86758791618cb803d6306201bc53cc99743bcfe3420"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDMinimalData.lean",
+      "sha256": "27aa4f1334ffe7f960e349af49222b390f65443b1379f2cad9a75233cb0b2706"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDResidueProjection.lean",
+      "sha256": "53edfd226a8c8e4317946a432dedb4b39b72e60e3a526f42890132601cf0cc81"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDLowerBound.lean",
+      "sha256": "bb23ac7290f6e595bf89181faae121c968680e230710e172d28eaed80409ab13"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDResidueSemisimple.lean",
+      "sha256": "c16d64caa072fe2fc025664030f41efcb00640700b59e848ac8317b7c327f395"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDSimpleTensor.lean",
+      "sha256": "1b4b64725a11ae011becb8fb1981c6b78c45db4e799134db137603d17b098e54"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDBarTensorComparison.lean",
+      "sha256": "e0740e8357327d03362bcb6ba832aa13c4647d16c8d425d9a9003b1b5c1f5516"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/SourceFiltrationReal.lean",
+      "sha256": "071f83dd59f20ffb437d02e2ec632a337d73ba47b4ce571742c15fa856b33801"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/TotalFinite.lean",
+      "sha256": "512c620bfe5ec3ede75812b1d6081bb770f15ba305c659d181812b10dae54563"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/GradedVertexAcyclic.lean",
+      "sha256": "51c01d93b9c13cfcd7b919d70da69d366079dd417b1ae78dab0d08938236d689"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/FirstVertex.lean",
+      "sha256": "152d40b88c3158e25b06c7a2d396167541e934d3df67ffa5588613a6a84a9d48"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/CornerColumnComplex.lean",
+      "sha256": "97851222422757a4bc1fc21c1e01f8603f3205f7d092e0bc328d5685918b8998"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/InducedDerivedFunctor.lean",
+      "sha256": "d597cef86e19f666ce6a35ce20f2849f598b27f82a8d6e5e691823cd7b474996"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/CanonicalArrowCompatibility.lean",
+      "sha256": "672b85de99f295a4735c5fa27e0eb49e85942f4d2e8bcf024c466e267f55c33c"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/VertexTensorEvaluation.lean",
+      "sha256": "d8fed8df76e653e6bbdfc3ceb00094ad555199f4dd86fe4c8866294b949e447f"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/SourceFiltrationExact.lean",
+      "sha256": "91cc54837d455c957d9a7a63b4cd3e7259f9ac6da080c2906944576572ba0615"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/ColumnComplex.lean",
+      "sha256": "e1ee7e24db4dfe341a8346c8ac60a9e89105f009aa5b52846f8f3cebe3eceee5"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/VertexColumnComplex.lean",
+      "sha256": "ff7b86a1c1ec2b2b860c4042a9cedf88fcdc4cd667ea5dc1dee6246f989342dd"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/TotalFunctorial.lean",
+      "sha256": "16477c7d8c145a55f967a832966d8779bbf4f7ba511d604e3802ead932ea9a3e"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/CornerColumnPaths.lean",
+      "sha256": "45986b2856cf10c912f4fe28f9878bbd2c021d963059ec5b14b915fb85c5205a"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/VertexProjectives.lean",
+      "sha256": "d18ce959e1966df8a26113b0735c96a52be73dbd5acf0100979bca8e8162a4d6"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/TotalInterchange.lean",
+      "sha256": "c16b5673d17b4caeacb852026332226ebb6365619cd51c837552ebc6e539a07c"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/CornerProjection.lean",
+      "sha256": "84fb11507d226ff177537bda09571dddacb95790605dd405cbe3d6bdc9570091"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/SecondVertex.lean",
+      "sha256": "cfe350ecd08d27ace1e4e960f13550b52c127358588224a05c2c26be8cd3b143"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/RectificationTotal.lean",
+      "sha256": "416250a67900c7825d9a463ff00946ffaae32bdd86a39ed499fbe340b9c893cf"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/FinalGradedAcyclic.lean",
+      "sha256": "7b9d4492592d1fbd81c2ae9f8ad158724dfa163519dd25d925c1e3fcb24abca3"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/VertexDecomposition.lean",
+      "sha256": "3a11d7891c9f7a235b5d384a9e5ea1962aebc04d32cc1dc881693c62aef502e9"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/CornerPathTransport.lean",
+      "sha256": "f22fb3b8627c638595078b08825012be71f070dea765a8f2d4af53bf8261a99a"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/ExternalTensor.lean",
+      "sha256": "ae4945437b65ed20a0bce1a4703b48e55be30940550eb553270e56252e9c2471"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/SourceFiltrationCone.lean",
+      "sha256": "3a45b39d67eaa9ba436f47a6d6dd4409158fa690e819be3d3260c58f9d376c2c"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/InducedRectification.lean",
+      "sha256": "52e5d54d1f0a7abe3caaf593c48b8fd811aca552c35ad49cb5a0b699eccb49e8"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/TensorProjection.lean",
+      "sha256": "354743b24134bc5d95f4cde384a9819fb8c3fc44bf4415448028243a48410206"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/VertexTensorLinear.lean",
+      "sha256": "1a133a79bfbb0243640f4b4092ef3beb480862a2440adba727988c8fda04f00d"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/ZeroColumnTotal.lean",
+      "sha256": "182b0ed175f425edfe8db24dc38e10d2e229d8d09e66ec9b31cd451c093a14e5"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/CornerTensor.lean",
+      "sha256": "246e6e10241f245c895babb3b0f62a78360dba1c9409c3ac13c88678b058c7da"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/ArrowVertex.lean",
+      "sha256": "3b98834a05c6ce6225e0c2cb0d6eb94534f89227153169bf9803ac0838dd1bed"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/TotalExact.lean",
+      "sha256": "c2c65366a6d4605615a7d9670a2d963ebdcfac119d2214cd2da516317ac3eee4"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/VertexFunctor.lean",
+      "sha256": "7addfae846e538c9d5072862077f6fb26bbe7a5c9edbbfd919f68074b75447bb"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/CornerSpaces.lean",
+      "sha256": "f77275d1471c479a7f434b3b3d1e90d0e5c55ee907c6235f0b83c02ebcee5d54"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/ArrowCompatibility.lean",
+      "sha256": "6aacd2a90db3fac8fede7c5517666bb1a65f2687f70d1761f45c8a817a821b97"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/InducedColumns.lean",
+      "sha256": "02cf6c0e58efe1cfe2dc41b033fe52301ca75527416026907b0f8633fab8239d"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/ColumnFinite.lean",
+      "sha256": "ff1d243de7e3ece8ff48cf74935aee78c66a37b9c039999fd27e09aa2411414a"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/AdjacentArrowSum.lean",
+      "sha256": "ba7e24cb91cb6b2c133f47f3ca378d8aee587206d1720b6f162baece326bddaa"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/VertexColumnModels.lean",
+      "sha256": "d5f108956bfec83804e44d6bac6ef58a7cd9dfe7325c9fe568585f17f81656a7"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/RectificationAcyclic.lean",
+      "sha256": "83dc315f2fe3af7836e7562b9a716df18a950c9f87e41ed125ea3d19a33dbd18"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/RectificationLemma.lean",
+      "sha256": "2e8e4016ee5500cbbb6c4904818a3531d9b0c16cf8e68cef7390ec299659e70e"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/TensorArrowSum.lean",
+      "sha256": "3722fa6bbf6863a5aefc17a403825d523ef539943c4121a7f6665e9d815b9759"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/FullTensorRectification.lean",
+      "sha256": "915dd06eeee0769278d08bb8f450f1672e39751979522753866408f2e0d24a16"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/VertexModuleAssembly.lean",
+      "sha256": "0084d58bba20f520308248a883bfa40b74f25faace32e98b6be912093d1d845b"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/ColumnProperties.lean",
+      "sha256": "f2a5f328bc2e1d892f3cc234e1eee7307dbd25a137286a27c9b255ec3f68662f"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/TensorArrowComparison.lean",
+      "sha256": "4af02733e1812a55433eac1b06d89d031dfa0c4491768b5fd9609a5c852f2a41"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/LeftVertexHomology.lean",
+      "sha256": "d3cc30b99ef70c44dc9602ccff424a73528a70f3bf18063ff57f88da85eb8d93"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/SourceFiltrationComplex.lean",
+      "sha256": "c232967997578ba1115d7bc51349f5902a1fb5dbc2c8cb875f14cbac4ca41a1b"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/VertexHomotopyEquivalence.lean",
+      "sha256": "f8b336c4a399306c9c3f4865277d3e60af7be65f83dd90a592c814b46b4ec69d"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/ExactProducts.lean",
+      "sha256": "9b0e477c781e82cd9bac82ece314c0a0ceb0a6220d3f59228d7ac19070a1821b"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/TensorComplex.lean",
+      "sha256": "5ede6acf03f3c29798b51a169d18ca5200dfc4a601b225b591eb235251b12ba5"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/ThirdVertexFiltration.lean",
+      "sha256": "d3aeb36f2482c45387eab82ee47217c12fab4a2021fe326ba13d16fa5c99b915"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/FiltrationExactness.lean",
+      "sha256": "740f7db0a645f76b4c902ffa028ae1c12c662508579563fb6fb1cfc273ee2ecb"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/BiprodEvaluationSquare.lean",
+      "sha256": "6e5e4ae311ce3a2081cabf0595f8b721197119e1dee52039417b487bf124182a"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/VertexHomology.lean",
+      "sha256": "98fa1f8d983acd1a460d917cf1fa52b22ff69d75ffeca629f21c84a16a93013e"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/VertexTotalProperties.lean",
+      "sha256": "02d1edc7d1719a690b2bf32631ba22e1e6ed2701d4213b5596ce06dafe6e5dd3"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/ThirdVertex.lean",
+      "sha256": "fe0921e024ba84f8e57c8e0556f333cccf5267c5eadcdd2087682dc2f2821dce"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/VertexCategoricalAssembly.lean",
+      "sha256": "dbfe084e651c53debf7d8f56c10e18cff3310f7e1ceb563b5b82b026b2666bec"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/ConcreteAdjacentGraded.lean",
+      "sha256": "34be2f632dcd77f9605d7a0213512a46ab6aade705bc36cd7a32133f83d5ef92"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/InducedDiagram.lean",
+      "sha256": "da1a3541ad402330672c36d447d1cfa009a4c1f038fb4515d9f9c91d50ac2584"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/SourceFiltration.lean",
+      "sha256": "eab3a204f87a5d84008b9039d5b5f96f8b991ac2070fe5c020516182b557330b"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/ZeroLastColumn.lean",
+      "sha256": "26e1851ee1502c936a88aa266f736cb26a2c9229a155992d9dc8128a0ad6e871"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/DiagramAssembly.lean",
+      "sha256": "f83d18988508b6bb98c066fb6d6111e333a158239870c1eb2dffb05598b68e83"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/VertexZeroTotal.lean",
+      "sha256": "335754ba4b9b5eafb4a4c0f0ad81590774ef25c623229bdccbf9f51f2ebe186b"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/FullTensorProperties.lean",
+      "sha256": "7a26cd3629823ba5b1c741e9bb8ed2ed692bf06bb622ee4696d066fdc2a3a732"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/CornerArrowCoordinates.lean",
+      "sha256": "8924d9838e20b52c744242371b617d90c17c4c38b89d9a73ceda9f3a03bc0565"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selection/MatrixModel.lean",
+      "sha256": "2f04fa85b06b943d855f828e553c37f01cf06be5f29fdf857f098284567ab35b"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selection/GroupAlgebraPresentation.lean",
+      "sha256": "cbabe7055ec6c2dbcbb0f4d7b3112c81f4474bb6cfab075d11cadf0a7c5c76fc"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selection/SelectionEncoding.lean",
+      "sha256": "5b8549469b415e78f73b42cbf0aac84011745c524a5819b9f86b837146336f02"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selection/SelectionIteration.lean",
+      "sha256": "98a3ff2f64edae10e7b3066bab095eb1d1bf2b4c4ce440120e4b0507adf8a412"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selection/CharacterModule.lean",
+      "sha256": "a5357f873938d4198562edf546b0c975cc2d712a7c30eb671194d8dc0d2e00d5"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selection/GroupSelection.lean",
+      "sha256": "9413f3faff5a21735cae19df4adb8d69c36331147b640b117c6722a2828988d6"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selection/AuxiliaryGroupAlgebraPresentation.lean",
+      "sha256": "7c6f0c61b4f26c745ab40dd4154f90344917532fac33da72ba18bd23a5011965"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selection/TestModules.lean",
+      "sha256": "96bfc9ca6a3c79229a7c9a2120ceab75553eb5740de73fd00b860b8129642a93"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selection/FinitePresentation.lean",
+      "sha256": "c55acefdd1fb5785ecf2167a8ebf5228d5228e2e0947c67d90fd9d54d85c9427"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selection/SelectionCharacter.lean",
+      "sha256": "b078052b08d08f3b3de2aec006471949502f420fe78d6a0797d030dbc37ba65c"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selection/FiniteSelectionFamily.lean",
+      "sha256": "762b539f26439dfe43074eedaa66c0664810ee93296ca2b38bbb9978c6738695"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selection/FiniteQuotient.lean",
+      "sha256": "84d9c1d15d1e5c2733423fc40044b0fa0f57e57244fc59d56b8fb97ce5f7acc9"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selection/SelectionAlgebra.lean",
+      "sha256": "fd510a9979e463eb733d75af2f66014e6d1a8c98cedd1a44503b1e8be5ca1ccc"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/BoundedQuotientEvaluation.lean",
+      "sha256": "fb2a8d772bf0d3291ac887bd04e7e2fac43192305594d991784e1c574e312f94"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/TensorCohomologyDiagram.lean",
+      "sha256": "625d90b161b23f63ae596c334ef24aef0e7101188eef652dee07fb869633415c"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/SourceActionEvaluation.lean",
+      "sha256": "40cb0caedb3cd0225c1f0499932a5186c70fe10e1df2b3ff782c61d47ebb336f"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/FiniteSumTransport.lean",
+      "sha256": "8f8bcef42839b76babe46c2aaf6a54e9079594e621f49d6c700cdf6f3e4d8842"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/ConcreteChainRepresentatives.lean",
+      "sha256": "00b9d29d7520758c7e3c05a03f376673797718cbd3e9325372a23d6ebf83fa99"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/PresentedQuotientAction.lean",
+      "sha256": "61410b4569198bc401099872a4e6272ffb6a325b7c5b08f3dbda62bd5ea26bbc"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/TensorEvaluationComparison.lean",
+      "sha256": "bb3a310324eb9708c6a6d70024ed692164214ead94860b1cea6256e96acc09c2"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/DiagramLifting.lean",
+      "sha256": "5bf669cc510e155bc069285ba09980c2ebd71267dd6a1a0e4e71c878f84f6e0c"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/SourceModelBridge.lean",
+      "sha256": "8abae0051e8af681a363e48d6fd3a4b9336dac1780be6b41186e273f23bc04fb"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/DerivedTruncationCohomology.lean",
+      "sha256": "1451158e09b6d56be2d17e8ad926bcae367bd0e089cd7b4b8b487e8aa6fb6345"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/PresentedActionCompatibility.lean",
+      "sha256": "c265eb3d8db2a0324ecc75eed9cb15c2afefa175fd8cb66dcdb9cf6dec9a3ffa"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/TensorEvaluationFunctor.lean",
+      "sha256": "11018e16916ef56564175ccb3a6e6f4563d1affbddf3e3fd00a03abf4ef2af00"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/ModuleActionCompatibility.lean",
+      "sha256": "e6bfb8207c3b59834f9b17da9aebcdd5768be8f227c19d4602111adc11dc9e7a"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/EvaluationLinear.lean",
+      "sha256": "353d74999746ae24f3199ec9d649955ef15e131ccbd9ad135f9e36fd01e48aa7"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/TwoConeVerdier.lean",
+      "sha256": "703861c85922eab539be326868c3176b8e0cfe138a6958c27b04cce7f7106b77"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/SourceEvaluation.lean",
+      "sha256": "f46882686cbbc735a224334f98ec147e88d8e15c6c95e2aab2ca8f034b287509"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/UnderlyingRepresentatives.lean",
+      "sha256": "83783b8f572349b00421a6f6bafbe693bbba8281df07d5aaff392e34482f3543"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/EvaluationFromAlgebra.lean",
+      "sha256": "4214f1e8c2aba64a8c42a17275a9a2e8099409d07e1828597a14b23524dacef4"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/DerivedActionCompatibility.lean",
+      "sha256": "ebdd35dd5838bbad49d1ba4ae062f3ae3f6380cee90a6e47f7d3186b5802ca0f"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/FixedDiagram.lean",
+      "sha256": "5231e85a71b84e23d79d5a518d491bc73c71730388be236b5985b3ae69e26b63"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/CompletedShiftEvaluation.lean",
+      "sha256": "535b66af359582e6436ea804aae2b12c2b26c291c33d35a8a387450573931a4d"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/NormalizedQuotientAction.lean",
+      "sha256": "0538beb80be38e0edbda7e8138fc9a4b8edd6448c39122465e82c2af3ddd9450"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/NativeArrowBridge.lean",
+      "sha256": "ea75ecabce04b0a3b476f712c5d8765792fba20c7680d8d58b8195bea7506c6d"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/TwoDegreeFormalityNaturality.lean",
+      "sha256": "93c9a3c817015ec1ea4c7530d158fdfab0482a8d7f4606545658552cd5460b40"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/VectorIdempotentCompleteness.lean",
+      "sha256": "2986a57e615f90c94f88f43bafb5f9a10873c2877adffe18a50f8fa4343f9d31"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/OddDouble.lean",
+      "sha256": "073456403fc278be6b0b8dc62f513ccbe0bcefeab8eed2729ef26d83dae516d0"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/SourceVerdier.lean",
+      "sha256": "7f9bbfd3931a4efbf2a6ca34f0d7024be6f4dd419893afa61e257204122b584e"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/ConcreteQuadraticDiagram.lean",
+      "sha256": "59626e6aec2cc112587f6f4faabfc5df6fb36492bcfb54626c3cdcbf9b466165"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/KaroubiEvaluation.lean",
+      "sha256": "03fb130eef3d97a139065fd10b5d1ff52bcb59f9a76f06c717c858f2bd32d9d3"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/ConcreteTensorEvaluation.lean",
+      "sha256": "032060123125f46d6a24ed639d56604a5a8eeb7bbab92a4afcd8d3db5d9ceeff"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/SingleDegreeNaturality.lean",
+      "sha256": "eab72685298cfbb19cc57bac7f26dcd62caccf9eb169a0758710d28fbe052fff"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/QuotientActionEvaluation.lean",
+      "sha256": "8e0b338c2158b0e7e0da911e70e959be96cc5fa56b20349f58075960a3383132"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/CompletedDerivedEvaluation.lean",
+      "sha256": "6042d183cbf4593247c8d49d1b0388d7017823fbed23ee0c3c613eb2fc7e4322"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/IntegerExtensionFunctor.lean",
+      "sha256": "6c00ad50828f8631a3fca462e4cfec03a907aa57a392a8340027eb3f6f72be0a"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/CompletedOddDoubleEvaluation.lean",
+      "sha256": "66b11912b373e6131c8ef7e878540061ba305fe566ae2f2c8328c5aa6ed37e09"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/VectorComplexFormality.lean",
+      "sha256": "4b213ed330c56c2a5322430b39fb760e28486f5465cbc11cd0770324b667b427"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/ConcreteFixedDiagram.lean",
+      "sha256": "e9f58f9843dfbcbf35f93a0fde37f7da27c0a691d648c489650d5ff3e87c570b"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/FiniteSupportReindex.lean",
+      "sha256": "af17aa97e8c71b04d33c013640675d2e5cb16f4ee906b02651be9de8d48247ac"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/SourceOddDoubleEvaluation.lean",
+      "sha256": "5581983d61e94c2e46a5fecfdf57a9021d95eb21885002795c5d6dae53f735bc"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/ProjectiveComplexes.lean",
+      "sha256": "9e88856f00e1ce4d3573d1621c679a63a57709afcce5c6670e84609bdfa36e5a"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/SourceQuotientAction.lean",
+      "sha256": "964ffdbfdf3f2cdfe10d8bbaf25b78e4860da94942bb84483203c30ffdcc37e8"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/AmbientQuotientEvaluation.lean",
+      "sha256": "f91ab523d16909f23ab15761bd0dabdc44531556f91324b62da1ff47dfffdd2b"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/CompletedShiftedCornerEvaluation.lean",
+      "sha256": "c29da72074e87c776d6490031848c67885e069c9f7e36dd62c32edd9ac23500a"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/SourceCornerEvaluation.lean",
+      "sha256": "eed83698cb461808723108d5ae995cbf408b4cb2887649a2ae40d96c59629cd1"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/TruncationSplitNaturality.lean",
+      "sha256": "117d37c025b1e67af7c9161cbb144a1661f277cc3b26b833a059fdf985c4f643"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/NativeProjectiveModel.lean",
+      "sha256": "2a185a45b5b85e6963a2cd6f9fe332e8dce26716266a2bb45c758ae4d7a82577"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/SourceLinear.lean",
+      "sha256": "48cb33ef0f3986cff1085a9a352393c475ee80728dbb8255e8746177160a1a2d"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/LocalizedEvaluationStructure.lean",
+      "sha256": "4597e596b1b1cdc8fbfc7fa103a00bc0dcea1a6cfc8de700a869838a9419677e"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/CompletedImageEvaluation.lean",
+      "sha256": "cff380105c47175eb300b8f1983cb68a7e13cccb60805751c8f826b691e60079"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/FormalSummandAction.lean",
+      "sha256": "c2cbbb00267f892b84d9f9ae68507665c2b472ae7666d2b9c2c302d16fa3d739"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/IdempotentImageEvaluation.lean",
+      "sha256": "128750c7ec237e5d203137efaed0b984cb132455cbaa78d6c66a5279bf2ae603"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/BoundedHomotopy.lean",
+      "sha256": "aadb4ac94ab5cf90224355616509c28317f9f34f79aa921f654670b323b7266d"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/SignedCochainShift.lean",
+      "sha256": "b4b8d649c6122f31eb08b010d913e9054a8ad15c1e33f8f4c3804bc93267b04e"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/FiniteEvaluationTarget.lean",
+      "sha256": "da91604d4c260ee3937b8820a4f56dd55ace6521997b73a8ec6ddd9196d266ab"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/FiniteProjectiveHomotopy.lean",
+      "sha256": "741c63f88e7245246dcf67f8cdb8f8cfa796832031892761bcf96e26345492fc"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/TruncationStalkNaturality.lean",
+      "sha256": "5edc12c097d6238eeb4e1c2de94b7b63ae4992f540ae881f29255b6c5a9b4f4a"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/TwoDegreeSplitting.lean",
+      "sha256": "2b5e50b7a62ca73a83ac20c374e6b4819c8ee6cd5f7ed18ca5dfe621971f5f86"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/BoundedQuotientGenerators.lean",
+      "sha256": "65befb48190c8489f5774388d38b242113b01150df1dbbb080f89bca50a4b6f5"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/ChainRepresentatives.lean",
+      "sha256": "cbb6223f23cda712767863627dee40f1ce8c8df0eed20f4d77c1c6af3d4faaec"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/CompletedCornerEvaluation.lean",
+      "sha256": "f9f5178bf1e141490b48338e72a7b74b1f5d9ec4cc9a2a4dc42622bf6816becc"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/SourceImageEvaluation.lean",
+      "sha256": "4faeb07af8c1caedd4f4525ed80624671b1dddebfb0f797181de42bd04b78095"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/NativeSingleEvaluation.lean",
+      "sha256": "7673ddaf4b7c4276467957b29f9ae1124c7d7315e156bdb19924f1339c46c6ba"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/NativeBoundedDerived.lean",
+      "sha256": "f51015a8e3e67189402fec9c1d122e8f7a6bf2cfe0fe61be489bb65d86bec709"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/BoundedRepresentatives.lean",
+      "sha256": "f5fbae43254c8e1bef12f5a9be07c95467052e5a08bb719a51697762c4d09281"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/QuotientRelations.lean",
+      "sha256": "9923c1f6b00e8310a87c28513948507cf6049a9b9ba5e5dd9b5daab4050b4430"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/BoundedDerivedEmbedding.lean",
+      "sha256": "c89091c2a547f402ec19e8bca4c44152ef21d2af1fd3e7450f28e7a10b6f1ad0"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/DiagramEvaluationSquares.lean",
+      "sha256": "e2e3df9931c1d2ca703a9354252e9d2e2ccf7b42d4e5607e3875c6b937cc08a7"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/HomotopyEvaluation.lean",
+      "sha256": "e99f49093af1e915b8125a101e704e8432b9510a8a8d37559bad011a7d38891f"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/VerdierEvaluationExact.lean",
+      "sha256": "1cae8162881ca8587ecaf94d7e42721a62987989883e90bb6d99307279afa6d2"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/SplitComponentExact.lean",
+      "sha256": "25c6436afe3e120ba9a31c3d599bcaa06665e265c5d4613c7a5e2b5b696f6e67"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/ThickEvaluation.lean",
+      "sha256": "a62dc5ea268b423a31d696e12fd1830d778f8e193a83f217c67f93d4ce53e06a"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/QuotientAction.lean",
+      "sha256": "898673581a2fa224b89ad1e468ffff77fd054c8ee48b32c99a27167d9fb4acf1"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/AdditiveSplitImage.lean",
+      "sha256": "107fa5f1f1e70844ddb5059c00fc6d52854049401f60b32bc1ddf8d19d0dc967"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/EvaluationModule.lean",
+      "sha256": "97d06ffab64624e022f5dacca0203326e0d1ad81ddc61e502102bb95cb8d76cf"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/FiniteDerivedEvaluation.lean",
+      "sha256": "4b227c9fdc6b9c9b65193768c4b8787812023686a7a5e7884c0a52698deebf2e"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/EvaluationVertexDiagram.lean",
+      "sha256": "b187561ac61bc12699a6bacf77143e663b510aa6d8a1e1efecc46283335be417"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/HomotopyVertexEvaluation.lean",
+      "sha256": "bb5d99d986b9e0ea22abd01ab0acf4a44bc26ffb6f0afcbcb2966eb2d34fae11"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/SourceShiftLinear.lean",
+      "sha256": "7374d8c254cdc32bba9cc2bc8fea6816c30bc2c217649100dd79eac41bd0dee4"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/TwoDegreeExtVanishing.lean",
+      "sha256": "72f17ffcdda96b522c53f07a04ca8d0b55914e2b18aec8a6c67304ec93b889cb"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/RelationPathCoordinates.lean",
+      "sha256": "83d311101f0d49e26ba39238fd8909d3634d7b50f45c1a959873ff52d4e41eb3"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/QuadraticCoefficients.lean",
+      "sha256": "0cb24c413023365f99282e30ebd6e262f3d9f54fe92633ff6d3c49a52830143e"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/QuadraticEncoding.lean",
+      "sha256": "955b2fe5e1ef088d4109ca0b12d317ea6dc891e6efd86e73917517b3b65c6a57"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/RelationMatrixSequence.lean",
+      "sha256": "3aedc4e73406a2ac19f6920aba75be873f27c4ba8c8fee0c5fc5adb64e888f75"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/EncodingGenerators.lean",
+      "sha256": "45132f872833584fadf17ce5c42d8e115919efa6b8c000edeb28538024b47dd4"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/RelationBasisAction.lean",
+      "sha256": "7ada7fa4b6d108954ff4e015ef6fbddb195e83df48aec718b52a80989153154b"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/EncodingModuleAssembly.lean",
+      "sha256": "6146aa9e92c313a30803a9bd5ffca268545cade5d2ca95038243840d589c4ab6"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/QuadraticPresentation.lean",
+      "sha256": "4db2c57fef19029f145d63b04805ef23ffda10722fec959fc9a75d5678461ac0"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/ArrowBasisIso.lean",
+      "sha256": "80dc704bde223071f22bbca90411eeac600d41f032d48202252193f3e5e6cf3c"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/RelationBasisCoefficients.lean",
+      "sha256": "4bfe49ee664350bc5959e071d69bf81039e0701841b42c5e60ba4dec3d09b1ea"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/RelationVertexCoordinates.lean",
+      "sha256": "e9744c662d15f58d5992d7b6a04f6dc536e3d2940deaa6476ca13e06ff37db77"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/DirectedBound.lean",
+      "sha256": "6c1866aaf4afb153539676de3ca0cbeb7834ff9a617966eaed3435f42211d189"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/PathBasisIso.lean",
+      "sha256": "52bf36d3c2e3bddf53d5a2264d61296a4344a30fa107cf8fe8c1a4530f2f2dd0"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/RelationSequence.lean",
+      "sha256": "ff1fabd0765b44e1ed598157f8defffa61d449fe7a4c306ed693cd504781e2e7"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/EncodingLinearity.lean",
+      "sha256": "e0a7cfb4138d4e28a8d09d6031521c91a626ebf5d8ab70587cac57ed1232d08a"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/PresentationReindex.lean",
+      "sha256": "e1b13fa0941555dd5a26237f2b5e83baf98ec9c3798fcce198353415b0507b41"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/AuxiliaryQuadraticPresentation.lean",
+      "sha256": "f2be0c32a7a3270e1f125dd3723a8d5bbd193efc736ad6d00288a64d28ef2126"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/RelationVertexSequence.lean",
+      "sha256": "50e891edb361fd4fefa50ca4d46c70a9b8abab15a3c3c96df917f956a2949b2e"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/ThreeVertexAlgebra.lean",
+      "sha256": "3174332b536a66c868cbeba821f03b56a97be16c8c18f4d4dc13af71aa31846d"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/FiniteBasisIso.lean",
+      "sha256": "dabdc0dc3660ad91409a110ce2f07a682eb7500abebf3b8febf43811dd218568"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryBlockDerived.lean",
+      "sha256": "f2c45b8707c960206c393e7ee0b27417e053c747def52c1173a3d0752675e8fd"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinarySourceDerivedComparison.lean",
+      "sha256": "1a9fd9617cf0e70ad4398f993c97058a3cacb678f7d0cf6e26808b91417fcf8f"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryProductSecondDimension.lean",
+      "sha256": "3403d461f6e424b0081d2ba0ff6ada51650843f0c860ece4db857653485aac47"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryTensorColumnAcyclic.lean",
+      "sha256": "c695681bfbd915cfa16c7a492858093c92f51217254b2c882194bc45d615d4ee"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryConeCoordinates.lean",
+      "sha256": "775c37b7cbd5ce509427017aadd0ac4da2a32150074409803063f6b7b379d32e"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryTerminalResolution.lean",
+      "sha256": "863c5e09f67a26fd62ca840cf0022380717f986102aea1390eb511a31763a00d"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryTriangularExactness.lean",
+      "sha256": "f6ccdcecbe104d616ba5f71b3239723a3f1797eabab3e2b651691f1652675628"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryComplexAction.lean",
+      "sha256": "b093d6d6e1a436f68ea9591ed795c23e0904131815f9d896cd9fe3e36d6410c3"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryFiniteTotalMaps.lean",
+      "sha256": "2db5e0bc54abb2eb0f860a267f338cc926bfb4da02a448b8f44e27a341e502a5"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryTensorBimap.lean",
+      "sha256": "8a28a5df3030a35177b16388e80e2ac02bba8be4a5643e7fd65ad7301a40f618"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryProductProjective.lean",
+      "sha256": "6026a9fffc89190e31adb4dd5456953eb92c29e9b44385a50be348e851917fa3"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryIntegerResolution.lean",
+      "sha256": "92cbd4db9fdc85403987dd95ab3c0ec353fdf93b4d2359ec4f1a1a8b06219f24"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryOffDiagonalComplexMaps.lean",
+      "sha256": "14434bf9c71e927650d26a48c200dce1d5797aad34937dc7b22022d86284dc81"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryChainAlgebra.lean",
+      "sha256": "73bf76c04b32d4bf0d2569abefe57c202d30e738d972451625655fc0666c67fe"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryBimoduleDerivedTensor.lean",
+      "sha256": "eb2829cb41bcd0b93675625bb5f09fb68b179226a0fd370d684a8fda60ec45ef"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryBimoduleTensorFunctor.lean",
+      "sha256": "d9e118c73c603fdbc44ce1bac57dcc5803415aef6a381c4ee7b9f7db3db399f9"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryShiftSign.lean",
+      "sha256": "832ff212a41e7c85e4093bf6864934a628d0774b3f0f230a6094e45a2f3c6ac2"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryTensorRightRestriction.lean",
+      "sha256": "061edc9c9a08a351bc9efa041ae142c241660851777fba8165c08edfe4dc4a9d"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryOffDiagonalObjects.lean",
+      "sha256": "5831a7f69ec468d20d885a9aaf41e7587e594837097b3e40fdb400e9de23fbef"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryBlockBimodule.lean",
+      "sha256": "a8e027d24e14a299a018459ad8c9093446e25497b6b0ae9d10d875cbb62c27b0"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryTensorGlobalDimension.lean",
+      "sha256": "8773c99748b608a49df3f91e844e23fcb20e6a58639852e9085a28e775f1f7ad"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinarySimulationComparison.lean",
+      "sha256": "9cca99a43c1b3b46c1adaa360c49117e316e42baad721bd364223d7095321150"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryTensorTotalFunctor.lean",
+      "sha256": "7a3070b1f46db36a25b0921642cd3af74a1a4882098a60d7a5057044d8e06718"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryTensorResolution.lean",
+      "sha256": "c707be7be400ad317729f7b31971c5a6cddbe3f0e5720ed8bf64d47acfc743ff"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryBalancedCongruence.lean",
+      "sha256": "0662ce25c95c2253b4c236e3a0b82653cd0b0ef2b10c581b7f88ef9dfbe05b13"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryXBlockComparison.lean",
+      "sha256": "48957ddf1141ead66da78e31cf934ef485c4184a7cf8278987541e6b23eade6d"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryTensorDerivedFunctor.lean",
+      "sha256": "82758e431a8e6ec7716a00b16cbbcf35da2642ef5a1b9ea37d94d44c15380789"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryProductSplitting.lean",
+      "sha256": "8837e3f7a3aeb1cb7561b0ae315911a9af5acc8ba751517e1ea21e1a53240636"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryFirstDerivedRetraction.lean",
+      "sha256": "a55dabff63f6f779a78d7827127accc002d8a8927bce0c4fa4cecaefe605f5a7"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryTensorDirected.lean",
+      "sha256": "34f62cba10d6870b350511bfbb5bd58d96a3f0e14d29c909aec0e40e912d2ca0"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryTensorBimoduleComparison.lean",
+      "sha256": "74a859aa8c7263ccdc00ed43417a9308dfdbc4ff626d5b9130887f8d0bd5321e"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryTensorInputMaps.lean",
+      "sha256": "e0bad74af7426c60ff238694b2367c7dcfe6ed5827d6e10a1a25d99712edb755"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryTerminal.lean",
+      "sha256": "5d44b3883f9bf924ee8af7d2dbda6b353a565034173ea9c4b762172e699ff278"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryBimoduleCoefficientEquiv.lean",
+      "sha256": "42f431c8cab986783bb2fbaab6b4a49f78e4ec148e8ad36cd14c7c4639947325"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryPairComplex.lean",
+      "sha256": "ed5b505ca74ecd126d202e036e772bf72788e3a4e4a0f5b76f911da7e87792f9"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryFinitePiSupport.lean",
+      "sha256": "e0a093e4faed2c0d5c89937dfcc6cb10b690b23033e5685cdcd1210413dd7ce5"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryResolutionComplex.lean",
+      "sha256": "32205f897a7c1a2fc24599acefe0643d35a1dcd6ef8e239db9065766d4ba3440"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryOffDiagonalSingle.lean",
+      "sha256": "fbc98f52893f378ae0b42adfd4955dd0336f1440d94273af1583ca675ee610e4"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryProductDimension.lean",
+      "sha256": "336a7140fd6f475ebc478f5836ce061426d57f99cbdf862dfe51c5f7b2432886"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryChainDirected.lean",
+      "sha256": "a830a5c10f3c185f541b1d00e85d6298181946f6741f0878b97efd734974c7cb"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryDerivedIterates.lean",
+      "sha256": "9abdcdcaaa2946c0fb4ff74f12790405436600deb1661716094d7d817ea0a91a"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryCochain.lean",
+      "sha256": "716410d65f53e52b76c29df63a2b97a97c0ee7aaecb2266aab7daafff66fcf8b"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryRetainedCongruence.lean",
+      "sha256": "cda165c3523acda13fee3629abfb1ba442431a79bdcdd79b066228c18fb63687"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryTensorTotalQuasiIso.lean",
+      "sha256": "3043a1489a258b2b8e4d3823dd1630a83e75793a3af3948199d6520e8a40184e"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryConeQuasiIso.lean",
+      "sha256": "92bcc874849f219aae485c5236bad7f88b7db5159ff2c926082547bc790e4467"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryRetainedBimodule.lean",
+      "sha256": "d71d7e94dab008949447c5ac68000020046382c663a451e7690f402027266232"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryProjectiveTensor.lean",
+      "sha256": "a50ae09613fa8d929a68f9ad548d15234ad6fc68f0a2dac54d43894b09a77466"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryProductComponent.lean",
+      "sha256": "d822ad2c80f87c42a5d41652b70a8698ab6e51536302fb263a726fd38685b44d"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryTensorIdealActions.lean",
+      "sha256": "c7b6f94a715639cc3d6938f704f9c8a0d1f36179f577a0357ceaba1db310b397"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryFirstBlockTensor.lean",
+      "sha256": "cded7f5d484b1a4d162747f51d69558d9aa362c958ccfee189e67b14811ebefa"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryFullTensorTerms.lean",
+      "sha256": "fb0586098372e62134ef7569b89fd1eaeed7cc3e63c0c271aaab5681d133f071"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryFreeTensorExactness.lean",
+      "sha256": "2c9788e0aebcaa1a9695d268f79bbc666283cd5fa8b4af8ae192477482d31180"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryOffDiagonalForget.lean",
+      "sha256": "eb7c84f7a945fe8aba4014ca9b61659574e8354308646023289f23f591f37611"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryTensorAugmentation.lean",
+      "sha256": "cea805f9bf7dada4b07d8db79547e1865d981a0a7e8e3f84165a526e8a75d112"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryGlobalDimension.lean",
+      "sha256": "54380b45d8653de99ab44a91cd421f79473a29c8bf308c3d5da1c2a5cffded8b"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryBimoduleTensorTotal.lean",
+      "sha256": "3b89bd6fcd0954605d4392bfb5e577d6d3ec5e81b74f161489d58b957874d344"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryBlockModules.lean",
+      "sha256": "9985a8148593fb1ad7b6f155167a03a01488519a24ca03db00ffdf1f18b74784"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryFullTensorComplex.lean",
+      "sha256": "c7da3ceb58833bb9296765d59da93fd7d97b6ac7406baaff4bb591c38ce4a01f"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryBimoduleTotalCongruence.lean",
+      "sha256": "c984c8eb6b0c8f4c934ffeaa9c44fcc0110ab7994ee0e305923d4ef6391bd110"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryFirstDerivedCompatibility.lean",
+      "sha256": "43e563f7332ec0707cd094695eb5ac987c0ea6e48d5fb1732b6c3be26dc26061"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryFiniteConeTriangular.lean",
+      "sha256": "05fab3493eb1cb57ea60281d520fd025f2e16e8d6ef534037b43383e26d47fd6"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryBimoduleAssociativeTerms.lean",
+      "sha256": "404534ce5dae34f3c59361c20612aba06fd88dac7af90b3511ec7231eee0637c"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryOffDiagonalProjective.lean",
+      "sha256": "c212f5bf70e5c3d75803d131a4a3944fe9db17b5b3434c601749e9d729b6e2cf"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryFiniteColumnComplex.lean",
+      "sha256": "81551e6f238455ee6a3b5a8899ab56d5f9a116bf3b345483874ac7373f7064a5"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryMiddleTensorFunctors.lean",
+      "sha256": "7bf8017fec555be0b3b3c42d98dffc520a6fae477b7e6c24ca545c9340481bff"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryBimoduleAugmentation.lean",
+      "sha256": "df3126531562af80711f044542a88996fb0228e460f0fc290c272338a22555e3"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryFixedTensorFunctor.lean",
+      "sha256": "6923073477e17f63812b1ee49e8bd3de92f78bb760d993dbacf16835a4cee066"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryResolutionModels.lean",
+      "sha256": "cbaea920be2dfd663a9d73217d7c4951a7a96e46c5eca769af21d45150b884c8"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinarySourceBimoduleTotal.lean",
+      "sha256": "0000fe0a24d07336e516c8374c0220dc41c3ea5f18aec6e307ed6eae7357513d"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryBalancedActions.lean",
+      "sha256": "4f544ea0fb888c341a56320bd634bc8195e8046002cf453cfa9a6e7ea07d6830"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryAssociativeTensorModules.lean",
+      "sha256": "8c7c14bc248269ed9dfa1c5fe960e9178635498c844a6bf4c800b307eef83d1b"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryProductOpposite.lean",
+      "sha256": "32cf6073ab5bd6fe852c874c69c53f9db8f1816c4b74bc37af2ef9062dbd4822"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinarySupportedExtension.lean",
+      "sha256": "18287bd1ffb6ff338476ae8c2bf8a47f70d4cf6991e691a5dd1110ba2d54f624"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryBimodule.lean",
+      "sha256": "6adbc9b62bd3b85ef07d9591576aa36548aeb298091b2f5e1a4f8d2977ac918b"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryFreeTensor.lean",
+      "sha256": "4fec52528992f3b8dbf2a8153d39e08b2f7eab69ace7c081f9a650fa30bf0850"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryShiftDerivedTensor.lean",
+      "sha256": "a0a4a94daad25e10942e4cd36c3c46c21e1b74096a4670ae64675bf45e4952bf"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryBimoduleAugmentationQuasiIso.lean",
+      "sha256": "b6377919cea2020f74cb76390dd40f3d358fb6526704b23b4c8becc78531ca88"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryAssociativityNaturality.lean",
+      "sha256": "5f0ee28ae8da06ea482b0f64b589156ed33db20176244d25d8333bcb93f4ce0d"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryLeftTensorCongruence.lean",
+      "sha256": "b3a98e2f8413108809f00566173975f0dc64916968e82f361f264540a5a1ed41"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinarySingleTensorTerms.lean",
+      "sha256": "ed6b986b432a9a5b37e89e923f1bd3a7c34e2a1208ce20a654e2793baefadcc4"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinarySignedExactness.lean",
+      "sha256": "ca14783790a30cc241235b88209c9000b61fa4ef2182ce8c2d7c52317784f403"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryXDerivedTensor.lean",
+      "sha256": "7b1e07aabff83026d81738f5a44ce70b1fc2783027db78fd31674bc4b3c4f12f"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryTensorBimoduleResolution.lean",
+      "sha256": "92d698f1142970433c5b29a5db224d8120165d8958a904b19db1dfb6da56f674"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryGenuineBimoduleComparison.lean",
+      "sha256": "a31b84e08f796dc814aabe4de0eda32076027c9cb6d6d1323655022112169776"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryTensorTotalAcyclic.lean",
+      "sha256": "ec82fa1a32866f36d55251c3522823b537e6916a20c58518b10586533ddddcda"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryXResolution.lean",
+      "sha256": "9838ac2f7a2b450049f08cc99470bf98b594008aa70af02c49f549c0caa6abb3"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryBlockTensorTerms.lean",
+      "sha256": "5186702cf63b940fb7031217ea8a1907bbd240ce2937e6b3a771207cd8c899d2"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryXAugmentation.lean",
+      "sha256": "9cee2a5ada87f03171ad777394275f78d7ac7c7995f104194eaa1cced643551c"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryTensorVertex.lean",
+      "sha256": "b769f8db2ab1158a332e8727a2f690ebfa98be5bb5260801d7d686bcee6f58fd"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryBimoduleTensorTerms.lean",
+      "sha256": "948b0c9fad968deebf9f1bc5048720b7fc9c8c9eac988f9f6c9511b7f6e6cffe"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryComplexTensorMaps.lean",
+      "sha256": "6c6069fd025b5832810ba29240d10c5a254423b14ebb98982c28f6e7b9912230"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinarySecondBlockTotal.lean",
+      "sha256": "30c7aca10ad65d6ceab5330cdeec3ee38f5226b68951806bb5ea39f7c0ad3470"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryRestrictionHomology.lean",
+      "sha256": "727ab585f2e4893a96065bd565a45da924eaeca6c38020414a0a83fa9ecf7b9e"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryFirstBlockTotal.lean",
+      "sha256": "85c5df2b43c16fbc3c780468155999cac35e17b8fd77cff750a571e3468347d7"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryFiniteTotal.lean",
+      "sha256": "7d5432d89b0c68f61ba0aedfc25840b37c992f2c5969f79860e8490e23042c22"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinarySecondBlockTensor.lean",
+      "sha256": "794af604913d354ffba2d676f360cbeb501f6099ea8b93c951d8f8c8cf92f18c"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryBimoduleTotalForget.lean",
+      "sha256": "59350e195cb3a034359183f9978c94e90ae4a6c2d04fb5a2ba554c1064eee649"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryTwoSidedTensor.lean",
+      "sha256": "92bc347fee489e73542e983d9da0ea2e0232baf6fbc53d3fd7fd4db7b9701b09"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryTensorFiniteMatrix.lean",
+      "sha256": "e5e32e50093a6e0ef5296978f1805411409aafd3237c71f9f6954727c019c143"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryCompression.lean",
+      "sha256": "d7f686f174d39b6271aa7853d8d80a4ce578441ef5904c60ebf3e1bf05e325af"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryOffDiagonalComplex.lean",
+      "sha256": "d7ff1deea92b21ed53e6db5695135a42167d2acd7af406a8e478d3600b883338"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryTensorIdeal.lean",
+      "sha256": "f1f5e11ab80f7d9688242da0d16c9779198f813810de06ffc01cafa904ca9f36"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryFunctorExtension.lean",
+      "sha256": "5882e0105ca010ec6f242e981fa368568eab0bb2bef766e974ae0415a2d2fafa"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryOffDiagonalMaps.lean",
+      "sha256": "7d1ef5962c902aafea30cca84f6c43d8b52dbf9cce328fe42341fd0e7a66a0f8"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryFiniteConeReindex.lean",
+      "sha256": "60c0afb36ffa575c75284ab48c7f6a43309b23038c0c801207dedc17a5247fb7"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryBimoduleTotalAssociativity.lean",
+      "sha256": "02f321789f159320877b8871b5eb635586691590f21f5c366999d645598fdd27"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryResolutionExact.lean",
+      "sha256": "d333ff695251185c856332922f043c18e1aabe1b92e39f07a02dd7d4547cbfbb"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryLeftTensorMaps.lean",
+      "sha256": "f780a31e7f74044550b73c897b9c052fc12b93c4a12f5b0311b5930db215b98e"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryTensorMixedSign.lean",
+      "sha256": "e09c101e1dff481e6d89710f67eb0276a45327217858199840a8c26a113cb5a7"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryBimoduleResolutionProjective.lean",
+      "sha256": "e1f6ab639d1f04192e47fe1f72839e5b7a731266805f631117c8f35b08259339"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryDerivedSquareComparison.lean",
+      "sha256": "7ed224de186e5c7f7f1aec7585e7e6e7c2fd31a713f5a134c4f1673883895cb7"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryRightProjective.lean",
+      "sha256": "33bb8901d272ef7f8fd1f9007f8209af590a52059e9442a8de5858cb94ccd9f9"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryBimoduleTotalFunctor.lean",
+      "sha256": "c764d6470b1696c978bc04337f4215dc0ba845e7a1513d9fe1353abd97b7e4e3"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryTensorResolutionComplex.lean",
+      "sha256": "ef3ef27686d0da4411d479833cec9720439aea887de9673831f3cf6cf6b9db38"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryBimoduleAssociativity.lean",
+      "sha256": "0e9abd26154101a88371cf1ded2eca3ed14adecfe62488d483343c2baeca1381"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryTensorExactness.lean",
+      "sha256": "e15c77da42f58bd5b640a1cd6e8e54e487f576136d9c15ba2038838a5b9dd585"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryResolutionQuasiIso.lean",
+      "sha256": "2df5ec920ab67345bc902c27c2c8f227bb5db671a0d13a475f9656b13298666d"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryBimoduleTotalMaps.lean",
+      "sha256": "91b30975578b80de01439b4eb21d6097767bf4d2c72a51edfb150c455e5b03d9"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryChainResolution.lean",
+      "sha256": "0cfaf60ef90227e6c7bbb0c23826e7718750f386abce1d14d2c3b4141d37d3f2"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryFirstComponentExact.lean",
+      "sha256": "32206cb66547c3f782d5532c1a14d656ff29bec05c5e222cff942448108bb2d8"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryBlockComplexes.lean",
+      "sha256": "ac0091e83140db0784a7151f3acfc7e2fb9b2d94e831b7698dcd1a80b9a656fc"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryRetainedRestriction.lean",
+      "sha256": "2cffc162ac52003fb0f780b16279147af1633a2c51e9320fa64711d320cd4b66"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryBalancedAssociativity.lean",
+      "sha256": "7c773f1801098af914869f4c8583fcb49b1e22f0a0b677807b52586fb1d8d122"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinarySingleTensorTotal.lean",
+      "sha256": "5cdb2c6ccc26c7fccfd910d3b482260713935ef2db4d119e63ed1be73754e7c3"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryVertexCompression.lean",
+      "sha256": "d377b88faf25b2215913fb988240f55c2ed2259cbfdd8a28792735174df348fb"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryTensorDifferential.lean",
+      "sha256": "f4fd9065c90bcefc216c3c4ae2c90813300b28c47104f0c92018034b5a7826d7"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinarySourceResolutionModels.lean",
+      "sha256": "90859e6e9cded8b43639817a166064ebc38fc2052e0439ed225abb597b4945cc"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryBimoduleCoefficients.lean",
+      "sha256": "f7c8cba1fb4196a6221df4e51385458b8b59da5229e3bbee608dea4e992cd446"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Ordinary/OrdinaryPairQuasiIso.lean",
+      "sha256": "a3f19480539ad97d7ee47f10007f26514dadfe2cf312c20491d17966901c3733"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/RecursiveSuffixDifferential.lean",
+      "sha256": "bf151243d806f3e2152e4e5a1fffb78c65259e66769b15229d9d3e07e1ad2973"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/TensorModel.lean",
+      "sha256": "4e5ad1f4bf27f30dc9bf370e0b91637dc56d381e513b6508bcea7c2e5d168d59"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/BarAdditive.lean",
+      "sha256": "02a347d43b94766873024ba433513545c6482576a2cb4670bcd0e503a0d9c996"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/LeadingTotalEmbedding.lean",
+      "sha256": "7470aeebd5d6b7230748e7e193338d378560dd22b8a59b9aed1776361b2f12a3"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/ExplicitSignedDifferential.lean",
+      "sha256": "6049820fd1dab984f40a4e7eb5c7be503fa0f7a1f86f6cee1a6b47b85b79ded1"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/IntegerDerivedMultibar.lean",
+      "sha256": "25275a132c0528e775c58298eda829bee550e62487863b5d32d960e3e1e6e14b"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/PatternTensorCoherence.lean",
+      "sha256": "f689779c161ec573f2b1fc584a1b8d2b647910a076b76ed49825e1c1af989405"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/SuffixNaturality.lean",
+      "sha256": "2d5c9b0c574a2418f5ee2306930239611fb3931b563bc2321729f5aa0791598c"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/BlockCoordinateGenerators.lean",
+      "sha256": "9ad353beefc6c926f8bf0ee57f27aca224f391bb162d7efdf5feb4145928562d"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/CountTorBounds.lean",
+      "sha256": "20d42d58f9686d44f7c88ce5de23897f87564de4f26a8e0bbdab3ea86ba5a2f2"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/IndexedPatternEmbedding.lean",
+      "sha256": "096465cdde827ba88a9a0aa119508dbf012fbcc1607db1eedc41d51bea3bc4c4"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/TotalBarContraction.lean",
+      "sha256": "af28179e30a1ba841774c1053973ae1d34104ed7ea4b01fd445bfb7cfeb74fc5"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/MultibarSigns.lean",
+      "sha256": "375e2d1b48d7f60e930143a385dc4088ed64653f59283968484b5fb85563e289"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/Splitting.lean",
+      "sha256": "f4059eb0c30f73469d4867cc5e24a4396d929d21aafabc0ba2211ddd92b37c6d"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/RecursiveTotalDifferential.lean",
+      "sha256": "35519c6f33224074ffb3ebc26fc237ee601a594f898f65a23aa9487a8471e594"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/TwoSidedWeight.lean",
+      "sha256": "9bf29e1e130ad59975515c0a6f2cf653cfe840f88f26d3ab79adbe272cb59fbf"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/RecursiveSuffixInduction.lean",
+      "sha256": "b91edb5186629a7e0784a6c664fa9c5659a0e5b10d56a1d33b14123ccfb213bc"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/ExtensionColimits.lean",
+      "sha256": "078728d6b1090fc049042e0589a5c891d886be18ea3c4b855a00694252afe456"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/InflatedParityFaces.lean",
+      "sha256": "22ed1c4ceb44bfdaff0c3741028f57a8fd623f4970107a6b3331e2013b5c49fe"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/Balanced.lean",
+      "sha256": "6c714bb9f2f2770de4347d1449ddc121bfcf3da4e3b6ad70d865573ae6ffe559"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/PatternPrefixCoordinates.lean",
+      "sha256": "8cde69fb8d17db07409cce03a2868709e726ab3e7aed9fc23ed6b8e2d17260b4"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/ProjectiveTail.lean",
+      "sha256": "c8145428017261e7aa808dc08b4ccfbe5ffbff8c859f067f9f353a0f4490361a"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/IntegerCountObject.lean",
+      "sha256": "faf4b28fc428c3075ac0cb3db5c4974a0e8b1f3cee9d6529ca9f90a95572b424"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/LeadingTotalDifferential.lean",
+      "sha256": "58494dc54167a489faf6a9929651659802751e5ca22718a97e7eef73e88a062f"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/SupportedOuterCoordinates.lean",
+      "sha256": "7daf178c6ae4ae4b7a2307c9a9cb699439faa1de9bb7e246872772f071531b24"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/RecursiveSuffixTotal.lean",
+      "sha256": "9bdd6d878a9561f7699e505e47dccefdcbadae1f90221fd5d0d259569b5f047d"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/MultibarBlocks.lean",
+      "sha256": "b9194e29b01e228235c271b405f723a8051cf36939734576d0c6706582999daa"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/DirectSumExactness.lean",
+      "sha256": "7c3dfffd9bb833e92a6479b2b04bb8e3392bfb0b93cfec03e8bb58b078842259"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/TotalMap.lean",
+      "sha256": "44d593416661d9284c185410e40fc3af49433f6c95b2d074085ae78bc6d4ea24"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/TwoSidedBarFunctor.lean",
+      "sha256": "a12a3a0b0e428ddfb8feef38048323e72672be085df2a83e998e4786b10b00c9"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/TotalBar.lean",
+      "sha256": "715ce68b4619aaa7d30f756f313da9aaf5e9c772ec136d8b6863ccc70c743342"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/StrictSupportExtension.lean",
+      "sha256": "5c7f8a9b576419b3c7228b050a68d9bb72599e9a2051e7ee6cb8d5644bb5dc8d"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/SplitProjectiveTail.lean",
+      "sha256": "76bd1d18076602aa400bfaa0c4ca31403ca937458c33afe9d6f6154113d58bb9"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/RecursiveTotalFlatten.lean",
+      "sha256": "6dc0d74728f5f82e873ebee62e48f6b2209cbc60106b37e234529541e41e62ee"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/CountRetracts.lean",
+      "sha256": "17b64a1567f58d2149058e947a8d7e072a985953161ef2370ba89be8ba43bf49"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/DerivedCountShift.lean",
+      "sha256": "320e7490df05c38b55207ed6c42908cfd3b625bfeb79da6b2186c1b76b4016cf"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/ResolutionDerived.lean",
+      "sha256": "e57686e9f02b8b466006539c0f7bd1e6a655e9fc89d758dd9cb7fb1315459e6e"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/Bar.lean",
+      "sha256": "0a2f7da051365b145f0b6bbf7a1fd3dbb9bc55be2e11ee860d5078828b085297"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/Weight.lean",
+      "sha256": "2751dd32e136a2d01dc629388d46ff3f38bf2c85832dfb98240974edda72ed27"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/LeadingSuffixFaces.lean",
+      "sha256": "8467c7bb82a6413209232dabe93f68bd54f537c9983fa25c2d17e63409cfd7dd"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/GlobalIndexedComparison.lean",
+      "sha256": "91584e4ec116550464ce468c1aeaed945ac4e16d358986aef23d7e8f9d3c4077"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/IntegerCountRestriction.lean",
+      "sha256": "40b45aeba59179b8950169021d7ecc1a55288b344f94cd13783ee3ff485d561a"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/IndexedMultibarTotal.lean",
+      "sha256": "f477801a1bebf784f964b43f04ff81a876aef29f391342b2cb4a595117bfc5ea"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/TwoSided.lean",
+      "sha256": "a77af65127e580f8dc43f0563d8eba6c0f9a31256ea1ba0202ab950e0d85a0d8"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/TotalBarComparison.lean",
+      "sha256": "f49a955b36ee8e4197afd809e942fcb6aefc865574531290bf20b8e0258c8bd6"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/DerivedTensorBarSplitting.lean",
+      "sha256": "a43e26438c768ecc0816718792b7263298a569444ec7691ea074e762e3013352"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/FiniteSumSupport.lean",
+      "sha256": "9a50cbede1363ea4421ae91f543df2e6c7c29b716c17034bae564f593226a1cb"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/BarCoordinateNaturality.lean",
+      "sha256": "e4ae7a192e00ce0d3d485a048830e63d4dd187b07a926274bae8c01d733481f7"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/BarBimoduleCongruence.lean",
+      "sha256": "9bc096404955f85af9e0fa10ec1026e102c976adf42d4554ad84488177bc44b0"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/TotalBarTensor.lean",
+      "sha256": "0ee7b34e9e843a7ae729e26c07784039b3649121675c402b9045b557ab469fa4"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/IndexedAssemblyComparison.lean",
+      "sha256": "78e9194de8d8963c162444de6eff30940ff5e24c6d28a2ea8db632a30222248a"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/TotalBarResolution.lean",
+      "sha256": "bb47d65e564d76f58ed4a5d5d5d5467f5b50b59c63adcd067ad383f0fb64c556"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/ChainSplitting.lean",
+      "sha256": "67750d931a0f80d380a1d99067431bdf8967bb4ec3071e27dc71c7d82060ae18"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/MultibarDecomposition.lean",
+      "sha256": "a748f6650956faa42d5feede9ae0a88cc7ef33e4846cfdf2408bdff06ed2ac72"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/BalancedTensorFunctor.lean",
+      "sha256": "b2218d45fa612b74ce283270ac173ccbe9fd1fa8fbb46814c9113ea9df86bde1"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/ModuleMultibarCoordinates.lean",
+      "sha256": "9cdabf618e6a428a49db9756994e61d7655150384d0c796ceb35203dc5adc1c1"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/DerivedCountCoproduct.lean",
+      "sha256": "187b2a917ec53bea1b6f3842c0fb528a30aa2c07fc190683df44a683292c7737"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/SignedBlockExplicit.lean",
+      "sha256": "2fd8e09fcdcda8ee00961048d7829d04a373d02cfaf90e9534d220f3ef1ac6f7"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/BarFunctor.lean",
+      "sha256": "5206d21690b8779fe0c29a1c3271fdcc6d4424383079c3b4cb2b8c9a771229ce"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/SuffixParityFaces.lean",
+      "sha256": "c760b8fecfd9af94d7e9b208699fff25af871e2c86dc569045744cbbfcfb66a4"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/CoproductHomotopy.lean",
+      "sha256": "23fec76bd2a5f65fd5823407a550be2b16f93d9e611cefe5a5dd3dd5927ef03c"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/LiteralMultibarCoordinates.lean",
+      "sha256": "6f38f1ec18505121dd2754575d43038055f3b4d593c3a9569511c0d3c26c477b"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/RecursivePrefixInclusions.lean",
+      "sha256": "7a8f507a5ee316371c4b66bb82ee227bf2f979820176640bb51d63d2a95179ff"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/LeadingTotalComparison.lean",
+      "sha256": "49eb1369c07dc36c45f86a77f0f2f866f38e6024943e297e747f181ea1ae5d11"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/RecursiveSuffixEmbedding.lean",
+      "sha256": "51e6915c2ce7e1eaab58d7e138bbc38b5b321406214cc87c7afce997c21b2a7a"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/RecursiveSuffixCoefficient.lean",
+      "sha256": "f7eb5ca3f728e7163e193675c562e4374cfbeee968fc723e6e12ebefc6e628d9"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/TotalBarDerived.lean",
+      "sha256": "b49cee960469903e634cbc915f3fbfb01a1c11cc14b0485d44635e86b8cc6315"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/RecursiveSuffixFaces.lean",
+      "sha256": "aacfaf7846fc5d52f676fba4b812a76b141ad8e404ae18447e22d974372c878f"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/RecursiveBlockIndex.lean",
+      "sha256": "79fd1ac11a48b5843348ba878385723f0889a9301f18a220ba8635e3c072a66f"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/MultibarIndex.lean",
+      "sha256": "0e0c723fd92172749f054341e9a88b5997504bd382df2bf3e94d3e3b86f0e0ba"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/FiniteBarResolution.lean",
+      "sha256": "978d3c32b092c63f9a6ac9b74af0e65801a75b0e601268ccbb0e3aa755dc3692"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/ModuleBlockIndex.lean",
+      "sha256": "777972d599fd9dc270e9dc8af3e904fd2ebee29044aa4272d8ec31bbda29f05e"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/PatternSuffixFaces.lean",
+      "sha256": "e2138d3b7dc5d58130e97ddc1f716b94c01910b688004e17d0222999fbdc61e9"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/Projection.lean",
+      "sha256": "1069e2f5a3dea13c73603623291738e106bfc6c5c628c40ec927ca1a164c3448"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/BlockIndexEquiv.lean",
+      "sha256": "6d123d3c6507062dce36b74f4a1a16b6dd3a763d15ccf862c3fe88aeac8945d7"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/IntegerStalk.lean",
+      "sha256": "c5b8478583ce1af521e2484366f57c3d5295fe6ecb1f98ac18baf5f32660f4c8"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/BarPatternEmbedding.lean",
+      "sha256": "cfdead4f0c62e15b910a633fa4a8ff2cec64d1f51eae4b489ce16f3044939608"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/CountProjective.lean",
+      "sha256": "e994e364f9612ce96beb22f68cceee783f54397aea7444945fb7abd778ea18ba"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/KProjectiveCoproduct.lean",
+      "sha256": "b5877ea9d15251ef3fb1ae854d7174df275bcdbdc6cca3e7b7cf37f1374fb98f"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/CoproductHomBijections.lean",
+      "sha256": "f525d28fd9737379c2fe282f115f1d310bdaa9b2362e902ce8d5ef5f9709be35"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/SignedBlockModel.lean",
+      "sha256": "11cff1989430cf4588c457750d8fb7f57eae7df7a702dc1d00282c9131722719"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/MultibarFlattenDerived.lean",
+      "sha256": "58f20e91cbf058fff3851c7f114fbb099fd6bc64982daf3c429ab14cf14efc90"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/CountHomologyDetection.lean",
+      "sha256": "4ba0edecad130e5b85fd54cde8d8a15e00d4df5687967ad1876b579e8c772829"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/IntegerCountShift.lean",
+      "sha256": "a9f0c39dcc3ce5d991fa63fe9ba912ab2e86da9bd46d79fa743d6de9492eaf53"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/DirectSumCoproduct.lean",
+      "sha256": "04ff4aba124fc0aad3f55187010a9b8a9decdca8141964eeb40da7914a4421ff"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/DerivedBarCoproduct.lean",
+      "sha256": "488f84a5f29703d9768d63d273a5029fe09afe967aa33681db38c930539f5fd4"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/FlatSupportedAssembly.lean",
+      "sha256": "a59c5b0938b5c3b0922c94fd9d70580e342c799f4ab12ab98f731257e960cbb7"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/TotalBarFunctor.lean",
+      "sha256": "695f73723d17f6e7db109ba9b6943f5455862c1bcb02d715821416d40378fd69"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/LeadingSupportedComparison.lean",
+      "sha256": "c49fc853dc62a8b36c2541a918bc3c09647fdc09fa7ba525d89b57ec8104bd13"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/TotalAdditive.lean",
+      "sha256": "d2c3f2205cd19c0019aab29a9804112d4fd14bab695a7a2e5fd2288ec425d337"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/RecursiveSuffixSums.lean",
+      "sha256": "b8f70261dc1ed59530324f9c58e762c411762c2164af210e95a5cbe7305d1c05"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/SupportedInnerCoordinates.lean",
+      "sha256": "6a613d4ab38e71ab6d249540beacdf3db5e851ef93c9e10c0aad9ce97b53f633"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/LeadingBarSuffix.lean",
+      "sha256": "e2b7f793b4d5ba0a5afa95b5dcb5e7c16780926261948d8b68188bdd365723e7"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Iteration/BinomialVanishing.lean",
+      "sha256": "1e2dab39bf6192280fc6505728240f1ee0527d7f3ba4252043f569d0d5c7ea9b"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Iteration/BinomialIndex.lean",
+      "sha256": "ede5e0628e4c2acffcd0037ca499ada0e2871f5fe324463fd4815ab6d9df977e"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Iteration/IntegerIterateSupport.lean",
+      "sha256": "68ef0ee9e907b858622000a3ca9a84bd9ffd5872743f8693fe1b8e1d3f2c97ce"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Iteration/FunctorObjectIteration.lean",
+      "sha256": "a8d93cc2c0e6e1c0fb288f0defd1d743a4875eba64aefb9d3a921b1e09fe7df1"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Iteration/BinomialBiproduct.lean",
+      "sha256": "6687577683e999fa65d61a08be5260cbb31de01f7ce10e90955e083edc141432"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Iteration/AdditiveIterateAmplitude.lean",
+      "sha256": "cd649bd46a086804c8f70cc2481e07adf72c16b73b67665e11ce0d39dbe25dc0"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Iteration/FiniteIntegerIterate.lean",
+      "sha256": "5815ee5943cd0a97b42a44a7d1519ed44ea61f0d011c7c9913ab4b1b1b107dd3"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Iteration/ObjectwiseSplitting.lean",
+      "sha256": "b4b3d478a84e94602d449b181698d74978588d156eb6b5066b10e49a28c3d030"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Iteration/IntegerIterateExtinction.lean",
+      "sha256": "7e780cc27c52e106755fa9ea0f750b77013a8f20e15298054231992cedda1192"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Iteration/BinomialIteration.lean",
+      "sha256": "217c72e82c3d865f1d3db1006b1a355258e8437299640de347108843cc652421"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Iteration/IntegerIterateAmplitude.lean",
+      "sha256": "766ea6f46d82f60ca50c9be7e4a096c9f251309140aa66e3243501b1a573abcf"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Iteration/BinomialEvenIteration.lean",
+      "sha256": "ef7eda213e2e4863513827f71e37bbbec7f9c940ccafdb1f3c49513e9e0cc1c2"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedVertexTensorEvaluation.lean",
+      "sha256": "f2fe02cc074684d3abd26982dacc9e640713d2efecb95280f86f1d4f5fc9f917"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedCountExtinction.lean",
+      "sha256": "3de4b6f122623f7c0f5c8ba8cb5ec9153c1da1431ddb7edbcdb7c5cbe95d1f55"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedTensorComparison.lean",
+      "sha256": "7c1886532e545584db9f48bdd994c99d3f79747af6d04122d54c3c7353903891"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedPDBarConsumer.lean",
+      "sha256": "88794176679049c720920aeccb9bdba1dd25848d0c52a092a5d496a1aec443c8"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedPDResidueProjection.lean",
+      "sha256": "9f3defa4491952ab617c89fade90611409328c2de9856b75ad330594b284545b"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedCohomologyAssembly.lean",
+      "sha256": "1b0345db891e28a8f5c8a3b98f55f643557380517ffe2d5f3b7eaea50bf7ddbb"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedFiniteTensorEvaluation.lean",
+      "sha256": "98d792a5f0b25d83e63b2fa38bc41a704c195c4b8c4d4560d91462bbd2b6a018"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedNativeAction.lean",
+      "sha256": "c610d20a3f83094570a3e14572f73e8d7abe4c9e5230e9ab779894c17f2fed4f"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedTargetHomology.lean",
+      "sha256": "61cc085bfe51efa5a584b8c6b0e43789b974b90bcbbeb0d271c0a7bc24f7ece8"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedOrdinaryOrbit.lean",
+      "sha256": "1e802d30a2612e038d9f5ab978c357b8868979fed5cec2971efdf222838fd77e"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedTensor.lean",
+      "sha256": "8233c251b1ec469123329aefb57981932734236ad43e0ed7a27012fac9b125ff"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedRectification.lean",
+      "sha256": "529dd6d10690b97448d850ddd6ce01bdde81de9aba554296253ba8adf17474a0"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedImageComparison.lean",
+      "sha256": "bbaccc827fda15c4edd90abda9c7d32a19ee0ee2c6b526c1be312e8d7bf75344"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedFiniteAmplitude.lean",
+      "sha256": "6e244bc9c8cb7a1f83df331167ea03387adab23a7600b5c345954116cbcc9371"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedDiagramEvaluation.lean",
+      "sha256": "d322ae8f40a4c3f2b806ff60e20dd9fc447aad961d4bd3470e5ad2aff6877f17"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedChainAction.lean",
+      "sha256": "8f63f7c517cc12c76715b87f214a7419123d943e830bd1b56b79e9424f014012"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedPDDetection.lean",
+      "sha256": "75c1f2e46492944ad71129b876efcbc01f7ca20a8c20d869a4118be627d567d1"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedCohomologyVanishing.lean",
+      "sha256": "9b9b7746d55e6d4c895aff187cb16c1ffd4908bbdd4a2fcb56c61b325ebe1285"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedBarResolution.lean",
+      "sha256": "b8667b710f0e04b36b8f6298ae70cdd16486370e23e6dfa478f0739336e92f1b"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedBarStart.lean",
+      "sha256": "a1a228e00d08dd28528ddb10dc50dbcf944bc2a484ba2a05a81256ce5af2394c"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedBaseIterates.lean",
+      "sha256": "1ca1415e956b682532367d189f0c00af40393783550b47d01967f7bbd82be02f"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedBarPowers.lean",
+      "sha256": "6308dfb626709e8b35b1c50de9ed699190ab46fbff4a924e5e84be5422445847"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedBarBimodule.lean",
+      "sha256": "1bc769299cadafbb6554f866bc56b7e68f578378ca2d495c5a3e007dedcde061"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedOrdinaryAlgebra.lean",
+      "sha256": "211a4d2294c9f098867902fa5728350e9379d43e467071d77b8c017c776cd910"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedOrdinaryResolution.lean",
+      "sha256": "38963f94e411694d6b7f2f91609060632f10db8893a7be61fc9bdbbb1b134cf5"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedRealization.lean",
+      "sha256": "2de5c82628a9ac76e32c13560d8b5fa58f59af72ba10d15bdabe33ce7044fe04"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedCountPDConsumer.lean",
+      "sha256": "f7208247496fabdcbeb841cdead278a5b6ee6e490b7d05ed83c84e6f04f7064a"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedNativeEvaluation.lean",
+      "sha256": "0e221b5aa52beae39f0ed16426c0170f8ca6bb5d55a50d3604d4656c59928760"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedChainHomology.lean",
+      "sha256": "aacf1bd75de5cf1873b89bed43f06f22f8f06c28e959ef6db9dac3231c81ca58"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedFixedDiagram.lean",
+      "sha256": "ca28be8f63930862e261a16cac5701bbd725d661c3a1999e34b8a0fd462b5830"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedDerivedFunctor.lean",
+      "sha256": "aa92747e2d3a382a4af05bee866b4fd051f8d3d745177205c3661161a527896d"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedOrdinaryDimension.lean",
+      "sha256": "582abba8649def468c3f568d7ed08a55b2eb079d067346aceede0842e7eaa387"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedFirstBlockFamily.lean",
+      "sha256": "a250e23dee3011b5744bd6d0be862973ad866af352f04138ec60bc12278c2772"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedTensorSplitting.lean",
+      "sha256": "07e94dccef21936b26bd24a8bfb95088b5f3ed53a62499a4f0c83c58f8c38272"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedChainDiagram.lean",
+      "sha256": "7b168db689f17177b828066cb5a190b53626712a123827caa497a306b4d77e7c"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedUnderlyingHomology.lean",
+      "sha256": "fe4abdb9b262703b543a05bbb13d365fc722a1a4dba5cf76b0f1436c268896ee"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedIteration.lean",
+      "sha256": "952157192ad3b7e83190f26d2ac294e53ce60642f1a0b14821aa115582783a6c"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedReferenceCohomology.lean",
+      "sha256": "76f13c4b67ae73bae09c0c307a4b966e7886eefd91561705700f3c420777f373"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedPDUpperConsumer.lean",
+      "sha256": "a6633206c24db9916597941b0c0192282404b96e7a5135a11ecd40ee5bcde6e4"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedOrdinaryModules.lean",
+      "sha256": "f5fff0fa848242fd7007c33856a2270603f82e29326307638f22f6ed9cdb92ff"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedShiftedRealization.lean",
+      "sha256": "ecbf76c02ab5eb366fa169eb4fc0d3689bc97e9d9ee601025783629498b437f0"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedCountCohomology.lean",
+      "sha256": "c98f70913a7edb7bef87b58846eebc24360d70b81e83d476c1d0cadb3631053c"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedBarComparison.lean",
+      "sha256": "630b63c90a46c789cf273e7de3e1983d6e5823924d87303514a7fb7bfbe7c685"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedMinimalResolution.lean",
+      "sha256": "8d9b8e5803eb74df93737f7a59e80c2c19d9e9c3bc8519d544cc59027d79d50f"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedPDConclusion.lean",
+      "sha256": "22720e60c86df1c854c532aae4cc8b5c721622b4b78b4021a20aa80c3e6421d6"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Selected/SelectedWindow.lean",
+      "sha256": "7bac8a4f58de5a3ac8025d18406d777b7e0e1297df40f3fa93e1286df0a44c35"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleDerivedPresentation.lean",
+      "sha256": "ab84769ec0c57f965d8285f7db4d1a886635ac6e7021b7f3ceace81331550648"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleTotalTermMaps.lean",
+      "sha256": "1bad5e6f5dd56e9b64a8317175fe6d8a39c2ca6c474088b233ddcb9a9a0fe4a7"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleResolutionBarAPI.lean",
+      "sha256": "94769779f976105012b4433f8188037eab0e5e12ab7c8aac68298a8b3331d5b0"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleBarComparisonIso.lean",
+      "sha256": "a4ea800a14342c14645cec5e9fdfc4a80ade13675d7d0c94da828e2179a1d91a"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleTotalFunctor.lean",
+      "sha256": "d6fc07947dde3788ec96666a9d203b52fdda79de16803a02b15170f375a95127"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleDerivedFunctor.lean",
+      "sha256": "635354e24e9c715ae9c453def4ada6e04fca549ea836ba173fec7393c5899d45"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleExactRows.lean",
+      "sha256": "116273d01e72a45489e768a4dccd0c142452cf49520bea10a5f55b355870ffb2"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleBarResolution.lean",
+      "sha256": "ed81121eb042e1094ca6ae24aa6f7c56d61046f87c854801ff4a2d07034e5ecf"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleAugmentationEpi.lean",
+      "sha256": "be6a8dd536061d3f05e0e218055db296c8fb8e923b75f4c964a2db65baa33eb0"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleTensorUnderlying.lean",
+      "sha256": "b45d4247cdc69f524ee43f1236bd70834eede5620dec4ec1d19ed2c06c13266f"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleBarStalk.lean",
+      "sha256": "eb8a018a828a6427fa44b25eba02bad56c82493b104253aa26acdaf8186bb6f2"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleShiftCoherence.lean",
+      "sha256": "4ca40ac4e7183a588818a66a491d855bfbe174409074690cdab6cdc63db44731"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleSingleTerms.lean",
+      "sha256": "ceb8e9131fe0cfa530c614ae170cf5dd29fbb93372f67f655a3e991c4143484c"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleTensorFunctor.lean",
+      "sha256": "0eb3331496b1fec046ee7b2e2fc90c5835c2f340995706f604141268727b5bd3"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleBarTensorComparison.lean",
+      "sha256": "6c3590f039ce469a7633cdd76e690bb3fef84d77387af2c926f21d6d48bc0123"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleInputNaturality.lean",
+      "sha256": "ac1f188e6cf1fdc98fe71f07b8530e87119fdba35230f12508906c4cb3f87eb3"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleDerivedShift.lean",
+      "sha256": "583bd9ed5564584cf43f6ab20f52af54c73e9005e36892acfadc321ed7d78659"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleScalarEvaluation.lean",
+      "sha256": "cd5be0a5b5fced26e2bb3763d24e8e2b86e1295030587c39bf26e53f09f3b8be"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleTotalInsertion.lean",
+      "sha256": "7980b5e956bd540fe45d79f3213608cfeb965177724b7d179b8939a13ba18b0e"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleShiftedPresentation.lean",
+      "sha256": "082e1b84e34f332239ca2ef9342b77b370c3fc3db30a8ac9fcd69d41488fd511"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleShiftHorizontal.lean",
+      "sha256": "183fde6c40ec10a4e65cbb0bae7971f0c42b9f6883f205474a7c182d47b5264a"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleShiftColumns.lean",
+      "sha256": "16923e627673a43ca3be97ecf87e83a7ee47bde2e0b42120fed1cdd4f13faced"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleLeftNaturality.lean",
+      "sha256": "dab6f08770fb3495787531047eaf4702569ae431145d5adeb01a7e632dd7fdef"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleDerived.lean",
+      "sha256": "8aeb9944102570f7b56e7b268890077e7ac93b4ba5f8ed6590e7d9cf9ba485e5"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleAugmentedResolution.lean",
+      "sha256": "946d3bf166053cd10ba114532eeb8aa8fc7dfc46708eaf44eb21ea58b75c6731"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleTensorAcross.lean",
+      "sha256": "08b135711f10a8f83039c0d2ae207f289e88fe96b2866d591c8130acd1cd6de6"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleLeftTotalMap.lean",
+      "sha256": "7ee2ff2b18b66a2973f674fda9bbf9ee29919c13ab8e0e48dc10ab4468e666f8"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleTotalCoefficient.lean",
+      "sha256": "86364bc86ee70cd20519a56b417124ffe38423b1502ea8889562a706e9da1562"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleComparison.lean",
+      "sha256": "773c3ba5fc9d377d7e5d1f4bfb794d016076d3d1d83f8db2b59b91dd98fa44dd"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BoundedBimoduleDerived.lean",
+      "sha256": "b1d71175a1a98eb118e8d324982241a01ea2a94efc7b19891f099061921aa671"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleAugmentationQuasiIso.lean",
+      "sha256": "7328d6961fdcae32e46b10b6f8da3b81b242506cd661f39259a2513ce1d1c1aa"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleStalkTotal.lean",
+      "sha256": "ebb119337b5472eafd03c81677c21a59978a7107b0c5d06e5495d0b26f7cd8bd"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleBarComparisonMap.lean",
+      "sha256": "c0384a6bda12bb57409283621ebf609db137b646d136909e403a95d2ca8045b7"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleTensor.lean",
+      "sha256": "9c79d0907a2c92e23a91a56767e553c86b6f1a4fc11353de83e60c7360c4fc00"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleShiftTotal.lean",
+      "sha256": "9aad96a4de1675ca33d27ccf9576c5c1cc9675695e8dd2cbfcd6359f328f2145"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleDerivedInterval.lean",
+      "sha256": "78392a4745d308db2d8d6f9aa406630e038924d0659f82e539b654b73dc6408f"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleBoundedPresentation.lean",
+      "sha256": "5889805c41869f161eedceb628978b05158eb07ee86ba39a2730cf20b5e9ff70"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleVertex.lean",
+      "sha256": "706c82b99434839d3b50b6a0b3ab1d21d05e3a54d6ab2a8907807e3c115fa0ca"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleSingleEvaluation.lean",
+      "sha256": "f9b627056bfc5ce28f1dbfb23650b43f808290135420b7159e43c89bcb31e0ab"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleBalancedTensor.lean",
+      "sha256": "8e49fac060a5c68d447be9451cedaaacb2b1a55f0ef586597968192f183eab0a"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleTotalTerms.lean",
+      "sha256": "1e6e19dc3a1989fbbc0d23cf8a6d247ec501048838cede2869ef0affe19e0dc4"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleTotalPresentation.lean",
+      "sha256": "3c69ed5d41a70cc44e9cf0befff10998832873901efa4f44f51da825e7a47ea8"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleTensorVertexBridge.lean",
+      "sha256": "71e6e169aa80b1a582b4b0ddcb0cf60c9390c151d8966a35902f7c91143e2e66"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleFiniteRowsAcyclic.lean",
+      "sha256": "491088f72b4665597e395eb897857f88201f9622cbbbd7c5a33ac0df7b7b4bc9"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleTotalShortExact.lean",
+      "sha256": "bdef2a51c9e12e138289821926ed54e1a6859a0e1b5bf46ea15baaa93cc12292"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleTotalUnderlying.lean",
+      "sha256": "6418459b19d8819bfc466f083f319b99a7b52574702dd5e9060e3bfdbaf56a0e"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleInputFunctor.lean",
+      "sha256": "746b85082dd15e6bede71688391fb79d44b57c1e220678db76adde3028b12267"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleSingleDifferential.lean",
+      "sha256": "342a1088cb60caea7843511b96fafd99e30be9c9b9f79c5fe1866dd6f835b3a5"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleTotalDifferential.lean",
+      "sha256": "98e24d9c5c99e7e909a818366b3b1e05ce8dc3ff4efa8dffe804a9eeb048f4dd"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleBarIteration.lean",
+      "sha256": "991dfdbe2fdd3a08cb17bf5af1fabcef1cd73e1782bb31d639038f6d66e79555"
+    },
+    {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleBar.lean",
+      "sha256": "901fa51d858a798b72cf063922a9d71c38d228d817111d0befa92eca833d3b04"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Rickard/OrthogonalStalks.lean",
+      "sha256": "899ef2cf2bb789961d3c641affc95c48f3dd8175959565f649fde09e79f331a7"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Rickard/FiniteFamilies.lean",
+      "sha256": "43ce7a1aec51948700bb35d3c5569707245e427c51387c05a97630235c65de9c"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Rickard/NonGeneration.lean",
+      "sha256": "5a84ae7b4fe957af7ca83a15ac8e269b707da41865995c94ae30839641e9e0dd"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Rickard/Orthogonal.lean",
+      "sha256": "fd86c7912e5b71e46fa1bbdc0c7c3a35ffc40a571f66a5b9a2613f5eaa86994e"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Rickard/ResolutionFamily.lean",
+      "sha256": "523c6ca4d4956fa213d52bc362550a0951e5527efabbe7356eb39bf4562e96fc"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Rickard/InjectiveSums.lean",
+      "sha256": "9a40a865260c03d5f8675775f7c9a74bb598879c3eb4a07476bc63832be62a3d"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Rickard/ReducedProducts.lean",
+      "sha256": "b573b45ba07286dec926ba94614d15232e016e475f295dccd8385e31bc94df6c"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Augmentation/Directed.lean",
+      "sha256": "59e9621e569a7d300e03551cacc21d332815c091b1aac5164f866bdb43733b56"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Augmentation/SplitBasic.lean",
+      "sha256": "b38e2f104b170db4b0b0ea7a305cc830d25991700187f108b688db703e9c3247"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Derived/UpperTruncation.lean",
+      "sha256": "4c0b7eceaec2fbb312033a878a19930cd7503f0496f66c100fe7cd6a486e693d"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Derived/Truncations.lean",
+      "sha256": "457e7f81622415e7b8b78eb4ae5dcbdfffa473269d5a5949468fbe304a1266c9"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Derived/ComplexSums.lean",
+      "sha256": "f36023f9c2113ae240318633b57b8c2e197939aa083022fc20e5bd8e2a2a1b61"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Derived/Coproducts.lean",
+      "sha256": "1080adb82f6c1cf3cd75b8e49f71ab1c98dd073a23e77a54f865d26fa6dc5e89"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Derived/BoundedGeneration.lean",
+      "sha256": "603f1af1d8f276fea49d35928ce85f9f00a308ff10ddd6149137dacd704ee2ca"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Derived/ExactExtension.lean",
+      "sha256": "db4ad391ca11d7060a3620d521e07775eb95184389f07626f6c596c7054043ee"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Derived/Telescopes.lean",
+      "sha256": "19719615768ef455a025a20ebaf0681835f4a81c1ac83c35e09f2cdbf2dcae2b"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Derived/LocalizingRetracts.lean",
+      "sha256": "69ea04dabc3e499bfb066c5029030d8afc544c81f4dc0655b759a13d060a417a"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Derived/DerivedSums.lean",
+      "sha256": "33a1006bc981a9763f60e4281e8db6bda6e2a8c2fbd4599006398a6170ed55ac"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Derived/ModuleSums.lean",
+      "sha256": "0295d5c64156c36cf8ae9a76cc9987a4132ab26532322f18aeb39638c4f1b93d"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Derived/ModuleGeneration.lean",
+      "sha256": "0be26b93b6717c1737d4ab7d7cb5c94f1e8fa4ab37c09dc31a86eb04db40f237"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Transport/ScalarRestriction.lean",
+      "sha256": "42168ba07f3df112a41c5e8abea3c6e8e1b03893868fc80083f330ab46c5cd64"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Transport/DerivedEquivalence.lean",
+      "sha256": "d2c40100722b823c3c5aaa81dc4b4d1c2b2797b458d705db9df29e79669c19f1"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Transport/ProjectiveDimension.lean",
+      "sha256": "721dfbab5b53b2ffb0482d5a7b30d0f6e610b3e45de05282cafe1434deb0cc92"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Transport/DiagramMaps.lean",
+      "sha256": "17e44684610ffaeacaec7756ab041a320afff36fe1883c3ce4cbdf2e3a5d382e"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Transport/FiniteModules.lean",
+      "sha256": "2423fa12b083baa47576f334aaa0bc054b46ce6460d39070c16f115f40252600"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Transport/InjectiveGeneration.lean",
+      "sha256": "f1368f8cc079f92cfe6b4945905d9a6f8f5d0bd3160d7787b6eb6f841ebac170"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Triangular/Augmentation.lean",
+      "sha256": "5e47b49cd973bd9ec1ae3030d82e0f91bf7200f3d321df064d78f8d94e5ce219"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Triangular/Generation.lean",
+      "sha256": "115efedfc1501c37b0d23b4960f4753a6c9f466943a86e6fb10d0a42b67627e0"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Triangular/InjectiveCorners.lean",
+      "sha256": "90c9f7097bb28f5f1d4c2b6a4d0d134a5502b7099e169603df197423dba38f9b"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Triangular/Algebra.lean",
+      "sha256": "b9a86a71201d68e37fe3518627878f6d383de3dcaf1439bf126e6d04345e7d46"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Triangular/Socle.lean",
+      "sha256": "d69c603de5beec96ad2cf1aa60a456397d641ad1f6369ba0892bb963cc6ce273"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Triangular/InjectiveResolution.lean",
+      "sha256": "f918e27acc9bc5be36b28ec7d5461d6971e44c76420a5ffe35dc15ec2d54eba9"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Nakayama/Modules.lean",
+      "sha256": "c422e2bd7d0e0bd177cfa7644b5c30704bdee83cbb91b8a287762e018f85ea17"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Nakayama/Minimality.lean",
+      "sha256": "0358fe12ad8be1adf9c66584e898a8839bfef28a6fd1f9fe1016c48e1d07c191"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Nakayama/Coinduction.lean",
+      "sha256": "c0312e25a837f396b1afcac72d720f4d5f4796d0f02a9c1671c8fcf803a19c7b"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Kasch/ProjectiveSplitting.lean",
+      "sha256": "8bb9fb3f0c2bf4318e86bb38cc739475afc007342b43c4b3dd36bba7c62660ef"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Kasch/Radical.lean",
+      "sha256": "703397f3de9d6a42438f71ad5647a15d289facd0be3542ab5eb6ee1669ed48e3"
+    },
+    {
+      "path": "upstream/OAI/Algebra/FinitisticAsymmetry/Kasch/FiniteDimension.lean",
+      "sha256": "2fb19fc45dd607c6e4354681b1e279bb6bb477dd9c2e6b3ea3a6f87a7ca57f49"
+    }
+  ],
+  "new_sources": {
+    "Note198/SelectionIterationBridge.lean": "0ae62466bf04b484889347d32ed0ca9df698a2ecd629ca09f8c9ffbfffa69c37",
+    "Note198/FiniteSourceBridge.lean": "202db31b781aef1e289403e160b99a584d27a8db7c5d7ae5e46f4b5f7c0f3266",
+    "Note198/SelectionProductNormalization.lean": "b10b223fb78e6390511d549a3993a9598ad3e47cabeb08e6b00731865a0e5469",
+    "Note198/ManuscriptWithBridges.lean": "43a35c3f041cfdacf2091ec46c724df6f469cfe2cc6dc1e37df31278fcc40e29"
+  },
+  "paper_sha256": "f71c05fa302899ed76d5c4b62dffbe452c8f6fff4d37ee3e6f3e27f0a6aa6ae1",
+  "shared_read_only_dependencies": "/opt/codex-comparator/workspaces/note198-bridges-01a125b7/vendor"
+}

@@ -1,0 +1,524 @@
+{
+  "target_count": 58,
+  "new_target_count": 12,
+  "config_count": 28,
+  "configs": [
+    {
+      "path": "comparator-bridge-SelectionIterationBridge.json",
+      "sha256": "3afee3081c9d4eb850844e5f49476cdcd76f98a9e0bbbdc4bfe4ab16974b5076",
+      "targets": [
+        "Note198.Selection.eAt_eq_pow",
+        "Note198.Selection.iterationProduct_eq_finset",
+        "Note198.Selection.productSelected_eq_image",
+        "Note198.Selection.iterateProductMap_bijective",
+        "Note198.Selection.selection_iteration_formula"
+      ]
+    },
+    {
+      "path": "comparator-bridge-SelectionProductNormalization.json",
+      "sha256": "a7db5c7ce0753b4a866953edd2873bb0dd7e30ed0c87a799cf518d4ad34d9281",
+      "targets": [
+        "Note198.SelectionProductNormalization.coordinateFactor_earlier",
+        "Note198.SelectionProductNormalization.coordinateFactor_last",
+        "Note198.SelectionProductNormalization.normalizedProduct_eq_sourceVector"
+      ]
+    },
+    {
+      "path": "comparator-bridge-FiniteSourceBridge.json",
+      "sha256": "f6e658d5cf5a54d984796d676ae63a8fdb747d0400e01c53240786f4804289a4",
+      "targets": [
+        "Note198.SelectionProductNormalization.normalizedProduct_eq_paperProduct",
+        "Note198.SelectionProductNormalization.paperProduct_eq_sourceVector",
+        "Note198.SelectionProductNormalization.sourceVector_eq_paperProduct",
+        "Note198.SelectionProductNormalization.sourceIdeal_eq_paperProduct_span"
+      ]
+    },
+    {
+      "path": "verification-receipts/Final-BarSplitting/comparator-barsplitting.json",
+      "sha256": "785f4d7c3af365d2cdad6764f52f7569cbe48031e3b5af00e3336f64ca6778c8",
+      "targets": [
+        "Note198.square_zero_derived_bar_splitting"
+      ]
+    },
+    {
+      "path": "verification-receipts/Final-BigFinitisticDimension/comparator-final-bigfinitisticdimension.json",
+      "sha256": "9fa07ed51eab9f3d715d70eaf93272cc19d63a654b2e2b81110973c8b21afdf1",
+      "targets": [
+        "Note198.little_le_big"
+      ]
+    },
+    {
+      "path": "verification-receipts/Final-Core/comparator-final-core.json",
+      "sha256": "8c1a470d06a1461f79af8578c6d155ec0b0ec4f82df209c8d7afd3760fbb2baf",
+      "targets": [
+        "Note198.odd_double"
+      ]
+    },
+    {
+      "path": "verification-receipts/Final-ExplicitSimpleModulesFinal/comparator-explicitsimplemodules-final.json",
+      "sha256": "0f3df86654aac8bd9b63f2c1e9255145d2962505177352ad44134c83288d9b62",
+      "targets": [
+        "Note198.ExplicitSimpleModules.T_original_basisVector",
+        "Note198.ExplicitSimpleModules.V_original_basisVector",
+        "Note198.ExplicitSimpleModules.explicit_operator_relators",
+        "Note198.ExplicitSimpleModules.fourierProjector_normalization",
+        "Note198.ExplicitSimpleModules.explicitModule_finiteDimensional",
+        "Note198.ExplicitSimpleModules.explicitModule_dimension",
+        "Note198.ExplicitSimpleModules.explicitModule_simple",
+        "Note198.ExplicitSimpleModules.explicitModule_central_action",
+        "Note198.ExplicitSimpleModules.explicitModule_idempotent_action",
+        "Note198.ExplicitSimpleModules.explicitVector_finiteDimensional",
+        "Note198.ExplicitSimpleModules.explicitVector_dimension",
+        "Note198.ExplicitSimpleModules.explicitModule_extinction",
+        "Note198.ExplicitSimpleModules.proposition_7_2"
+      ]
+    },
+    {
+      "path": "verification-receipts/Final-FiniteEncoding/comparator-finiteencoding.json",
+      "sha256": "36d1fb537f6168e039d173ed80039fcd02a0db6dcd7c7582d4a8f602426cf016",
+      "targets": [
+        "Note198.encoding_of_finite_presentation",
+        "Note198.encoding_algebra_finiteDimensional",
+        "Note198.encoding_algebra_globalDimension_le_two"
+      ]
+    },
+    {
+      "path": "verification-receipts/Final-FinitePresentationEncoding/comparator-finitepresentationencoding.json",
+      "sha256": "c3aa061af5d0cfdb1f866317c82417346d63e48731839c7f834c367599737660",
+      "targets": [
+        "Note198.exists_encoding_of_finite_presentation"
+      ]
+    },
+    {
+      "path": "verification-receipts/Final-GenericExactDimension/comparator-final-genericexactdimension.json",
+      "sha256": "0c7e4b6d4503103b83289d5b080d982da12b759c765cd5140b38911acf2d0048",
+      "targets": [
+        "Note198.GenericExactDimension.exact_projective_dimension_of_finite_global_dimension"
+      ]
+    },
+    {
+      "path": "verification-receipts/Final-GenericPDDetection/comparator-final-genericpddetection.json",
+      "sha256": "4548b9ded50c0f1560f4b0e049f8f4e98df18bdf06342ec2a5fde261da8acf6b",
+      "targets": [
+        "Note198.GenericPDDetection.detection_of_finite_global_dimension"
+      ]
+    },
+    {
+      "path": "verification-receipts/Final-PrimeFifteenPresentation/comparator-final-primefifteenpresentation.json",
+      "sha256": "dc1f0608a31caf74b8bbe3fc189bf57bb65c26b4aa7c32c1b8f6eb3582c6ef17",
+      "targets": [
+        "Note198.PrimeGroup.FifteenPresentation.lemma_2_2_fifteen"
+      ]
+    },
+    {
+      "path": "verification-receipts/Final-PrimeFiniteQuotient/comparator-primefinitequotient.json",
+      "sha256": "d6d7e7612057231a114e13bca79b7a24240258a55ad0b52d9ce6ceb1d624e434",
+      "targets": [
+        "Note198.PrimeGroup.quotientCentralEmbedding_range_eq_basis_closure",
+        "Note198.PrimeGroup.finite_central_quotient"
+      ]
+    },
+    {
+      "path": "verification-receipts/Final-RemainingAlgebraModules/comparator-remainingalgebramodules.json",
+      "sha256": "8b1ffae07389e0299bb91de3e865e23f54366d7e4d972f655a45e467ffade803",
+      "targets": [
+        "Note198.RemainingAlgebraModules.constructed_algebra_and_modules"
+      ]
+    },
+    {
+      "path": "verification-receipts/Final-RemainingCentralShift/comparator-remainingcentralshift.json",
+      "sha256": "3f20475f44cfeeda2087ae5829fd272859e1441b28bd47ba52b54ca620e8efc8",
+      "targets": [
+        "Note198.RemainingCentralShift.complete_central_shift"
+      ]
+    },
+    {
+      "path": "verification-receipts/Final-RemainingDimensions/comparator-remainingdimensions.json",
+      "sha256": "0a98a2be046a44b6d60236444ea2f46053ac3b35b5d7780bc3b69b65dced4e07",
+      "targets": [
+        "Note198.RemainingDimensions.actual_dimensions"
+      ]
+    },
+    {
+      "path": "verification-receipts/Final-RemainingDirectedBound/comparator-remainingdirectedbound.json",
+      "sha256": "0ec02d9fbd12bf41d745c1bfe6851aab558ba414dd7b9ca4017ea3b9ad6ccd9f",
+      "targets": [
+        "Note198.RemainingDirectedBound.complete_directed_bound"
+      ]
+    },
+    {
+      "path": "verification-receipts/Final-RemainingKernelChain/comparator-remainingkernelchain.json",
+      "sha256": "4e1340c3b063229a3ae54fe35e267f23f46b906ce6d35feeb68b518f1183dff0",
+      "targets": [
+        "Note198.remaining_field_kernel_chain"
+      ]
+    },
+    {
+      "path": "verification-receipts/Final-RemainingLiftedDiagram/comparator-remaininglifteddiagram.json",
+      "sha256": "bfaba3597f0e9c831aac062c60ca3f3f944edd88b8fd0490f40efcd146345a97",
+      "targets": [
+        "Note198.RemainingLiftedDiagram.fixed_chain_data",
+        "Note198.RemainingLiftedDiagram.tensor_diagram"
+      ]
+    },
+    {
+      "path": "verification-receipts/Final-RemainingOrdinarySimulation/comparator-remainingordinarysimulation.json",
+      "sha256": "d3e9de70a2a9349a1e2859a91708e8775c6fd54d811ff4a2c92598d9f856f18b",
+      "targets": [
+        "Note198.RemainingOrdinarySimulation.ordinary_simulation"
+      ]
+    },
+    {
+      "path": "verification-receipts/Final-RemainingRealization/comparator-remainingrealization.json",
+      "sha256": "809e9ef1b63f8a3471b88caeb020e21b11e1adbfb0690d06aa205a6ec72530d8",
+      "targets": [
+        "Note198.RemainingRealization.fixed_selecting_bimodule_realization"
+      ]
+    },
+    {
+      "path": "verification-receipts/Final-SelectingBoundedThickKernelChain/comparator-final-selectingboundedthickkernelchain.json",
+      "sha256": "be609d5f12d8d2e0bdba36d4b057edf87fe53d2d3ad3e4b3deb0dc2d1bfa2b57",
+      "targets": [
+        "Note198.SelectingBoundedThickKernelChain.literal_restricted_kernel_thick",
+        "Note198.SelectingBoundedThickKernelChain.literal_restricted_strict_chain"
+      ]
+    },
+    {
+      "path": "verification-receipts/Final-SelectingExactFunctor/comparator-selectingexactfunctor.json",
+      "sha256": "e0b31b92ed9be45e88989d7cd1a43cbbedb9349c66ef4e124e386ecfd132b76b",
+      "targets": [
+        "Note198.SelectingExactFunctor.phi_isTriangulated",
+        "Note198.SelectingExactFunctor.restricted_phi_isTriangulated"
+      ]
+    },
+    {
+      "path": "verification-receipts/Final-SelectingIteration/comparator-final-selectingiteration.json",
+      "sha256": "513d693dc8d37e8a75c70b7f86a6d6b1bcad6372a7c6c43e1f2fa893c1cd289b",
+      "targets": [
+        "Note198.SelectingIteration.binomial_iteration"
+      ]
+    },
+    {
+      "path": "verification-receipts/Final-SelectingSimpleFamily/comparator-final-selectingsimplefamily.json",
+      "sha256": "fe306f27859cb84cc02f416dd245f406c31f7c369885d96c61022405037d0ac4",
+      "targets": [
+        "Note198.selecting_simple_family"
+      ]
+    },
+    {
+      "path": "verification-receipts/Final-SourceDiagramLift/comparator-final-sourcediagramlift.json",
+      "sha256": "d6e84f25dcdbb277f35d65dbdf6f8f3c99cf43b667e097099a4f45cf2b633ee8",
+      "targets": [
+        "Note198.source_quadratic_diagram_lift"
+      ]
+    },
+    {
+      "path": "verification-receipts/Final-StandaloneGenericRectification/comparator-standalonegenericrectification.json",
+      "sha256": "1e3e17a62372a7324e278774594303a3e61d7ebbd9f11d833582f804680dc2f5",
+      "targets": [
+        "Note198.standalone_generic_rectification"
+      ]
+    },
+    {
+      "path": "verification-receipts/MainPacket/comparator-mainpacket.json",
+      "sha256": "daa91a95f162d6f8cabef07dceccdf05d455c34904c6617a133bc19451a8342d",
+      "targets": [
+        "Note198.packet_general_main_and_asymmetry",
+        "Note198.packet_complex_bricks",
+        "Note198.packet_all_odd_shifts",
+        "Note198.packet_actual_module_formula"
+      ]
+    }
+  ],
+  "actual_axioms": {
+    "Note198.Selection.eAt_eq_pow": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Note198.Selection.iterationProduct_eq_finset": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Note198.Selection.productSelected_eq_image": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Note198.Selection.iterateProductMap_bijective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.Selection.selection_iteration_formula": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.SelectionProductNormalization.coordinateFactor_earlier": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.SelectionProductNormalization.coordinateFactor_last": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.SelectionProductNormalization.normalizedProduct_eq_sourceVector": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.SelectionProductNormalization.normalizedProduct_eq_paperProduct": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.SelectionProductNormalization.paperProduct_eq_sourceVector": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.SelectionProductNormalization.sourceVector_eq_paperProduct": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.SelectionProductNormalization.sourceIdeal_eq_paperProduct_span": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.square_zero_derived_bar_splitting": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.little_le_big": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.odd_double": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.ExplicitSimpleModules.T_original_basisVector": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.ExplicitSimpleModules.V_original_basisVector": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.ExplicitSimpleModules.explicit_operator_relators": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.ExplicitSimpleModules.fourierProjector_normalization": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.ExplicitSimpleModules.explicitModule_finiteDimensional": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.ExplicitSimpleModules.explicitModule_dimension": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.ExplicitSimpleModules.explicitModule_simple": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.ExplicitSimpleModules.explicitModule_central_action": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.ExplicitSimpleModules.explicitModule_idempotent_action": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.ExplicitSimpleModules.explicitVector_finiteDimensional": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.ExplicitSimpleModules.explicitVector_dimension": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.ExplicitSimpleModules.explicitModule_extinction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.ExplicitSimpleModules.proposition_7_2": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.encoding_of_finite_presentation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.encoding_algebra_finiteDimensional": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.encoding_algebra_globalDimension_le_two": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.exists_encoding_of_finite_presentation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.GenericExactDimension.exact_projective_dimension_of_finite_global_dimension": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.GenericPDDetection.detection_of_finite_global_dimension": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.PrimeGroup.FifteenPresentation.lemma_2_2_fifteen": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.PrimeGroup.quotientCentralEmbedding_range_eq_basis_closure": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.PrimeGroup.finite_central_quotient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.RemainingAlgebraModules.constructed_algebra_and_modules": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.RemainingCentralShift.complete_central_shift": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.RemainingDimensions.actual_dimensions": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.RemainingDirectedBound.complete_directed_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.remaining_field_kernel_chain": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.RemainingLiftedDiagram.fixed_chain_data": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.RemainingLiftedDiagram.tensor_diagram": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.RemainingOrdinarySimulation.ordinary_simulation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.RemainingRealization.fixed_selecting_bimodule_realization": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.SelectingBoundedThickKernelChain.literal_restricted_kernel_thick": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.SelectingBoundedThickKernelChain.literal_restricted_strict_chain": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.SelectingExactFunctor.phi_isTriangulated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.SelectingExactFunctor.restricted_phi_isTriangulated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.SelectingIteration.binomial_iteration": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.selecting_simple_family": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.source_quadratic_diagram_lift": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.standalone_generic_rectification": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.packet_general_main_and_asymmetry": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.packet_complex_bricks": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.packet_all_odd_shifts": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Note198.packet_actual_module_formula": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_targets": [],
+  "unpermitted_axioms": []
+}

@@ -1,0 +1,268 @@
+[
+  {
+    "name": "build-fixed",
+    "started_utc": "2026-10-10T12:24:10.031536+00:00",
+    "finished_utc": "2026-10-10T12:24:22.413539+00:00",
+    "exit_code": 0,
+    "log": "build-fixed.log"
+  },
+  {
+    "name": "types-and-axioms",
+    "started_utc": "2026-10-10T12:24:22.413721+00:00",
+    "finished_utc": "2026-10-10T12:25:38.819067+00:00",
+    "exit_code": 0,
+    "log": "types-and-axioms.log"
+  },
+  {
+    "name": "Bridge-SelectionIterationBridge",
+    "started_utc": "2026-10-10T12:25:38.972088+00:00",
+    "finished_utc": "2026-10-10T12:25:57.220042+00:00",
+    "exit_code": 0,
+    "log": "Bridge-SelectionIterationBridge.log",
+    "config": "comparator-bridge-SelectionIterationBridge.json",
+    "accepted": true
+  },
+  {
+    "name": "Bridge-SelectionProductNormalization",
+    "started_utc": "2026-10-10T12:25:57.220313+00:00",
+    "finished_utc": "2026-10-10T12:26:20.118257+00:00",
+    "exit_code": 0,
+    "log": "Bridge-SelectionProductNormalization.log",
+    "config": "comparator-bridge-SelectionProductNormalization.json",
+    "accepted": true
+  },
+  {
+    "name": "Bridge-FiniteSourceBridge",
+    "started_utc": "2026-10-10T12:26:20.118514+00:00",
+    "finished_utc": "2026-10-10T12:26:42.508243+00:00",
+    "exit_code": 0,
+    "log": "Bridge-FiniteSourceBridge.log",
+    "config": "comparator-bridge-FiniteSourceBridge.json",
+    "accepted": true
+  },
+  {
+    "name": "Final-BarSplitting",
+    "started_utc": "2026-10-10T12:26:42.508908+00:00",
+    "finished_utc": "2026-10-10T12:28:59.492537+00:00",
+    "exit_code": 0,
+    "log": "Final-BarSplitting.log",
+    "config": "verification-receipts/Final-BarSplitting/comparator-barsplitting.json",
+    "accepted": true
+  },
+  {
+    "name": "Final-BigFinitisticDimension",
+    "started_utc": "2026-10-10T12:28:59.492831+00:00",
+    "finished_utc": "2026-10-10T12:29:39.671611+00:00",
+    "exit_code": 0,
+    "log": "Final-BigFinitisticDimension.log",
+    "config": "verification-receipts/Final-BigFinitisticDimension/comparator-final-bigfinitisticdimension.json",
+    "accepted": true
+  },
+  {
+    "name": "Final-Core",
+    "started_utc": "2026-10-10T12:29:39.671905+00:00",
+    "finished_utc": "2026-10-10T12:29:53.916349+00:00",
+    "exit_code": 0,
+    "log": "Final-Core.log",
+    "config": "verification-receipts/Final-Core/comparator-final-core.json",
+    "accepted": true
+  },
+  {
+    "name": "Final-ExplicitSimpleModulesFinal",
+    "started_utc": "2026-10-10T12:29:53.916591+00:00",
+    "finished_utc": "2026-10-10T12:30:35.962630+00:00",
+    "exit_code": 0,
+    "log": "Final-ExplicitSimpleModulesFinal.log",
+    "config": "verification-receipts/Final-ExplicitSimpleModulesFinal/comparator-explicitsimplemodules-final.json",
+    "accepted": true
+  },
+  {
+    "name": "Final-FiniteEncoding",
+    "started_utc": "2026-10-10T12:30:35.966681+00:00",
+    "finished_utc": "2026-10-10T12:31:40.234301+00:00",
+    "exit_code": 0,
+    "log": "Final-FiniteEncoding.log",
+    "config": "verification-receipts/Final-FiniteEncoding/comparator-finiteencoding.json",
+    "accepted": true
+  },
+  {
+    "name": "Final-FinitePresentationEncoding",
+    "started_utc": "2026-10-10T12:31:40.235762+00:00",
+    "finished_utc": "2026-10-10T12:31:53.805594+00:00",
+    "exit_code": 0,
+    "log": "Final-FinitePresentationEncoding.log",
+    "config": "verification-receipts/Final-FinitePresentationEncoding/comparator-finitepresentationencoding.json",
+    "accepted": true
+  },
+  {
+    "name": "Final-GenericExactDimension",
+    "started_utc": "2026-10-10T12:31:53.806037+00:00",
+    "finished_utc": "2026-10-10T12:34:44.676958+00:00",
+    "exit_code": 0,
+    "log": "Final-GenericExactDimension.log",
+    "config": "verification-receipts/Final-GenericExactDimension/comparator-final-genericexactdimension.json",
+    "accepted": true
+  },
+  {
+    "name": "Final-GenericPDDetection",
+    "started_utc": "2026-10-10T12:34:44.680097+00:00",
+    "finished_utc": "2026-10-10T12:37:27.886535+00:00",
+    "exit_code": 0,
+    "log": "Final-GenericPDDetection.log",
+    "config": "verification-receipts/Final-GenericPDDetection/comparator-final-genericpddetection.json",
+    "accepted": true
+  },
+  {
+    "name": "Final-PrimeFifteenPresentation",
+    "started_utc": "2026-10-10T12:37:27.889864+00:00",
+    "finished_utc": "2026-10-10T12:37:39.489569+00:00",
+    "exit_code": 0,
+    "log": "Final-PrimeFifteenPresentation.log",
+    "config": "verification-receipts/Final-PrimeFifteenPresentation/comparator-final-primefifteenpresentation.json",
+    "accepted": true
+  },
+  {
+    "name": "Final-PrimeFiniteQuotient",
+    "started_utc": "2026-10-10T12:37:39.489970+00:00",
+    "finished_utc": "2026-10-10T12:38:00.522463+00:00",
+    "exit_code": 0,
+    "log": "Final-PrimeFiniteQuotient.log",
+    "config": "verification-receipts/Final-PrimeFiniteQuotient/comparator-primefinitequotient.json",
+    "accepted": true
+  },
+  {
+    "name": "Final-RemainingAlgebraModules",
+    "started_utc": "2026-10-10T12:38:00.522791+00:00",
+    "finished_utc": "2026-10-10T12:44:02.749404+00:00",
+    "exit_code": 0,
+    "log": "Final-RemainingAlgebraModules.log",
+    "config": "verification-receipts/Final-RemainingAlgebraModules/comparator-remainingalgebramodules.json",
+    "accepted": true
+  },
+  {
+    "name": "Final-RemainingCentralShift",
+    "started_utc": "2026-10-10T12:44:02.751797+00:00",
+    "finished_utc": "2026-10-10T12:44:12.188479+00:00",
+    "exit_code": 0,
+    "log": "Final-RemainingCentralShift.log",
+    "config": "verification-receipts/Final-RemainingCentralShift/comparator-remainingcentralshift.json",
+    "accepted": true
+  },
+  {
+    "name": "Final-RemainingDimensions",
+    "started_utc": "2026-10-10T12:44:12.189235+00:00",
+    "finished_utc": "2026-10-10T12:50:00.802732+00:00",
+    "exit_code": 0,
+    "log": "Final-RemainingDimensions.log",
+    "config": "verification-receipts/Final-RemainingDimensions/comparator-remainingdimensions.json",
+    "accepted": true
+  },
+  {
+    "name": "Final-RemainingDirectedBound",
+    "started_utc": "2026-10-10T12:50:00.807856+00:00",
+    "finished_utc": "2026-10-10T12:51:06.800016+00:00",
+    "exit_code": 0,
+    "log": "Final-RemainingDirectedBound.log",
+    "config": "verification-receipts/Final-RemainingDirectedBound/comparator-remainingdirectedbound.json",
+    "accepted": true
+  },
+  {
+    "name": "Final-RemainingKernelChain",
+    "started_utc": "2026-10-10T12:51:06.810086+00:00",
+    "finished_utc": "2026-10-10T13:11:36.997106+00:00",
+    "exit_code": 0,
+    "log": "Final-RemainingKernelChain.log",
+    "config": "verification-receipts/Final-RemainingKernelChain/comparator-remainingkernelchain.json",
+    "accepted": true
+  },
+  {
+    "name": "Final-RemainingLiftedDiagram",
+    "started_utc": "2026-10-10T13:11:37.016767+00:00",
+    "finished_utc": "2026-10-10T13:13:23.861326+00:00",
+    "exit_code": 0,
+    "log": "Final-RemainingLiftedDiagram.log",
+    "config": "verification-receipts/Final-RemainingLiftedDiagram/comparator-remaininglifteddiagram.json",
+    "accepted": true
+  },
+  {
+    "name": "Final-RemainingOrdinarySimulation",
+    "started_utc": "2026-10-10T13:13:23.862438+00:00",
+    "finished_utc": "2026-10-10T13:19:58.222687+00:00",
+    "exit_code": 0,
+    "log": "Final-RemainingOrdinarySimulation.log",
+    "config": "verification-receipts/Final-RemainingOrdinarySimulation/comparator-remainingordinarysimulation.json",
+    "accepted": true
+  },
+  {
+    "name": "Final-RemainingRealization",
+    "started_utc": "2026-10-10T13:19:58.226612+00:00",
+    "finished_utc": "2026-10-10T13:26:32.724895+00:00",
+    "exit_code": 0,
+    "log": "Final-RemainingRealization.log",
+    "config": "verification-receipts/Final-RemainingRealization/comparator-remainingrealization.json",
+    "accepted": true
+  },
+  {
+    "name": "Final-SelectingBoundedThickKernelChain",
+    "started_utc": "2026-10-10T13:26:32.729971+00:00",
+    "finished_utc": "2026-10-10T13:33:40.276021+00:00",
+    "exit_code": 0,
+    "log": "Final-SelectingBoundedThickKernelChain.log",
+    "config": "verification-receipts/Final-SelectingBoundedThickKernelChain/comparator-final-selectingboundedthickkernelchain.json",
+    "accepted": true
+  },
+  {
+    "name": "Final-SelectingExactFunctor",
+    "started_utc": "2026-10-10T13:33:40.286699+00:00",
+    "finished_utc": "2026-10-10T13:40:17.404123+00:00",
+    "exit_code": 0,
+    "log": "Final-SelectingExactFunctor.log",
+    "config": "verification-receipts/Final-SelectingExactFunctor/comparator-selectingexactfunctor.json",
+    "accepted": true
+  },
+  {
+    "name": "Final-SelectingIteration",
+    "started_utc": "2026-10-10T13:40:17.406697+00:00",
+    "finished_utc": "2026-10-10T13:46:55.523044+00:00",
+    "exit_code": 0,
+    "log": "Final-SelectingIteration.log",
+    "config": "verification-receipts/Final-SelectingIteration/comparator-final-selectingiteration.json",
+    "accepted": true
+  },
+  {
+    "name": "Final-SelectingSimpleFamily",
+    "started_utc": "2026-10-10T13:46:55.527015+00:00",
+    "finished_utc": "2026-10-10T13:47:19.254592+00:00",
+    "exit_code": 0,
+    "log": "Final-SelectingSimpleFamily.log",
+    "config": "verification-receipts/Final-SelectingSimpleFamily/comparator-final-selectingsimplefamily.json",
+    "accepted": true
+  },
+  {
+    "name": "Final-SourceDiagramLift",
+    "started_utc": "2026-10-10T13:47:19.428433+00:00",
+    "finished_utc": "2026-10-10T13:47:57.253091+00:00",
+    "exit_code": 0,
+    "log": "Final-SourceDiagramLift.log",
+    "config": "verification-receipts/Final-SourceDiagramLift/comparator-final-sourcediagramlift.json",
+    "accepted": true
+  },
+  {
+    "name": "Final-StandaloneGenericRectification",
+    "started_utc": "2026-10-10T13:47:57.253971+00:00",
+    "finished_utc": "2026-10-10T13:52:57.287520+00:00",
+    "exit_code": 0,
+    "log": "Final-StandaloneGenericRectification.log",
+    "config": "verification-receipts/Final-StandaloneGenericRectification/comparator-standalonegenericrectification.json",
+    "accepted": true
+  },
+  {
+    "name": "MainPacket",
+    "started_utc": "2026-10-10T13:52:57.289259+00:00",
+    "finished_utc": "2026-10-10T14:21:49.533020+00:00",
+    "exit_code": 0,
+    "log": "MainPacket.log",
+    "config": "verification-receipts/MainPacket/comparator-mainpacket.json",
+    "accepted": true
+  }
+]

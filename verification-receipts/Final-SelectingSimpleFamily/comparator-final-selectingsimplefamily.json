@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Note198Challenges.SelectingSimpleFamily",
+  "solution_module": "Note198.SelectingSimpleFamily",
+  "theorem_names": [
+    "Note198.selecting_simple_family"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

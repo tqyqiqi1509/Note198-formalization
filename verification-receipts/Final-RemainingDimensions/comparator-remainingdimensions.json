@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Note198Challenges.RemainingDimensions",
+  "solution_module": "Note198.RemainingDimensions",
+  "theorem_names": [
+    "Note198.RemainingDimensions.actual_dimensions"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

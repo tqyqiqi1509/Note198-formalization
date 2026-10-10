@@ -1,0 +1,1439 @@
+{
+  "status": "source_version_manifest_only_not_kernel_acceptance",
+  "created_utc": "2026-10-10T04:52:48.335146+00:00",
+  "config": "comparator-final-genericexactdimension.json",
+  "config_sha256": "0c7e4b6d4503103b83289d5b080d982da12b759c765cd5140b38911acf2d0048",
+  "roots": [
+    "Note198Challenges.GenericExactDimension",
+    "Note198.GenericExactDimension"
+  ],
+  "target_names": [
+    "Note198.GenericExactDimension.exact_projective_dimension_of_finite_global_dimension"
+  ],
+  "source_count": 142,
+  "source_counts_by_provider": {
+    "Note198": 17,
+    "Note198Challenges": 1,
+    "immutable_OAI": 124
+  },
+  "sources": {
+    "Note198.ComplexCohomologyModels": {
+      "path": "Note198/ComplexCohomologyModels.lean",
+      "sha256": "1bc0d9b5842068a7a38e6f7ca4b62bed787d85212472c39fd869ba4abfde12e9",
+      "byte_count": 7930,
+      "imports": [
+        "Note198.ComplexStupidTruncation",
+        "OAI.Algebra.Finitistic.Localization.DerivedTruncationCohomology"
+      ]
+    },
+    "Note198.ComplexDimensionOperations": {
+      "path": "Note198/ComplexDimensionOperations.lean",
+      "sha256": "d5d44a571b9cf26e12f3ce2b735562433791c14812805bd1d576e0133a3b4fc2",
+      "byte_count": 10317,
+      "imports": [
+        "Note198.ComplexStupidTruncation",
+        "Mathlib.Algebra.Homology.HomologicalComplexBiprod",
+        "Mathlib.Algebra.Category.ModuleCat.Biproducts"
+      ]
+    },
+    "Note198.ComplexExtensionTensor": {
+      "path": "Note198/ComplexExtensionTensor.lean",
+      "sha256": "8a6ed9e7336ad221a5afba66774d4fff1735af3fdb231aee7128a3a909db11dd",
+      "byte_count": 4194,
+      "imports": [
+        "Note198.ComplexProjectiveDimension",
+        "Mathlib.Algebra.Homology.Embedding.ExtendHomology"
+      ]
+    },
+    "Note198.ComplexFiniteBarDimension": {
+      "path": "Note198/ComplexFiniteBarDimension.lean",
+      "sha256": "74defd99e946eea1fe6b2dfdccb099fa15e058e72b7235b5db26268d3316ccb5",
+      "byte_count": 3654,
+      "imports": [
+        "Note198.ComplexResidueBaseChange",
+        "Note198.ComplexDimensionOperations"
+      ]
+    },
+    "Note198.ComplexModuleDimension": {
+      "path": "Note198/ComplexModuleDimension.lean",
+      "sha256": "655b17749dab51f71da8ac2f55e0b997896dabe5a2337073be8e325e1fef8b09",
+      "byte_count": 9541,
+      "imports": [
+        "Note198.ComplexExtensionTensor",
+        "Note198.ComplexProjectiveModels",
+        "Note198.ComplexStupidTruncation",
+        "OAI.Algebra.Finitistic.Dimension.PDDetection"
+      ]
+    },
+    "Note198.ComplexProjectiveDimension": {
+      "path": "Note198/ComplexProjectiveDimension.lean",
+      "sha256": "7901a0af93d1a0220fb46b8e4484bb73265e50f9d4d58f4bd4f2422e83323e59",
+      "byte_count": 44468,
+      "imports": [
+        "OAI.Algebra.Finitistic.Dimension.PDMinimalData",
+        "Mathlib.Algebra.Homology.DerivedCategory.Basic",
+        "Mathlib.Order.ConditionallyCompleteLattice.Basic",
+        "Mathlib.Data.Int.ConditionallyCompleteOrder",
+        "Mathlib.CategoryTheory.Idempotents.HomologicalComplex",
+        "Mathlib.LinearAlgebra.FiniteDimensional.Lemmas",
+        "Mathlib.Data.Int.Interval",
+        "OAI.Algebra.Finitistic.Dimension.PDDetection",
+        "Mathlib.Algebra.Homology.DerivedCategory.KProjective",
+        "Mathlib.Order.Hom.WithTopBot",
+        "Mathlib.Algebra.Order.Group.OrderIso",
+        "Mathlib.Algebra.Order.Monoid.WithTop"
+      ]
+    },
+    "Note198.ComplexProjectiveModels": {
+      "path": "Note198/ComplexProjectiveModels.lean",
+      "sha256": "4397e70040ab2a0cc1c3f9bbdac9fd79815d0d130ea615697bef53ccf4a6c592",
+      "byte_count": 12718,
+      "imports": [
+        "Note198.ComplexProjectiveDimension",
+        "OAI.Algebra.Finitistic.Dimension.PDMinimalResolution",
+        "OAI.Algebra.Finitistic.Dimension.PDDimension",
+        "Mathlib.Algebra.Homology.Embedding.ExtendHomology",
+        "Mathlib.Algebra.Category.ModuleCat.Biproducts",
+        "Mathlib.RingTheory.Finiteness.Prod",
+        "Mathlib.Algebra.Homology.HomotopyCategory.MappingCone"
+      ]
+    },
+    "Note198.ComplexResidueBaseChange": {
+      "path": "Note198/ComplexResidueBaseChange.lean",
+      "sha256": "a8fd1cfd289ba1e47b8ef54a2b7784273606b4394fa1c12e9798ffb1963cdb67",
+      "byte_count": 14398,
+      "imports": [
+        "Note198.ComplexModuleDimension",
+        "Note198.ComplexCohomologyModels",
+        "OAI.Algebra.Finitistic.Dimension.PDResidueBaseBar"
+      ]
+    },
+    "Note198.ComplexStupidTruncation": {
+      "path": "Note198/ComplexStupidTruncation.lean",
+      "sha256": "b4db413bc267a2025e9033dfec87d0188f626bc9022913e5309426d5132554f1",
+      "byte_count": 18461,
+      "imports": [
+        "Note198.ComplexProjectiveModels",
+        "Mathlib.Algebra.Homology.Embedding.StupidTrunc",
+        "Mathlib.Algebra.Homology.HomologicalComplexAbelian",
+        "Mathlib.Algebra.Homology.DerivedCategory.ShortExact",
+        "Mathlib.Order.ConditionallyCompleteLattice.Finset"
+      ]
+    },
+    "Note198.FiniteGlobalDimensionNormalization": {
+      "path": "Note198/FiniteGlobalDimensionNormalization.lean",
+      "sha256": "59865aa0495a17cdcde3d997d43f92b9f7391ca68bc01ab84cef5b45f976d579",
+      "byte_count": 1815,
+      "imports": [
+        "Mathlib.CategoryTheory.Abelian.Projective.Dimension",
+        "Mathlib.Algebra.Category.ModuleCat.Abelian"
+      ]
+    },
+    "Note198.FiniteTailCoproduct": {
+      "path": "Note198/FiniteTailCoproduct.lean",
+      "sha256": "4f3fbb71e58d976e41b5fa0f504eef4f6e1979973aa3cba0d01332acd7b87939",
+      "byte_count": 1795,
+      "imports": [
+        "Mathlib.CategoryTheory.Preadditive.Biproducts",
+        "Mathlib.CategoryTheory.Limits.Shapes.ZeroMorphisms"
+      ]
+    },
+    "Note198.GenericExactDimension": {
+      "path": "Note198/GenericExactDimension.lean",
+      "sha256": "d9dc6ed42f728f0c66e975efff7e0131ee2497d5096e5705dbb5dc7b42f7b110",
+      "byte_count": 3920,
+      "imports": [
+        "Note198.GenericFiniteBar",
+        "Note198.FiniteGlobalDimensionNormalization"
+      ]
+    },
+    "Note198.GenericFiniteBar": {
+      "path": "Note198/GenericFiniteBar.lean",
+      "sha256": "3ad77dcc54960f8ad0919599eaa8d82a336b40ef44418c5d410db3e2257994e6",
+      "byte_count": 4176,
+      "imports": [
+        "Note198.FiniteTailCoproduct",
+        "Note198.NativeBaseChangeDetection",
+        "Note198.ComplexFiniteBarDimension",
+        "OAI.Algebra.Finitistic.Iteration.IntegerIterateExtinction",
+        "OAI.Algebra.Finitistic.Iteration.FiniteIntegerIterate"
+      ]
+    },
+    "Note198.NativeBaseChangeDetection": {
+      "path": "Note198/NativeBaseChangeDetection.lean",
+      "sha256": "1abc970f692f3e42963bbf8f34bfccda79b06e27df289579a8b4439594107458",
+      "byte_count": 2413,
+      "imports": [
+        "Note198.SafeResidueBaseBar",
+        "OAI.Algebra.Finitistic.Bar.DerivedTensorBarSplitting"
+      ]
+    },
+    "Note198.SafeResidueAssociativity": {
+      "path": "Note198/SafeResidueAssociativity.lean",
+      "sha256": "61c352fceb9f9b324f1e0f102dd5b781732600bf273b1e0992690aa0d856ed72",
+      "byte_count": 5841,
+      "imports": [
+        "Note198.SafeResidueProjection",
+        "OAI.Algebra.Finitistic.Dimension.PDBarTensorComparison"
+      ]
+    },
+    "Note198.SafeResidueBaseBar": {
+      "path": "Note198/SafeResidueBaseBar.lean",
+      "sha256": "d5a87f2b9edde33cb493a5a7fe762d80f63aa1a6ba5de0d77f0c8e828fe2751a",
+      "byte_count": 6469,
+      "imports": [
+        "Note198.SafeResidueAssociativity",
+        "OAI.Algebra.Finitistic.Dimension.PDBaseBarConsumer",
+        "OAI.Algebra.Finitistic.Bar.SplitProjectiveTail"
+      ]
+    },
+    "Note198.SafeResidueProjection": {
+      "path": "Note198/SafeResidueProjection.lean",
+      "sha256": "e05c7db060518140a278c7a901f5597a02a6df3082868c70783fb1bf7b6cb96c",
+      "byte_count": 6203,
+      "imports": [
+        "OAI.Algebra.Finitistic.Dimension.PDSquareZero",
+        "OAI.Algebra.Finitistic.Dimension.PDResidueTensor",
+        "OAI.Algebra.Finitistic.Dimension.PDTor",
+        "OAI.Algebra.Finitistic.Tensor.BalancedTensorMaps"
+      ]
+    },
+    "Note198Challenges.GenericExactDimension": {
+      "path": "Note198Challenges/GenericExactDimension.lean",
+      "sha256": "5dbbbdcc5983334306dc3b65247a4eef59d86422666b085e063ec530558c992b",
+      "byte_count": 2951,
+      "imports": [
+        "Note198.GenericFiniteBar",
+        "Note198.FiniteGlobalDimensionNormalization"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.Balanced": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/Balanced.lean",
+      "sha256": "6c714bb9f2f2770de4347d1449ddc121bfcf3da4e3b6ad70d865573ae6ffe559",
+      "byte_count": 5845,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.TwoSided",
+        "Mathlib.LinearAlgebra.Quotient.Basic"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.BalancedTensorFunctor": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/BalancedTensorFunctor.lean",
+      "sha256": "b2218d45fa612b74ce283270ac173ccbe9fd1fa8fbb46814c9113ea9df86bde1",
+      "byte_count": 3672,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.TensorModel",
+        "OAI.Algebra.Finitistic.Bimodule.BimoduleComparison"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.Bar": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/Bar.lean",
+      "sha256": "0a2f7da051365b145f0b6bbf7a1fd3dbb9bc55be2e11ee860d5078828b085297",
+      "byte_count": 8300,
+      "imports": [
+        "Mathlib.LinearAlgebra.TensorProduct.Tower",
+        "Mathlib.Algebra.Category.ModuleCat.Basic",
+        "Mathlib.Algebra.Homology.HomologicalComplex",
+        "Mathlib.RingTheory.TensorProduct.Free",
+        "Mathlib.LinearAlgebra.Basis.VectorSpace",
+        "Mathlib.Algebra.Category.ModuleCat.Projective",
+        "Mathlib.Algebra.Homology.ShortComplex.ModuleCat",
+        "Mathlib.CategoryTheory.Preadditive.Projective.Resolution"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.BarAdditive": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/BarAdditive.lean",
+      "sha256": "02a347d43b94766873024ba433513545c6482576a2cb4670bcd0e503a0d9c996",
+      "byte_count": 2048,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.TwoSidedBarFunctor"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.BarCoordinateNaturality": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/BarCoordinateNaturality.lean",
+      "sha256": "e4ae7a192e00ce0d3d485a048830e63d4dd187b07a926274bae8c01d733481f7",
+      "byte_count": 2537,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.PatternTensorCoherence"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.BarFunctor": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/BarFunctor.lean",
+      "sha256": "5206d21690b8779fe0c29a1c3271fdcc6d4424383079c3b4cb2b8c9a771229ce",
+      "byte_count": 5681,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.Bar",
+        "Mathlib.Algebra.Homology.TotalComplex",
+        "Mathlib.Algebra.Category.ModuleCat.Colimits"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.BarPatternEmbedding": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/BarPatternEmbedding.lean",
+      "sha256": "cfdead4f0c62e15b910a633fa4a8ff2cec64d1f51eae4b489ce16f3044939608",
+      "byte_count": 3195,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.PatternPrefixCoordinates",
+        "OAI.Algebra.Finitistic.Bar.BarCoordinateNaturality"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.BlockCoordinateGenerators": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/BlockCoordinateGenerators.lean",
+      "sha256": "9ad353beefc6c926f8bf0ee57f27aca224f391bb162d7efdf5feb4145928562d",
+      "byte_count": 4638,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.IndexedMultibarTotal"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.BlockIndexEquiv": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/BlockIndexEquiv.lean",
+      "sha256": "6d123d3c6507062dce36b74f4a1a16b6dd3a763d15ccf862c3fe88aeac8945d7",
+      "byte_count": 3960,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.SignedBlockModel"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.ChainSplitting": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/ChainSplitting.lean",
+      "sha256": "67750d931a0f80d380a1d99067431bdf8967bb4ec3071e27dc71c7d82060ae18",
+      "byte_count": 2650,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.Splitting"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.CoproductHomBijections": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/CoproductHomBijections.lean",
+      "sha256": "f525d28fd9737379c2fe282f115f1d310bdaa9b2362e902ce8d5ef5f9709be35",
+      "byte_count": 2740,
+      "imports": [
+        "Mathlib.CategoryTheory.Limits.Preserves.Basic",
+        "Mathlib.CategoryTheory.EssentialImage",
+        "Mathlib.CategoryTheory.Discrete.Basic"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.CoproductHomotopy": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/CoproductHomotopy.lean",
+      "sha256": "23fec76bd2a5f65fd5823407a550be2b16f93d9e611cefe5a5dd3dd5927ef03c",
+      "byte_count": 3506,
+      "imports": [
+        "Mathlib.Algebra.Homology.HomotopyCategory",
+        "Mathlib.Algebra.Homology.HomologicalComplexLimits"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.CountProjective": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/CountProjective.lean",
+      "sha256": "e994e364f9612ce96beb22f68cceee783f54397aea7444945fb7abd778ea18ba",
+      "byte_count": 2528,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.DerivedCountShift",
+        "OAI.Algebra.Finitistic.Bar.DirectSumCoproduct",
+        "Mathlib.LinearAlgebra.DirectSum.Basis",
+        "Mathlib.Algebra.Homology.HomotopyCategory.KProjective"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.DerivedBarCoproduct": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/DerivedBarCoproduct.lean",
+      "sha256": "488f84a5f29703d9768d63d273a5029fe09afe967aa33681db38c930539f5fd4",
+      "byte_count": 3033,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.DerivedCountCoproduct",
+        "OAI.Algebra.Finitistic.Bar.TensorModel"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.DerivedCountCoproduct": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/DerivedCountCoproduct.lean",
+      "sha256": "187b2a917ec53bea1b6f3842c0fb528a30aa2c07fc190683df44a683292c7737",
+      "byte_count": 1812,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.CountProjective",
+        "OAI.Algebra.Finitistic.Bar.KProjectiveCoproduct",
+        "OAI.Algebra.Finitistic.Bar.ExtensionColimits"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.DerivedCountShift": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/DerivedCountShift.lean",
+      "sha256": "320e7490df05c38b55207ed6c42908cfd3b625bfeb79da6b2186c1b76b4016cf",
+      "byte_count": 2976,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.IntegerCountShift"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.DerivedTensorBarSplitting": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/DerivedTensorBarSplitting.lean",
+      "sha256": "a43e26438c768ecc0816718792b7263298a569444ec7691ea074e762e3013352",
+      "byte_count": 3137,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.DerivedBarCoproduct",
+        "OAI.Algebra.Finitistic.Bar.BalancedTensorFunctor",
+        "Mathlib.Algebra.Homology.Embedding.ExtendHomotopy"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.DirectSumCoproduct": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/DirectSumCoproduct.lean",
+      "sha256": "04ff4aba124fc0aad3f55187010a9b8a9decdca8141964eeb40da7914a4421ff",
+      "byte_count": 2786,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.ChainSplitting",
+        "Mathlib.Algebra.Homology.HomologicalComplexLimits"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.ExplicitSignedDifferential": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/ExplicitSignedDifferential.lean",
+      "sha256": "6049820fd1dab984f40a4e7eb5c7be503fa0f7a1f86f6cee1a6b47b85b79ded1",
+      "byte_count": 10319,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.MultibarSigns"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.ExtensionColimits": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/ExtensionColimits.lean",
+      "sha256": "078728d6b1090fc049042e0589a5c891d886be18ea3c4b855a00694252afe456",
+      "byte_count": 2122,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.StrictSupportExtension",
+        "Mathlib.Algebra.Homology.HomologicalComplexLimits"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.FiniteSumSupport": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/FiniteSumSupport.lean",
+      "sha256": "9a50cbede1363ea4421ae91f543df2e6c7c29b716c17034bae564f593226a1cb",
+      "byte_count": 1653,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.RecursiveTotalDifferential"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.FlatSupportedAssembly": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/FlatSupportedAssembly.lean",
+      "sha256": "a59c5b0938b5c3b0922c94fd9d70580e342c799f4ab12ab98f731257e960cbb7",
+      "byte_count": 4342,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.LeadingSupportedComparison",
+        "OAI.Algebra.Finitistic.Bar.IndexedPatternEmbedding"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.GlobalIndexedComparison": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/GlobalIndexedComparison.lean",
+      "sha256": "91584e4ec116550464ce468c1aeaed945ac4e16d358986aef23d7e8f9d3c4077",
+      "byte_count": 5292,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.IndexedAssemblyComparison",
+        "OAI.Algebra.Finitistic.Bar.SignedBlockExplicit"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.IndexedAssemblyComparison": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/IndexedAssemblyComparison.lean",
+      "sha256": "78e9194de8d8963c162444de6eff30940ff5e24c6d28a2ea8db632a30222248a",
+      "byte_count": 5134,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.FlatSupportedAssembly",
+        "OAI.Algebra.Finitistic.Bar.BlockCoordinateGenerators"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.IndexedMultibarTotal": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/IndexedMultibarTotal.lean",
+      "sha256": "f477801a1bebf784f964b43f04ff81a876aef29f391342b2cb4a595117bfc5ea",
+      "byte_count": 4242,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.ModuleMultibarCoordinates"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.IndexedPatternEmbedding": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/IndexedPatternEmbedding.lean",
+      "sha256": "096465cdde827ba88a9a0aa119508dbf012fbcc1607db1eedc41d51bea3bc4c4",
+      "byte_count": 6259,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.SupportedInnerCoordinates",
+        "OAI.Algebra.Finitistic.Bar.LeadingTotalComparison"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.InflatedParityFaces": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/InflatedParityFaces.lean",
+      "sha256": "22ed1c4ceb44bfdaff0c3741028f57a8fd623f4970107a6b3331e2013b5c49fe",
+      "byte_count": 9230,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.ExplicitSignedDifferential",
+        "OAI.Algebra.Finitistic.Bimodule.BimoduleBar"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.IntegerCountRestriction": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/IntegerCountRestriction.lean",
+      "sha256": "40b45aeba59179b8950169021d7ecc1a55288b344f94cd13783ee3ff485d561a",
+      "byte_count": 5347,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.GlobalIndexedComparison",
+        "OAI.Algebra.Finitistic.Bar.IntegerDerivedMultibar",
+        "OAI.Algebra.Finitistic.Bar.StrictSupportExtension"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.IntegerCountShift": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/IntegerCountShift.lean",
+      "sha256": "a9f0c39dcc3ce5d991fa63fe9ba912ab2e86da9bd46d79fa743d6de9492eaf53",
+      "byte_count": 4254,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.IntegerCountRestriction"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.IntegerDerivedMultibar": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/IntegerDerivedMultibar.lean",
+      "sha256": "25275a132c0528e775c58298eda829bee550e62487863b5d32d960e3e1e6e14b",
+      "byte_count": 3384,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.IndexedMultibarTotal",
+        "Mathlib.Algebra.Homology.DerivedCategory.Basic",
+        "Mathlib.Algebra.Homology.Embedding.ExtendHomology"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.KProjectiveCoproduct": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/KProjectiveCoproduct.lean",
+      "sha256": "b5877ea9d15251ef3fb1ae854d7174df275bcdbdc6cca3e7b7cf37f1374fb98f",
+      "byte_count": 1464,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.CoproductHomotopy",
+        "OAI.Algebra.Finitistic.Bar.CoproductHomBijections",
+        "Mathlib.Algebra.Homology.DerivedCategory.KProjective"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.LeadingBarSuffix": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/LeadingBarSuffix.lean",
+      "sha256": "e2b7f793b4d5ba0a5afa95b5dcb5e7c16780926261948d8b68188bdd365723e7",
+      "byte_count": 7708,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.RecursiveSuffixFaces"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.LeadingSuffixFaces": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/LeadingSuffixFaces.lean",
+      "sha256": "8467c7bb82a6413209232dabe93f68bd54f537c9983fa25c2d17e63409cfd7dd",
+      "byte_count": 4796,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.SuffixParityFaces"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.LeadingSupportedComparison": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/LeadingSupportedComparison.lean",
+      "sha256": "c49fc853dc62a8b36c2541a918bc3c09647fdc09fa7ba525d89b57ec8104bd13",
+      "byte_count": 12370,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.SupportedOuterCoordinates",
+        "OAI.Algebra.Finitistic.Bar.RecursivePrefixInclusions"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.LeadingTotalComparison": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/LeadingTotalComparison.lean",
+      "sha256": "49eb1369c07dc36c45f86a77f0f2f866f38e6024943e297e747f181ea1ae5d11",
+      "byte_count": 6662,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.LeadingTotalDifferential"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.LeadingTotalDifferential": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/LeadingTotalDifferential.lean",
+      "sha256": "58494dc54167a489faf6a9929651659802751e5ca22718a97e7eef73e88a062f",
+      "byte_count": 4058,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.LeadingTotalEmbedding"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.LeadingTotalEmbedding": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/LeadingTotalEmbedding.lean",
+      "sha256": "7470aeebd5d6b7230748e7e193338d378560dd22b8a59b9aed1776361b2f12a3",
+      "byte_count": 2504,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.RecursiveSuffixCoefficient",
+        "OAI.Algebra.Finitistic.Bar.LeadingBarSuffix"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.LiteralMultibarCoordinates": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/LiteralMultibarCoordinates.lean",
+      "sha256": "6f38f1ec18505121dd2754575d43038055f3b4d593c3a9569511c0d3c26c477b",
+      "byte_count": 4620,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.PatternTensorCoherence",
+        "OAI.Algebra.Finitistic.Bar.MultibarFlattenDerived",
+        "OAI.Algebra.Finitistic.Bar.RecursiveBlockIndex"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.ModuleBlockIndex": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/ModuleBlockIndex.lean",
+      "sha256": "777972d599fd9dc270e9dc8af3e904fd2ebee29044aa4272d8ec31bbda29f05e",
+      "byte_count": 4121,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.LiteralMultibarCoordinates"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.ModuleMultibarCoordinates": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/ModuleMultibarCoordinates.lean",
+      "sha256": "9cdabf618e6a428a49db9756994e61d7655150384d0c796ceb35203dc5adc1c1",
+      "byte_count": 5278,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.ModuleBlockIndex",
+        "OAI.Algebra.Finitistic.Bar.FiniteSumSupport"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.MultibarBlocks": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/MultibarBlocks.lean",
+      "sha256": "b9194e29b01e228235c271b405f723a8051cf36939734576d0c6706582999daa",
+      "byte_count": 8904,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.MultibarSigns"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.MultibarDecomposition": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/MultibarDecomposition.lean",
+      "sha256": "a748f6650956faa42d5feede9ae0a88cc7ef33e4846cfdf2408bdff06ed2ac72",
+      "byte_count": 9935,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.MultibarIndex"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.MultibarFlattenDerived": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/MultibarFlattenDerived.lean",
+      "sha256": "58f20e91cbf058fff3851c7f114fbb099fd6bc64982daf3c429ab14cf14efc90",
+      "byte_count": 2997,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.RecursiveTotalDifferential",
+        "OAI.Algebra.Finitistic.Bar.BarAdditive",
+        "OAI.Algebra.Finitistic.Bar.TotalBarDerived"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.MultibarIndex": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/MultibarIndex.lean",
+      "sha256": "0e0c723fd92172749f054341e9a88b5997504bd382df2bf3e94d3e3b86f0e0ba",
+      "byte_count": 4874,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.MultibarBlocks"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.MultibarSigns": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/MultibarSigns.lean",
+      "sha256": "375e2d1b48d7f60e930143a385dc4088ed64653f59283968484b5fb85563e289",
+      "byte_count": 6092,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.Splitting"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.PatternPrefixCoordinates": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/PatternPrefixCoordinates.lean",
+      "sha256": "8cde69fb8d17db07409cce03a2868709e726ab3e7aed9fc23ed6b8e2d17260b4",
+      "byte_count": 2360,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.PatternSuffixFaces",
+        "OAI.Algebra.Finitistic.Bar.PatternTensorCoherence"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.PatternSuffixFaces": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/PatternSuffixFaces.lean",
+      "sha256": "e2138d3b7dc5d58130e97ddc1f716b94c01910b688004e17d0222999fbdc61e9",
+      "byte_count": 4156,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.SuffixParityFaces",
+        "OAI.Algebra.Finitistic.Bar.PatternTensorCoherence"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.PatternTensorCoherence": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/PatternTensorCoherence.lean",
+      "sha256": "f689779c161ec573f2b1fc584a1b8d2b647910a076b76ed49825e1c1af989405",
+      "byte_count": 3996,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.MultibarBlocks",
+        "OAI.Algebra.Finitistic.Bar.TwoSidedBarFunctor"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.Projection": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/Projection.lean",
+      "sha256": "1069e2f5a3dea13c73603623291738e106bfc6c5c628c40ec927ca1a164c3448",
+      "byte_count": 6458,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.TwoSidedWeight",
+        "Mathlib.Algebra.BigOperators.Module"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.ProjectiveTail": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/ProjectiveTail.lean",
+      "sha256": "c8145428017261e7aa808dc08b4ccfbe5ffbff8c859f067f9f353a0f4490361a",
+      "byte_count": 2986,
+      "imports": [
+        "Mathlib.CategoryTheory.Abelian.Projective.Dimension",
+        "Mathlib.Algebra.Homology.HomologicalComplexAbelian"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.RecursiveBlockIndex": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/RecursiveBlockIndex.lean",
+      "sha256": "79fd1ac11a48b5843348ba878385723f0889a9301f18a220ba8635e3c072a66f",
+      "byte_count": 2572,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.RecursiveTotalFlatten",
+        "OAI.Algebra.Finitistic.Bar.BlockIndexEquiv"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.RecursivePrefixInclusions": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/RecursivePrefixInclusions.lean",
+      "sha256": "7a8f507a5ee316371c4b66bb82ee227bf2f979820176640bb51d63d2a95179ff",
+      "byte_count": 5753,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.LeadingTotalEmbedding"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.RecursiveSuffixCoefficient": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/RecursiveSuffixCoefficient.lean",
+      "sha256": "f7eb5ca3f728e7163e193675c562e4374cfbeee968fc723e6e12ebefc6e628d9",
+      "byte_count": 4651,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.RecursiveSuffixTotal"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.RecursiveSuffixDifferential": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/RecursiveSuffixDifferential.lean",
+      "sha256": "bf151243d806f3e2152e4e5a1fffb78c65259e66769b15229d9d3e07e1ad2973",
+      "byte_count": 5800,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.RecursiveSuffixFaces",
+        "OAI.Algebra.Finitistic.Bar.RecursiveSuffixSums"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.RecursiveSuffixEmbedding": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/RecursiveSuffixEmbedding.lean",
+      "sha256": "51e6915c2ce7e1eaab58d7e138bbc38b5b321406214cc87c7afce997c21b2a7a",
+      "byte_count": 7751,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.SuffixNaturality",
+        "OAI.Algebra.Finitistic.Bar.BarCoordinateNaturality",
+        "OAI.Algebra.Finitistic.Bar.ModuleMultibarCoordinates"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.RecursiveSuffixFaces": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/RecursiveSuffixFaces.lean",
+      "sha256": "aacfaf7846fc5d52f676fba4b812a76b141ad8e404ae18447e22d974372c878f",
+      "byte_count": 9654,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.RecursiveSuffixEmbedding"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.RecursiveSuffixInduction": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/RecursiveSuffixInduction.lean",
+      "sha256": "b91edb5186629a7e0784a6c664fa9c5659a0e5b10d56a1d33b14123ccfb213bc",
+      "byte_count": 8344,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.RecursiveSuffixDifferential"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.RecursiveSuffixSums": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/RecursiveSuffixSums.lean",
+      "sha256": "b8f70261dc1ed59530324f9c58e762c411762c2164af210e95a5cbe7305d1c05",
+      "byte_count": 4134,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.RecursiveSuffixEmbedding",
+        "Mathlib.Algebra.Category.ModuleCat.ChangeOfRings"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.RecursiveSuffixTotal": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/RecursiveSuffixTotal.lean",
+      "sha256": "9bdd6d878a9561f7699e505e47dccefdcbadae1f90221fd5d0d259569b5f047d",
+      "byte_count": 4907,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.RecursiveSuffixInduction"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.RecursiveTotalDifferential": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/RecursiveTotalDifferential.lean",
+      "sha256": "35519c6f33224074ffb3ebc26fc237ee601a594f898f65a23aa9487a8471e594",
+      "byte_count": 9937,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.RecursiveTotalFlatten"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.RecursiveTotalFlatten": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/RecursiveTotalFlatten.lean",
+      "sha256": "6dc0d74728f5f82e873ebee62e48f6b2209cbc60106b37e234529541e41e62ee",
+      "byte_count": 5596,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.TotalMap",
+        "Mathlib.Algebra.Category.ModuleCat.Products"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.ResolutionDerived": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/ResolutionDerived.lean",
+      "sha256": "e57686e9f02b8b466006539c0f7bd1e6a655e9fc89d758dd9cb7fb1315459e6e",
+      "byte_count": 3742,
+      "imports": [
+        "Mathlib.CategoryTheory.Functor.Derived.LeftDerived"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.SignedBlockExplicit": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/SignedBlockExplicit.lean",
+      "sha256": "2fd8e09fcdcda8ee00961048d7829d04a373d02cfaf90e9534d220f3ef1ac6f7",
+      "byte_count": 5918,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.ExplicitSignedDifferential",
+        "OAI.Algebra.Finitistic.Bar.SignedBlockModel"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.SignedBlockModel": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/SignedBlockModel.lean",
+      "sha256": "11cff1989430cf4588c457750d8fb7f57eae7df7a702dc1d00282c9131722719",
+      "byte_count": 6897,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.MultibarDecomposition",
+        "Mathlib.Data.Fintype.Vector"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.SplitProjectiveTail": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/SplitProjectiveTail.lean",
+      "sha256": "76bd1d18076602aa400bfaa0c4ca31403ca937458c33afe9d6f6154113d58bb9",
+      "byte_count": 4054,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.ProjectiveTail"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.Splitting": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/Splitting.lean",
+      "sha256": "f4059eb0c30f73469d4867cc5e24a4396d929d21aafabc0ba2211ddd92b37c6d",
+      "byte_count": 4553,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.Projection",
+        "Mathlib.Algebra.DirectSum.Module"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.StrictSupportExtension": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/StrictSupportExtension.lean",
+      "sha256": "5c7f8a9b576419b3c7228b050a68d9bb72599e9a2051e7ee6cb8d5644bb5dc8d",
+      "byte_count": 2167,
+      "imports": [
+        "Mathlib.Algebra.Homology.Embedding.StupidTrunc"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.SuffixNaturality": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/SuffixNaturality.lean",
+      "sha256": "2d5c9b0c574a2418f5ee2306930239611fb3931b563bc2321729f5aa0791598c",
+      "byte_count": 5414,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.LeadingSuffixFaces",
+        "OAI.Algebra.Finitistic.Bar.BarFunctor"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.SuffixParityFaces": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/SuffixParityFaces.lean",
+      "sha256": "c760b8fecfd9af94d7e9b208699fff25af871e2c86dc569045744cbbfcfb66a4",
+      "byte_count": 8580,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.InflatedParityFaces"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.SupportedInnerCoordinates": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/SupportedInnerCoordinates.lean",
+      "sha256": "6a613d4ab38e71ab6d249540beacdf3db5e851ef93c9e10c0aad9ce97b53f633",
+      "byte_count": 8585,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.RecursiveSuffixInduction",
+        "OAI.Algebra.Finitistic.Bar.BarPatternEmbedding"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.SupportedOuterCoordinates": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/SupportedOuterCoordinates.lean",
+      "sha256": "7daf178c6ae4ae4b7a2307c9a9cb699439faa1de9bb7e246872772f071531b24",
+      "byte_count": 4539,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.SupportedInnerCoordinates",
+        "OAI.Algebra.Finitistic.Bar.LeadingTotalComparison"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.TensorModel": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/TensorModel.lean",
+      "sha256": "4e5ad1f4bf27f30dc9bf370e0b91637dc56d381e513b6508bcea7c2e5d168d59",
+      "byte_count": 3306,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.Balanced",
+        "OAI.Algebra.Finitistic.Bar.ChainSplitting"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.TotalAdditive": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/TotalAdditive.lean",
+      "sha256": "d2c3f2205cd19c0019aab29a9804112d4fd14bab695a7a2e5fd2288ec425d337",
+      "byte_count": 1813,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.BarFunctor"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.TotalBar": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/TotalBar.lean",
+      "sha256": "715ce68b4619aaa7d30f756f313da9aaf5e9c772ec136d8b6863ccc70c743342",
+      "byte_count": 5335,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.BarFunctor",
+        "Mathlib.Algebra.Homology.Homotopy"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.TotalBarComparison": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/TotalBarComparison.lean",
+      "sha256": "f49a955b36ee8e4197afd809e942fcb6aefc865574531290bf20b8e0258c8bd6",
+      "byte_count": 3978,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.TotalMap",
+        "OAI.Algebra.Finitistic.Bar.TwoSidedBarFunctor",
+        "OAI.Algebra.Finitistic.Bar.TotalBarTensor"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.TotalBarContraction": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/TotalBarContraction.lean",
+      "sha256": "af28179e30a1ba841774c1053973ae1d34104ed7ea4b01fd445bfb7cfeb74fc5",
+      "byte_count": 9934,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.TotalBar",
+        "OAI.Algebra.Finitistic.Bar.TotalAdditive"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.TotalBarDerived": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/TotalBarDerived.lean",
+      "sha256": "b49cee960469903e634cbc915f3fbfb01a1c11cc14b0485d44635e86b8cc6315",
+      "byte_count": 6160,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.ResolutionDerived",
+        "OAI.Algebra.Finitistic.Bar.TotalBarComparison"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.TotalBarFunctor": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/TotalBarFunctor.lean",
+      "sha256": "695f73723d17f6e7db109ba9b6943f5455862c1bcb02d715821416d40378fd69",
+      "byte_count": 2780,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.TotalBarResolution"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.TotalBarResolution": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/TotalBarResolution.lean",
+      "sha256": "bb47d65e564d76f58ed4a5d5d5d5467f5b50b59c63adcd067ad383f0fb64c556",
+      "byte_count": 3349,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.TotalBarContraction",
+        "Mathlib.Algebra.Homology.HomotopyCategory.KProjective"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.TotalBarTensor": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/TotalBarTensor.lean",
+      "sha256": "0ee7b34e9e843a7ae729e26c07784039b3649121675c402b9045b557ab469fa4",
+      "byte_count": 3929,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.TotalBarFunctor",
+        "OAI.Algebra.Finitistic.Bimodule.BimoduleDerived",
+        "Mathlib.Algebra.Homology.DerivedCategory.KProjective"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.TotalMap": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/TotalMap.lean",
+      "sha256": "44d593416661d9284c185410e40fc3af49433f6c95b2d074085ae78bc6d4ea24",
+      "byte_count": 5763,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.BarFunctor",
+        "Mathlib.CategoryTheory.Preadditive.AdditiveFunctor"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.TwoSided": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/TwoSided.lean",
+      "sha256": "a77af65127e580f8dc43f0563d8eba6c0f9a31256ea1ba0202ab950e0d85a0d8",
+      "byte_count": 4442,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.Bar"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.TwoSidedBarFunctor": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/TwoSidedBarFunctor.lean",
+      "sha256": "a12a3a0b0e428ddfb8feef38048323e72672be085df2a83e998e4786b10b00c9",
+      "byte_count": 5378,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bimodule.BimoduleComparison",
+        "OAI.Algebra.Finitistic.Bar.BarFunctor"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.TwoSidedWeight": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/TwoSidedWeight.lean",
+      "sha256": "9bf29e1e130ad59975515c0a6f2cf653cfe840f88f26d3ab79adbe272cb59fbf",
+      "byte_count": 4713,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.Weight"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bar.Weight": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bar/Weight.lean",
+      "sha256": "2751dd32e136a2d01dc629388d46ff3f38bf2c85832dfb98240974edda72ed27",
+      "byte_count": 6201,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.TwoSided",
+        "Mathlib.Algebra.TrivSqZeroExt.Basic"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bimodule.BimoduleBar": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleBar.lean",
+      "sha256": "901fa51d858a798b72cf063922a9d71c38d228d817111d0befa92eca833d3b04",
+      "byte_count": 4827,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bimodule.BimoduleTensor"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bimodule.BimoduleComparison": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleComparison.lean",
+      "sha256": "773c3ba5fc9d377d7e5d1f4bfb794d016076d3d1d83f8db2b59b91dd98fa44dd",
+      "byte_count": 3863,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bimodule.BimoduleBar",
+        "OAI.Algebra.Finitistic.Bimodule.BimoduleDerived"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bimodule.BimoduleDerived": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleDerived.lean",
+      "sha256": "8aeb9944102570f7b56e7b268890077e7ac93b4ba5f8ed6590e7d9cf9ba485e5",
+      "byte_count": 2278,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bimodule.BimoduleTensor",
+        "Mathlib.CategoryTheory.Abelian.LeftDerived"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bimodule.BimoduleTensor": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleTensor.lean",
+      "sha256": "9c79d0907a2c92e23a91a56767e553c86b6f1a4fc11353de83e60c7360c4fc00",
+      "byte_count": 7970,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.Balanced"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDAllSimples": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDAllSimples.lean",
+      "sha256": "313cf859fe36d797dd5ca97955c69732ea426b16298c17fe8c39f2479de15a38",
+      "byte_count": 3776,
+      "imports": [
+        "OAI.Algebra.Finitistic.Dimension.PDResidueSemisimple",
+        "OAI.Algebra.Finitistic.Dimension.PDSimpleTensor",
+        "OAI.Algebra.Finitistic.Dimension.PDLowerBound",
+        "OAI.Algebra.Finitistic.Tensor.BalancedTensorMaps"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDBalancedRight": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDBalancedRight.lean",
+      "sha256": "2f5f93c4578a9135c1023a217defc38d26299a2f5ee3598ba0a0d2c4c1314466",
+      "byte_count": 3047,
+      "imports": [
+        "OAI.Algebra.Finitistic.Tensor.BalancedTensor",
+        "Mathlib.RingTheory.Jacobson.Radical",
+        "Mathlib.Algebra.Algebra.Opposite"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDBarDetection": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDBarDetection.lean",
+      "sha256": "b9eee6c4a86eaa2a34f3d31493c44c0ea8ee7595a631e172c86534c55defbd6f",
+      "byte_count": 2052,
+      "imports": [
+        "OAI.Algebra.Finitistic.Dimension.PDAllSimples",
+        "OAI.Algebra.Finitistic.Dimension.PDResolutionDetection",
+        "OAI.Algebra.Finitistic.Bar.Bar"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDBarQuotient": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDBarQuotient.lean",
+      "sha256": "71187d83c1cc2c1e724c5b8e14f384e070409385691ab1752cf253493ad8164b",
+      "byte_count": 4535,
+      "imports": [
+        "OAI.Algebra.Finitistic.Dimension.PDTensorFunctor",
+        "OAI.Algebra.Finitistic.Bar.Balanced"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDBarQuotientAction": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDBarQuotientAction.lean",
+      "sha256": "09557d7857374e826ce59f9c2a67e2b9450d6d522db8f141604f529182e97f12",
+      "byte_count": 2093,
+      "imports": [
+        "OAI.Algebra.Finitistic.Dimension.PDBarQuotient",
+        "Mathlib.Algebra.Module.TransferInstance"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDBarTensorComparison": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDBarTensorComparison.lean",
+      "sha256": "e0740e8357327d03362bcb6ba832aa13c4647d16c8d425d9a9003b1b5c1f5516",
+      "byte_count": 4300,
+      "imports": [
+        "OAI.Algebra.Finitistic.Dimension.PDBarQuotientAction",
+        "OAI.Algebra.Finitistic.Dimension.PDBarDetection",
+        "OAI.Algebra.Finitistic.Bar.TensorModel"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDBaseBarConsumer": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDBaseBarConsumer.lean",
+      "sha256": "9adef3d74a5fa873a880ece503d44eea2f6bda0f415827f159f6da7052caee34",
+      "byte_count": 3453,
+      "imports": [
+        "Mathlib.CategoryTheory.Abelian.Exact",
+        "OAI.Algebra.Finitistic.Dimension.PDBarTensorComparison",
+        "OAI.Algebra.Finitistic.Dimension.PDDerivedBarConsumer",
+        "Mathlib.Algebra.Homology.ShortComplex.PreservesHomology"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDCoverRadical": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDCoverRadical.lean",
+      "sha256": "297bbfc0dd7b0e0714a011f5bd0880e5a1e4fc2929a343288bc685a417089431",
+      "byte_count": 2838,
+      "imports": [
+        "OAI.Algebra.Finitistic.Dimension.PDCovers",
+        "Mathlib.LinearAlgebra.FiniteDimensional.Basic",
+        "Mathlib.RingTheory.Artinian.Instances"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDCovers": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDCovers.lean",
+      "sha256": "44c7a7aacc3c76fc2dc95cd06524e047b6c733606c6bd420bc509277f571b56c",
+      "byte_count": 3802,
+      "imports": [
+        "Mathlib.RingTheory.Artinian.Module",
+        "Mathlib.RingTheory.Finiteness.Projective",
+        "Mathlib.LinearAlgebra.Projection",
+        "Mathlib.RingTheory.Jacobson.Radical"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDDerivedBarConsumer": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDDerivedBarConsumer.lean",
+      "sha256": "a89a5807f9adbc2ac57600b20761aa544967830aa9c425a2f2b892fbaa0dcd51",
+      "byte_count": 2888,
+      "imports": [
+        "OAI.Algebra.Finitistic.Dimension.PDBarDetection",
+        "Mathlib.Algebra.Homology.DerivedCategory.Basic",
+        "Mathlib.Algebra.Homology.Embedding.ExtendHomology"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDDetection": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDDetection.lean",
+      "sha256": "663fc867b93c057cecef9a49ecbba2686bc67001d276e9c22c9e78770efbc0a2",
+      "byte_count": 3003,
+      "imports": [
+        "OAI.Algebra.Finitistic.Dimension.PDTor",
+        "OAI.Algebra.Finitistic.Dimension.PDResidueTensor",
+        "OAI.Algebra.Finitistic.Dimension.PDDimension"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDDimension": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDDimension.lean",
+      "sha256": "5578eb580bf7b8138499d503ea6be162405fa134b0167cddfed06d9fc8a65605",
+      "byte_count": 4083,
+      "imports": [
+        "OAI.Algebra.Finitistic.Dimension.PDMinimalResolution",
+        "Mathlib.Algebra.Category.ModuleCat.ProjectiveDimension"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDLowerBound": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDLowerBound.lean",
+      "sha256": "bb23ac7290f6e595bf89181faae121c968680e230710e172d28eaed80409ab13",
+      "byte_count": 2174,
+      "imports": [
+        "OAI.Algebra.Finitistic.Dimension.PDDetection"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDMinimalData": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDMinimalData.lean",
+      "sha256": "27aa4f1334ffe7f960e349af49222b390f65443b1379f2cad9a75233cb0b2706",
+      "byte_count": 4468,
+      "imports": [
+        "OAI.Algebra.Finitistic.Dimension.PDCoverRadical",
+        "OAI.Algebra.Finitistic.Dimension.PDRadical",
+        "Mathlib.Algebra.Category.ModuleCat.Projective"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDMinimalResolution": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDMinimalResolution.lean",
+      "sha256": "43380040fda6c5b0fc0890e2c825b4057f4e800bf73b05e0fd265ae95fccf7ad",
+      "byte_count": 2845,
+      "imports": [
+        "OAI.Algebra.Finitistic.Dimension.PDMinimalData",
+        "Mathlib.CategoryTheory.Abelian.Projective.Resolution",
+        "Mathlib.Algebra.Homology.ShortComplex.ModuleCat"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDRadical": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDRadical.lean",
+      "sha256": "5566f43e3701ff24c38dd86758791618cb803d6306201bc53cc99743bcfe3420",
+      "byte_count": 2411,
+      "imports": [
+        "Mathlib.RingTheory.Finiteness.Projective",
+        "Mathlib.RingTheory.Jacobson.Radical",
+        "Mathlib.RingTheory.SimpleModule.Basic"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDResidueAssociativity": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDResidueAssociativity.lean",
+      "sha256": "c19f4499a2bcba8ded183ced558b59d0d761be1fb53ed902412c12e16ea1aaed",
+      "byte_count": 5737,
+      "imports": [
+        "OAI.Algebra.Finitistic.Dimension.PDResidueProjection",
+        "OAI.Algebra.Finitistic.Dimension.PDBarTensorComparison"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDResidueBaseBar": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDResidueBaseBar.lean",
+      "sha256": "a141ec490b7b630a5db1442e7558715be56a4d960ea84f75dbc8f24752c755c9",
+      "byte_count": 6362,
+      "imports": [
+        "OAI.Algebra.Finitistic.Dimension.PDResidueAssociativity",
+        "OAI.Algebra.Finitistic.Dimension.PDBaseBarConsumer",
+        "OAI.Algebra.Finitistic.Bar.SplitProjectiveTail"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDResidueProjection": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDResidueProjection.lean",
+      "sha256": "53edfd226a8c8e4317946a432dedb4b39b72e60e3a526f42890132601cf0cc81",
+      "byte_count": 5399,
+      "imports": [
+        "OAI.Algebra.Finitistic.Dimension.PDSquareZeroResidue",
+        "OAI.Algebra.Finitistic.Dimension.PDResidueRing",
+        "OAI.Algebra.Finitistic.Dimension.PDTor",
+        "OAI.Algebra.Finitistic.Tensor.BalancedTensorMaps"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDResidueRing": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDResidueRing.lean",
+      "sha256": "21e174d5023f4e5d9936864d39e34e166fad5ec098b6dae47db0118f1d56c966",
+      "byte_count": 570,
+      "imports": [
+        "OAI.Algebra.Finitistic.Dimension.PDResidueTensor",
+        "OAI.Algebra.Finitistic.Dimension.PDSquareZero",
+        "Mathlib.RingTheory.Ideal.Quotient.Operations"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDResidueSemisimple": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDResidueSemisimple.lean",
+      "sha256": "c16d64caa072fe2fc025664030f41efcb00640700b59e848ac8317b7c327f395",
+      "byte_count": 1906,
+      "imports": [
+        "OAI.Algebra.Finitistic.Dimension.PDResidueRing",
+        "Mathlib.LinearAlgebra.FiniteDimensional.Basic",
+        "Mathlib.RingTheory.Artinian.Module",
+        "Mathlib.RingTheory.SimpleModule.WedderburnArtin"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDResidueTensor": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDResidueTensor.lean",
+      "sha256": "a76809d9b1a26917c38c1385b0d4def2f9750a26f27b5c4e6cee72d459a7e669",
+      "byte_count": 3656,
+      "imports": [
+        "OAI.Algebra.Finitistic.Dimension.PDBalancedRight",
+        "OAI.Algebra.Finitistic.Dimension.PDRadical"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDResolutionDetection": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDResolutionDetection.lean",
+      "sha256": "37a3fef3affb467609de442ca9dc02cc92000efb99c23dbb72f7cdf70c3c01fb",
+      "byte_count": 2326,
+      "imports": [
+        "OAI.Algebra.Finitistic.Dimension.PDLowerBound"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDSimpleTensor": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDSimpleTensor.lean",
+      "sha256": "1b4b64725a11ae011becb8fb1981c6b78c45db4e799134db137603d17b098e54",
+      "byte_count": 2373,
+      "imports": [
+        "OAI.Algebra.Finitistic.Dimension.PDTor",
+        "Mathlib.RingTheory.Jacobson.Ideal"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDSquareZero": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDSquareZero.lean",
+      "sha256": "085e3e16fca53eeeceef99deae5ab050184e91a3ecd86015bfa3e09f8d5b59b4",
+      "byte_count": 2919,
+      "imports": [
+        "Mathlib.RingTheory.Jacobson.Radical",
+        "Mathlib.Algebra.TrivSqZeroExt.Basic"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDSquareZeroResidue": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDSquareZeroResidue.lean",
+      "sha256": "270528307967c82d8307dbea54dd281e108b202483b9500e262ba62fc2ad159f",
+      "byte_count": 2623,
+      "imports": [
+        "OAI.Algebra.Finitistic.Dimension.PDSquareZero",
+        "Mathlib.RingTheory.Ideal.Quotient.Operations",
+        "Mathlib.RingTheory.Jacobson.Semiprimary"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDTensorFunctor": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDTensorFunctor.lean",
+      "sha256": "8429dd2b67296fa6ef5b683ca5a6f5b7cb248488cafc4b31d8248641d6dff1d1",
+      "byte_count": 1481,
+      "imports": [
+        "OAI.Algebra.Finitistic.Dimension.PDBalancedRight",
+        "Mathlib.Algebra.Category.ModuleCat.ChangeOfRings"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Dimension.PDTor": {
+      "path": "upstream/OAI/Algebra/Finitistic/Dimension/PDTor.lean",
+      "sha256": "ce16dd2c0806ff863da6440b90b148b3f0de50b662e7af90c7aef7b3c9e8de70",
+      "byte_count": 2342,
+      "imports": [
+        "OAI.Algebra.Finitistic.Dimension.PDTensorFunctor",
+        "OAI.Algebra.Finitistic.Dimension.PDMinimalResolution",
+        "Mathlib.CategoryTheory.Abelian.LeftDerived"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Iteration.FiniteIntegerIterate": {
+      "path": "upstream/OAI/Algebra/Finitistic/Iteration/FiniteIntegerIterate.lean",
+      "sha256": "5815ee5943cd0a97b42a44a7d1519ed44ea61f0d011c7c9913ab4b1b1b107dd3",
+      "byte_count": 4638,
+      "imports": [
+        "OAI.Algebra.Finitistic.Iteration.IntegerIterateSupport",
+        "Mathlib.Algebra.Category.ModuleCat.ChangeOfRingsExact",
+        "OAI.Algebra.Finitistic.Bar.SignedBlockModel",
+        "Mathlib.LinearAlgebra.DirectSum.Finite",
+        "Mathlib.RingTheory.TensorProduct.Finite",
+        "Mathlib.LinearAlgebra.FiniteDimensional.Basic",
+        "Mathlib.Algebra.Homology.ShortComplex.ModuleCat"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Iteration.IntegerIterateAmplitude": {
+      "path": "upstream/OAI/Algebra/Finitistic/Iteration/IntegerIterateAmplitude.lean",
+      "sha256": "766ea6f46d82f60ca50c9be7e4a096c9f251309140aa66e3243501b1a573abcf",
+      "byte_count": 3438,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.SplitProjectiveTail",
+        "OAI.Algebra.Finitistic.Iteration.FiniteIntegerIterate"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Iteration.IntegerIterateExtinction": {
+      "path": "upstream/OAI/Algebra/Finitistic/Iteration/IntegerIterateExtinction.lean",
+      "sha256": "7e780cc27c52e106755fa9ea0f750b77013a8f20e15298054231992cedda1192",
+      "byte_count": 4616,
+      "imports": [
+        "OAI.Algebra.Finitistic.Iteration.IntegerIterateAmplitude",
+        "OAI.Algebra.Finitistic.Bar.BarAdditive"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Iteration.IntegerIterateSupport": {
+      "path": "upstream/OAI/Algebra/Finitistic/Iteration/IntegerIterateSupport.lean",
+      "sha256": "68ef0ee9e907b858622000a3ca9a84bd9ffd5872743f8693fe1b8e1d3f2c97ce",
+      "byte_count": 2647,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bar.IntegerDerivedMultibar",
+        "Mathlib.Algebra.Homology.DerivedCategory.TStructure",
+        "Mathlib.Algebra.Homology.Embedding.CochainComplex"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Localization.DerivedTruncationCohomology": {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/DerivedTruncationCohomology.lean",
+      "sha256": "1451158e09b6d56be2d17e8ad926bcae367bd0e089cd7b4b8b487e8aa6fb6345",
+      "byte_count": 4549,
+      "imports": [
+        "Mathlib.Algebra.Homology.DerivedCategory.TStructure",
+        "Mathlib.Algebra.Homology.DerivedCategory.FullyFaithful",
+        "Mathlib.CategoryTheory.Triangulated.TStructure.TruncLTGE"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Tensor.BalancedTensor": {
+      "path": "upstream/OAI/Algebra/Finitistic/Tensor/BalancedTensor.lean",
+      "sha256": "f2ec9275e5a27aebe4b65a97eccf2e66a95f14ae7d4d1f14d9b60680014b6752",
+      "byte_count": 2932,
+      "imports": [
+        "Mathlib.LinearAlgebra.TensorProduct.Basic",
+        "Mathlib.LinearAlgebra.Quotient.Basic",
+        "Mathlib.Algebra.Algebra.Tower"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Tensor.BalancedTensorMaps": {
+      "path": "upstream/OAI/Algebra/Finitistic/Tensor/BalancedTensorMaps.lean",
+      "sha256": "97f952dfa684e234fc56752a085a70181d03c1ac21f280a99406d31a52753c48",
+      "byte_count": 1740,
+      "imports": [
+        "OAI.Algebra.Finitistic.Tensor.BalancedTensor"
+      ]
+    }
+  },
+  "external_imports": [
+    "Mathlib.Algebra.Algebra.Opposite",
+    "Mathlib.Algebra.Algebra.Tower",
+    "Mathlib.Algebra.BigOperators.Module",
+    "Mathlib.Algebra.Category.ModuleCat.Abelian",
+    "Mathlib.Algebra.Category.ModuleCat.Basic",
+    "Mathlib.Algebra.Category.ModuleCat.Biproducts",
+    "Mathlib.Algebra.Category.ModuleCat.ChangeOfRings",
+    "Mathlib.Algebra.Category.ModuleCat.ChangeOfRingsExact",
+    "Mathlib.Algebra.Category.ModuleCat.Colimits",
+    "Mathlib.Algebra.Category.ModuleCat.Products",
+    "Mathlib.Algebra.Category.ModuleCat.Projective",
+    "Mathlib.Algebra.Category.ModuleCat.ProjectiveDimension",
+    "Mathlib.Algebra.DirectSum.Module",
+    "Mathlib.Algebra.Homology.DerivedCategory.Basic",
+    "Mathlib.Algebra.Homology.DerivedCategory.FullyFaithful",
+    "Mathlib.Algebra.Homology.DerivedCategory.KProjective",
+    "Mathlib.Algebra.Homology.DerivedCategory.ShortExact",
+    "Mathlib.Algebra.Homology.DerivedCategory.TStructure",
+    "Mathlib.Algebra.Homology.Embedding.CochainComplex",
+    "Mathlib.Algebra.Homology.Embedding.ExtendHomology",
+    "Mathlib.Algebra.Homology.Embedding.ExtendHomotopy",
+    "Mathlib.Algebra.Homology.Embedding.StupidTrunc",
+    "Mathlib.Algebra.Homology.HomologicalComplex",
+    "Mathlib.Algebra.Homology.HomologicalComplexAbelian",
+    "Mathlib.Algebra.Homology.HomologicalComplexBiprod",
+    "Mathlib.Algebra.Homology.HomologicalComplexLimits",
+    "Mathlib.Algebra.Homology.Homotopy",
+    "Mathlib.Algebra.Homology.HomotopyCategory",
+    "Mathlib.Algebra.Homology.HomotopyCategory.KProjective",
+    "Mathlib.Algebra.Homology.HomotopyCategory.MappingCone",
+    "Mathlib.Algebra.Homology.ShortComplex.ModuleCat",
+    "Mathlib.Algebra.Homology.ShortComplex.PreservesHomology",
+    "Mathlib.Algebra.Homology.TotalComplex",
+    "Mathlib.Algebra.Module.TransferInstance",
+    "Mathlib.Algebra.Order.Group.OrderIso",
+    "Mathlib.Algebra.Order.Monoid.WithTop",
+    "Mathlib.Algebra.TrivSqZeroExt.Basic",
+    "Mathlib.CategoryTheory.Abelian.Exact",
+    "Mathlib.CategoryTheory.Abelian.LeftDerived",
+    "Mathlib.CategoryTheory.Abelian.Projective.Dimension",
+    "Mathlib.CategoryTheory.Abelian.Projective.Resolution",
+    "Mathlib.CategoryTheory.Discrete.Basic",
+    "Mathlib.CategoryTheory.EssentialImage",
+    "Mathlib.CategoryTheory.Functor.Derived.LeftDerived",
+    "Mathlib.CategoryTheory.Idempotents.HomologicalComplex",
+    "Mathlib.CategoryTheory.Limits.Preserves.Basic",
+    "Mathlib.CategoryTheory.Limits.Shapes.ZeroMorphisms",
+    "Mathlib.CategoryTheory.Preadditive.AdditiveFunctor",
+    "Mathlib.CategoryTheory.Preadditive.Biproducts",
+    "Mathlib.CategoryTheory.Preadditive.Projective.Resolution",
+    "Mathlib.CategoryTheory.Triangulated.TStructure.TruncLTGE",
+    "Mathlib.Data.Fintype.Vector",
+    "Mathlib.Data.Int.ConditionallyCompleteOrder",
+    "Mathlib.Data.Int.Interval",
+    "Mathlib.LinearAlgebra.Basis.VectorSpace",
+    "Mathlib.LinearAlgebra.DirectSum.Basis",
+    "Mathlib.LinearAlgebra.DirectSum.Finite",
+    "Mathlib.LinearAlgebra.FiniteDimensional.Basic",
+    "Mathlib.LinearAlgebra.FiniteDimensional.Lemmas",
+    "Mathlib.LinearAlgebra.Projection",
+    "Mathlib.LinearAlgebra.Quotient.Basic",
+    "Mathlib.LinearAlgebra.TensorProduct.Basic",
+    "Mathlib.LinearAlgebra.TensorProduct.Tower",
+    "Mathlib.Order.ConditionallyCompleteLattice.Basic",
+    "Mathlib.Order.ConditionallyCompleteLattice.Finset",
+    "Mathlib.Order.Hom.WithTopBot",
+    "Mathlib.RingTheory.Artinian.Instances",
+    "Mathlib.RingTheory.Artinian.Module",
+    "Mathlib.RingTheory.Finiteness.Prod",
+    "Mathlib.RingTheory.Finiteness.Projective",
+    "Mathlib.RingTheory.Ideal.Quotient.Operations",
+    "Mathlib.RingTheory.Jacobson.Ideal",
+    "Mathlib.RingTheory.Jacobson.Radical",
+    "Mathlib.RingTheory.Jacobson.Semiprimary",
+    "Mathlib.RingTheory.SimpleModule.Basic",
+    "Mathlib.RingTheory.SimpleModule.WedderburnArtin",
+    "Mathlib.RingTheory.TensorProduct.Finite",
+    "Mathlib.RingTheory.TensorProduct.Free"
+  ],
+  "dependency_manifest_references": {
+    "mathlib-pinned-manifest.json": {
+      "sha256": "8f67b2cf24143ac091cdb425e886c2164b2fc2d6fbccd6db9454b697f9541a67",
+      "byte_count": 2811
+    },
+    "dependency-provenance.json": {
+      "sha256": "865fe44eca60c02677a5964ec3569b0461f2144687723b34098945da951475b3",
+      "byte_count": 4677
+    },
+    "lean-toolchain": {
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+      "byte_count": 25
+    },
+    "verification/asymmetry_source_receipt.json": {
+      "sha256": "12e293322c776f72b17bf126caaad7421bf325da20e31fa0dab71143cefb4da6",
+      "byte_count": 14707
+    }
+  },
+  "binding_note": "The checker must confirm these bytes match its actual workspace and archive this manifest alongside the successful kernel log. This manifest alone proves no mathematical statement."
+}

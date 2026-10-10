@@ -1,0 +1,135 @@
+import Note198.ManuscriptWithBridges
+set_option pp.explicit true
+set_option pp.fullNames true
+#check Note198.square_zero_derived_bar_splitting
+#print axioms Note198.square_zero_derived_bar_splitting
+#check Note198.little_le_big
+#print axioms Note198.little_le_big
+#check Note198.odd_double
+#print axioms Note198.odd_double
+#check Note198.ExplicitSimpleModules.T_original_basisVector
+#print axioms Note198.ExplicitSimpleModules.T_original_basisVector
+#check Note198.ExplicitSimpleModules.V_original_basisVector
+#print axioms Note198.ExplicitSimpleModules.V_original_basisVector
+#check Note198.ExplicitSimpleModules.explicit_operator_relators
+#print axioms Note198.ExplicitSimpleModules.explicit_operator_relators
+#check Note198.ExplicitSimpleModules.fourierProjector_normalization
+#print axioms Note198.ExplicitSimpleModules.fourierProjector_normalization
+#check Note198.ExplicitSimpleModules.explicitModule_finiteDimensional
+#print axioms Note198.ExplicitSimpleModules.explicitModule_finiteDimensional
+#check Note198.ExplicitSimpleModules.explicitModule_dimension
+#print axioms Note198.ExplicitSimpleModules.explicitModule_dimension
+#check Note198.ExplicitSimpleModules.explicitModule_simple
+#print axioms Note198.ExplicitSimpleModules.explicitModule_simple
+#check Note198.ExplicitSimpleModules.explicitModule_central_action
+#print axioms Note198.ExplicitSimpleModules.explicitModule_central_action
+#check Note198.ExplicitSimpleModules.explicitModule_idempotent_action
+#print axioms Note198.ExplicitSimpleModules.explicitModule_idempotent_action
+#check Note198.ExplicitSimpleModules.explicitVector_finiteDimensional
+#print axioms Note198.ExplicitSimpleModules.explicitVector_finiteDimensional
+#check Note198.ExplicitSimpleModules.explicitVector_dimension
+#print axioms Note198.ExplicitSimpleModules.explicitVector_dimension
+#check Note198.ExplicitSimpleModules.explicitModule_extinction
+#print axioms Note198.ExplicitSimpleModules.explicitModule_extinction
+#check Note198.ExplicitSimpleModules.proposition_7_2
+#print axioms Note198.ExplicitSimpleModules.proposition_7_2
+#check Note198.encoding_of_finite_presentation
+#print axioms Note198.encoding_of_finite_presentation
+#check Note198.encoding_algebra_finiteDimensional
+#print axioms Note198.encoding_algebra_finiteDimensional
+#check Note198.encoding_algebra_globalDimension_le_two
+#print axioms Note198.encoding_algebra_globalDimension_le_two
+#check Note198.exists_encoding_of_finite_presentation
+#print axioms Note198.exists_encoding_of_finite_presentation
+#check Note198.GenericExactDimension.exact_projective_dimension_of_finite_global_dimension
+#print axioms Note198.GenericExactDimension.exact_projective_dimension_of_finite_global_dimension
+#check Note198.GenericPDDetection.detection_of_finite_global_dimension
+#print axioms Note198.GenericPDDetection.detection_of_finite_global_dimension
+#check Note198.PrimeGroup.FifteenPresentation.lemma_2_2_fifteen
+#print axioms Note198.PrimeGroup.FifteenPresentation.lemma_2_2_fifteen
+#check Note198.PrimeGroup.quotientCentralEmbedding_range_eq_basis_closure
+#print axioms Note198.PrimeGroup.quotientCentralEmbedding_range_eq_basis_closure
+#check Note198.PrimeGroup.finite_central_quotient
+#print axioms Note198.PrimeGroup.finite_central_quotient
+#check Note198.RemainingAlgebraModules.constructed_algebra_and_modules
+#print axioms Note198.RemainingAlgebraModules.constructed_algebra_and_modules
+#check Note198.RemainingCentralShift.complete_central_shift
+#print axioms Note198.RemainingCentralShift.complete_central_shift
+#check Note198.RemainingDimensions.actual_dimensions
+#print axioms Note198.RemainingDimensions.actual_dimensions
+#check Note198.RemainingDirectedBound.complete_directed_bound
+#print axioms Note198.RemainingDirectedBound.complete_directed_bound
+#check Note198.remaining_field_kernel_chain
+#print axioms Note198.remaining_field_kernel_chain
+#check Note198.RemainingLiftedDiagram.fixed_chain_data
+#print axioms Note198.RemainingLiftedDiagram.fixed_chain_data
+#check Note198.RemainingLiftedDiagram.tensor_diagram
+#print axioms Note198.RemainingLiftedDiagram.tensor_diagram
+#check Note198.RemainingOrdinarySimulation.ordinary_simulation
+#print axioms Note198.RemainingOrdinarySimulation.ordinary_simulation
+#check Note198.RemainingRealization.fixed_selecting_bimodule_realization
+#print axioms Note198.RemainingRealization.fixed_selecting_bimodule_realization
+#check Note198.SelectingBoundedThickKernelChain.literal_restricted_kernel_thick
+#print axioms Note198.SelectingBoundedThickKernelChain.literal_restricted_kernel_thick
+#check Note198.SelectingBoundedThickKernelChain.literal_restricted_strict_chain
+#print axioms Note198.SelectingBoundedThickKernelChain.literal_restricted_strict_chain
+#check Note198.SelectingExactFunctor.phi_isTriangulated
+#print axioms Note198.SelectingExactFunctor.phi_isTriangulated
+#check Note198.SelectingExactFunctor.restricted_phi_isTriangulated
+#print axioms Note198.SelectingExactFunctor.restricted_phi_isTriangulated
+#check Note198.SelectingIteration.binomial_iteration
+#print axioms Note198.SelectingIteration.binomial_iteration
+#check Note198.selecting_simple_family
+#print axioms Note198.selecting_simple_family
+#check Note198.source_quadratic_diagram_lift
+#print axioms Note198.source_quadratic_diagram_lift
+#check Note198.standalone_generic_rectification
+#print axioms Note198.standalone_generic_rectification
+#check Note198.packet_general_main_and_asymmetry
+#print axioms Note198.packet_general_main_and_asymmetry
+#check Note198.packet_complex_bricks
+#print axioms Note198.packet_complex_bricks
+#check Note198.packet_all_odd_shifts
+#print axioms Note198.packet_all_odd_shifts
+#check Note198.packet_actual_module_formula
+#print axioms Note198.packet_actual_module_formula
+
+#check Note198.Selection.eAt_eq_pow
+#print axioms Note198.Selection.eAt_eq_pow
+
+#check Note198.Selection.iterationProduct_eq_finset
+#print axioms Note198.Selection.iterationProduct_eq_finset
+
+#check Note198.Selection.productSelected_eq_image
+#print axioms Note198.Selection.productSelected_eq_image
+
+#check Note198.Selection.iterateProductMap_bijective
+#print axioms Note198.Selection.iterateProductMap_bijective
+
+#check Note198.Selection.selection_iteration_formula
+#print axioms Note198.Selection.selection_iteration_formula
+
+#check Note198.SelectionProductNormalization.normalizedProduct_eq_paperProduct
+#print axioms Note198.SelectionProductNormalization.normalizedProduct_eq_paperProduct
+
+#check Note198.SelectionProductNormalization.paperProduct_eq_sourceVector
+#print axioms Note198.SelectionProductNormalization.paperProduct_eq_sourceVector
+
+#check Note198.SelectionProductNormalization.sourceVector_eq_paperProduct
+#print axioms Note198.SelectionProductNormalization.sourceVector_eq_paperProduct
+
+#check Note198.SelectionProductNormalization.sourceIdeal_eq_paperProduct_span
+#print axioms Note198.SelectionProductNormalization.sourceIdeal_eq_paperProduct_span
+
+#check Note198.SelectionProductNormalization.coordinateFactor_earlier
+#print axioms Note198.SelectionProductNormalization.coordinateFactor_earlier
+
+#check Note198.SelectionProductNormalization.coordinateFactor_last
+#print axioms Note198.SelectionProductNormalization.coordinateFactor_last
+
+#check Note198.SelectionProductNormalization.normalizedProduct_eq_sourceVector
+#print axioms Note198.SelectionProductNormalization.normalizedProduct_eq_sourceVector
+
+#print Note198.Selection.productPullback
+#print Note198.Selection.iterationProduct
+#print Note198.SelectionProductNormalization.paperProduct

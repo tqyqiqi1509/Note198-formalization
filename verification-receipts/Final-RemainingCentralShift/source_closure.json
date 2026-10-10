@@ -1,0 +1,95 @@
+{
+  "status": "source_version_manifest_only_not_kernel_acceptance",
+  "created_utc": "2026-10-10T03:03:09.486342+00:00",
+  "config": "comparator-remainingcentralshift.json",
+  "config_sha256": "3f20475f44cfeeda2087ae5829fd272859e1441b28bd47ba52b54ca620e8efc8",
+  "roots": [
+    "Note198Challenges.RemainingCentralShift",
+    "Note198.RemainingCentralShift"
+  ],
+  "target_names": [
+    "Note198.RemainingCentralShift.complete_central_shift"
+  ],
+  "source_count": 5,
+  "source_counts_by_provider": {
+    "Note198": 4,
+    "Note198Challenges": 1,
+    "immutable_OAI": 0
+  },
+  "sources": {
+    "Note198.PrimeFinitePresentation": {
+      "path": "Note198/PrimeFinitePresentation.lean",
+      "sha256": "46c062c74424183c05bb27f205a41b8dce135855a56c6279187c739806d80506",
+      "byte_count": 25159,
+      "imports": [
+        "Note198.PrimeGroup",
+        "Mathlib.GroupTheory.FinitelyPresentedGroup",
+        "Mathlib.Tactic.DeriveFintype"
+      ]
+    },
+    "Note198.PrimeGroup": {
+      "path": "Note198/PrimeGroup.lean",
+      "sha256": "40cbae82e26786fb28859321f2fa9316de67ac330b1a1fd6db972c894646d90d",
+      "byte_count": 18233,
+      "imports": [
+        "Mathlib.GroupTheory.Commutator.Basic",
+        "Mathlib.GroupTheory.PresentedGroup",
+        "Mathlib.Tactic.Group",
+        "Mathlib.Tactic.FinCases",
+        "Lean.Elab.Tactic.Omega"
+      ]
+    },
+    "Note198.PrimePresentationBridge": {
+      "path": "Note198/PrimePresentationBridge.lean",
+      "sha256": "c74752cd08237a77746e7826f1d3529f12ce7c621a4cf03b0cb14f15c0371b6b",
+      "byte_count": 5759,
+      "imports": [
+        "Note198.PrimeFinitePresentation"
+      ]
+    },
+    "Note198.RemainingCentralShift": {
+      "path": "Note198/RemainingCentralShift.lean",
+      "sha256": "a782b4096bb4893f823a657f71a9c92091c6bee856fc6728ef5847b837ca7bc2",
+      "byte_count": 1886,
+      "imports": [
+        "Note198.PrimePresentationBridge"
+      ]
+    },
+    "Note198Challenges.RemainingCentralShift": {
+      "path": "Note198Challenges/RemainingCentralShift.lean",
+      "sha256": "e8a98e1f495f9ebb78fb2bc1f078bb193f33d3ff98856e6520e9316cb744138f",
+      "byte_count": 1377,
+      "imports": [
+        "Note198.PrimePresentationBridge"
+      ]
+    }
+  },
+  "external_imports": [
+    "Lean.Elab.Tactic.Omega",
+    "Mathlib.GroupTheory.Commutator.Basic",
+    "Mathlib.GroupTheory.FinitelyPresentedGroup",
+    "Mathlib.GroupTheory.PresentedGroup",
+    "Mathlib.Tactic.DeriveFintype",
+    "Mathlib.Tactic.FinCases",
+    "Mathlib.Tactic.Group"
+  ],
+  "dependency_manifest_references": {
+    "mathlib-pinned-manifest.json": {
+      "sha256": "8f67b2cf24143ac091cdb425e886c2164b2fc2d6fbccd6db9454b697f9541a67",
+      "byte_count": 2811
+    },
+    "dependency-provenance.json": {
+      "sha256": "865fe44eca60c02677a5964ec3569b0461f2144687723b34098945da951475b3",
+      "byte_count": 4677
+    },
+    "lean-toolchain": {
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+      "byte_count": 25
+    },
+    "verification/asymmetry_source_receipt.json": {
+      "sha256": "12e293322c776f72b17bf126caaad7421bf325da20e31fa0dab71143cefb4da6",
+      "byte_count": 14707
+    }
+  },
+  "binding_note": "The checker must confirm these bytes match its actual workspace and archive this manifest alongside the successful kernel log. This manifest alone proves no mathematical statement."
+}

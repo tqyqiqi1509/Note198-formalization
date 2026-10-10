@@ -1,0 +1,63 @@
+{
+  "snapshots": [
+    {
+      "path": "Note198/RemainingAlgebraModules.lean",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-RemainingAlgebraModules\\Note198__RemainingAlgebraModules.lean",
+      "sha256": "15E04EB31A5B2FA17DFC31FE2EF0D7E4EE601FA66D670CCD70E4C01F4FFA882C"
+    },
+    {
+      "path": "Note198Challenges/RemainingAlgebraModules.lean",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-RemainingAlgebraModules\\Note198Challenges__RemainingAlgebraModules.lean",
+      "sha256": "CB98034D0283438A811E00FE85D81FDDC03A84AF4344F1D60F68FF00E68643DE"
+    },
+    {
+      "path": "comparator-remainingalgebramodules.json",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-RemainingAlgebraModules\\comparator-remainingalgebramodules.json",
+      "sha256": "8B1FFAE07389E0299BB91DE3E865E23F54366D7E4D972F655A45E467FFADE803"
+    }
+  ],
+  "wrapper_path": "comparator-check-serial-noprecommit",
+  "markers": {
+    "default_kernel_accepts": true,
+    "exited_successfully": true,
+    "solution_okay": true,
+    "killed": false
+  },
+  "lake_version": "5.0.0-src+5045d00",
+  "comparator_binary_sha256": "AFA65E57A1770F5961EFE7681626A9A1CD99705262421658ABD30B705F66E4A2",
+  "wrapper_sha256": "4E6B4F874D80862908724E7A6DDAE31EFFC799D2893B87BD24FAC1D922F53127",
+  "comparator_source_commit": "d03acab154d269c06e60e4de7e4cc85deebff94b",
+  "targets": [
+    "Note198.RemainingAlgebraModules.constructed_algebra_and_modules"
+  ],
+  "transitive_source_closure": {
+    "evidence_boundary": "Source version binding; official Mathlib is located by the pinned dependency manifest and actual kernel closure.",
+    "snapshot": "source_closure.json",
+    "source_count": 295,
+    "sha256": "E114BC9C1F63586A78DB9352FD2E857BA0565F1FBE28D003EA360BC12F9E3771"
+  },
+  "recorded_utc": "2026-10-10T05:16:29.8489460Z",
+  "log_sha256": "70CF7F4828EB70F91C2B6001D1FDC38C3BFC860171009DA1A34395EDA7754985",
+  "evidence_boundary": "Hashes identify the accepted source snapshot; semantic equivalence to the manuscript is audited separately.",
+  "mathematical_status": "default_kernel_accepted",
+  "direct_local_dependency_hashes": [
+    {
+      "path": "Note198/SelectingAlgebraProperties.lean",
+      "sha256": "4F5C8B9B54C7F0B84D71007D0F2A33937D8BFAC736C06522FD236F6B2BB7E303"
+    },
+    {
+      "path": "Note198/SelectingModuleProperties.lean",
+      "sha256": "B17F3666A1591404305ABE8E69874164BC315FF859BE055406B64054CC76A001"
+    },
+    {
+      "path": "Note198/SourceInflationHom.lean",
+      "sha256": "4DCA69EADE3F1633C5AFEBC773D1B7B993612F272801E3E9E0C524044D2399AD"
+    }
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "lean_version": "4.34.1"
+}

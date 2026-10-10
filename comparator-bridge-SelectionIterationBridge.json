@@ -1,0 +1,18 @@
+{
+  "challenge_module": "Note198Challenges.SelectionIterationBridge",
+  "solution_module": "Note198.SelectionIterationBridge",
+  "theorem_names": [
+    "Note198.Selection.eAt_eq_pow",
+    "Note198.Selection.iterationProduct_eq_finset",
+    "Note198.Selection.productSelected_eq_image",
+    "Note198.Selection.iterateProductMap_bijective",
+    "Note198.Selection.selection_iteration_formula"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

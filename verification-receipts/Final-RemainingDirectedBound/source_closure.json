@@ -1,0 +1,77 @@
+{
+  "status": "source_version_manifest_only_not_kernel_acceptance",
+  "created_utc": "2026-10-10T09:22:10.687126+00:00",
+  "config": "comparator-remainingdirectedbound.json",
+  "config_sha256": "0ec02d9fbd12bf41d745c1bfe6851aab558ba414dd7b9ca4017ea3b9ad6ccd9f",
+  "roots": [
+    "Note198Challenges.RemainingDirectedBound",
+    "Note198.RemainingDirectedBound"
+  ],
+  "target_names": [
+    "Note198.RemainingDirectedBound.complete_directed_bound"
+  ],
+  "source_count": 3,
+  "source_counts_by_provider": {
+    "Note198": 1,
+    "Note198Challenges": 1,
+    "immutable_OAI": 1
+  },
+  "sources": {
+    "Note198.RemainingDirectedBound": {
+      "path": "Note198/RemainingDirectedBound.lean",
+      "sha256": "b69272ea68a0cc4e504e8b8d596f079b00a54c96f9aaafb3ef456fee6170c7e6",
+      "byte_count": 1743,
+      "imports": [
+        "OAI.Algebra.Finitistic.Encoding.DirectedBound"
+      ]
+    },
+    "Note198Challenges.RemainingDirectedBound": {
+      "path": "Note198Challenges/RemainingDirectedBound.lean",
+      "sha256": "13090cedcbc8f7b30c26ab37b8692a2e9d43eb18d4c6119c5e280df4771e347d",
+      "byte_count": 1210,
+      "imports": [
+        "OAI.Algebra.Finitistic.Encoding.DirectedBound"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Encoding.DirectedBound": {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/DirectedBound.lean",
+      "sha256": "6c1866aaf4afb153539676de3ca0cbeb7834ff9a617966eaed3435f42211d189",
+      "byte_count": 11454,
+      "imports": [
+        "Mathlib.Algebra.Category.ModuleCat.ProjectiveDimension",
+        "Mathlib.LinearAlgebra.TensorProduct.Tower",
+        "Mathlib.LinearAlgebra.Basis.VectorSpace",
+        "Mathlib.Algebra.Algebra.Opposite",
+        "Mathlib.Data.Fin.Rev",
+        "Mathlib.LinearAlgebra.FiniteDimensional.Defs"
+      ]
+    }
+  },
+  "external_imports": [
+    "Mathlib.Algebra.Algebra.Opposite",
+    "Mathlib.Algebra.Category.ModuleCat.ProjectiveDimension",
+    "Mathlib.Data.Fin.Rev",
+    "Mathlib.LinearAlgebra.Basis.VectorSpace",
+    "Mathlib.LinearAlgebra.FiniteDimensional.Defs",
+    "Mathlib.LinearAlgebra.TensorProduct.Tower"
+  ],
+  "dependency_manifest_references": {
+    "mathlib-pinned-manifest.json": {
+      "sha256": "8f67b2cf24143ac091cdb425e886c2164b2fc2d6fbccd6db9454b697f9541a67",
+      "byte_count": 2811
+    },
+    "dependency-provenance.json": {
+      "sha256": "865fe44eca60c02677a5964ec3569b0461f2144687723b34098945da951475b3",
+      "byte_count": 4677
+    },
+    "lean-toolchain": {
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+      "byte_count": 25
+    },
+    "verification/asymmetry_source_receipt.json": {
+      "sha256": "12e293322c776f72b17bf126caaad7421bf325da20e31fa0dab71143cefb4da6",
+      "byte_count": 14707
+    }
+  },
+  "binding_note": "The checker must confirm these bytes match its actual workspace and archive this manifest alongside the successful kernel log. This manifest alone proves no mathematical statement."
+}

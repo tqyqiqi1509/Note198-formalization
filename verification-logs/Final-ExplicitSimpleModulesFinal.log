@@ -1,0 +1,1304 @@
+Running as unit: run-p179659-i180790.service; invocation ID: 7299dca2d7304a288b3e683c9e39eb6a
+Building Note198Challenges.ExplicitSimpleModulesFinal
+⚠ [1891/2097] Replayed Note198.PrimeFiniteQuotient
+warning: Note198/PrimeFiniteQuotient.lean:304:54: This simp argument is unused:
+  CharP.cast_eq_zero R p
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [transvectionUnit, transvection, nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:506:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:507:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:570:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:571:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:591:9: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Note198/PrimeFiniteQuotient.lean:591:11: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [1892/2097] Replayed Note198.FiniteSelectionSource
+warning: Note198/FiniteSelectionSource.lean:68:38: This simp argument is unused:
+  Finset.sum_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [coeff_single, coeff_sum, Finsupp.single_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/FiniteSelectionSource.lean:92:37: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sourceWeight, sourceWitness]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/FiniteSelectionSource.lean:114:22: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sourceWeight, hi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/FiniteSelectionSource.lean:123:22: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sourceWeight, hzero, Finset.sum_sub_distrib, nsmul_eq_mul, hp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [2054/2097] Replayed Note198.Selection
+warning: Note198/Selection.lean:153:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2064/2097] Replayed Note198.SimpleQuotient
+warning: Note198/SimpleQuotient.lean:16:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2065/2097] Replayed Note198.SimpleSelection
+warning: Note198/SimpleSelection.lean:24:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/SimpleSelection.lean:25:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/SimpleSelection.lean:29:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/SimpleSelection.lean:31:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/SimpleSelection.lean:32:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/SimpleSelection.lean:33:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2066/2097] Replayed Note198.FiniteSelectionRestriction
+warning: Note198/FiniteSelectionRestriction.lean:51:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/FiniteSelectionRestriction.lean:59:42: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Note198/FiniteSelectionRestriction.lean:63:53: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Note198/FiniteSelectionRestriction.lean:84:12: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [two_nsmul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/FiniteSelectionRestriction.lean:84:29: This simp argument is unused:
+  two_nsmul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Pi.single_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/FiniteSelectionRestriction.lean:85:12: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/FiniteSelectionRestriction.lean:119:18: Unused tactic linter: `omega` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Note198/FiniteSelectionRestriction.lean:119:18: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Note198/FiniteSelectionRestriction.lean:131:18: Unused tactic linter: `omega` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Note198/FiniteSelectionRestriction.lean:131:18: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Note198/FiniteSelectionRestriction.lean:196:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/FiniteSelectionRestriction.lean:197:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/FiniteSelectionRestriction.lean:212:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/FiniteSelectionRestriction.lean:213:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2929/2929] Replayed Note198Challenges.ExplicitSimpleModulesFinal
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:58:32: This simp argument is unused:
+  mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:59:33: This simp argument is unused:
+  mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:66:0: automatically included section variable(s) unused in theorem `Note198.ExplicitSimpleModules.permute_basisVector`:
+  [NeZero m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NeZero m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:76:10: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hx, hy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:78:0: automatically included section variable(s) unused in theorem `Note198.ExplicitSimpleModules.phase_basisVector`:
+  [NeZero m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NeZero m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:83:30: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [phase, basisVector, hy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:116:21: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hij, (Ne.symm hij)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:116:38: This simp argument is unused:
+  hij
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Pi.single_apply, (Ne.symm hij)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:121:21: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hij, (Ne.symm hij)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:121:38: This simp argument is unused:
+  hij
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Pi.single_apply, (Ne.symm hij)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:191:6: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [scaleCoordinate, Function.update_of_ne (Ne.symm hij), hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:194:8: declaration uses `sorry`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:200:8: declaration uses `sorry`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:210:0: automatically included section variable(s) unused in theorem `Note198.ExplicitSimpleModules.root_pow_mod`:
+  [NeZero m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NeZero m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:250:8: This simp argument is unused:
+  mul_smul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [coefficient_smul, coefficient_reflected_basis]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:318:19: `if_false` has been deprecated: Use `ite_false` instead
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:328:8: declaration uses `sorry`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:361:15: This simp argument is unused:
+  hc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hxy, basisVector]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:362:31: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hxy, h, basisVector]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:458:8: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hij, (Ne.symm hij)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:458:30: This simp argument is unused:
+  (Ne.symm hij)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Pi.single_apply, hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:471:8: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hhi, hhi.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:471:30: This simp argument is unused:
+  hhi.symm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Pi.single_apply, hhi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:487:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:488:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:502:12: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hik, hjk, hij, (Ne.symm hij), zpow_add, Units.val_mul, mul_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:502:39: This simp argument is unused:
+  hij
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Pi.single_apply, hik, hjk, (Ne.symm hij), zpow_add, Units.val_mul, mul_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:502:44: This simp argument is unused:
+  (Ne.symm hij)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Pi.single_apply, hik, hjk, hij, zpow_add, Units.val_mul, mul_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:517:10: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hij, (Ne.symm hij), mul_add, coefficient_add, parityValue_add, zpow_add, Units.val_mul, smul_smul,
+    mul_assoc, mul_left_comm, mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:517:27: This simp argument is unused:
+  hij
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Pi.single_apply, (Ne.symm hij), mul_add, coefficient_add, parityValue_add, zpow_add, Units.val_mul,
+    smul_smul, mul_assoc, mul_left_comm, mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:518:59: This simp argument is unused:
+  mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Pi.single_apply, hij, (Ne.symm hij), mul_add, coefficient_add, parityValue_add, zpow_add, Units.val_mul,
+    smul_smul, mul_left_comm, mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:534:27: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [scaleCoordinate, hik, hjk, hij, (Ne.symm hij)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:535:6: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:535:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:558:17: `if_true` has been deprecated: Use `ite_true` instead
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:583:31: This simp argument is unused:
+  Function.update_of_ne hki
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [scaleCoordinate, Pi.single_apply, hki, Ne.symm hki]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:584:10: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [scaleCoordinate, Function.update_of_ne hki, hki, Ne.symm hki]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:584:32: This simp argument is unused:
+  Ne.symm hki
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [scaleCoordinate, Function.update_of_ne hki, Pi.single_apply, hki]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:589:31: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [scaleCoordinate, hli, Ne.symm hli]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:589:53: This simp argument is unused:
+  Ne.symm hli
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [scaleCoordinate, Pi.single_apply, hli]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:618:35: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Pi.single_apply, hik, hjk, hij, (Ne.symm hij), zpow_add, zpow_one, Units.val_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:618:58: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, hik, hjk, hij, (Ne.symm hij), zpow_add, zpow_one,
+    Units.val_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:618:75: This simp argument is unused:
+  hik
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, Pi.single_apply, hjk, hij, (Ne.symm hij), zpow_add,
+    zpow_one, Units.val_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:618:80: This simp argument is unused:
+  hjk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, Pi.single_apply, hik, hij, (Ne.symm hij), zpow_add,
+    zpow_one, Units.val_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:619:10: This simp argument is unused:
+  hij
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, Pi.single_apply, hik, hjk, (Ne.symm hij), zpow_add,
+    zpow_one, Units.val_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:619:40: This simp argument is unused:
+  zpow_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, Pi.single_apply, hik, hjk, hij, (Ne.symm hij), zpow_add,
+    Units.val_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:626:37: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Pi.single_apply, hik, hjk, hij, (Ne.symm hij), mul_assoc,
+    ← cyclicPower_mul_unit m r]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:626:60: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, hik, hjk, hij, (Ne.symm hij), mul_assoc,
+    ← cyclicPower_mul_unit m r]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:626:77: This simp argument is unused:
+  hik
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, Pi.single_apply, hjk, hij, (Ne.symm hij), mul_assoc,
+    ← cyclicPower_mul_unit m r]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:626:82: This simp argument is unused:
+  hjk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, Pi.single_apply, hik, hij, (Ne.symm hij), mul_assoc,
+    ← cyclicPower_mul_unit m r]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:627:12: This simp argument is unused:
+  hij
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, Pi.single_apply, hik, hjk, (Ne.symm hij), mul_assoc,
+    ← cyclicPower_mul_unit m r]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:632:37: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Pi.single_apply, hik, hkl, hli, (Ne.symm hli), hlj, (Ne.symm hlj)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:632:60: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, hik, hkl, hli, (Ne.symm hli), hlj, (Ne.symm hlj)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:632:77: This simp argument is unused:
+  hik
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, Pi.single_apply, hkl, hli, (Ne.symm hli), hlj,
+    (Ne.symm hlj)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:632:82: This simp argument is unused:
+  hkl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, Pi.single_apply, hik, hli, (Ne.symm hli), hlj,
+    (Ne.symm hlj)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:633:12: This simp argument is unused:
+  hli
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, Pi.single_apply, hik, hkl, (Ne.symm hli), hlj,
+    (Ne.symm hlj)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:633:32: This simp argument is unused:
+  hlj
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, Pi.single_apply, hik, hkl, hli, (Ne.symm hli),
+    (Ne.symm hlj)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:628:12: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:634:12: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:628:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:634:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:620:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:660:8: declaration uses `sorry`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:676:8: declaration uses `sorry`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:680:8: declaration uses `sorry`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:701:8: declaration uses `sorry`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:706:8: declaration uses `sorry`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:724:8: automatically included section variable(s) unused in theorem `Note198.ExplicitSimpleModules.translation_zero`:
+  [NeZero m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NeZero m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:849:8: declaration uses `sorry`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:864:13: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [δ, mul_add, coefficient_add, parityValue_add, zpow_add, Units.val_mul, smul_smul, mul_assoc,
+    mul_left_comm, mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:865:42: This simp argument is unused:
+  mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [δ, Pi.single_apply, mul_add, coefficient_add, parityValue_add, zpow_add, Units.val_mul, smul_smul,
+    mul_left_comm, mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:865:53: This simp argument is unused:
+  mul_left_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [δ, Pi.single_apply, mul_add, coefficient_add, parityValue_add, zpow_add, Units.val_mul, smul_smul,
+    mul_assoc, mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:884:8: declaration uses `sorry`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:889:8: declaration uses `sorry`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:895:8: declaration uses `sorry`
+warning: Note198Challenges/ExplicitSimpleModulesFinal.lean:903:8: declaration uses `sorry`
+Build completed successfully (2929 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.ExplicitSimpleModules.T_original_basisVector, Note198.ExplicitSimpleModules.V_original_basisVector, Note198.ExplicitSimpleModules.explicit_operator_relators, Note198.ExplicitSimpleModules.fourierProjector_normalization, Note198.ExplicitSimpleModules.explicitModule_finiteDimensional, Note198.ExplicitSimpleModules.explicitModule_dimension, Note198.ExplicitSimpleModules.explicitModule_simple, Note198.ExplicitSimpleModules.explicitModule_central_action, Note198.ExplicitSimpleModules.explicitModule_idempotent_action, Note198.ExplicitSimpleModules.explicitVector_finiteDimensional, Note198.ExplicitSimpleModules.explicitVector_dimension, Note198.ExplicitSimpleModules.explicitModule_extinction, Note198.ExplicitSimpleModules.proposition_7_2, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198Challenges.ExplicitSimpleModulesFinal
+Building Note198.ExplicitSimpleModules
+⚠ [1891/2130] Replayed Note198.PrimeFiniteQuotient
+warning: Note198/PrimeFiniteQuotient.lean:304:54: This simp argument is unused:
+  CharP.cast_eq_zero R p
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [transvectionUnit, transvection, nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:506:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:507:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:570:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:571:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:591:9: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Note198/PrimeFiniteQuotient.lean:591:11: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [1892/2130] Replayed Note198.FiniteSelectionSource
+warning: Note198/FiniteSelectionSource.lean:68:38: This simp argument is unused:
+  Finset.sum_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [coeff_single, coeff_sum, Finsupp.single_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/FiniteSelectionSource.lean:92:37: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sourceWeight, sourceWitness]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/FiniteSelectionSource.lean:114:22: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sourceWeight, hi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/FiniteSelectionSource.lean:123:22: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sourceWeight, hzero, Finset.sum_sub_distrib, nsmul_eq_mul, hp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [2054/2130] Replayed Note198.Selection
+warning: Note198/Selection.lean:153:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2064/2130] Replayed Note198.SimpleQuotient
+warning: Note198/SimpleQuotient.lean:16:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2065/2130] Replayed Note198.SimpleSelection
+warning: Note198/SimpleSelection.lean:24:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/SimpleSelection.lean:25:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/SimpleSelection.lean:29:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/SimpleSelection.lean:31:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/SimpleSelection.lean:32:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/SimpleSelection.lean:33:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2066/2130] Replayed Note198.FiniteSelectionRestriction
+warning: Note198/FiniteSelectionRestriction.lean:51:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/FiniteSelectionRestriction.lean:59:42: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Note198/FiniteSelectionRestriction.lean:63:53: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Note198/FiniteSelectionRestriction.lean:84:12: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [two_nsmul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/FiniteSelectionRestriction.lean:84:29: This simp argument is unused:
+  two_nsmul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Pi.single_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/FiniteSelectionRestriction.lean:85:12: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/FiniteSelectionRestriction.lean:119:18: Unused tactic linter: `omega` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Note198/FiniteSelectionRestriction.lean:119:18: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Note198/FiniteSelectionRestriction.lean:131:18: Unused tactic linter: `omega` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Note198/FiniteSelectionRestriction.lean:131:18: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Note198/FiniteSelectionRestriction.lean:196:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/FiniteSelectionRestriction.lean:197:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/FiniteSelectionRestriction.lean:212:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/FiniteSelectionRestriction.lean:213:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2929/2929] Replayed Note198.ExplicitSimpleModules
+warning: Note198/ExplicitSimpleModules.lean:58:32: This simp argument is unused:
+  mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:59:33: This simp argument is unused:
+  mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:66:0: automatically included section variable(s) unused in theorem `Note198.ExplicitSimpleModules.permute_basisVector`:
+  [NeZero m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NeZero m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ExplicitSimpleModules.lean:76:10: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hx, hy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:78:0: automatically included section variable(s) unused in theorem `Note198.ExplicitSimpleModules.phase_basisVector`:
+  [NeZero m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NeZero m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ExplicitSimpleModules.lean:83:30: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [phase, basisVector, hy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:116:21: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hij, (Ne.symm hij)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:116:38: This simp argument is unused:
+  hij
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Pi.single_apply, (Ne.symm hij)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:121:21: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hij, (Ne.symm hij)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:121:38: This simp argument is unused:
+  hij
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Pi.single_apply, (Ne.symm hij)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:191:6: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [scaleCoordinate, Function.update_of_ne (Ne.symm hij), hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:211:0: automatically included section variable(s) unused in theorem `Note198.ExplicitSimpleModules.root_pow_mod`:
+  [NeZero m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NeZero m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ExplicitSimpleModules.lean:251:8: This simp argument is unused:
+  mul_smul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [coefficient_smul, coefficient_reflected_basis]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:319:19: `if_false` has been deprecated: Use `ite_false` instead
+warning: Note198/ExplicitSimpleModules.lean:363:15: This simp argument is unused:
+  hc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hxy, basisVector]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:364:31: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hxy, h, basisVector]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:460:8: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hij, (Ne.symm hij)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:460:30: This simp argument is unused:
+  (Ne.symm hij)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Pi.single_apply, hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:473:8: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hhi, hhi.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:473:30: This simp argument is unused:
+  hhi.symm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Pi.single_apply, hhi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:489:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:490:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Note198/ExplicitSimpleModules.lean:504:12: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hik, hjk, hij, (Ne.symm hij), zpow_add, Units.val_mul, mul_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:504:39: This simp argument is unused:
+  hij
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Pi.single_apply, hik, hjk, (Ne.symm hij), zpow_add, Units.val_mul, mul_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:504:44: This simp argument is unused:
+  (Ne.symm hij)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Pi.single_apply, hik, hjk, hij, zpow_add, Units.val_mul, mul_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:519:10: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hij, (Ne.symm hij), mul_add, coefficient_add, parityValue_add, zpow_add, Units.val_mul, smul_smul,
+    mul_assoc, mul_left_comm, mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:519:27: This simp argument is unused:
+  hij
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Pi.single_apply, (Ne.symm hij), mul_add, coefficient_add, parityValue_add, zpow_add, Units.val_mul,
+    smul_smul, mul_assoc, mul_left_comm, mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:520:59: This simp argument is unused:
+  mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Pi.single_apply, hij, (Ne.symm hij), mul_add, coefficient_add, parityValue_add, zpow_add, Units.val_mul,
+    smul_smul, mul_left_comm, mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:536:27: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [scaleCoordinate, hik, hjk, hij, (Ne.symm hij)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:537:6: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Note198/ExplicitSimpleModules.lean:537:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Note198/ExplicitSimpleModules.lean:560:17: `if_true` has been deprecated: Use `ite_true` instead
+warning: Note198/ExplicitSimpleModules.lean:585:31: This simp argument is unused:
+  Function.update_of_ne hki
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [scaleCoordinate, Pi.single_apply, hki, Ne.symm hki]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:586:10: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [scaleCoordinate, Function.update_of_ne hki, hki, Ne.symm hki]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:586:32: This simp argument is unused:
+  Ne.symm hki
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [scaleCoordinate, Function.update_of_ne hki, Pi.single_apply, hki]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:591:31: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [scaleCoordinate, hli, Ne.symm hli]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:591:53: This simp argument is unused:
+  Ne.symm hli
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [scaleCoordinate, Pi.single_apply, hli]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:620:35: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Pi.single_apply, hik, hjk, hij, (Ne.symm hij), zpow_add, zpow_one, Units.val_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:620:58: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, hik, hjk, hij, (Ne.symm hij), zpow_add, zpow_one,
+    Units.val_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:620:75: This simp argument is unused:
+  hik
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, Pi.single_apply, hjk, hij, (Ne.symm hij), zpow_add,
+    zpow_one, Units.val_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:620:80: This simp argument is unused:
+  hjk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, Pi.single_apply, hik, hij, (Ne.symm hij), zpow_add,
+    zpow_one, Units.val_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:621:10: This simp argument is unused:
+  hij
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, Pi.single_apply, hik, hjk, (Ne.symm hij), zpow_add,
+    zpow_one, Units.val_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:621:40: This simp argument is unused:
+  zpow_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, Pi.single_apply, hik, hjk, hij, (Ne.symm hij), zpow_add,
+    Units.val_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:628:37: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Pi.single_apply, hik, hjk, hij, (Ne.symm hij), mul_assoc,
+    ← cyclicPower_mul_unit m r]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:628:60: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, hik, hjk, hij, (Ne.symm hij), mul_assoc,
+    ← cyclicPower_mul_unit m r]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:628:77: This simp argument is unused:
+  hik
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, Pi.single_apply, hjk, hij, (Ne.symm hij), mul_assoc,
+    ← cyclicPower_mul_unit m r]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:628:82: This simp argument is unused:
+  hjk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, Pi.single_apply, hik, hij, (Ne.symm hij), mul_assoc,
+    ← cyclicPower_mul_unit m r]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:629:12: This simp argument is unused:
+  hij
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, Pi.single_apply, hik, hjk, (Ne.symm hij), mul_assoc,
+    ← cyclicPower_mul_unit m r]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:634:37: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Pi.single_apply, hik, hkl, hli, (Ne.symm hli), hlj, (Ne.symm hlj)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:634:60: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, hik, hkl, hli, (Ne.symm hli), hlj, (Ne.symm hlj)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:634:77: This simp argument is unused:
+  hik
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, Pi.single_apply, hkl, hli, (Ne.symm hli), hlj,
+    (Ne.symm hlj)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:634:82: This simp argument is unused:
+  hkl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, Pi.single_apply, hik, hli, (Ne.symm hli), hlj,
+    (Ne.symm hlj)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:635:12: This simp argument is unused:
+  hli
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, Pi.single_apply, hik, hkl, (Ne.symm hli), hlj,
+    (Ne.symm hlj)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:635:32: This simp argument is unused:
+  hlj
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [scaleCoordinate, Function.update_apply, Pi.single_apply, hik, hkl, hli, (Ne.symm hli),
+    (Ne.symm hlj)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:630:12: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Note198/ExplicitSimpleModules.lean:636:12: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Note198/ExplicitSimpleModules.lean:630:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Note198/ExplicitSimpleModules.lean:636:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Note198/ExplicitSimpleModules.lean:622:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Note198/ExplicitSimpleModules.lean:729:8: automatically included section variable(s) unused in theorem `Note198.ExplicitSimpleModules.translation_zero`:
+  [NeZero m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NeZero m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ExplicitSimpleModules.lean:901:13: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [δ, mul_add, coefficient_add, parityValue_add, zpow_add, Units.val_mul, smul_smul, mul_assoc,
+    mul_left_comm, mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:902:42: This simp argument is unused:
+  mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [δ, Pi.single_apply, mul_add, coefficient_add, parityValue_add, zpow_add, Units.val_mul, smul_smul,
+    mul_left_comm, mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ExplicitSimpleModules.lean:902:53: This simp argument is unused:
+  mul_left_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [δ, Pi.single_apply, mul_add, coefficient_add, parityValue_add, zpow_add, Units.val_mul, smul_smul,
+    mul_assoc, mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (2929 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.ExplicitSimpleModules.T_original_basisVector, Note198.ExplicitSimpleModules.V_original_basisVector, Note198.ExplicitSimpleModules.explicit_operator_relators, Note198.ExplicitSimpleModules.fourierProjector_normalization, Note198.ExplicitSimpleModules.explicitModule_finiteDimensional, Note198.ExplicitSimpleModules.explicitModule_dimension, Note198.ExplicitSimpleModules.explicitModule_simple, Note198.ExplicitSimpleModules.explicitModule_central_action, Note198.ExplicitSimpleModules.explicitModule_idempotent_action, Note198.ExplicitSimpleModules.explicitVector_finiteDimensional, Note198.ExplicitSimpleModules.explicitVector_dimension, Note198.ExplicitSimpleModules.explicitModule_extinction, Note198.ExplicitSimpleModules.proposition_7_2, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198.ExplicitSimpleModules
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 41.965s
+             CPU time consumed: 44.161s
+                   Memory peak: 1.2G (swap: 0B)

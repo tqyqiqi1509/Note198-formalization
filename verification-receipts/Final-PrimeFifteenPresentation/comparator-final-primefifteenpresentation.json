@@ -1,0 +1,14 @@
+{
+  "enable_nanoda": false,
+  "challenge_module": "Note198Challenges.PrimeFifteenPresentation",
+  "definition_names": [],
+  "theorem_names": [
+    "Note198.PrimeGroup.FifteenPresentation.lemma_2_2_fifteen"
+  ],
+  "solution_module": "Note198.PrimeFifteenPresentation",
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

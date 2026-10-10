@@ -1,0 +1,126 @@
+{
+  "status": "source_version_manifest_only_not_kernel_acceptance",
+  "created_utc": "2026-10-10T03:03:05.953468+00:00",
+  "config": "comparator-final-core.json",
+  "config_sha256": "8c1a470d06a1461f79af8578c6d155ec0b0ec4f82df209c8d7afd3760fbb2baf",
+  "roots": [
+    "Note198Challenges.Core",
+    "Note198.Core"
+  ],
+  "target_names": [
+    "Note198.odd_double"
+  ],
+  "source_count": 6,
+  "source_counts_by_provider": {
+    "Note198": 1,
+    "Note198Challenges": 1,
+    "immutable_OAI": 4
+  },
+  "sources": {
+    "Note198.Core": {
+      "path": "Note198/Core.lean",
+      "sha256": "64693b2b59175d97537f8cf97102c2aac1f952f042e48085d8c440fc967575e8",
+      "byte_count": 4715,
+      "imports": [
+        "OAI.Algebra.Finitistic.Encoding.DirectedBound",
+        "OAI.Algebra.Finitistic.Localization.OddDouble",
+        "OAI.Algebra.Finitistic.Localization.DiagramLifting",
+        "OAI.Algebra.Finitistic.Basic",
+        "Mathlib.Tactic.NormNum",
+        "Lean.Elab.Tactic.Omega"
+      ]
+    },
+    "Note198Challenges.Core": {
+      "path": "Note198Challenges/Core.lean",
+      "sha256": "b1591abacfdc292197f5c75b3fa69a33e2d5ce578820a085d39d8a7dca0012e1",
+      "byte_count": 4063,
+      "imports": [
+        "OAI.Algebra.Finitistic.Encoding.DirectedBound",
+        "OAI.Algebra.Finitistic.Localization.OddDouble",
+        "OAI.Algebra.Finitistic.Localization.DiagramLifting",
+        "OAI.Algebra.Finitistic.Basic",
+        "Mathlib.Tactic.NormNum",
+        "Lean.Elab.Tactic.Omega"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Basic": {
+      "path": "upstream/OAI/Algebra/Finitistic/Basic.lean",
+      "sha256": "8f5383a8b87e4f2b88e2a9491b641e164d95e0b09a7acccc0402c0d361762e67",
+      "byte_count": 2209,
+      "imports": [
+        "Mathlib.Algebra.Category.ModuleCat.Abelian",
+        "Mathlib.CategoryTheory.Abelian.Projective.Dimension",
+        "Mathlib.RingTheory.Finiteness.Defs"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Encoding.DirectedBound": {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/DirectedBound.lean",
+      "sha256": "6c1866aaf4afb153539676de3ca0cbeb7834ff9a617966eaed3435f42211d189",
+      "byte_count": 11454,
+      "imports": [
+        "Mathlib.Algebra.Category.ModuleCat.ProjectiveDimension",
+        "Mathlib.LinearAlgebra.TensorProduct.Tower",
+        "Mathlib.LinearAlgebra.Basis.VectorSpace",
+        "Mathlib.Algebra.Algebra.Opposite",
+        "Mathlib.Data.Fin.Rev",
+        "Mathlib.LinearAlgebra.FiniteDimensional.Defs"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Localization.DiagramLifting": {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/DiagramLifting.lean",
+      "sha256": "5bf669cc510e155bc069285ba09980c2ebd71267dd6a1a0e4e71c878f84f6e0c",
+      "byte_count": 6936,
+      "imports": [
+        "Mathlib.CategoryTheory.Localization.CalculusOfFractions",
+        "Mathlib.CategoryTheory.Linear.LinearFunctor"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Localization.OddDouble": {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/OddDouble.lean",
+      "sha256": "073456403fc278be6b0b8dc62f513ccbe0bcefeab8eed2729ef26d83dae516d0",
+      "byte_count": 14952,
+      "imports": [
+        "Mathlib.CategoryTheory.Idempotents.Biproducts",
+        "Mathlib.CategoryTheory.Triangulated.Subcategory",
+        "Mathlib.Tactic.Abel"
+      ]
+    }
+  },
+  "external_imports": [
+    "Lean.Elab.Tactic.Omega",
+    "Mathlib.Algebra.Algebra.Opposite",
+    "Mathlib.Algebra.Category.ModuleCat.Abelian",
+    "Mathlib.Algebra.Category.ModuleCat.ProjectiveDimension",
+    "Mathlib.CategoryTheory.Abelian.Projective.Dimension",
+    "Mathlib.CategoryTheory.Idempotents.Biproducts",
+    "Mathlib.CategoryTheory.Linear.LinearFunctor",
+    "Mathlib.CategoryTheory.Localization.CalculusOfFractions",
+    "Mathlib.CategoryTheory.Triangulated.Subcategory",
+    "Mathlib.Data.Fin.Rev",
+    "Mathlib.LinearAlgebra.Basis.VectorSpace",
+    "Mathlib.LinearAlgebra.FiniteDimensional.Defs",
+    "Mathlib.LinearAlgebra.TensorProduct.Tower",
+    "Mathlib.RingTheory.Finiteness.Defs",
+    "Mathlib.Tactic.Abel",
+    "Mathlib.Tactic.NormNum"
+  ],
+  "dependency_manifest_references": {
+    "mathlib-pinned-manifest.json": {
+      "sha256": "8f67b2cf24143ac091cdb425e886c2164b2fc2d6fbccd6db9454b697f9541a67",
+      "byte_count": 2811
+    },
+    "dependency-provenance.json": {
+      "sha256": "865fe44eca60c02677a5964ec3569b0461f2144687723b34098945da951475b3",
+      "byte_count": 4677
+    },
+    "lean-toolchain": {
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+      "byte_count": 25
+    },
+    "verification/asymmetry_source_receipt.json": {
+      "sha256": "12e293322c776f72b17bf126caaad7421bf325da20e31fa0dab71143cefb4da6",
+      "byte_count": 14707
+    }
+  },
+  "binding_note": "The checker must confirm these bytes match its actual workspace and archive this manifest alongside the successful kernel log. This manifest alone proves no mathematical statement."
+}

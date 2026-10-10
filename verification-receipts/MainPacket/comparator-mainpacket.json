@@ -1,0 +1,17 @@
+{
+  "challenge_module": "Note198Challenges.MainPacket",
+  "solution_module": "Note198.MainPacket",
+  "theorem_names": [
+    "Note198.packet_general_main_and_asymmetry",
+    "Note198.packet_complex_bricks",
+    "Note198.packet_all_odd_shifts",
+    "Note198.packet_actual_module_formula"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

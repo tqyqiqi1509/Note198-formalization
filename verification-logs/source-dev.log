@@ -1,0 +1,5 @@
+Note198/FiniteSourceBridge.lean:42:4: warning: Unused tactic linter: `change
+  FiniteSelectionSource.selector k p m i * (((p : k)⁻¹ ^ (m - 1)) • FiniteSelectionSource.sourceVector k p m) =
+    _` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`

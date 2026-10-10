@@ -1,0 +1,59 @@
+{
+  "mathematical_status": "default_kernel_accepted",
+  "log_sha256": "3E0121DC41CA7AF88DEE09812E6DF51253980114AC7A0702474FE1E522343E3A",
+  "recorded_utc": "2026-10-10T08:52:02.5134292Z",
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "transitive_source_closure": {
+    "sha256": "0C7DBA23A45DA1376425CC4579BE2E6D0D1B905C3DFE733C79F37FFD8704A253",
+    "source_count": 637,
+    "snapshot": "source_closure.json",
+    "evidence_boundary": "Source version binding; official Mathlib is located by the pinned dependency manifest and actual kernel closure."
+  },
+  "direct_local_dependency_hashes": [
+    {
+      "sha256": "40E436DE74AC90B361566838D91B1E2340F46ED46BEA5D8ED2019116B79C2370",
+      "path": "Note198/SelectingMain.lean"
+    },
+    {
+      "sha256": "FD89616C8BA280A343845AF0B6684053115826B0126D399824C7198817FFD2B1",
+      "path": "Note198/SelectingBoundedThickKernelChain.lean"
+    }
+  ],
+  "lake_version": "5.0.0-src+5045d00",
+  "comparator_source_commit": "d03acab154d269c06e60e4de7e4cc85deebff94b",
+  "markers": {
+    "exited_successfully": true,
+    "default_kernel_accepts": true,
+    "solution_okay": true,
+    "killed": false
+  },
+  "evidence_boundary": "Hashes identify the accepted source snapshot; semantic equivalence to the manuscript is audited separately.",
+  "comparator_binary_sha256": "AFA65E57A1770F5961EFE7681626A9A1CD99705262421658ABD30B705F66E4A2",
+  "wrapper_path": "comparator-check-serial-noprecommit",
+  "targets": [
+    "Note198.remaining_field_kernel_chain"
+  ],
+  "snapshots": [
+    {
+      "path": "Note198/RemainingKernelChain.lean",
+      "sha256": "81C7966A02CFAD9D4ED24235E5DB1B5E7ACDD13BF2EE73D8831094DB47EEC21A",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-RemainingKernelChain\\Note198__RemainingKernelChain.lean"
+    },
+    {
+      "path": "Note198Challenges/RemainingKernelChain.lean",
+      "sha256": "06EE502329E7F829F7F92ADCA47024D72763891D4D73019F186672937080F4EC",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-RemainingKernelChain\\Note198Challenges__RemainingKernelChain.lean"
+    },
+    {
+      "path": "comparator-remainingkernelchain.json",
+      "sha256": "4E1340C3B063229A3AE54FE35E267F23F46B906CE6D35FEEB68B518F1183DFF0",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-RemainingKernelChain\\comparator-remainingkernelchain.json"
+    }
+  ],
+  "wrapper_sha256": "4E6B4F874D80862908724E7A6DDAE31EFFC799D2893B87BD24FAC1D922F53127",
+  "lean_version": "4.34.1"
+}

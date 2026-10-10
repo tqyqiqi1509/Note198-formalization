@@ -1,0 +1,50 @@
+{
+  "transitive_source_closure": {
+    "sha256": "F97BB2DB26AFE50208023AF98AF62DF552346B3DD6174A03687811C18C00EDEC",
+    "evidence_boundary": "Source version binding; official Mathlib is located by the pinned dependency manifest and actual kernel closure.",
+    "source_count": 3,
+    "snapshot": "source_closure.json"
+  },
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "wrapper_sha256": "4E6B4F874D80862908724E7A6DDAE31EFFC799D2893B87BD24FAC1D922F53127",
+  "lake_version": "5.0.0-src+5045d00",
+  "comparator_binary_sha256": "AFA65E57A1770F5961EFE7681626A9A1CD99705262421658ABD30B705F66E4A2",
+  "snapshots": [
+    {
+      "sha256": "D901B8ECA023BD7F67A33299F1732BCEB88DB946CF9972C00A873D7071DBFBFB",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-BigFinitisticDimension\\Note198__BigFinitisticDimension.lean",
+      "path": "Note198/BigFinitisticDimension.lean"
+    },
+    {
+      "sha256": "FCF67EC09118D5AADC9AB1F5C07DB9F284673FA88BADB6CEC8352A1D5B22DE32",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-BigFinitisticDimension\\Note198Challenges__BigFinitisticDimension.lean",
+      "path": "Note198Challenges/BigFinitisticDimension.lean"
+    },
+    {
+      "sha256": "9FA07ED51EAB9F3D715D70EAF93272CC19D63A654B2E2B81110973C8B21AFDF1",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-BigFinitisticDimension\\comparator-final-bigfinitisticdimension.json",
+      "path": "comparator-final-bigfinitisticdimension.json"
+    }
+  ],
+  "wrapper_path": "comparator-check-serial-noprecommit",
+  "evidence_boundary": "Hashes identify the accepted source snapshot; semantic equivalence to the manuscript is audited separately.",
+  "log_sha256": "7ACFFDEFF65D3B9D06E86CFACECC62F16AD8AD05E3783DB9164153FEA60F4015",
+  "direct_local_dependency_hashes": [],
+  "recorded_utc": "2026-10-10T08:17:40.2172583Z",
+  "targets": [
+    "Note198.little_le_big"
+  ],
+  "mathematical_status": "default_kernel_accepted",
+  "markers": {
+    "exited_successfully": true,
+    "killed": false,
+    "solution_okay": true,
+    "default_kernel_accepts": true
+  },
+  "lean_version": "4.34.1",
+  "comparator_source_commit": "d03acab154d269c06e60e4de7e4cc85deebff94b"
+}

@@ -1,0 +1,204 @@
+Running as unit: run-p177437-i178562.service; invocation ID: 60fb38bff3f045748d2ac7e85e432388
+Building Note198Challenges.FiniteSourceBridge
+⚠ [1892/1895] Replayed Note198.PrimeFiniteQuotient
+warning: Note198/PrimeFiniteQuotient.lean:304:54: This simp argument is unused:
+  CharP.cast_eq_zero R p
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [transvectionUnit, transvection, nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:506:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:507:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:570:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:571:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:591:9: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Note198/PrimeFiniteQuotient.lean:591:11: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [1893/1895] Replayed Note198.FiniteSelectionSource
+warning: Note198/FiniteSelectionSource.lean:68:38: This simp argument is unused:
+  Finset.sum_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [coeff_single, coeff_sum, Finsupp.single_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/FiniteSelectionSource.lean:92:37: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sourceWeight, sourceWitness]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/FiniteSelectionSource.lean:114:22: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sourceWeight, hi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/FiniteSelectionSource.lean:123:22: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sourceWeight, hzero, Finset.sum_sub_distrib, nsmul_eq_mul, hp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [1894/1895] Replayed Note198.SelectionProductNormalization
+warning: Note198/SelectionProductNormalization.lean:44:37: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: Note198/SelectionProductNormalization.lean:49:0: automatically included section variable(s) unused in theorem `Note198.SelectionProductNormalization.basisCoordinate_product`:
+  [NeZero m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NeZero m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/SelectionProductNormalization.lean:128:34: This simp argument is unused:
+  single_sub
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [coordinateWeight, ha, smul_single]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [1895/1895] Built Note198Challenges.FiniteSourceBridge (2.1s)
+warning: Note198Challenges/FiniteSourceBridge.lean:17:8: declaration uses `sorry`
+warning: Note198Challenges/FiniteSourceBridge.lean:21:8: declaration uses `sorry`
+warning: Note198Challenges/FiniteSourceBridge.lean:26:8: declaration uses `sorry`
+warning: Note198Challenges/FiniteSourceBridge.lean:86:8: declaration uses `sorry`
+Build completed successfully (1895 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.SelectionProductNormalization.normalizedProduct_eq_paperProduct, Note198.SelectionProductNormalization.paperProduct_eq_sourceVector, Note198.SelectionProductNormalization.sourceVector_eq_paperProduct, Note198.SelectionProductNormalization.sourceIdeal_eq_paperProduct_span, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198Challenges.FiniteSourceBridge
+Building Note198.FiniteSourceBridge
+⚠ [1892/1895] Replayed Note198.PrimeFiniteQuotient
+warning: Note198/PrimeFiniteQuotient.lean:304:54: This simp argument is unused:
+  CharP.cast_eq_zero R p
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [transvectionUnit, transvection, nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:506:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:507:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:570:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:571:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:591:9: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Note198/PrimeFiniteQuotient.lean:591:11: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [1893/1895] Replayed Note198.FiniteSelectionSource
+warning: Note198/FiniteSelectionSource.lean:68:38: This simp argument is unused:
+  Finset.sum_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [coeff_single, coeff_sum, Finsupp.single_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/FiniteSelectionSource.lean:92:37: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sourceWeight, sourceWitness]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/FiniteSelectionSource.lean:114:22: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sourceWeight, hi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/FiniteSelectionSource.lean:123:22: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sourceWeight, hzero, Finset.sum_sub_distrib, nsmul_eq_mul, hp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [1894/1895] Replayed Note198.SelectionProductNormalization
+warning: Note198/SelectionProductNormalization.lean:44:37: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: Note198/SelectionProductNormalization.lean:49:0: automatically included section variable(s) unused in theorem `Note198.SelectionProductNormalization.basisCoordinate_product`:
+  [NeZero m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NeZero m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/SelectionProductNormalization.lean:128:34: This simp argument is unused:
+  single_sub
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [coordinateWeight, ha, smul_single]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (1895 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.SelectionProductNormalization.normalizedProduct_eq_paperProduct, Note198.SelectionProductNormalization.paperProduct_eq_sourceVector, Note198.SelectionProductNormalization.sourceVector_eq_paperProduct, Note198.SelectionProductNormalization.sourceIdeal_eq_paperProduct_span, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198.FiniteSourceBridge
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 22.311s
+             CPU time consumed: 24.049s
+                   Memory peak: 710M (swap: 0B)

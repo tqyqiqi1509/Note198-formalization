@@ -1,0 +1,21 @@
+{
+  "utc": "2026-10-10T14:21:59.264758+00:00",
+  "lean": "Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+  "lake": "Lake version 5.0.0-src+5045d00 (Lean version 4.34.1)",
+  "toolchain": "leanprover/lean4:v4.34.1",
+  "tool_sha256": {
+    "comparator": {
+      "path": "/opt/codex-comparator/source/.lake/build/bin/comparator",
+      "sha256": "afa65e57a1770f5961efe7681626a9a1cd99705262421658abd30b705f66e4a2"
+    },
+    "COMPARATOR_LEAN4EXPORT": {
+      "path": "/opt/codex-comparator/source/.lake/packages/lean4export/.lake/build/bin/lean4export",
+      "sha256": "8c5d64ba68f4d3a68b3bcb7e1c5f188e35ae573b29470b8d4530a62324c9ddd1"
+    },
+    "COMPARATOR_LANDRUN": {
+      "path": "/opt/codex-comparator/bin/landrun",
+      "sha256": "c292ec6ffcc99784ad9b60f6e803464ef9ec7e238b37196bea1503871050944e"
+    }
+  },
+  "dependency_manifest_sha256": "c7574aa7168311d02e8a6dfc4b2faede3c8af22de35a200dd60382140fdc5eb7"
+}

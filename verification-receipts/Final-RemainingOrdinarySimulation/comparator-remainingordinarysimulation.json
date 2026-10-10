@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Note198Challenges.RemainingOrdinarySimulation",
+  "solution_module": "Note198.RemainingOrdinarySimulation",
+  "theorem_names": [
+    "Note198.RemainingOrdinarySimulation.ordinary_simulation"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

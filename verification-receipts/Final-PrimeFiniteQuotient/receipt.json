@@ -1,0 +1,56 @@
+{
+  "comparator_binary_sha256": "AFA65E57A1770F5961EFE7681626A9A1CD99705262421658ABD30B705F66E4A2",
+  "transitive_source_closure": {
+    "snapshot": "source_closure.json",
+    "sha256": "1060CB783B40D70FCA1FB16EA5DC527610A2B45CF60E93333541C5CC718B536F",
+    "evidence_boundary": "Source version binding; official Mathlib is located by the pinned dependency manifest and actual kernel closure.",
+    "source_count": 3
+  },
+  "recorded_utc": "2026-10-10T07:29:30.0619857Z",
+  "comparator_source_commit": "d03acab154d269c06e60e4de7e4cc85deebff94b",
+  "wrapper_path": "comparator-check-serial-noprecommit",
+  "log_sha256": "A63A4E5E72787993F3662E8F55F7655F14FD1D0949B11DC4F4B59AD87061C48B",
+  "mathematical_status": "default_kernel_accepted",
+  "markers": {
+    "killed": false,
+    "solution_okay": true,
+    "default_kernel_accepts": true,
+    "exited_successfully": true
+  },
+  "snapshots": [
+    {
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-PrimeFiniteQuotient\\Note198__PrimeFiniteQuotient.lean",
+      "path": "Note198/PrimeFiniteQuotient.lean",
+      "sha256": "7A983738D311BA09278E386274D6F4BAC2878407D4D4D455EBCFB41AD60B0767"
+    },
+    {
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-PrimeFiniteQuotient\\Note198Challenges__PrimeFiniteQuotient.lean",
+      "path": "Note198Challenges/PrimeFiniteQuotient.lean",
+      "sha256": "8A9761A49A41690DF595EA37AFCAC86701101782264980D5858248D77A203C69"
+    },
+    {
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-PrimeFiniteQuotient\\comparator-primefinitequotient.json",
+      "path": "comparator-primefinitequotient.json",
+      "sha256": "D6D7E7612057231A114E13BCA79B7A24240258A55AD0B52D9CE6CEB1D624E434"
+    }
+  ],
+  "wrapper_sha256": "4E6B4F874D80862908724E7A6DDAE31EFFC799D2893B87BD24FAC1D922F53127",
+  "direct_local_dependency_hashes": [
+    {
+      "sha256": "40CBAE82E26786FB28859321F2FA9316DE67AC330B1A1FD6DB972C894646D90D",
+      "path": "Note198/PrimeGroup.lean"
+    }
+  ],
+  "evidence_boundary": "Hashes identify the accepted source snapshot; semantic equivalence to the manuscript is audited separately.",
+  "targets": [
+    "Note198.PrimeGroup.quotientCentralEmbedding_range_eq_basis_closure",
+    "Note198.PrimeGroup.finite_central_quotient"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "lean_version": "4.34.1",
+  "lake_version": "5.0.0-src+5045d00"
+}

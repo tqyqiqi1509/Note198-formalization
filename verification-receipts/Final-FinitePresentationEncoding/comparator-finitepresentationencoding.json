@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Note198Challenges.FinitePresentationEncoding",
+  "solution_module": "Note198.FinitePresentationEncoding",
+  "theorem_names": [
+    "Note198.exists_encoding_of_finite_presentation"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

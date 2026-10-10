@@ -1,0 +1,50 @@
+name = "Note198"
+version = "0.1.0"
+
+[[require]]
+name = "mathlib"
+path = "vendor/mathlib"
+
+[[require]]
+name = "plausible"
+path = "vendor/plausible"
+
+[[require]]
+name = "LeanSearchClient"
+path = "vendor/LeanSearchClient"
+
+[[require]]
+name = "importGraph"
+path = "vendor/importGraph"
+
+[[require]]
+name = "proofwidgets"
+path = "vendor/proofwidgets"
+
+[[require]]
+name = "aesop"
+path = "vendor/aesop"
+
+[[require]]
+name = "Qq"
+path = "vendor/Qq"
+
+[[require]]
+name = "batteries"
+path = "vendor/batteries"
+
+[[require]]
+name = "Cli"
+path = "vendor/Cli"
+
+[[lean_lib]]
+name = "OAI"
+srcDir = "upstream"
+
+[[lean_lib]]
+name = "Note198"
+weakLeanArgs = ["-j1"]
+
+[[lean_lib]]
+name = "Note198Challenges"
+weakLeanArgs = ["-j1"]

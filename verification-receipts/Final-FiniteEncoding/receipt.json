@@ -1,0 +1,57 @@
+{
+  "lake_version": "5.0.0-src+5045d00",
+  "targets": [
+    "Note198.encoding_of_finite_presentation",
+    "Note198.encoding_algebra_finiteDimensional",
+    "Note198.encoding_algebra_globalDimension_le_two"
+  ],
+  "markers": {
+    "exited_successfully": true,
+    "solution_okay": true,
+    "default_kernel_accepts": true,
+    "killed": false
+  },
+  "comparator_binary_sha256": "AFA65E57A1770F5961EFE7681626A9A1CD99705262421658ABD30B705F66E4A2",
+  "snapshots": [
+    {
+      "sha256": "A35C13B1DF2805422D3EBADDE0C18E790721597C3C22E2216369DB94704BFBA4",
+      "path": "Note198/FiniteEncoding.lean",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-FiniteEncoding\\Note198__FiniteEncoding.lean"
+    },
+    {
+      "sha256": "6E7690FAC7C23517BBE7FBA185A34BFB955A08046EDF154F7DE69BE18DD98DD3",
+      "path": "Note198Challenges/FiniteEncoding.lean",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-FiniteEncoding\\Note198Challenges__FiniteEncoding.lean"
+    },
+    {
+      "sha256": "36D1FB537F6168E039D173ED80039FCD02A0DB6DCD7C7582D4A8F602426CF016",
+      "path": "comparator-finiteencoding.json",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-FiniteEncoding\\comparator-finiteencoding.json"
+    }
+  ],
+  "mathematical_status": "default_kernel_accepted",
+  "transitive_source_closure": {
+    "source_count": 21,
+    "sha256": "609ECA0630798E8198974185881E7B23AF3D64F6207B0F687AAFC1135BAB8501",
+    "evidence_boundary": "Source version binding; official Mathlib is located by the pinned dependency manifest and actual kernel closure.",
+    "snapshot": "source_closure.json"
+  },
+  "log_sha256": "9918C86AAFD97507FF6570E9B1DB361AC5FCC02CD25BC42FB36108085CCE4123",
+  "direct_local_dependency_hashes": [
+    {
+      "path": "Note198/FiniteAlgebraPresentation.lean",
+      "sha256": "416433A71F800963C4A91119F969D1983DD22BDF638B91FA583B0CA39D480654"
+    }
+  ],
+  "wrapper_path": "comparator-check-serial-noprecommit",
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "lean_version": "4.34.1",
+  "evidence_boundary": "Hashes identify the accepted source snapshot; semantic equivalence to the manuscript is audited separately.",
+  "recorded_utc": "2026-10-10T07:46:57.6547494Z",
+  "wrapper_sha256": "4E6B4F874D80862908724E7A6DDAE31EFFC799D2893B87BD24FAC1D922F53127",
+  "comparator_source_commit": "d03acab154d269c06e60e4de7e4cc85deebff94b"
+}

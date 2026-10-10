@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Note198Challenges.GenericPDDetection",
+  "solution_module": "Note198.GenericPDDetection",
+  "theorem_names": [
+    "Note198.GenericPDDetection.detection_of_finite_global_dimension"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

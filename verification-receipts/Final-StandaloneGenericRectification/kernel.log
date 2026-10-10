@@ -1,0 +1,18 @@
+Running as unit: run-p1113955-i1158230.service; invocation ID: de1644938e204833a1cd178fc3c177f9
+Building Note198Challenges.StandaloneGenericRectification
+⚠ [2136/2136] Built Note198Challenges.StandaloneGenericRectification (8.3s)
+warning: Note198Challenges/StandaloneGenericRectification.lean:15:8: declaration uses `sorry`
+Build completed successfully (2136 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.standalone_generic_rectification, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198Challenges.StandaloneGenericRectification
+Building Note198.StandaloneGenericRectification
+✔ [2136/2136] Built Note198.StandaloneGenericRectification (4.3s)
+Build completed successfully (2136 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.standalone_generic_rectification, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198.StandaloneGenericRectification
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 5min 55.596s
+             CPU time consumed: 5min 30.507s
+                   Memory peak: 2.5G (swap: 526.5M)

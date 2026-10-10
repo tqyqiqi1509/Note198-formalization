@@ -1,0 +1,26 @@
+{
+  "theorem_names": [
+    "Note198.ExplicitSimpleModules.T_original_basisVector",
+    "Note198.ExplicitSimpleModules.V_original_basisVector",
+    "Note198.ExplicitSimpleModules.explicit_operator_relators",
+    "Note198.ExplicitSimpleModules.fourierProjector_normalization",
+    "Note198.ExplicitSimpleModules.explicitModule_finiteDimensional",
+    "Note198.ExplicitSimpleModules.explicitModule_dimension",
+    "Note198.ExplicitSimpleModules.explicitModule_simple",
+    "Note198.ExplicitSimpleModules.explicitModule_central_action",
+    "Note198.ExplicitSimpleModules.explicitModule_idempotent_action",
+    "Note198.ExplicitSimpleModules.explicitVector_finiteDimensional",
+    "Note198.ExplicitSimpleModules.explicitVector_dimension",
+    "Note198.ExplicitSimpleModules.explicitModule_extinction",
+    "Note198.ExplicitSimpleModules.proposition_7_2"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "solution_module": "Note198.ExplicitSimpleModules",
+  "definition_names": [],
+  "challenge_module": "Note198Challenges.ExplicitSimpleModulesFinal",
+  "enable_nanoda": false
+}

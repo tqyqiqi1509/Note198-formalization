@@ -1,0 +1,93 @@
+⚠ [1892/1894] Replayed Note198.PrimeFiniteQuotient
+warning: Note198/PrimeFiniteQuotient.lean:304:54: This simp argument is unused:
+  CharP.cast_eq_zero R p
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [transvectionUnit, transvection, nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:506:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:507:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:570:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:571:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFiniteQuotient.lean:591:9: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Note198/PrimeFiniteQuotient.lean:591:11: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [1893/1894] Replayed Note198.FiniteSelectionSource
+warning: Note198/FiniteSelectionSource.lean:68:38: This simp argument is unused:
+  Finset.sum_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [coeff_single, coeff_sum, Finsupp.single_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/FiniteSelectionSource.lean:92:37: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sourceWeight, sourceWitness]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/FiniteSelectionSource.lean:114:22: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sourceWeight, hi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/FiniteSelectionSource.lean:123:22: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sourceWeight, hzero, Finset.sum_sub_distrib, nsmul_eq_mul, hp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [1894/1894] Replayed Note198.SelectionProductNormalization
+warning: Note198/SelectionProductNormalization.lean:44:37: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: Note198/SelectionProductNormalization.lean:49:0: automatically included section variable(s) unused in theorem `Note198.SelectionProductNormalization.basisCoordinate_product`:
+  [NeZero m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NeZero m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/SelectionProductNormalization.lean:128:34: This simp argument is unused:
+  single_sub
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [coordinateWeight, ha, smul_single]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (1894 jobs).

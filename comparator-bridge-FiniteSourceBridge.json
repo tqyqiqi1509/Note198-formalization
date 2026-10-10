@@ -1,0 +1,17 @@
+{
+  "challenge_module": "Note198Challenges.FiniteSourceBridge",
+  "solution_module": "Note198.FiniteSourceBridge",
+  "theorem_names": [
+    "Note198.SelectionProductNormalization.normalizedProduct_eq_paperProduct",
+    "Note198.SelectionProductNormalization.paperProduct_eq_sourceVector",
+    "Note198.SelectionProductNormalization.sourceVector_eq_paperProduct",
+    "Note198.SelectionProductNormalization.sourceIdeal_eq_paperProduct_span"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

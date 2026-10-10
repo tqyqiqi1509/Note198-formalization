@@ -1,0 +1,39 @@
+Running as unit: run-p176951-i178071.service; invocation ID: ff5159b5aa5e4eb9a3891b6fbe93eacb
+Building Note198Challenges.SelectionIterationBridge
+⚠ [1709/1710] Replayed Note198.Selection
+warning: Note198/Selection.lean:153:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [1710/1710] Built Note198Challenges.SelectionIterationBridge (6.2s)
+warning: Note198Challenges/SelectionIterationBridge.lean:17:8: declaration uses `sorry`
+warning: Note198Challenges/SelectionIterationBridge.lean:88:8: declaration uses `sorry`
+warning: Note198Challenges/SelectionIterationBridge.lean:154:8: declaration uses `sorry`
+warning: Note198Challenges/SelectionIterationBridge.lean:165:8: declaration uses `sorry`
+warning: Note198Challenges/SelectionIterationBridge.lean:175:8: declaration uses `sorry`
+Build completed successfully (1710 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.Selection.eAt_eq_pow, Note198.Selection.iterationProduct_eq_finset, Note198.Selection.productSelected_eq_image, Note198.Selection.iterateProductMap_bijective, Note198.Selection.selection_iteration_formula, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198Challenges.SelectionIterationBridge
+Building Note198.SelectionIterationBridge
+⚠ [1709/1710] Replayed Note198.Selection
+warning: Note198/Selection.lean:153:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (1710 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.Selection.eAt_eq_pow, Note198.Selection.iterationProduct_eq_finset, Note198.Selection.productSelected_eq_image, Note198.Selection.iterateProductMap_bijective, Note198.Selection.selection_iteration_formula, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198.SelectionIterationBridge
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 18.077s
+             CPU time consumed: 18.716s
+                   Memory peak: 1.6G (swap: 0B)

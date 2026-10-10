@@ -1,0 +1,50 @@
+{
+  "comparator_binary_sha256": "AFA65E57A1770F5961EFE7681626A9A1CD99705262421658ABD30B705F66E4A2",
+  "snapshots": [
+    {
+      "path": "Note198/RemainingDirectedBound.lean",
+      "sha256": "B69272EA68A0CC4E504E8B8D596F079B00A54C96F9AAAFB3EF456FEE6170C7E6",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-RemainingDirectedBound\\Note198__RemainingDirectedBound.lean"
+    },
+    {
+      "path": "Note198Challenges/RemainingDirectedBound.lean",
+      "sha256": "13090CEDCBC8F7B30C26AB37B8692A2E9D43EB18D4C6119C5E280DF4771E347D",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-RemainingDirectedBound\\Note198Challenges__RemainingDirectedBound.lean"
+    },
+    {
+      "path": "comparator-remainingdirectedbound.json",
+      "sha256": "0EC02D9FBD12BF41D745C1BFE6851AAB558BA414DD7B9CA4017EA3B9AD6CCD9F",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-RemainingDirectedBound\\comparator-remainingdirectedbound.json"
+    }
+  ],
+  "targets": [
+    "Note198.RemainingDirectedBound.complete_directed_bound"
+  ],
+  "direct_local_dependency_hashes": [],
+  "transitive_source_closure": {
+    "source_count": 3,
+    "evidence_boundary": "Source version binding; official Mathlib is located by the pinned dependency manifest and actual kernel closure.",
+    "sha256": "46B06F088293D952364E7BE57EF4CEC72AC61C623531CFDDF70ECB1023ACDC43",
+    "snapshot": "source_closure.json"
+  },
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "mathematical_status": "default_kernel_accepted",
+  "wrapper_path": "comparator-check-serial-noprecommit",
+  "recorded_utc": "2026-10-10T09:24:30.5303887Z",
+  "lake_version": "5.0.0-src+5045d00",
+  "comparator_source_commit": "d03acab154d269c06e60e4de7e4cc85deebff94b",
+  "lean_version": "4.34.1",
+  "log_sha256": "156C627705F39B3DA167765DBF2FAC1CABB1F7B9FDCD28A37306530CD5159057",
+  "wrapper_sha256": "4E6B4F874D80862908724E7A6DDAE31EFFC799D2893B87BD24FAC1D922F53127",
+  "evidence_boundary": "Hashes identify the accepted source snapshot; semantic equivalence to the manuscript is audited separately.",
+  "markers": {
+    "killed": false,
+    "default_kernel_accepts": true,
+    "solution_okay": true,
+    "exited_successfully": true
+  }
+}

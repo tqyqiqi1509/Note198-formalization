@@ -1,0 +1,94 @@
+Running as unit: run-p979594-i1023838.service; invocation ID: bf452998cca54095914479ee9d8f9377
+Building Note198Challenges.RemainingCentralShift
+⚠ [1558/1559] Replayed Note198.PrimePresentationBridge
+warning: Note198/PrimePresentationBridge.lean:54:35: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: Note198/PrimePresentationBridge.lean:54:35: This simp argument is unused:
+  dif_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [eraseGenerator, map_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimePresentationBridge.lean:54:48: This simp argument is unused:
+  map_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [eraseGenerator, dif_pos rfl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimePresentationBridge.lean:131:69: This simp argument is unused:
+  dite_eq_left rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [MonoidHom.comp_apply, reverse_of, eraseGenerator, map_one, MonoidHom.id_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimePresentationBridge.lean:132:10: This simp argument is unused:
+  map_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [MonoidHom.comp_apply, reverse_of, eraseGenerator, dite_eq_left rfl, MonoidHom.id_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimePresentationBridge.lean:148:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [1559/1559] Built Note198Challenges.RemainingCentralShift (2.7s)
+warning: Note198Challenges/RemainingCentralShift.lean:13:8: declaration uses `sorry`
+Build completed successfully (1559 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.RemainingCentralShift.complete_central_shift, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198Challenges.RemainingCentralShift
+Building Note198.RemainingCentralShift
+⚠ [1558/1559] Replayed Note198.PrimePresentationBridge
+warning: Note198/PrimePresentationBridge.lean:54:35: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: Note198/PrimePresentationBridge.lean:54:35: This simp argument is unused:
+  dif_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [eraseGenerator, map_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimePresentationBridge.lean:54:48: This simp argument is unused:
+  map_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [eraseGenerator, dif_pos rfl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimePresentationBridge.lean:131:69: This simp argument is unused:
+  dite_eq_left rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [MonoidHom.comp_apply, reverse_of, eraseGenerator, map_one, MonoidHom.id_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimePresentationBridge.lean:132:10: This simp argument is unused:
+  map_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [MonoidHom.comp_apply, reverse_of, eraseGenerator, dite_eq_left rfl, MonoidHom.id_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimePresentationBridge.lean:148:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [1559/1559] Built Note198.RemainingCentralShift (1.7s)
+Build completed successfully (1559 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.RemainingCentralShift.complete_central_shift, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198.RemainingCentralShift
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 15.713s
+             CPU time consumed: 15.063s
+                   Memory peak: 1.6G (swap: 64.9M)

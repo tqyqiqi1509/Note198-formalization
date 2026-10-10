@@ -1,0 +1,53 @@
+Running as unit: run-p2151958-i2196409.service; invocation ID: 0ed1321b9ea74d80aacd957303708fd1
+Building Note198Challenges.BigFinitisticDimension
+⚠ [1864/1864] Built Note198Challenges.BigFinitisticDimension (4.2s)
+warning: Note198Challenges/BigFinitisticDimension.lean:16:8: declaration uses `sorry`
+warning: Note198Challenges/BigFinitisticDimension.lean:21:8: declaration uses `sorry`
+warning: Note198Challenges/BigFinitisticDimension.lean:25:8: declaration uses `sorry`
+warning: Note198Challenges/BigFinitisticDimension.lean:32:8: declaration uses `sorry`
+Build completed successfully (1864 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.little_le_big, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198Challenges.BigFinitisticDimension
+Building Note198.BigFinitisticDimension
+⚠ [1864/1864] Built Note198.BigFinitisticDimension (1.8s)
+warning: Note198/BigFinitisticDimension.lean:38:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/BigFinitisticDimension.lean:40:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/BigFinitisticDimension.lean:44:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/BigFinitisticDimension.lean:50:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (1864 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.little_le_big, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198.BigFinitisticDimension
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 48.782s
+             CPU time consumed: 49.064s
+                   Memory peak: 2.1G (swap: 139.9M)

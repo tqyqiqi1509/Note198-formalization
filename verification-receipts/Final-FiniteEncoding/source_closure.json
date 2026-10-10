@@ -1,0 +1,290 @@
+{
+  "status": "source_version_manifest_only_not_kernel_acceptance",
+  "created_utc": "2026-10-10T06:33:07.670175+00:00",
+  "config": "comparator-finiteencoding.json",
+  "config_sha256": "36d1fb537f6168e039d173ed80039fcd02a0db6dcd7c7582d4a8f602426cf016",
+  "roots": [
+    "Note198Challenges.FiniteEncoding",
+    "Note198.FiniteEncoding"
+  ],
+  "target_names": [
+    "Note198.encoding_of_finite_presentation",
+    "Note198.encoding_algebra_finiteDimensional",
+    "Note198.encoding_algebra_globalDimension_le_two"
+  ],
+  "source_count": 21,
+  "source_counts_by_provider": {
+    "Note198": 6,
+    "Note198Challenges": 1,
+    "immutable_OAI": 14
+  },
+  "sources": {
+    "Note198.FiniteAlgebraPresentation": {
+      "path": "Note198/FiniteAlgebraPresentation.lean",
+      "sha256": "416433a71f800963c4a91119f969d1983dd22bdf638b91fa583b0ca39d480654",
+      "byte_count": 1850,
+      "imports": [
+        "Note198.PrimeFinitePresentation",
+        "Note198.GroupAlgebraSelection",
+        "OAI.Algebra.Finitistic.Encoding.PresentationReindex"
+      ]
+    },
+    "Note198.FiniteEncoding": {
+      "path": "Note198/FiniteEncoding.lean",
+      "sha256": "a35c13b1df2805422d3ebadde0c18e790721597c3c22e2216369db94704bfba4",
+      "byte_count": 1549,
+      "imports": [
+        "Note198.FiniteAlgebraPresentation",
+        "OAI.Algebra.Finitistic.Selection.SelectionEncoding"
+      ]
+    },
+    "Note198.GroupAlgebraSelection": {
+      "path": "Note198/GroupAlgebraSelection.lean",
+      "sha256": "3a6cc7bfab45b45ae45feb854f9e3fd52cc60552ace967a99b9658f350cfb66a",
+      "byte_count": 4790,
+      "imports": [
+        "Note198.PrimeGroup",
+        "Note198.Selection",
+        "Mathlib.Algebra.MonoidAlgebra.Basic",
+        "Mathlib.Algebra.MonoidAlgebra.MapDomain",
+        "Mathlib.Tactic.NoncommRing",
+        "Mathlib.Tactic.NormNum",
+        "Mathlib.Tactic.Abel"
+      ]
+    },
+    "Note198.PrimeFinitePresentation": {
+      "path": "Note198/PrimeFinitePresentation.lean",
+      "sha256": "46c062c74424183c05bb27f205a41b8dce135855a56c6279187c739806d80506",
+      "byte_count": 25159,
+      "imports": [
+        "Note198.PrimeGroup",
+        "Mathlib.GroupTheory.FinitelyPresentedGroup",
+        "Mathlib.Tactic.DeriveFintype"
+      ]
+    },
+    "Note198.PrimeGroup": {
+      "path": "Note198/PrimeGroup.lean",
+      "sha256": "40cbae82e26786fb28859321f2fa9316de67ac330b1a1fd6db972c894646d90d",
+      "byte_count": 18233,
+      "imports": [
+        "Mathlib.GroupTheory.Commutator.Basic",
+        "Mathlib.GroupTheory.PresentedGroup",
+        "Mathlib.Tactic.Group",
+        "Mathlib.Tactic.FinCases",
+        "Lean.Elab.Tactic.Omega"
+      ]
+    },
+    "Note198.Selection": {
+      "path": "Note198/Selection.lean",
+      "sha256": "e96d78b9b03141b73b7c7d26fe08bc9b8a4d9a68cb71e8836ce817d5dc1224b8",
+      "byte_count": 6060,
+      "imports": [
+        "Mathlib.Algebra.Category.ModuleCat.ChangeOfRings",
+        "Mathlib.LinearAlgebra.FiniteDimensional.Defs",
+        "Lean.Elab.Tactic.Omega"
+      ]
+    },
+    "Note198Challenges.FiniteEncoding": {
+      "path": "Note198Challenges/FiniteEncoding.lean",
+      "sha256": "6e7690fac7c23517bbe7fba185a34bfb955a08046edf154f7de69be18dd98dd3",
+      "byte_count": 1189,
+      "imports": [
+        "Note198.FiniteAlgebraPresentation",
+        "OAI.Algebra.Finitistic.Selection.SelectionEncoding"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Encoding.AuxiliaryQuadraticPresentation": {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/AuxiliaryQuadraticPresentation.lean",
+      "sha256": "f2be0c32a7a3270e1f125dd3723a8d5bbd193efc736ad6d00288a64d28ef2126",
+      "byte_count": 2838,
+      "imports": [
+        "OAI.Algebra.Finitistic.Encoding.QuadraticPresentation",
+        "OAI.Algebra.Finitistic.Selection.AuxiliaryGroupAlgebraPresentation"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Encoding.DirectedBound": {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/DirectedBound.lean",
+      "sha256": "6c1866aaf4afb153539676de3ca0cbeb7834ff9a617966eaed3435f42211d189",
+      "byte_count": 11454,
+      "imports": [
+        "Mathlib.Algebra.Category.ModuleCat.ProjectiveDimension",
+        "Mathlib.LinearAlgebra.TensorProduct.Tower",
+        "Mathlib.LinearAlgebra.Basis.VectorSpace",
+        "Mathlib.Algebra.Algebra.Opposite",
+        "Mathlib.Data.Fin.Rev",
+        "Mathlib.LinearAlgebra.FiniteDimensional.Defs"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Encoding.PresentationReindex": {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/PresentationReindex.lean",
+      "sha256": "e1b13fa0941555dd5a26237f2b5e83baf98ec9c3798fcce198353415b0507b41",
+      "byte_count": 6041,
+      "imports": [
+        "Mathlib.LinearAlgebra.FiniteDimensional.Basic",
+        "OAI.Algebra.Finitistic.Encoding.QuadraticCoefficients",
+        "OAI.Algebra.Finitistic.Localization.QuotientAction",
+        "OAI.Algebra.Finitistic.Encoding.AuxiliaryQuadraticPresentation"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Encoding.QuadraticCoefficients": {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/QuadraticCoefficients.lean",
+      "sha256": "0cb24c413023365f99282e30ebd6e262f3d9f54fe92633ff6d3c49a52830143e",
+      "byte_count": 4099,
+      "imports": [
+        "OAI.Algebra.Finitistic.Encoding.QuadraticPresentation",
+        "Mathlib.LinearAlgebra.Finsupp.LinearCombination"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Encoding.QuadraticEncoding": {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/QuadraticEncoding.lean",
+      "sha256": "955b2fe5e1ef088d4109ca0b12d317ea6dc891e6efd86e73917517b3b65c6a57",
+      "byte_count": 5002,
+      "imports": [
+        "OAI.Algebra.Finitistic.Encoding.ThreeVertexAlgebra",
+        "Mathlib.RingTheory.TensorProduct.Finite"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Encoding.QuadraticPresentation": {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/QuadraticPresentation.lean",
+      "sha256": "4db2c57fef19029f145d63b04805ef23ffda10722fec959fc9a75d5678461ac0",
+      "byte_count": 15334,
+      "imports": [
+        "OAI.Algebra.Finitistic.Selection.GroupAlgebraPresentation",
+        "Mathlib.Data.Set.Finite.List",
+        "Lean.Elab.Tactic.Omega"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Encoding.ThreeVertexAlgebra": {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/ThreeVertexAlgebra.lean",
+      "sha256": "3174332b536a66c868cbeba821f03b56a97be16c8c18f4d4dc13af71aa31846d",
+      "byte_count": 6067,
+      "imports": [
+        "OAI.Algebra.Finitistic.Encoding.DirectedBound",
+        "Mathlib.LinearAlgebra.FiniteDimensional.Basic",
+        "Mathlib.Tactic.FinCases"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Localization.QuotientAction": {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/QuotientAction.lean",
+      "sha256": "898673581a2fa224b89ad1e468ffff77fd054c8ee48b32c99a27167d9fb4acf1",
+      "byte_count": 4366,
+      "imports": [
+        "Mathlib.CategoryTheory.Linear.Basic",
+        "OAI.Algebra.Finitistic.Encoding.QuadraticEncoding",
+        "OAI.Algebra.Finitistic.Encoding.QuadraticPresentation"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Selection.AuxiliaryGroupAlgebraPresentation": {
+      "path": "upstream/OAI/Algebra/Finitistic/Selection/AuxiliaryGroupAlgebraPresentation.lean",
+      "sha256": "7c6f0c61b4f26c745ab40dd4154f90344917532fac33da72ba18bd23a5011965",
+      "byte_count": 2019,
+      "imports": [
+        "OAI.Algebra.Finitistic.Selection.GroupAlgebraPresentation",
+        "OAI.Algebra.Finitistic.Selection.FinitePresentation"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Selection.FinitePresentation": {
+      "path": "upstream/OAI/Algebra/Finitistic/Selection/FinitePresentation.lean",
+      "sha256": "c55acefdd1fb5785ecf2167a8ebf5228d5228e2e0947c67d90fd9d54d85c9427",
+      "byte_count": 24078,
+      "imports": [
+        "OAI.Algebra.Finitistic.Selection.GroupSelection",
+        "Mathlib.GroupTheory.FinitelyPresentedGroup",
+        "Mathlib.Tactic.DeriveFintype"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Selection.GroupAlgebraPresentation": {
+      "path": "upstream/OAI/Algebra/Finitistic/Selection/GroupAlgebraPresentation.lean",
+      "sha256": "cbabe7055ec6c2dbcbb0f4d7b3112c81f4474bb6cfab075d11cadf0a7c5c76fc",
+      "byte_count": 11334,
+      "imports": [
+        "Mathlib.Algebra.FreeAlgebra",
+        "Mathlib.RingTheory.Congruence.Hom",
+        "Mathlib.GroupTheory.FinitelyPresentedGroup",
+        "Mathlib.Basic.Complex.Basic"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Selection.GroupSelection": {
+      "path": "upstream/OAI/Algebra/Finitistic/Selection/GroupSelection.lean",
+      "sha256": "9413f3faff5a21735cae19df4adb8d69c36331147b640b117c6722a2828988d6",
+      "byte_count": 16087,
+      "imports": [
+        "Mathlib.GroupTheory.Commutator.Basic",
+        "Mathlib.GroupTheory.PresentedGroup",
+        "Mathlib.Tactic.Group",
+        "Mathlib.Tactic.FinCases",
+        "Lean.Elab.Tactic.Omega"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Selection.SelectionAlgebra": {
+      "path": "upstream/OAI/Algebra/Finitistic/Selection/SelectionAlgebra.lean",
+      "sha256": "fd510a9979e463eb733d75af2f66014e6d1a8c98cedd1a44503b1e8be5ca1ccc",
+      "byte_count": 2106,
+      "imports": [
+        "Mathlib.Algebra.MonoidAlgebra.Basic",
+        "Mathlib.Tactic.Abel",
+        "Mathlib.Algebra.MonoidAlgebra.MapDomain",
+        "Mathlib.Basic.Complex.Basic",
+        "Mathlib.Tactic.NormNum",
+        "OAI.Algebra.Finitistic.Selection.GroupSelection"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Selection.SelectionEncoding": {
+      "path": "upstream/OAI/Algebra/Finitistic/Selection/SelectionEncoding.lean",
+      "sha256": "5b8549469b415e78f73b42cbf0aac84011745c524a5819b9f86b837146336f02",
+      "byte_count": 2322,
+      "imports": [
+        "OAI.Algebra.Finitistic.Encoding.PresentationReindex",
+        "OAI.Algebra.Finitistic.Selection.SelectionAlgebra"
+      ]
+    }
+  },
+  "external_imports": [
+    "Lean.Elab.Tactic.Omega",
+    "Mathlib.Algebra.Algebra.Opposite",
+    "Mathlib.Algebra.Category.ModuleCat.ChangeOfRings",
+    "Mathlib.Algebra.Category.ModuleCat.ProjectiveDimension",
+    "Mathlib.Algebra.FreeAlgebra",
+    "Mathlib.Algebra.MonoidAlgebra.Basic",
+    "Mathlib.Algebra.MonoidAlgebra.MapDomain",
+    "Mathlib.Basic.Complex.Basic",
+    "Mathlib.CategoryTheory.Linear.Basic",
+    "Mathlib.Data.Fin.Rev",
+    "Mathlib.Data.Set.Finite.List",
+    "Mathlib.GroupTheory.Commutator.Basic",
+    "Mathlib.GroupTheory.FinitelyPresentedGroup",
+    "Mathlib.GroupTheory.PresentedGroup",
+    "Mathlib.LinearAlgebra.Basis.VectorSpace",
+    "Mathlib.LinearAlgebra.FiniteDimensional.Basic",
+    "Mathlib.LinearAlgebra.FiniteDimensional.Defs",
+    "Mathlib.LinearAlgebra.Finsupp.LinearCombination",
+    "Mathlib.LinearAlgebra.TensorProduct.Tower",
+    "Mathlib.RingTheory.Congruence.Hom",
+    "Mathlib.RingTheory.TensorProduct.Finite",
+    "Mathlib.Tactic.Abel",
+    "Mathlib.Tactic.DeriveFintype",
+    "Mathlib.Tactic.FinCases",
+    "Mathlib.Tactic.Group",
+    "Mathlib.Tactic.NoncommRing",
+    "Mathlib.Tactic.NormNum"
+  ],
+  "dependency_manifest_references": {
+    "mathlib-pinned-manifest.json": {
+      "sha256": "8f67b2cf24143ac091cdb425e886c2164b2fc2d6fbccd6db9454b697f9541a67",
+      "byte_count": 2811
+    },
+    "dependency-provenance.json": {
+      "sha256": "865fe44eca60c02677a5964ec3569b0461f2144687723b34098945da951475b3",
+      "byte_count": 4677
+    },
+    "lean-toolchain": {
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+      "byte_count": 25
+    },
+    "verification/asymmetry_source_receipt.json": {
+      "sha256": "12e293322c776f72b17bf126caaad7421bf325da20e31fa0dab71143cefb4da6",
+      "byte_count": 14707
+    }
+  },
+  "binding_note": "The checker must confirm these bytes match its actual workspace and archive this manifest alongside the successful kernel log. This manifest alone proves no mathematical statement."
+}

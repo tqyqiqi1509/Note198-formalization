@@ -1,0 +1,206 @@
+{
+  "status": "source_version_manifest_only_not_kernel_acceptance",
+  "created_utc": "2026-10-10T06:33:09.551035+00:00",
+  "config": "comparator-explicitsimplemodules-final.json",
+  "config_sha256": "0f3df86654aac8bd9b63f2c1e9255145d2962505177352ad44134c83288d9b62",
+  "roots": [
+    "Note198Challenges.ExplicitSimpleModulesFinal",
+    "Note198.ExplicitSimpleModules"
+  ],
+  "target_names": [
+    "Note198.ExplicitSimpleModules.T_original_basisVector",
+    "Note198.ExplicitSimpleModules.V_original_basisVector",
+    "Note198.ExplicitSimpleModules.explicit_operator_relators",
+    "Note198.ExplicitSimpleModules.fourierProjector_normalization",
+    "Note198.ExplicitSimpleModules.explicitModule_finiteDimensional",
+    "Note198.ExplicitSimpleModules.explicitModule_dimension",
+    "Note198.ExplicitSimpleModules.explicitModule_simple",
+    "Note198.ExplicitSimpleModules.explicitModule_central_action",
+    "Note198.ExplicitSimpleModules.explicitModule_idempotent_action",
+    "Note198.ExplicitSimpleModules.explicitVector_finiteDimensional",
+    "Note198.ExplicitSimpleModules.explicitVector_dimension",
+    "Note198.ExplicitSimpleModules.explicitModule_extinction",
+    "Note198.ExplicitSimpleModules.proposition_7_2"
+  ],
+  "source_count": 10,
+  "source_counts_by_provider": {
+    "Note198": 9,
+    "Note198Challenges": 1,
+    "immutable_OAI": 0
+  },
+  "sources": {
+    "Note198.ExplicitSimpleModules": {
+      "path": "Note198/ExplicitSimpleModules.lean",
+      "sha256": "01446b20234dc571539d71268a24d83a69343f29fea30bb09cf341ad7ad78f2b",
+      "byte_count": 42994,
+      "imports": [
+        "Note198.FiniteSelectionRestriction",
+        "Mathlib.Basic.Complex.Basic",
+        "Mathlib.LinearAlgebra.Dimension.Constructions",
+        "Mathlib.LinearAlgebra.Finsupp.Pi",
+        "Mathlib.Algebra.Module.Equiv.Basic",
+        "Mathlib.NumberTheory.LegendreSymbol.AddCharacter",
+        "Mathlib.RepresentationTheory.Basic",
+        "Mathlib.RingTheory.SimpleModule.Basic",
+        "Mathlib.Algebra.CharP.Pi"
+      ]
+    },
+    "Note198.FiniteSelectionRestriction": {
+      "path": "Note198/FiniteSelectionRestriction.lean",
+      "sha256": "4a29aa32b9bef2e5ea48cae189f972c0202c9dbd0c81c4417abbc47c0be4abab",
+      "byte_count": 10381,
+      "imports": [
+        "Note198.FiniteSelectionSource",
+        "Note198.GroupAlgebraSelection",
+        "Note198.SimpleSelection"
+      ]
+    },
+    "Note198.FiniteSelectionSource": {
+      "path": "Note198/FiniteSelectionSource.lean",
+      "sha256": "aec687f2434c7fe4b2c7fb4fb52ed780b23505e5f680caeb757e0754e0a91ff8",
+      "byte_count": 9213,
+      "imports": [
+        "Note198.PrimeFiniteQuotient",
+        "Mathlib.Algebra.MonoidAlgebra.Basic",
+        "Mathlib.LinearAlgebra.FiniteDimensional.Basic"
+      ]
+    },
+    "Note198.GroupAlgebraSelection": {
+      "path": "Note198/GroupAlgebraSelection.lean",
+      "sha256": "3a6cc7bfab45b45ae45feb854f9e3fd52cc60552ace967a99b9658f350cfb66a",
+      "byte_count": 4790,
+      "imports": [
+        "Note198.PrimeGroup",
+        "Note198.Selection",
+        "Mathlib.Algebra.MonoidAlgebra.Basic",
+        "Mathlib.Algebra.MonoidAlgebra.MapDomain",
+        "Mathlib.Tactic.NoncommRing",
+        "Mathlib.Tactic.NormNum",
+        "Mathlib.Tactic.Abel"
+      ]
+    },
+    "Note198.PrimeFiniteQuotient": {
+      "path": "Note198/PrimeFiniteQuotient.lean",
+      "sha256": "7a983738d311ba09278e386274d6f4bac2878407d4d4d455ebcfb41ad60b0767",
+      "byte_count": 26800,
+      "imports": [
+        "Mathlib.Algebra.Field.ZMod",
+        "Mathlib.RingTheory.SimpleRing.Basic",
+        "Mathlib.Algebra.CharP.Algebra",
+        "Note198.PrimeGroup",
+        "Mathlib.LinearAlgebra.Matrix.Diagonal",
+        "Mathlib.RingTheory.AdjoinRoot",
+        "Mathlib.Data.ZMod.Basic",
+        "Mathlib.GroupTheory.Commutator.Basic",
+        "Mathlib.Tactic.NoncommRing",
+        "Mathlib.Tactic.Abel"
+      ]
+    },
+    "Note198.PrimeGroup": {
+      "path": "Note198/PrimeGroup.lean",
+      "sha256": "40cbae82e26786fb28859321f2fa9316de67ac330b1a1fd6db972c894646d90d",
+      "byte_count": 18233,
+      "imports": [
+        "Mathlib.GroupTheory.Commutator.Basic",
+        "Mathlib.GroupTheory.PresentedGroup",
+        "Mathlib.Tactic.Group",
+        "Mathlib.Tactic.FinCases",
+        "Lean.Elab.Tactic.Omega"
+      ]
+    },
+    "Note198.Selection": {
+      "path": "Note198/Selection.lean",
+      "sha256": "e96d78b9b03141b73b7c7d26fe08bc9b8a4d9a68cb71e8836ce817d5dc1224b8",
+      "byte_count": 6060,
+      "imports": [
+        "Mathlib.Algebra.Category.ModuleCat.ChangeOfRings",
+        "Mathlib.LinearAlgebra.FiniteDimensional.Defs",
+        "Lean.Elab.Tactic.Omega"
+      ]
+    },
+    "Note198.SimpleQuotient": {
+      "path": "Note198/SimpleQuotient.lean",
+      "sha256": "8f71b928cd508b5c3d039c50381b7fcbe30b13e7a004e73799e49a12410b4630",
+      "byte_count": 1528,
+      "imports": [
+        "Mathlib.RingTheory.SimpleModule.Basic",
+        "Mathlib.RingTheory.Noetherian.Basic",
+        "Mathlib.LinearAlgebra.FiniteDimensional.Basic"
+      ]
+    },
+    "Note198.SimpleSelection": {
+      "path": "Note198/SimpleSelection.lean",
+      "sha256": "89b70682e6261d57fb6c6623654f6dc7478f69aa8566140e7f43b33f2df7fd51",
+      "byte_count": 2011,
+      "imports": [
+        "Note198.Selection",
+        "Note198.SimpleQuotient"
+      ]
+    },
+    "Note198Challenges.ExplicitSimpleModulesFinal": {
+      "path": "Note198Challenges/ExplicitSimpleModulesFinal.lean",
+      "sha256": "5345c5982ac87e2facfc3c5d9adbd14e953a298b20378bb1c25539d756afeb4f",
+      "byte_count": 38715,
+      "imports": [
+        "Note198.FiniteSelectionRestriction",
+        "Mathlib.Basic.Complex.Basic",
+        "Mathlib.LinearAlgebra.Dimension.Constructions",
+        "Mathlib.LinearAlgebra.Finsupp.Pi",
+        "Mathlib.Algebra.Module.Equiv.Basic",
+        "Mathlib.NumberTheory.LegendreSymbol.AddCharacter",
+        "Mathlib.RepresentationTheory.Basic",
+        "Mathlib.RingTheory.SimpleModule.Basic",
+        "Mathlib.Algebra.CharP.Pi"
+      ]
+    }
+  },
+  "external_imports": [
+    "Lean.Elab.Tactic.Omega",
+    "Mathlib.Algebra.Category.ModuleCat.ChangeOfRings",
+    "Mathlib.Algebra.CharP.Algebra",
+    "Mathlib.Algebra.CharP.Pi",
+    "Mathlib.Algebra.Field.ZMod",
+    "Mathlib.Algebra.Module.Equiv.Basic",
+    "Mathlib.Algebra.MonoidAlgebra.Basic",
+    "Mathlib.Algebra.MonoidAlgebra.MapDomain",
+    "Mathlib.Basic.Complex.Basic",
+    "Mathlib.Data.ZMod.Basic",
+    "Mathlib.GroupTheory.Commutator.Basic",
+    "Mathlib.GroupTheory.PresentedGroup",
+    "Mathlib.LinearAlgebra.Dimension.Constructions",
+    "Mathlib.LinearAlgebra.FiniteDimensional.Basic",
+    "Mathlib.LinearAlgebra.FiniteDimensional.Defs",
+    "Mathlib.LinearAlgebra.Finsupp.Pi",
+    "Mathlib.LinearAlgebra.Matrix.Diagonal",
+    "Mathlib.NumberTheory.LegendreSymbol.AddCharacter",
+    "Mathlib.RepresentationTheory.Basic",
+    "Mathlib.RingTheory.AdjoinRoot",
+    "Mathlib.RingTheory.Noetherian.Basic",
+    "Mathlib.RingTheory.SimpleModule.Basic",
+    "Mathlib.RingTheory.SimpleRing.Basic",
+    "Mathlib.Tactic.Abel",
+    "Mathlib.Tactic.FinCases",
+    "Mathlib.Tactic.Group",
+    "Mathlib.Tactic.NoncommRing",
+    "Mathlib.Tactic.NormNum"
+  ],
+  "dependency_manifest_references": {
+    "mathlib-pinned-manifest.json": {
+      "sha256": "8f67b2cf24143ac091cdb425e886c2164b2fc2d6fbccd6db9454b697f9541a67",
+      "byte_count": 2811
+    },
+    "dependency-provenance.json": {
+      "sha256": "865fe44eca60c02677a5964ec3569b0461f2144687723b34098945da951475b3",
+      "byte_count": 4677
+    },
+    "lean-toolchain": {
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+      "byte_count": 25
+    },
+    "verification/asymmetry_source_receipt.json": {
+      "sha256": "12e293322c776f72b17bf126caaad7421bf325da20e31fa0dab71143cefb4da6",
+      "byte_count": 14707
+    }
+  },
+  "binding_note": "The checker must confirm these bytes match its actual workspace and archive this manifest alongside the successful kernel log. This manifest alone proves no mathematical statement."
+}

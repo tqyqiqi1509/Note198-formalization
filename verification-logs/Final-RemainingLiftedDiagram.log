@@ -1,0 +1,106 @@
+Running as unit: run-p291312-i292473.service
+Building Note198Challenges.RemainingLiftedDiagram
+⚠ [1708/1734] Replayed Note198.EndomorphismSelection
+warning: Note198/EndomorphismSelection.lean:153:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+ℹ [2293/2332] Replayed Note198.SelectingRectificationData
+info: Note198/SelectingRectificationData.lean:31:0: type checking took 137ms
+congr simp thm took 3.06s
+simp took 1.43s
+elaboration took 11.3s
+info: Note198/SelectingRectificationData.lean:31:0: type checking took 188ms
+info: Note198/SelectingRectificationData.lean:31:0: type checking took 317ms
+info: Note198/SelectingRectificationData.lean:51:2: type checking took 113ms
+info: Note198/SelectingRectificationData.lean:54:0: tactic execution of Lean.Parser.Tactic.obtain took 611ms
+tactic execution of Lean.Parser.Tactic.exact took 174ms
+info: Note198/SelectingRectificationData.lean:54:4: type checking took 317ms
+info: Note198/SelectingRectificationData.lean:59:0: elaboration took 912ms
+info: Note198/SelectingRectificationData.lean:93:0: elaboration took 159ms
+info: stderr:
+.olean serialization took 161s
+cumulative profiling times:
+	.olean serialization 161s
+	attribute application 14.5ms
+	congr simp thm 3.14s
+	elaboration 12.8s
+	fix level params 10.6ms
+	instantiate metavars 4.72ms
+	interpretation 0.35ms
+	let-to-have transformation 0.648ms
+	linting 609ms
+	module linting 0.00132ms
+	overlappingInstancesLinter 50.2ms
+	parsing 13.8ms
+	process pre-definitions 89.6ms
+	share common exprs 18.5ms
+	simp 1.46s
+	tactic execution 861ms
+	tacticAnalysis 317ms
+	type checking 2.9s
+	typeclass inference 1.03s
+⚠ [2332/2332] Replayed Note198Challenges.RemainingLiftedDiagram
+warning: Note198Challenges/RemainingLiftedDiagram.lean:20:8: declaration uses `sorry`
+warning: Note198Challenges/RemainingLiftedDiagram.lean:102:8: declaration uses `sorry`
+Build completed successfully (2332 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.RemainingLiftedDiagram.fixed_chain_data, Note198.RemainingLiftedDiagram.tensor_diagram, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198Challenges.RemainingLiftedDiagram
+Building Note198.RemainingLiftedDiagram
+⚠ [1708/1838] Replayed Note198.EndomorphismSelection
+warning: Note198/EndomorphismSelection.lean:153:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+ℹ [2293/2332] Replayed Note198.SelectingRectificationData
+info: Note198/SelectingRectificationData.lean:31:0: type checking took 137ms
+congr simp thm took 3.06s
+simp took 1.43s
+elaboration took 11.3s
+info: Note198/SelectingRectificationData.lean:31:0: type checking took 188ms
+info: Note198/SelectingRectificationData.lean:31:0: type checking took 317ms
+info: Note198/SelectingRectificationData.lean:51:2: type checking took 113ms
+info: Note198/SelectingRectificationData.lean:54:0: tactic execution of Lean.Parser.Tactic.obtain took 611ms
+tactic execution of Lean.Parser.Tactic.exact took 174ms
+info: Note198/SelectingRectificationData.lean:54:4: type checking took 317ms
+info: Note198/SelectingRectificationData.lean:59:0: elaboration took 912ms
+info: Note198/SelectingRectificationData.lean:93:0: elaboration took 159ms
+info: stderr:
+.olean serialization took 161s
+cumulative profiling times:
+	.olean serialization 161s
+	attribute application 14.5ms
+	congr simp thm 3.14s
+	elaboration 12.8s
+	fix level params 10.6ms
+	instantiate metavars 4.72ms
+	interpretation 0.35ms
+	let-to-have transformation 0.648ms
+	linting 609ms
+	module linting 0.00132ms
+	overlappingInstancesLinter 50.2ms
+	parsing 13.8ms
+	process pre-definitions 89.6ms
+	share common exprs 18.5ms
+	simp 1.46s
+	tactic execution 861ms
+	tacticAnalysis 317ms
+	type checking 2.9s
+	typeclass inference 1.03s
+Build completed successfully (2332 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.RemainingLiftedDiagram.fixed_chain_data, Note198.RemainingLiftedDiagram.tensor_diagram, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198.RemainingLiftedDiagram
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 1min 46.721s
+             CPU time consumed: 1min 46.920s
+                   Memory peak: 2.5G (swap: 0B)

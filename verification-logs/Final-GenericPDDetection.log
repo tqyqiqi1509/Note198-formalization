@@ -1,0 +1,2024 @@
+Running as unit: run-p202695-i203829.service; invocation ID: 9e7989d898334b78b3724242faaff54c
+Building Note198Challenges.GenericPDDetection
+⚠ [2354/2388] Replayed Note198.ComplexProjectiveDimension
+warning: Note198/ComplexProjectiveDimension.lean:79:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveDimension.cover_lift_surjective`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveDimension.lean:110:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveDimension.kernelProjection_subtype`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveDimension.lean:145:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:190:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveDimension.differential_radical_of_injective_lift`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveDimension.lean:244:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveDimension.singleBoundary_f_left`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveDimension.lean:252:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveDimension.singleBoundary_f_right`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveDimension.lean:260:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveDimension.singleBoundary_f_other`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveDimension.lean:267:24: This simp argument is unused:
+  hi
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [singleHomotopy, hi', ht]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ComplexProjectiveDimension.lean:293:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveDimension.remove_nullhomotopic_idempotent`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveDimension.lean:328:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:329:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:316:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveDimension.term_properties_of_split`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveDimension.lean:416:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:442:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveDimension.dimension_minimal_representative`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveDimension.lean:462:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveDimension.term_finrank_le_of_split`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveDimension.lean:484:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:499:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:516:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:517:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:518:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:525:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:526:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:527:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:542:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:547:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:595:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveDimension.residueComplex_d_zero`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveDimension.lean:632:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:647:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:646:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:649:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:642:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveDimension.bounded_projective_isKProjective`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveDimension.lean:709:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveDimension.residueHomology_isZero_of_term_zero`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveDimension.lean:746:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:750:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:752:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:772:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:775:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:787:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2355/2388] Replayed Note198.ComplexExtensionTensor
+warning: Note198/ComplexExtensionTensor.lean:39:23: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+⚠ [2358/2388] Replayed Note198.ComplexProjectiveModels
+warning: Note198/ComplexProjectiveModels.lean:34:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveModels.lean:29:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveModels.stalkAugmentation_quasiIso`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveModels.lean:45:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveModels.stalk_term_projective`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveModels.lean:60:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveModels.lean:72:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveModels.lean:52:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveModels.stalk_term_finite`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveModels.lean:80:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveModels.lean:77:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveModels.stalk_term_bounded`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveModels.lean:147:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveModels.lean:148:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveModels.lean:149:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveModels.lean:150:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveModels.lean:155:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveModels.lean:141:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveModels.cone_terms_finite_projective`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveModels.lean:163:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveModels.cone_bounded`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveModels.lean:204:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2359/2388] Replayed Note198.ComplexStupidTruncation
+warning: Note198/ComplexStupidTruncation.lean:44:15: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: Note198/ComplexStupidTruncation.lean:44:15: This simp argument is unused:
+  dif_pos h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ComplexStupidTruncation.lean:64:17: This simp argument is unused:
+  Iso.trans_hom
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Category.assoc, Iso.inv_hom_id_assoc, Iso.inv_hom_id, Category.comp_id]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ComplexStupidTruncation.lean:64:67: This simp argument is unused:
+  Iso.inv_hom_id
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Iso.trans_hom, Category.assoc, Iso.inv_hom_id_assoc, Category.comp_id]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ComplexStupidTruncation.lean:64:82: This simp argument is unused:
+  Category.comp_id
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Iso.trans_hom, Category.assoc, Iso.inv_hom_id_assoc, Iso.inv_hom_id]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ComplexStupidTruncation.lean:117:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:119:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:124:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:126:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:145:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:151:8: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:153:8: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:159:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:163:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:188:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:203:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:207:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:214:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:215:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:218:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:229:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:284:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:289:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:294:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:317:0: automatically included section variable(s) unused in theorem `Note198.ComplexStupidTruncation.residueDegreeSet_finite`:
+  [FiniteDimensional k A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional k A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexStupidTruncation.lean:351:72: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [2360/2388] Replayed Note198.ComplexModuleDimension
+warning: Note198/ComplexModuleDimension.lean:27:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexModuleDimension.lean:31:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexModuleDimension.lean:36:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexModuleDimension.lean:38:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexModuleDimension.lean:40:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexModuleDimension.lean:60:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexModuleDimension.lean:64:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexModuleDimension.lean:69:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexModuleDimension.lean:80:68: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: Note198/ComplexModuleDimension.lean:111:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexModuleDimension.lean:165:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexModuleDimension.lean:166:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexModuleDimension.lean:158:0: automatically included section variable(s) unused in theorem `Note198.ComplexModuleDimension.residueTor_nonzero_of_projectiveDimension_eq`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [2365/2388] Replayed Note198.ComplexCohomologyModels
+warning: Note198/ComplexCohomologyModels.lean:64:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexCohomologyModels.lean:65:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexCohomologyModels.lean:67:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexCohomologyModels.lean:73:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexCohomologyModels.lean:77:8: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexCohomologyModels.lean:80:8: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexCohomologyModels.lean:94:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexCohomologyModels.lean:98:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexCohomologyModels.lean:90:10: Unused tactic linter: `push_cast at hnb` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Note198/ComplexCohomologyModels.lean:136:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2370/2388] Replayed Note198.ComplexResidueBaseChange
+warning: Note198/ComplexResidueBaseChange.lean:26:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexResidueBaseChange.lean:23:0: automatically included section variable(s) unused in theorem `Note198.ComplexResidueBaseChange.bar_projective`:
+  [FiniteDimensional k A]
+  [FiniteDimensional k D]
+  [HasDerivedCategory (ModuleCat D)]
+  [FiniteDimensional k N]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional k
+  A] [FiniteDimensional k D] [HasDerivedCategory (ModuleCat D)] [FiniteDimensional k N] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexResidueBaseChange.lean:30:0: automatically included section variable(s) unused in theorem `Note198.ComplexResidueBaseChange.bar_upper_zero`:
+  [FiniteDimensional k A]
+  [FiniteDimensional k D]
+  [HasDerivedCategory (ModuleCat D)]
+  [FiniteDimensional k N]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional k
+  A] [FiniteDimensional k D] [HasDerivedCategory (ModuleCat D)] [FiniteDimensional k N] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexResidueBaseChange.lean:72:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexResidueBaseChange.lean:136:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexResidueBaseChange.lean:200:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexResidueBaseChange.lean:207:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexResidueBaseChange.lean:212:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2371/2388] Replayed Note198.ComplexDimensionOperations
+warning: Note198/ComplexDimensionOperations.lean:20:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexDimensionOperations.lean:21:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexDimensionOperations.lean:22:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexDimensionOperations.lean:23:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexDimensionOperations.lean:15:0: automatically included section variable(s) unused in theorem `Note198.ComplexDimensionOperations.biprod_terms_finite_projective`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexDimensionOperations.lean:29:0: automatically included section variable(s) unused in theorem `Note198.ComplexDimensionOperations.biprod_bounded`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexDimensionOperations.lean:59:0: automatically included section variable(s) unused in theorem `Note198.ComplexDimensionOperations.residueDegreeSet_biprod`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexDimensionOperations.lean:80:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexDimensionOperations.lean:81:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexDimensionOperations.lean:122:12: This simp argument is unused:
+  Category.assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hzero, hsucc, biproduct.ι_π]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ComplexDimensionOperations.lean:122:28: This simp argument is unused:
+  hzero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Category.assoc, hsucc, biproduct.ι_π]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ComplexDimensionOperations.lean:122:35: This simp argument is unused:
+  hsucc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Category.assoc, hzero, biproduct.ι_π]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ComplexDimensionOperations.lean:122:42: This simp argument is unused:
+  biproduct.ι_π
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Category.assoc, hzero, hsucc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ComplexDimensionOperations.lean:128:60: This simp argument is unused:
+  biproduct.ι_π
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Category.assoc, hsucc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ComplexDimensionOperations.lean:141:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexDimensionOperations.lean:178:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexDimensionOperations.lean:180:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2372/2388] Replayed Note198.ComplexFiniteBarDimension
+warning: Note198/ComplexFiniteBarDimension.lean:30:0: automatically included section variable(s) unused in theorem `Note198.ComplexFiniteBarDimension.signed_base_finite_max`:
+  [FiniteDimensional k A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional k A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [2384/2388] Replayed Note198.GenericFiniteBar
+warning: Note198/GenericFiniteBar.lean:38:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/GenericFiniteBar.lean:57:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/GenericFiniteBar.lean:74:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2386/2388] Replayed Note198.GenericExactDimension
+warning: Note198/GenericExactDimension.lean:36:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2388/2388] Replayed Note198Challenges.GenericPDDetection
+warning: Note198Challenges/GenericPDDetection.lean:26:8: declaration uses `sorry`
+warning: Note198Challenges/GenericPDDetection.lean:36:8: declaration uses `sorry`
+warning: Note198Challenges/GenericPDDetection.lean:45:8: declaration uses `sorry`
+Build completed successfully (2388 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.GenericPDDetection.detection_of_finite_global_dimension, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198Challenges.GenericPDDetection
+Building Note198.GenericPDDetection
+⚠ [2354/2388] Replayed Note198.ComplexProjectiveDimension
+warning: Note198/ComplexProjectiveDimension.lean:79:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveDimension.cover_lift_surjective`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveDimension.lean:110:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveDimension.kernelProjection_subtype`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveDimension.lean:145:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:190:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveDimension.differential_radical_of_injective_lift`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveDimension.lean:244:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveDimension.singleBoundary_f_left`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveDimension.lean:252:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveDimension.singleBoundary_f_right`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveDimension.lean:260:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveDimension.singleBoundary_f_other`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveDimension.lean:267:24: This simp argument is unused:
+  hi
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [singleHomotopy, hi', ht]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ComplexProjectiveDimension.lean:293:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveDimension.remove_nullhomotopic_idempotent`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveDimension.lean:328:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:329:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:316:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveDimension.term_properties_of_split`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveDimension.lean:416:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:442:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveDimension.dimension_minimal_representative`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveDimension.lean:462:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveDimension.term_finrank_le_of_split`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveDimension.lean:484:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:499:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:516:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:517:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:518:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:525:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:526:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:527:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:542:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:547:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:595:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveDimension.residueComplex_d_zero`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveDimension.lean:632:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:647:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:646:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:649:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:642:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveDimension.bounded_projective_isKProjective`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveDimension.lean:709:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveDimension.residueHomology_isZero_of_term_zero`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveDimension.lean:746:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:750:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:752:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:772:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:775:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveDimension.lean:787:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2355/2388] Replayed Note198.ComplexExtensionTensor
+warning: Note198/ComplexExtensionTensor.lean:39:23: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+⚠ [2358/2388] Replayed Note198.ComplexProjectiveModels
+warning: Note198/ComplexProjectiveModels.lean:34:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveModels.lean:29:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveModels.stalkAugmentation_quasiIso`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveModels.lean:45:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveModels.stalk_term_projective`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveModels.lean:60:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveModels.lean:72:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveModels.lean:52:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveModels.stalk_term_finite`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveModels.lean:80:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveModels.lean:77:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveModels.stalk_term_bounded`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveModels.lean:147:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveModels.lean:148:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveModels.lean:149:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveModels.lean:150:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveModels.lean:155:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexProjectiveModels.lean:141:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveModels.cone_terms_finite_projective`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveModels.lean:163:0: automatically included section variable(s) unused in theorem `Note198.ComplexProjectiveModels.cone_bounded`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexProjectiveModels.lean:204:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2359/2388] Replayed Note198.ComplexStupidTruncation
+warning: Note198/ComplexStupidTruncation.lean:44:15: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: Note198/ComplexStupidTruncation.lean:44:15: This simp argument is unused:
+  dif_pos h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ComplexStupidTruncation.lean:64:17: This simp argument is unused:
+  Iso.trans_hom
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Category.assoc, Iso.inv_hom_id_assoc, Iso.inv_hom_id, Category.comp_id]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ComplexStupidTruncation.lean:64:67: This simp argument is unused:
+  Iso.inv_hom_id
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Iso.trans_hom, Category.assoc, Iso.inv_hom_id_assoc, Category.comp_id]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ComplexStupidTruncation.lean:64:82: This simp argument is unused:
+  Category.comp_id
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Iso.trans_hom, Category.assoc, Iso.inv_hom_id_assoc, Iso.inv_hom_id]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ComplexStupidTruncation.lean:117:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:119:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:124:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:126:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:145:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:151:8: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:153:8: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:159:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:163:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:188:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:203:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:207:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:214:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:215:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:218:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:229:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:284:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:289:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:294:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexStupidTruncation.lean:317:0: automatically included section variable(s) unused in theorem `Note198.ComplexStupidTruncation.residueDegreeSet_finite`:
+  [FiniteDimensional k A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional k A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexStupidTruncation.lean:351:72: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [2360/2388] Replayed Note198.ComplexModuleDimension
+warning: Note198/ComplexModuleDimension.lean:27:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexModuleDimension.lean:31:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexModuleDimension.lean:36:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexModuleDimension.lean:38:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexModuleDimension.lean:40:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexModuleDimension.lean:60:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexModuleDimension.lean:64:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexModuleDimension.lean:69:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexModuleDimension.lean:80:68: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: Note198/ComplexModuleDimension.lean:111:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexModuleDimension.lean:165:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexModuleDimension.lean:166:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexModuleDimension.lean:158:0: automatically included section variable(s) unused in theorem `Note198.ComplexModuleDimension.residueTor_nonzero_of_projectiveDimension_eq`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [2365/2388] Replayed Note198.ComplexCohomologyModels
+warning: Note198/ComplexCohomologyModels.lean:64:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexCohomologyModels.lean:65:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexCohomologyModels.lean:67:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexCohomologyModels.lean:73:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexCohomologyModels.lean:77:8: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexCohomologyModels.lean:80:8: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexCohomologyModels.lean:94:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexCohomologyModels.lean:98:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexCohomologyModels.lean:90:10: Unused tactic linter: `push_cast at hnb` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Note198/ComplexCohomologyModels.lean:136:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2370/2388] Replayed Note198.ComplexResidueBaseChange
+warning: Note198/ComplexResidueBaseChange.lean:26:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexResidueBaseChange.lean:23:0: automatically included section variable(s) unused in theorem `Note198.ComplexResidueBaseChange.bar_projective`:
+  [FiniteDimensional k A]
+  [FiniteDimensional k D]
+  [HasDerivedCategory (ModuleCat D)]
+  [FiniteDimensional k N]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional k
+  A] [FiniteDimensional k D] [HasDerivedCategory (ModuleCat D)] [FiniteDimensional k N] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexResidueBaseChange.lean:30:0: automatically included section variable(s) unused in theorem `Note198.ComplexResidueBaseChange.bar_upper_zero`:
+  [FiniteDimensional k A]
+  [FiniteDimensional k D]
+  [HasDerivedCategory (ModuleCat D)]
+  [FiniteDimensional k N]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional k
+  A] [FiniteDimensional k D] [HasDerivedCategory (ModuleCat D)] [FiniteDimensional k N] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexResidueBaseChange.lean:72:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexResidueBaseChange.lean:136:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexResidueBaseChange.lean:200:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexResidueBaseChange.lean:207:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexResidueBaseChange.lean:212:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2371/2388] Replayed Note198.ComplexDimensionOperations
+warning: Note198/ComplexDimensionOperations.lean:20:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexDimensionOperations.lean:21:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexDimensionOperations.lean:22:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexDimensionOperations.lean:23:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexDimensionOperations.lean:15:0: automatically included section variable(s) unused in theorem `Note198.ComplexDimensionOperations.biprod_terms_finite_projective`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexDimensionOperations.lean:29:0: automatically included section variable(s) unused in theorem `Note198.ComplexDimensionOperations.biprod_bounded`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexDimensionOperations.lean:59:0: automatically included section variable(s) unused in theorem `Note198.ComplexDimensionOperations.residueDegreeSet_biprod`:
+  [HasDerivedCategory (ModuleCat A)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasDerivedCategory (ModuleCat A)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Note198/ComplexDimensionOperations.lean:80:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexDimensionOperations.lean:81:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexDimensionOperations.lean:122:12: This simp argument is unused:
+  Category.assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hzero, hsucc, biproduct.ι_π]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ComplexDimensionOperations.lean:122:28: This simp argument is unused:
+  hzero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Category.assoc, hsucc, biproduct.ι_π]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ComplexDimensionOperations.lean:122:35: This simp argument is unused:
+  hsucc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Category.assoc, hzero, biproduct.ι_π]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ComplexDimensionOperations.lean:122:42: This simp argument is unused:
+  biproduct.ι_π
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Category.assoc, hzero, hsucc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ComplexDimensionOperations.lean:128:60: This simp argument is unused:
+  biproduct.ι_π
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Category.assoc, hsucc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/ComplexDimensionOperations.lean:141:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexDimensionOperations.lean:178:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/ComplexDimensionOperations.lean:180:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2372/2388] Replayed Note198.ComplexFiniteBarDimension
+warning: Note198/ComplexFiniteBarDimension.lean:30:0: automatically included section variable(s) unused in theorem `Note198.ComplexFiniteBarDimension.signed_base_finite_max`:
+  [FiniteDimensional k A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional k A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [2384/2388] Replayed Note198.GenericFiniteBar
+warning: Note198/GenericFiniteBar.lean:38:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/GenericFiniteBar.lean:57:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/GenericFiniteBar.lean:74:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2386/2388] Replayed Note198.GenericExactDimension
+warning: Note198/GenericExactDimension.lean:36:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2388/2388] Replayed Note198.GenericPDDetection
+warning: Note198/GenericPDDetection.lean:29:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198/GenericPDDetection.lean:57:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (2388 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.GenericPDDetection.detection_of_finite_global_dimension, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198.GenericPDDetection
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 2min 43.098s
+             CPU time consumed: 2min 45.286s
+                   Memory peak: 1.4G (swap: 0B)

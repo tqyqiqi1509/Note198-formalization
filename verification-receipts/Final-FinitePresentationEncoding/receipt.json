@@ -1,0 +1,50 @@
+{
+  "wrapper_path": "comparator-check-serial-noprecommit",
+  "direct_local_dependency_hashes": [],
+  "lean_version": "4.34.1",
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "comparator_binary_sha256": "AFA65E57A1770F5961EFE7681626A9A1CD99705262421658ABD30B705F66E4A2",
+  "mathematical_status": "default_kernel_accepted",
+  "snapshots": [
+    {
+      "sha256": "1ECAC563518C6B33A16DCF77327F21573A61B885BF5B94A072179E59350FBCBF",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-FinitePresentationEncoding\\Note198__FinitePresentationEncoding.lean",
+      "path": "Note198/FinitePresentationEncoding.lean"
+    },
+    {
+      "sha256": "46696D5FFC24F9AFC5D27CD37B6B24DCBA4CBE4B7FFBA692F0BEF4EE88CE7D40",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-FinitePresentationEncoding\\Note198Challenges__FinitePresentationEncoding.lean",
+      "path": "Note198Challenges/FinitePresentationEncoding.lean"
+    },
+    {
+      "sha256": "C3AA061AF5D0CFDB1F866317C82417346D63E48731839C7F834C367599737660",
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-FinitePresentationEncoding\\comparator-finitepresentationencoding.json",
+      "path": "comparator-finitepresentationencoding.json"
+    }
+  ],
+  "recorded_utc": "2026-10-10T03:57:20.6123226Z",
+  "targets": [
+    "Note198.exists_encoding_of_finite_presentation"
+  ],
+  "comparator_source_commit": "d03acab154d269c06e60e4de7e4cc85deebff94b",
+  "transitive_source_closure": {
+    "sha256": "CFD61BE7D28761CDE7BB836BDEB9D3E2FF1D15E8B244F59D65621C5CDD608CF5",
+    "snapshot": "source_closure.json",
+    "evidence_boundary": "Source version binding; official Mathlib is located by the pinned dependency manifest and actual kernel closure.",
+    "source_count": 16
+  },
+  "wrapper_sha256": "4E6B4F874D80862908724E7A6DDAE31EFFC799D2893B87BD24FAC1D922F53127",
+  "markers": {
+    "default_kernel_accepts": true,
+    "killed": false,
+    "solution_okay": true,
+    "exited_successfully": true
+  },
+  "log_sha256": "2E49C1B2BEBDC5108716993815A70B4C0BA02BF7F01022CD1784094DDF24EC61",
+  "lake_version": "5.0.0-src+5045d00",
+  "evidence_boundary": "Hashes identify the accepted source snapshot; semantic equivalence to the manuscript is audited separately."
+}

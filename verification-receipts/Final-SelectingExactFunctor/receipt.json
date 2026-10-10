@@ -1,0 +1,60 @@
+{
+  "targets": [
+    "Note198.SelectingExactFunctor.phi_isTriangulated",
+    "Note198.SelectingExactFunctor.restricted_phi_isTriangulated"
+  ],
+  "recorded_utc": "2026-10-10T08:08:33.0613065Z",
+  "lean_version": "4.34.1",
+  "transitive_source_closure": {
+    "evidence_boundary": "Source version binding; official Mathlib is located by the pinned dependency manifest and actual kernel closure.",
+    "sha256": "B681D234FC44DED727065D557F4BCB7ED60D3FC31724C2D8D1D7544915866751",
+    "source_count": 579,
+    "snapshot": "source_closure.json"
+  },
+  "direct_local_dependency_hashes": [
+    {
+      "sha256": "A7FD80DB0F44DEA365166086A4CFD77B00D79FF0A2CCE8C316E90A62780083D8",
+      "path": "Note198/BimoduleDerivedExact.lean"
+    },
+    {
+      "sha256": "FD89616C8BA280A343845AF0B6684053115826B0126D399824C7198817FFD2B1",
+      "path": "Note198/SelectingBoundedThickKernelChain.lean"
+    }
+  ],
+  "snapshots": [
+    {
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-SelectingExactFunctor\\Note198__SelectingExactFunctor.lean",
+      "sha256": "A4ACFFEF9DF82D627702EAAEA61F33E101AA09764CF692069CD10C471C01A440",
+      "path": "Note198/SelectingExactFunctor.lean"
+    },
+    {
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-SelectingExactFunctor\\Note198Challenges__SelectingExactFunctor.lean",
+      "sha256": "1EB6C60AEC53FF4666BFC4FF756EAE9B6EB8A6E83A8E5253FA97B0C41E151D14",
+      "path": "Note198Challenges/SelectingExactFunctor.lean"
+    },
+    {
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-SelectingExactFunctor\\comparator-selectingexactfunctor.json",
+      "sha256": "E0B31B92ED9BE45E88989D7CD1A43CBBEDB9349C66EF4E124E386ECFD132B76B",
+      "path": "comparator-selectingexactfunctor.json"
+    }
+  ],
+  "comparator_source_commit": "d03acab154d269c06e60e4de7e4cc85deebff94b",
+  "wrapper_path": "comparator-check-serial-noprecommit",
+  "evidence_boundary": "Hashes identify the accepted source snapshot; semantic equivalence to the manuscript is audited separately.",
+  "mathematical_status": "default_kernel_accepted",
+  "wrapper_sha256": "4E6B4F874D80862908724E7A6DDAE31EFFC799D2893B87BD24FAC1D922F53127",
+  "log_sha256": "EDEC0EB9F2F189A2C84DAB44E3072DD92ABDB55308166A9B75A9753A838A2A0E",
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "markers": {
+    "default_kernel_accepts": true,
+    "solution_okay": true,
+    "exited_successfully": true,
+    "killed": false
+  },
+  "comparator_binary_sha256": "AFA65E57A1770F5961EFE7681626A9A1CD99705262421658ABD30B705F66E4A2",
+  "lake_version": "5.0.0-src+5045d00"
+}

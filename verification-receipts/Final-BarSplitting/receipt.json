@@ -1,0 +1,50 @@
+{
+  "comparator_source_commit": "d03acab154d269c06e60e4de7e4cc85deebff94b",
+  "wrapper_sha256": "4E6B4F874D80862908724E7A6DDAE31EFFC799D2893B87BD24FAC1D922F53127",
+  "direct_local_dependency_hashes": [],
+  "snapshots": [
+    {
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-BarSplitting\\Note198__BarSplitting.lean",
+      "path": "Note198/BarSplitting.lean",
+      "sha256": "A43E6C2082A3151416A7CAA9F17074F8E246296BBBD1648D1DB8BCE67CEBF954"
+    },
+    {
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-BarSplitting\\Note198Challenges__BarSplitting.lean",
+      "path": "Note198Challenges/BarSplitting.lean",
+      "sha256": "E874658658AE5B8AC9BCED301B91BF5225335758CF235F08A33DC5CE04028CD0"
+    },
+    {
+      "snapshot": "E:\\Formalization\\Note198\\note198-formalization\\verification-receipts\\Final-BarSplitting\\comparator-barsplitting.json",
+      "path": "comparator-barsplitting.json",
+      "sha256": "785F4D7C3AF365D2CDAD6764F52F7569CBE48031E3B5AF00E3336F64CA6778C8"
+    }
+  ],
+  "comparator_binary_sha256": "AFA65E57A1770F5961EFE7681626A9A1CD99705262421658ABD30B705F66E4A2",
+  "lake_version": "5.0.0-src+5045d00",
+  "targets": [
+    "Note198.square_zero_derived_bar_splitting"
+  ],
+  "wrapper_path": "comparator-check-serial-noprecommit",
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "mathematical_status": "default_kernel_accepted",
+  "markers": {
+    "exited_successfully": true,
+    "solution_okay": true,
+    "killed": false,
+    "default_kernel_accepts": true
+  },
+  "recorded_utc": "2026-10-10T07:58:26.6677243Z",
+  "lean_version": "4.34.1",
+  "evidence_boundary": "Hashes identify the accepted source snapshot; semantic equivalence to the manuscript is audited separately.",
+  "log_sha256": "EF1DC67B3291804AB413169FF69A64C948325AF9DC417A1F36311602717C1939",
+  "transitive_source_closure": {
+    "snapshot": "source_closure.json",
+    "evidence_boundary": "Source version binding; official Mathlib is located by the pinned dependency manifest and actual kernel closure.",
+    "source_count": 89,
+    "sha256": "0D81156536CA5FF050434AD19C3FAA1079A7D9CD255183DD92D4118CCE0B4A4E"
+  }
+}

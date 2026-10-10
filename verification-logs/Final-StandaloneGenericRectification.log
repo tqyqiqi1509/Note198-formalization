@@ -1,0 +1,17 @@
+Running as unit: run-p335974-i337159.service; invocation ID: 7d427c6c19b9493592f3c3eeff209949
+Building Note198Challenges.StandaloneGenericRectification
+⚠ [2136/2136] Replayed Note198Challenges.StandaloneGenericRectification
+warning: Note198Challenges/StandaloneGenericRectification.lean:15:8: declaration uses `sorry`
+Build completed successfully (2136 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.standalone_generic_rectification, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198Challenges.StandaloneGenericRectification
+Building Note198.StandaloneGenericRectification
+Build completed successfully (2136 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.standalone_generic_rectification, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198.StandaloneGenericRectification
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 4min 59.900s
+             CPU time consumed: 5min 1.056s
+                   Memory peak: 1.4G (swap: 0B)

@@ -1,0 +1,727 @@
+{
+  "status": "source_version_manifest_only_not_kernel_acceptance",
+  "created_utc": "2026-10-10T04:09:26.834066+00:00",
+  "config": "comparator-standalonegenericrectification.json",
+  "config_sha256": "1e3e17a62372a7324e278774594303a3e61d7ebbd9f11d833582f804680dc2f5",
+  "roots": [
+    "Note198Challenges.StandaloneGenericRectification",
+    "Note198.StandaloneGenericRectification"
+  ],
+  "target_names": [
+    "Note198.standalone_generic_rectification"
+  ],
+  "source_count": 72,
+  "source_counts_by_provider": {
+    "Note198": 1,
+    "Note198Challenges": 1,
+    "immutable_OAI": 70
+  },
+  "sources": {
+    "Note198.StandaloneGenericRectification": {
+      "path": "Note198/StandaloneGenericRectification.lean",
+      "sha256": "1748ba3940f93a4e8740ac06e3fb7578c677257b4b48c9b621aa1e8cbc9d6ac7",
+      "byte_count": 2328,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.RectificationLemma"
+      ]
+    },
+    "Note198Challenges.StandaloneGenericRectification": {
+      "path": "Note198Challenges/StandaloneGenericRectification.lean",
+      "sha256": "c21044b7d6424497933a3b629b22d5d71f6f16a0f93d392d8ff5da6001d81423",
+      "byte_count": 1791,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.RectificationLemma"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Bimodule.BimoduleVertex": {
+      "path": "upstream/OAI/Algebra/Finitistic/Bimodule/BimoduleVertex.lean",
+      "sha256": "706c82b99434839d3b50b6a0b3ab1d21d05e3a54d6ab2a8907807e3c115fa0ca",
+      "byte_count": 3957,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.VertexFunctor",
+        "OAI.Algebra.Finitistic.Rectification.CornerTensor",
+        "OAI.Algebra.Finitistic.Rectification.ColumnComplex"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Encoding.ArrowBasisIso": {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/ArrowBasisIso.lean",
+      "sha256": "80dc704bde223071f22bbca90411eeac600d41f032d48202252193f3e5e6cf3c",
+      "byte_count": 1625,
+      "imports": [
+        "Mathlib.Algebra.Category.ModuleCat.Biproducts",
+        "OAI.Algebra.Finitistic.Rectification.TensorComplex",
+        "OAI.Algebra.Finitistic.Encoding.RelationBasisCoefficients"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Encoding.DirectedBound": {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/DirectedBound.lean",
+      "sha256": "6c1866aaf4afb153539676de3ca0cbeb7834ff9a617966eaed3435f42211d189",
+      "byte_count": 11454,
+      "imports": [
+        "Mathlib.Algebra.Category.ModuleCat.ProjectiveDimension",
+        "Mathlib.LinearAlgebra.TensorProduct.Tower",
+        "Mathlib.LinearAlgebra.Basis.VectorSpace",
+        "Mathlib.Algebra.Algebra.Opposite",
+        "Mathlib.Data.Fin.Rev",
+        "Mathlib.LinearAlgebra.FiniteDimensional.Defs"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Encoding.FiniteBasisIso": {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/FiniteBasisIso.lean",
+      "sha256": "dabdc0dc3660ad91409a110ce2f07a682eb7500abebf3b8febf43811dd218568",
+      "byte_count": 1842,
+      "imports": [
+        "Mathlib.Algebra.Category.ModuleCat.Biproducts",
+        "OAI.Algebra.Finitistic.Encoding.RelationBasisCoefficients"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Encoding.PathBasisIso": {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/PathBasisIso.lean",
+      "sha256": "52bf36d3c2e3bddf53d5a2264d61296a4344a30fa107cf8fe8c1a4530f2f2dd0",
+      "byte_count": 2261,
+      "imports": [
+        "OAI.Algebra.Finitistic.Encoding.ArrowBasisIso",
+        "Mathlib.LinearAlgebra.TensorProduct.Pi"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Encoding.QuadraticEncoding": {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/QuadraticEncoding.lean",
+      "sha256": "955b2fe5e1ef088d4109ca0b12d317ea6dc891e6efd86e73917517b3b65c6a57",
+      "byte_count": 5002,
+      "imports": [
+        "OAI.Algebra.Finitistic.Encoding.ThreeVertexAlgebra",
+        "Mathlib.RingTheory.TensorProduct.Finite"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Encoding.RelationBasisCoefficients": {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/RelationBasisCoefficients.lean",
+      "sha256": "4bfe49ee664350bc5959e071d69bf81039e0701841b42c5e60ba4dec3d09b1ea",
+      "byte_count": 1817,
+      "imports": [
+        "OAI.Algebra.Finitistic.Encoding.RelationSequence"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Encoding.RelationMatrixSequence": {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/RelationMatrixSequence.lean",
+      "sha256": "3aedc4e73406a2ac19f6920aba75be873f27c4ba8c8fee0c5fc5adb64e888f75",
+      "byte_count": 4275,
+      "imports": [
+        "OAI.Algebra.Finitistic.Encoding.FiniteBasisIso",
+        "OAI.Algebra.Finitistic.Encoding.RelationPathCoordinates"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Encoding.RelationPathCoordinates": {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/RelationPathCoordinates.lean",
+      "sha256": "83d311101f0d49e26ba39238fd8909d3634d7b50f45c1a959873ff52d4e41eb3",
+      "byte_count": 1277,
+      "imports": [
+        "OAI.Algebra.Finitistic.Encoding.PathBasisIso"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Encoding.RelationSequence": {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/RelationSequence.lean",
+      "sha256": "ff1fabd0765b44e1ed598157f8defffa61d449fe7a4c306ed693cd504781e2e7",
+      "byte_count": 2966,
+      "imports": [
+        "Mathlib.Algebra.Homology.ShortComplex.ModuleCat",
+        "OAI.Algebra.Finitistic.Encoding.QuadraticEncoding",
+        "OAI.Algebra.Finitistic.Rectification.RectificationAcyclic"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Encoding.RelationVertexCoordinates": {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/RelationVertexCoordinates.lean",
+      "sha256": "e9744c662d15f58d5992d7b6a04f6dc536e3d2940deaa6476ca13e06ff37db77",
+      "byte_count": 4858,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.VertexTensorLinear"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Encoding.RelationVertexSequence": {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/RelationVertexSequence.lean",
+      "sha256": "50e891edb361fd4fefa50ca4d46c70a9b8abab15a3c3c96df917f956a2949b2e",
+      "byte_count": 4139,
+      "imports": [
+        "OAI.Algebra.Finitistic.Encoding.RelationVertexCoordinates",
+        "OAI.Algebra.Finitistic.Localization.FiniteSumTransport",
+        "OAI.Algebra.Finitistic.Rectification.SourceFiltrationComplex"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Encoding.ThreeVertexAlgebra": {
+      "path": "upstream/OAI/Algebra/Finitistic/Encoding/ThreeVertexAlgebra.lean",
+      "sha256": "3174332b536a66c868cbeba821f03b56a97be16c8c18f4d4dc13af71aa31846d",
+      "byte_count": 6067,
+      "imports": [
+        "OAI.Algebra.Finitistic.Encoding.DirectedBound",
+        "Mathlib.LinearAlgebra.FiniteDimensional.Basic",
+        "Mathlib.Tactic.FinCases"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Localization.ChainRepresentatives": {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/ChainRepresentatives.lean",
+      "sha256": "cbb6223f23cda712767863627dee40f1ce8c8df0eed20f4d77c1c6af3d4faaec",
+      "byte_count": 2341,
+      "imports": [
+        "Mathlib.Algebra.Homology.HomotopyCategory.Pretriangulated",
+        "Mathlib.Algebra.Homology.Linear"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Localization.ConcreteQuadraticDiagram": {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/ConcreteQuadraticDiagram.lean",
+      "sha256": "59626e6aec2cc112587f6f4faabfc5df6fb36492bcfb54626c3cdcbf9b466165",
+      "byte_count": 1121,
+      "imports": [
+        "OAI.Algebra.Finitistic.Encoding.RelationBasisCoefficients",
+        "OAI.Algebra.Finitistic.Rectification.InducedDiagram"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Localization.FiniteSumTransport": {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/FiniteSumTransport.lean",
+      "sha256": "8f8bcef42839b76babe46c2aaf6a54e9079594e621f49d6c700cdf6f3e4d8842",
+      "byte_count": 3667,
+      "imports": [
+        "Mathlib.CategoryTheory.Limits.Preserves.Shapes.Biproducts",
+        "Mathlib.CategoryTheory.Preadditive.AdditiveFunctor"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Localization.NativeArrowBridge": {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/NativeArrowBridge.lean",
+      "sha256": "ea75ecabce04b0a3b476f712c5d8765792fba20c7680d8d58b8195bea7506c6d",
+      "byte_count": 4604,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bimodule.BimoduleVertex",
+        "OAI.Algebra.Finitistic.Rectification.InducedRectification",
+        "OAI.Algebra.Finitistic.Rectification.ArrowCompatibility"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Localization.SplitComponentExact": {
+      "path": "upstream/OAI/Algebra/Finitistic/Localization/SplitComponentExact.lean",
+      "sha256": "25c6436afe3e120ba9a31c3d599bcaa06665e265c5d4613c7a5e2b5b696f6e67",
+      "byte_count": 2393,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.TotalExact",
+        "Mathlib.Algebra.Homology.HomologicalComplexLimits"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.AdjacentArrowSum": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/AdjacentArrowSum.lean",
+      "sha256": "ba7e24cb91cb6b2c133f47f3ca378d8aee587206d1720b6f162baece326bddaa",
+      "byte_count": 4349,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.CornerArrowCoordinates",
+        "OAI.Algebra.Finitistic.Rectification.TensorArrowSum"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.ArrowCompatibility": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/ArrowCompatibility.lean",
+      "sha256": "6aacd2a90db3fac8fede7c5517666bb1a65f2687f70d1761f45c8a817a821b97",
+      "byte_count": 5911,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.ArrowVertex",
+        "OAI.Algebra.Finitistic.Rectification.RectificationTotal",
+        "Mathlib.Algebra.Category.ModuleCat.Biproducts"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.ArrowVertex": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/ArrowVertex.lean",
+      "sha256": "3b98834a05c6ce6225e0c2cb0d6eb94534f89227153169bf9803ac0838dd1bed",
+      "byte_count": 7380,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.ColumnProperties"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.CanonicalArrowCompatibility": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/CanonicalArrowCompatibility.lean",
+      "sha256": "672b85de99f295a4735c5fa27e0eb49e85942f4d2e8bcf024c466e267f55c33c",
+      "byte_count": 3674,
+      "imports": [
+        "OAI.Algebra.Finitistic.Localization.NativeArrowBridge",
+        "OAI.Algebra.Finitistic.Rectification.VertexHomotopyEquivalence"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.ColumnComplex": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/ColumnComplex.lean",
+      "sha256": "e1ee7e24db4dfe341a8346c8ac60a9e89105f009aa5b52846f8f3cebe3eceee5",
+      "byte_count": 6033,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.InducedColumns",
+        "Mathlib.Algebra.Category.ModuleCat.Limits",
+        "Mathlib.Algebra.Homology.Homotopy",
+        "Mathlib.Algebra.Homology.HomologicalComplexLimits"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.ColumnFinite": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/ColumnFinite.lean",
+      "sha256": "ff1d243de7e3ece8ff48cf74935aee78c66a37b9c039999fd27e09aa2411414a",
+      "byte_count": 4507,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.ColumnProperties",
+        "Mathlib.Algebra.Category.ModuleCat.Biproducts"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.ColumnProperties": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/ColumnProperties.lean",
+      "sha256": "f2a5f328bc2e1d892f3cc234e1eee7307dbd25a137286a27c9b255ec3f68662f",
+      "byte_count": 7519,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.InducedDiagram",
+        "Mathlib.Algebra.Category.ModuleCat.Projective",
+        "Mathlib.Algebra.Category.ModuleCat.ChangeOfRings",
+        "Mathlib.Algebra.Homology.HomologicalComplexBiprod"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.ConcreteAdjacentGraded": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/ConcreteAdjacentGraded.lean",
+      "sha256": "34be2f632dcd77f9605d7a0213512a46ab6aade705bc36cd7a32133f83d5ef92",
+      "byte_count": 2849,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.AdjacentArrowSum",
+        "OAI.Algebra.Finitistic.Rectification.RectificationAcyclic"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.CornerArrowCoordinates": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/CornerArrowCoordinates.lean",
+      "sha256": "8924d9838e20b52c744242371b617d90c17c4c38b89d9a73ceda9f3a03bc0565",
+      "byte_count": 2055,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.CornerColumnPaths",
+        "OAI.Algebra.Finitistic.Localization.ConcreteQuadraticDiagram"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.CornerColumnComplex": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/CornerColumnComplex.lean",
+      "sha256": "97851222422757a4bc1fc21c1e01f8603f3205f7d092e0bc328d5685918b8998",
+      "byte_count": 2135,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.VertexColumnComplex",
+        "OAI.Algebra.Finitistic.Rectification.TensorComplex"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.CornerColumnPaths": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/CornerColumnPaths.lean",
+      "sha256": "45986b2856cf10c912f4fe28f9878bbd2c021d963059ec5b14b915fb85c5205a",
+      "byte_count": 2311,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.CornerColumnComplex"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.CornerPathTransport": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/CornerPathTransport.lean",
+      "sha256": "f22fb3b8627c638595078b08825012be71f070dea765a8f2d4af53bf8261a99a",
+      "byte_count": 3187,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.AdjacentArrowSum",
+        "OAI.Algebra.Finitistic.Encoding.RelationMatrixSequence"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.CornerProjection": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/CornerProjection.lean",
+      "sha256": "84fb11507d226ff177537bda09571dddacb95790605dd405cbe3d6bdc9570091",
+      "byte_count": 3397,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.CornerSpaces",
+        "OAI.Algebra.Finitistic.Rectification.InducedColumns"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.CornerSpaces": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/CornerSpaces.lean",
+      "sha256": "f77275d1471c479a7f434b3b3d1e90d0e5c55ee907c6235f0b83c02ebcee5d54",
+      "byte_count": 3723,
+      "imports": [
+        "Mathlib.LinearAlgebra.Prod",
+        "Mathlib.Tactic.FinCases",
+        "OAI.Algebra.Finitistic.Encoding.QuadraticEncoding"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.CornerTensor": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/CornerTensor.lean",
+      "sha256": "246e6e10241f245c895babb3b0f62a78360dba1c9409c3ac13c88678b058c7da",
+      "byte_count": 2664,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.CornerProjection",
+        "OAI.Algebra.Finitistic.Rectification.TensorProjection"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.DiagramAssembly": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/DiagramAssembly.lean",
+      "sha256": "f83d18988508b6bb98c066fb6d6111e333a158239870c1eb2dffb05598b68e83",
+      "byte_count": 3769,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.ColumnComplex"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.ExactProducts": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/ExactProducts.lean",
+      "sha256": "9b0e477c781e82cd9bac82ece314c0a0ceb0a6220d3f59228d7ac19070a1821b",
+      "byte_count": 2728,
+      "imports": [
+        "Mathlib.Algebra.Exact.Basic"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.ExternalTensor": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/ExternalTensor.lean",
+      "sha256": "ae4945437b65ed20a0bce1a4703b48e55be30940550eb553270e56252e9c2471",
+      "byte_count": 9177,
+      "imports": [
+        "Mathlib.RingTheory.TensorProduct.Maps",
+        "Mathlib.LinearAlgebra.TensorProduct.Basis",
+        "Mathlib.Algebra.Module.Projective",
+        "Mathlib.LinearAlgebra.FiniteDimensional.Basic"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.FiltrationExactness": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/FiltrationExactness.lean",
+      "sha256": "740f7db0a645f76b4c902ffa028ae1c12c662508579563fb6fb1cfc273ee2ecb",
+      "byte_count": 3550,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.SourceFiltrationCone"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.FinalGradedAcyclic": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/FinalGradedAcyclic.lean",
+      "sha256": "7b9d4492592d1fbd81c2ae9f8ad158724dfa163519dd25d925c1e3fcb24abca3",
+      "byte_count": 1720,
+      "imports": [
+        "OAI.Algebra.Finitistic.Encoding.RelationVertexSequence",
+        "OAI.Algebra.Finitistic.Rectification.TotalInterchange",
+        "OAI.Algebra.Finitistic.Rectification.GradedVertexAcyclic"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.FirstVertex": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/FirstVertex.lean",
+      "sha256": "152d40b88c3158e25b06c7a2d396167541e934d3df67ffa5588613a6a84a9d48",
+      "byte_count": 3667,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.VertexZeroTotal"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.GradedVertexAcyclic": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/GradedVertexAcyclic.lean",
+      "sha256": "51c01d93b9c13cfcd7b919d70da69d366079dd417b1ae78dab0d08938236d689",
+      "byte_count": 3763,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.SourceFiltrationComplex",
+        "OAI.Algebra.Finitistic.Rectification.ConcreteAdjacentGraded",
+        "OAI.Algebra.Finitistic.Rectification.ZeroLastColumn",
+        "OAI.Algebra.Finitistic.Rectification.ColumnProperties"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.InducedColumns": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/InducedColumns.lean",
+      "sha256": "02cf6c0e58efe1cfe2dc41b033fe52301ca75527416026907b0f8633fab8239d",
+      "byte_count": 4255,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.ExternalTensor"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.InducedDiagram": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/InducedDiagram.lean",
+      "sha256": "da1a3541ad402330672c36d447d1cfa009a4c1f038fb4515d9f9c91d50ac2584",
+      "byte_count": 8219,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.DiagramAssembly",
+        "Mathlib.CategoryTheory.Preadditive.Biproducts"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.InducedRectification": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/InducedRectification.lean",
+      "sha256": "52e5d54d1f0a7abe3caaf593c48b8fd811aca552c35ad49cb5a0b699eccb49e8",
+      "byte_count": 2748,
+      "imports": [
+        "Mathlib.Algebra.Category.ModuleCat.Biproducts",
+        "OAI.Algebra.Finitistic.Rectification.InducedDiagram",
+        "OAI.Algebra.Finitistic.Rectification.ColumnProperties",
+        "OAI.Algebra.Finitistic.Rectification.RectificationTotal"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.RectificationAcyclic": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/RectificationAcyclic.lean",
+      "sha256": "83dc315f2fe3af7836e7562b9a716df18a950c9f87e41ed125ea3d19a33dbd18",
+      "byte_count": 5882,
+      "imports": [
+        "Mathlib.Algebra.Homology.DerivedCategory.KProjective",
+        "Mathlib.Algebra.Homology.HomotopyCategory.ShortExact",
+        "OAI.Algebra.Finitistic.Rectification.RectificationTotal"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.RectificationLemma": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/RectificationLemma.lean",
+      "sha256": "2e8e4016ee5500cbbb6c4904818a3531d9b0c16cf8e68cef7390ec299659e70e",
+      "byte_count": 3558,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.CanonicalArrowCompatibility",
+        "OAI.Algebra.Finitistic.Rectification.TotalFinite"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.RectificationTotal": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/RectificationTotal.lean",
+      "sha256": "416250a67900c7825d9a463ff00946ffaae32bdd86a39ed499fbe340b9c893cf",
+      "byte_count": 3877,
+      "imports": [
+        "OAI.Algebra.Finitistic.Localization.ChainRepresentatives"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.SecondVertex": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/SecondVertex.lean",
+      "sha256": "cfe350ecd08d27ace1e4e960f13550b52c127358588224a05c2c26be8cd3b143",
+      "byte_count": 5314,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.GradedVertexAcyclic",
+        "OAI.Algebra.Finitistic.Rectification.FirstVertex"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.SourceFiltration": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/SourceFiltration.lean",
+      "sha256": "eab3a204f87a5d84008b9039d5b5f96f8b991ac2070fe5c020516182b557330b",
+      "byte_count": 6015,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.InducedDiagram",
+        "OAI.Algebra.Finitistic.Rectification.TotalFunctorial"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.SourceFiltrationComplex": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/SourceFiltrationComplex.lean",
+      "sha256": "c232967997578ba1115d7bc51349f5902a1fb5dbc2c8cb875f14cbac4ca41a1b",
+      "byte_count": 2777,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.FiltrationExactness",
+        "OAI.Algebra.Finitistic.Bimodule.BimoduleVertex"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.SourceFiltrationCone": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/SourceFiltrationCone.lean",
+      "sha256": "3a45b39d67eaa9ba436f47a6d6dd4409158fa690e819be3d3260c58f9d376c2c",
+      "byte_count": 3446,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.SourceFiltrationReal"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.SourceFiltrationExact": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/SourceFiltrationExact.lean",
+      "sha256": "91cc54837d455c957d9a7a63b4cd3e7259f9ac6da080c2906944576572ba0615",
+      "byte_count": 5011,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.SourceFiltration",
+        "OAI.Algebra.Finitistic.Localization.SplitComponentExact"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.SourceFiltrationReal": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/SourceFiltrationReal.lean",
+      "sha256": "071f83dd59f20ffb437d02e2ec632a337d73ba47b4ce571742c15fa856b33801",
+      "byte_count": 4030,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.SourceFiltrationExact"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.TensorArrowSum": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/TensorArrowSum.lean",
+      "sha256": "3722fa6bbf6863a5aefc17a403825d523ef539943c4121a7f6665e9d815b9759",
+      "byte_count": 2186,
+      "imports": [
+        "OAI.Algebra.Finitistic.Encoding.ArrowBasisIso"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.TensorComplex": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/TensorComplex.lean",
+      "sha256": "5ede6acf03f3c29798b51a169d18ca5200dfc4a601b225b591eb235251b12ba5",
+      "byte_count": 6462,
+      "imports": [
+        "Mathlib.Algebra.Category.ModuleCat.ChangeOfRings",
+        "OAI.Algebra.Finitistic.Rectification.TensorProjection",
+        "OAI.Algebra.Finitistic.Encoding.RelationSequence"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.TensorProjection": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/TensorProjection.lean",
+      "sha256": "354743b24134bc5d95f4cde384a9819fb8c3fc44bf4415448028243a48410206",
+      "byte_count": 3321,
+      "imports": [
+        "Mathlib.LinearAlgebra.TensorProduct.Tower",
+        "OAI.Algebra.Finitistic.Rectification.ExternalTensor"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.ThirdVertex": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/ThirdVertex.lean",
+      "sha256": "fe0921e024ba84f8e57c8e0556f333cccf5267c5eadcdd2087682dc2f2821dce",
+      "byte_count": 2984,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.ThirdVertexFiltration",
+        "OAI.Algebra.Finitistic.Rectification.InducedRectification",
+        "OAI.Algebra.Finitistic.Rectification.FinalGradedAcyclic"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.ThirdVertexFiltration": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/ThirdVertexFiltration.lean",
+      "sha256": "d3aeb36f2482c45387eab82ee47217c12fab4a2021fe326ba13d16fa5c99b915",
+      "byte_count": 1320,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.GradedVertexAcyclic"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.TotalExact": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/TotalExact.lean",
+      "sha256": "c2c65366a6d4605615a7d9670a2d963ebdcfac119d2214cd2da516317ac3eee4",
+      "byte_count": 4633,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.TotalFunctorial",
+        "OAI.Algebra.Finitistic.Rectification.ExactProducts",
+        "Mathlib.Algebra.Category.ModuleCat.Biproducts"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.TotalFinite": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/TotalFinite.lean",
+      "sha256": "512c620bfe5ec3ede75812b1d6081bb770f15ba305c659d181812b10dae54563",
+      "byte_count": 2579,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.RectificationTotal",
+        "OAI.Algebra.Finitistic.Rectification.ColumnFinite"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.TotalFunctorial": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/TotalFunctorial.lean",
+      "sha256": "16477c7d8c145a55f967a832966d8779bbf4f7ba511d604e3802ead932ea9a3e",
+      "byte_count": 7438,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.RectificationTotal"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.TotalInterchange": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/TotalInterchange.lean",
+      "sha256": "c16b5673d17b4caeacb852026332226ebb6365619cd51c837552ebc6e539a07c",
+      "byte_count": 4833,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.TotalFunctorial"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.VertexColumnComplex": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/VertexColumnComplex.lean",
+      "sha256": "ff7b86a1c1ec2b2b860c4042a9cedf88fcdc4cd667ea5dc1dee6246f989342dd",
+      "byte_count": 2401,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.VertexColumnModels"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.VertexColumnModels": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/VertexColumnModels.lean",
+      "sha256": "d5f108956bfec83804e44d6bac6ef58a7cd9dfe7325c9fe568585f17f81656a7",
+      "byte_count": 2210,
+      "imports": [
+        "OAI.Algebra.Finitistic.Bimodule.BimoduleVertex"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.VertexFunctor": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/VertexFunctor.lean",
+      "sha256": "7addfae846e538c9d5072862077f6fb26bbe7a5c9edbbfd919f68074b75447bb",
+      "byte_count": 4389,
+      "imports": [
+        "Mathlib.Algebra.Category.ModuleCat.ChangeOfRings",
+        "Mathlib.Algebra.Homology.ShortComplex.ModuleCat",
+        "Mathlib.Algebra.Module.Projective",
+        "Mathlib.CategoryTheory.Preadditive.AdditiveFunctor"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.VertexHomotopyEquivalence": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/VertexHomotopyEquivalence.lean",
+      "sha256": "f8b336c4a399306c9c3f4865277d3e60af7be65f83dd90a592c814b46b4ec69d",
+      "byte_count": 3937,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.ThirdVertex",
+        "OAI.Algebra.Finitistic.Rectification.VertexTotalProperties"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.VertexTensorLinear": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/VertexTensorLinear.lean",
+      "sha256": "1a133a79bfbb0243640f4b4092ef3beb480862a2440adba727988c8fda04f00d",
+      "byte_count": 1658,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.CornerPathTransport"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.VertexTotalProperties": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/VertexTotalProperties.lean",
+      "sha256": "02d1edc7d1719a690b2bf32631ba22e1e6ed2701d4213b5596ce06dafe6e5dd3",
+      "byte_count": 3202,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.SecondVertex"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.VertexZeroTotal": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/VertexZeroTotal.lean",
+      "sha256": "335754ba4b9b5eafb4a4c0f0ad81590774ef25c623229bdccbf9f51f2ebe186b",
+      "byte_count": 3150,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.VertexColumnComplex",
+        "OAI.Algebra.Finitistic.Rectification.ZeroColumnTotal",
+        "OAI.Algebra.Finitistic.Rectification.InducedRectification",
+        "OAI.Algebra.Finitistic.Localization.ConcreteQuadraticDiagram"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.ZeroColumnTotal": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/ZeroColumnTotal.lean",
+      "sha256": "182b0ed175f425edfe8db24dc38e10d2e229d8d09e66ec9b31cd451c093a14e5",
+      "byte_count": 2810,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.RectificationTotal"
+      ]
+    },
+    "OAI.Algebra.Finitistic.Rectification.ZeroLastColumn": {
+      "path": "upstream/OAI/Algebra/Finitistic/Rectification/ZeroLastColumn.lean",
+      "sha256": "26e1851ee1502c936a88aa266f736cb26a2c9229a155992d9dc8128a0ad6e871",
+      "byte_count": 2047,
+      "imports": [
+        "OAI.Algebra.Finitistic.Rectification.TotalFunctorial",
+        "OAI.Algebra.Finitistic.Rectification.ZeroColumnTotal"
+      ]
+    }
+  },
+  "external_imports": [
+    "Mathlib.Algebra.Algebra.Opposite",
+    "Mathlib.Algebra.Category.ModuleCat.Biproducts",
+    "Mathlib.Algebra.Category.ModuleCat.ChangeOfRings",
+    "Mathlib.Algebra.Category.ModuleCat.Limits",
+    "Mathlib.Algebra.Category.ModuleCat.Projective",
+    "Mathlib.Algebra.Category.ModuleCat.ProjectiveDimension",
+    "Mathlib.Algebra.Exact.Basic",
+    "Mathlib.Algebra.Homology.DerivedCategory.KProjective",
+    "Mathlib.Algebra.Homology.HomologicalComplexBiprod",
+    "Mathlib.Algebra.Homology.HomologicalComplexLimits",
+    "Mathlib.Algebra.Homology.Homotopy",
+    "Mathlib.Algebra.Homology.HomotopyCategory.Pretriangulated",
+    "Mathlib.Algebra.Homology.HomotopyCategory.ShortExact",
+    "Mathlib.Algebra.Homology.Linear",
+    "Mathlib.Algebra.Homology.ShortComplex.ModuleCat",
+    "Mathlib.Algebra.Module.Projective",
+    "Mathlib.CategoryTheory.Limits.Preserves.Shapes.Biproducts",
+    "Mathlib.CategoryTheory.Preadditive.AdditiveFunctor",
+    "Mathlib.CategoryTheory.Preadditive.Biproducts",
+    "Mathlib.Data.Fin.Rev",
+    "Mathlib.LinearAlgebra.Basis.VectorSpace",
+    "Mathlib.LinearAlgebra.FiniteDimensional.Basic",
+    "Mathlib.LinearAlgebra.FiniteDimensional.Defs",
+    "Mathlib.LinearAlgebra.Prod",
+    "Mathlib.LinearAlgebra.TensorProduct.Basis",
+    "Mathlib.LinearAlgebra.TensorProduct.Pi",
+    "Mathlib.LinearAlgebra.TensorProduct.Tower",
+    "Mathlib.RingTheory.TensorProduct.Finite",
+    "Mathlib.RingTheory.TensorProduct.Maps",
+    "Mathlib.Tactic.FinCases"
+  ],
+  "dependency_manifest_references": {
+    "mathlib-pinned-manifest.json": {
+      "sha256": "8f67b2cf24143ac091cdb425e886c2164b2fc2d6fbccd6db9454b697f9541a67",
+      "byte_count": 2811
+    },
+    "dependency-provenance.json": {
+      "sha256": "865fe44eca60c02677a5964ec3569b0461f2144687723b34098945da951475b3",
+      "byte_count": 4677
+    },
+    "lean-toolchain": {
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+      "byte_count": 25
+    },
+    "verification/asymmetry_source_receipt.json": {
+      "sha256": "12e293322c776f72b17bf126caaad7421bf325da20e31fa0dab71143cefb4da6",
+      "byte_count": 14707
+    }
+  },
+  "binding_note": "The checker must confirm these bytes match its actual workspace and archive this manifest alongside the successful kernel log. This manifest alone proves no mathematical statement."
+}

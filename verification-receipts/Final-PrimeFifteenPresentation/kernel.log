@@ -1,0 +1,92 @@
+Running as unit: run-p1888230-i1932659.service
+Building Note198Challenges.PrimeFifteenPresentation
+⚠ [1558/1558] Replayed Note198Challenges.PrimeFifteenPresentation
+warning: Note198Challenges/PrimeFifteenPresentation.lean:52:35: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: Note198Challenges/PrimeFifteenPresentation.lean:52:35: This simp argument is unused:
+  dif_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [eraseGenerator, map_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/PrimeFifteenPresentation.lean:52:48: This simp argument is unused:
+  map_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [eraseGenerator, dif_pos rfl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/PrimeFifteenPresentation.lean:129:69: This simp argument is unused:
+  dite_eq_left rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [MonoidHom.comp_apply, reverse_of, eraseGenerator, map_one, MonoidHom.id_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/PrimeFifteenPresentation.lean:130:10: This simp argument is unused:
+  map_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [MonoidHom.comp_apply, reverse_of, eraseGenerator, dite_eq_left rfl, MonoidHom.id_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198Challenges/PrimeFifteenPresentation.lean:146:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Note198Challenges/PrimeFifteenPresentation.lean:162:8: declaration uses `sorry`
+Build completed successfully (1558 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.PrimeGroup.FifteenPresentation.lemma_2_2_fifteen, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198Challenges.PrimeFifteenPresentation
+Building Note198.PrimeFifteenPresentation
+⚠ [1558/1558] Replayed Note198.PrimeFifteenPresentation
+warning: Note198/PrimeFifteenPresentation.lean:52:35: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: Note198/PrimeFifteenPresentation.lean:52:35: This simp argument is unused:
+  dif_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [eraseGenerator, map_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFifteenPresentation.lean:52:48: This simp argument is unused:
+  map_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [eraseGenerator, dif_pos rfl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFifteenPresentation.lean:129:69: This simp argument is unused:
+  dite_eq_left rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [MonoidHom.comp_apply, reverse_of, eraseGenerator, map_one, MonoidHom.id_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFifteenPresentation.lean:130:10: This simp argument is unused:
+  map_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [MonoidHom.comp_apply, reverse_of, eraseGenerator, dite_eq_left rfl, MonoidHom.id_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Note198/PrimeFifteenPresentation.lean:146:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (1558 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Note198.PrimeGroup.FifteenPresentation.lemma_2_2_fifteen, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Note198.PrimeFifteenPresentation
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 16.537s
+             CPU time consumed: 16.966s
+                   Memory peak: 1.4G (swap: 7M)
