@@ -19,6 +19,13 @@ The fixed version passed 28 Comparator groups covering 58 targets. Queried axiom
 
 `Note198Challenges/` contains challenge templates with intentional proof placeholders. They are not the completed solution files, which reside in `Note198/`.
 
-Comparator replay additionally requires the matching Comparator installation and its environment; the supplied wrapper records the original local setup. The formalization covers the listed targets and does not claim that every sentence of the manuscript has been formalized. No paper TeX or PDF is included.
+Comparator replay additionally requires the matching Comparator installation and its environment; the supplied wrapper records the original local setup. The formalization covers the listed targets and does not claim that every sentence of the manuscript has been formalized. The manuscript TeX and PDF are provided under `paper/`.
 
 AI assistance was used in preparing the formalization and reviewing proofs. Lean and Comparator checks are recorded as machine verification of the specified targets, distinct from human verification.
+
+## Manuscript
+
+- [PDF](paper/note198.pdf)
+- [LaTeX source](paper/note198.tex)
+
+This is the revision with the explicit zero-module, zero-complex and empty-supremum conventions. Its TeX hash matches the manuscript frozen during the recorded Lean bridge verification.
