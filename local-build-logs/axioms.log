@@ -1,0 +1,50 @@
+Note198.Selection.selection_iteration_formula.{u} {k R : Type u} [Field k] [Ring R] [Algebra k R]
+  (S : Note198.Selection.Data k R) (M : ModuleCat R) (n : ℕ) :
+  Nonempty (↑(Note198.Selection.iterate S M n) ≃ₗ[R] ↑(Note198.Selection.productPullback S M n))
+Note198.Selection.iterateProductEquiv.{u} {k R : Type u} [Field k] [Ring R] [Algebra k R]
+  (S : Note198.Selection.Data k R) (M : ModuleCat R) (n : ℕ) :
+  ↑(Note198.Selection.iterate S M n) ≃ₗ[R] ↑(Note198.Selection.productPullback S M n)
+Note198.Selection.iterateEmbedding_smul.{u} {k R : Type u} [Field k] [Ring R] [Algebra k R]
+  (S : Note198.Selection.Data k R) (M : ModuleCat R) (n : ℕ) (r : R) (x : ↑(Note198.Selection.iterate S M n)) :
+  Note198.Selection.iterateEmbedding S M n (r • x) = (S.α ^ n) r • Note198.Selection.iterateEmbedding S M n x
+Note198.Selection.iterationProduct_eq_finset.{u} {k R : Type u} [Field k] [Ring R] [Algebra k R]
+  (S : Note198.Selection.Data k R) (n : ℕ) :
+  Note198.Selection.iterationProduct S n = (List.map (Note198.Selection.eAt S) (List.range n)).prod
+Note198.Selection.productSelected_eq_image.{u} {k R : Type u} [Field k] [Ring R] [Algebra k R]
+  (S : Note198.Selection.Data k R) (M : ModuleCat R) (n : ℕ) (y : ↑M) :
+  y ∈ Note198.Selection.productSelected S M n ↔ ∃ x, Note198.Selection.iterationProduct S n • x = y
+Note198.Selection.eAt_eq_pow.{u} {k R : Type u} [Field k] [Ring R] [Algebra k R] (S : Note198.Selection.Data k R)
+  (n : ℕ) : Note198.Selection.eAt S n = (S.α ^ n) S.e
+Note198.SelectionProductNormalization.coordinateFactor_earlier.{u} (k : Type u) [Field k] (p m : ℕ) [Fact (Nat.Prime p)]
+  [NeZero m] (i : Fin m) (hi : i ≠ Note198.FiniteSelectionSource.lastIndex m) :
+  (Note198.SelectionProductNormalization.centralTransport k p m)
+      (Note198.SelectionProductNormalization.coordinateFactor k p m i) =
+    Note198.FiniteSelectionSource.selector k p m i
+Note198.SelectionProductNormalization.coordinateFactor_last.{u} (k : Type u) [Field k] (p m : ℕ) [Fact (Nat.Prime p)]
+  [NeZero m] :
+  (Note198.SelectionProductNormalization.centralTransport k p m)
+      (Note198.SelectionProductNormalization.coordinateFactor k p m (Note198.FiniteSelectionSource.lastIndex m)) =
+    1 - Note198.FiniteSelectionSource.selector k p m (Note198.FiniteSelectionSource.lastIndex m)
+Note198.SelectionProductNormalization.paperProduct_eq_sourceVector.{u} (k : Type u) [Field k] (p m : ℕ)
+  [Fact (Nat.Prime p)] [NeZero m] :
+  Note198.SelectionProductNormalization.paperProduct k p m =
+    (↑p)⁻¹ ^ (m - 1) • Note198.FiniteSelectionSource.sourceVector k p m
+Note198.SelectionProductNormalization.sourceVector_eq_paperProduct.{u} (k : Type u) [Field k] (p m : ℕ)
+  [Fact (Nat.Prime p)] [NeZero m] (hp : ↑p ≠ 0) :
+  Note198.FiniteSelectionSource.sourceVector k p m =
+    ↑p ^ (m - 1) • Note198.SelectionProductNormalization.paperProduct k p m
+Note198.SelectionProductNormalization.sourceIdeal_eq_paperProduct_span.{u} (k : Type u) [Field k] (p m : ℕ)
+  [Fact (Nat.Prime p)] [NeZero m] (hp : ↑p ≠ 0) :
+  Note198.FiniteSelectionSource.sourceIdeal k p m =
+    MonoidAlgebra k ↥(Note198.FiniteSelectionSource.F p m) ∙ Note198.SelectionProductNormalization.paperProduct k p m
+'Note198.Selection.iterateProductEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Note198.Selection.selection_iteration_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Note198.SelectionProductNormalization.paperProduct_eq_sourceVector' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Note198.SelectionProductNormalization.sourceVector_eq_paperProduct' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Note198.SelectionProductNormalization.sourceIdeal_eq_paperProduct_span' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

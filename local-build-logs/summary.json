@@ -1,0 +1,56 @@
+{
+  "lean": "4.34.1",
+  "mathlib_revision": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "default_build_passed": true,
+  "bridge_axiom_query_passed": true,
+  "compared_mathematical_sources": 773,
+  "changed_mathematical_sources": [],
+  "dependency_source_comparison": {
+    "mathlib": {
+      "revision": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+      "compared_lean_files": 9112,
+      "differences": []
+    },
+    "plausible": {
+      "revision": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+      "compared_lean_files": 28,
+      "differences": []
+    },
+    "LeanSearchClient": {
+      "revision": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+      "compared_lean_files": 8,
+      "differences": []
+    },
+    "importGraph": {
+      "revision": "e928b72544873815af278d38681b31c0293588e3",
+      "compared_lean_files": 54,
+      "differences": []
+    },
+    "proofwidgets": {
+      "revision": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+      "compared_lean_files": 46,
+      "differences": []
+    },
+    "aesop": {
+      "revision": "355695d523e41d0554926416cba2a2b3544fbbc9",
+      "compared_lean_files": 250,
+      "differences": []
+    },
+    "Qq": {
+      "revision": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+      "compared_lean_files": 28,
+      "differences": []
+    },
+    "batteries": {
+      "revision": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+      "compared_lean_files": 260,
+      "differences": []
+    },
+    "Cli": {
+      "revision": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+      "compared_lean_files": 5,
+      "differences": []
+    }
+  },
+  "environment": "WSL Ubuntu; fresh project build directory; official Mathlib cache"
+}

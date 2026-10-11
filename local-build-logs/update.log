@@ -1,0 +1,48 @@
+info: mathlib: URL has changed; deleting '/opt/codex-comparator/workspaces/note198-local-build/.lake/packages/mathlib' and cloning again
+info: mathlib: cloning https://github.com/leanprover-community/mathlib4
+info: mathlib: checking out revision 'd13f23b723b8a846827a245b89c10fc7d3f11612'
+info: toolchain not updated; already up-to-date
+info: mathlib: running post-update hooks
+✔ [1/11] Built Cache.Cli (288ms)
+✔ [4/11] Built Cache.Lean (356ms)
+✔ [5/11] Built Cache.Env (260ms)
+✔ [7/41] Built Cache.Infra (378ms)
+✔ [8/41] Built Cache.Cli:c.o (231ms)
+✔ [9/41] Built Cache.Lean:c.o (121ms)
+✔ [11/41] Built Cache.Env:c.o (148ms)
+✔ [12/41] Built Cache.IO (1.3s)
+✔ [13/41] Built Cache.Infra:c.o (215ms)
+✔ [14/41] Built Cache.Hashing (641ms)
+✔ [15/41] Built Cache.Hashing:c.o (387ms)
+✔ [16/41] Built Cache.IO:c.o (1.5s)
+✔ [17/41] Built Cache.Requests (1.7s)
+✔ [18/41] Built Cache.Marker (455ms)
+✔ [19/41] Built Cache.Marker:c.o (90ms)
+✔ [20/41] Built Cache.Query (540ms)
+✔ [21/41] Built Cache.Upload.Dest (470ms)
+✔ [22/41] Built Cache.Query:c.o (258ms)
+✔ [23/41] Built Cache.Upload.Dest:c.o (99ms)
+✔ [24/41] Built Cache.Requests:c.o (2.4s)
+✔ [25/41] Built Cache.Warning (566ms)
+✔ [26/41] Built Cache.Upload.Rclone (515ms)
+✔ [27/41] Built Cache.Upload.Curl (517ms)
+✔ [28/41] Built Cache.Upload.Rclone:c.o (143ms)
+✔ [29/41] Built Cache.Warning:c.o (227ms)
+✔ [30/41] Built Cache.Upload.Curl:c.o (156ms)
+✔ [31/41] Built Cache.Upload.Azure (458ms)
+✔ [32/41] Built Cache.Upload.Azure:c.o (110ms)
+✔ [33/41] Built Cache.Upload.S3 (575ms)
+✔ [34/41] Built Cache.Upload.S3:c.o (279ms)
+✔ [35/41] Built Cache.Upload.Defs (520ms)
+✔ [36/41] Built Cache.Upload.Defs:c.o (115ms)
+✔ [37/41] Built Cache.Upload (434ms)
+✔ [38/41] Built Cache.Upload:c.o (95ms)
+✔ [39/41] Built Cache.Main (1.0s)
+✔ [40/41] Built Cache.Main:c.o (818ms)
+✔ [41/41] Built cache:exe (1.4s)
+Current branch: HEAD
+Using cache from origin: (some leanprover-community/mathlib4)
+Decompressing 8530 already-cached file(s) (378 already decompressed)
+No files to download
+Decompressed 8530 already-cached file(s)
+Completed successfully in 23239 ms!

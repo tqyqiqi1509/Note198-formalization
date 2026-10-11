@@ -4,14 +4,15 @@ Lean source and verification records for Note198. Lean version: **4.34.1**.
 
 ## Build
 
-Install the matching Lean toolchain using elan, then run:
+Clone the entire repository, open its root folder, and install Git and elan. See [local build instructions](LOCAL_BUILD.md). Then run:
 
 ```sh
-lake build +Note198.ManuscriptWithBridges
+lake exe cache get
+lake build
 lake env lean AuditWithBridges.lean
 ```
 
-The repository includes the exact dependency source snapshots under `vendor/`, preserving the path dependencies used in verification. Build caches and tool binaries are excluded. Each dependency retains its original license; see its directory. Snapshot hashes are in `vendor-source-sha256.json`.
+The build uses the canonical Mathlib revision d13f23b723b8a846827a245b89c10fc7d3f11612, matching Lean 4.34.1. Its transitive dependencies are pinned by lake-manifest.json. The old dependency source snapshots under vendor/ are retained for provenance comparison; the current build uses the official Git dependencies. Build caches and tool binaries are excluded. Each snapshot retains its original license; hashes are in vendor-source-sha256.json.
 
 ## Verification
 

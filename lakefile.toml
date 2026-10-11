@@ -1,41 +1,11 @@
 name = "Note198"
 version = "0.1.0"
+defaultTargets = ["Note198"]
 
 [[require]]
 name = "mathlib"
-path = "vendor/mathlib"
-
-[[require]]
-name = "plausible"
-path = "vendor/plausible"
-
-[[require]]
-name = "LeanSearchClient"
-path = "vendor/LeanSearchClient"
-
-[[require]]
-name = "importGraph"
-path = "vendor/importGraph"
-
-[[require]]
-name = "proofwidgets"
-path = "vendor/proofwidgets"
-
-[[require]]
-name = "aesop"
-path = "vendor/aesop"
-
-[[require]]
-name = "Qq"
-path = "vendor/Qq"
-
-[[require]]
-name = "batteries"
-path = "vendor/batteries"
-
-[[require]]
-name = "Cli"
-path = "vendor/Cli"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "d13f23b723b8a846827a245b89c10fc7d3f11612"
 
 [[lean_lib]]
 name = "OAI"
