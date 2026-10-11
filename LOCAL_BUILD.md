@@ -46,3 +46,28 @@ lake env lean AuditWithBridges.lean
 普通 Lean 构建不需要安装 Comparator。重新运行 Comparator 则需要它的匹配工具和环境；仓库中的 `comparator-check-serial-noprecommit` 是原验收机器的包装脚本，包含本机安装路径，不是通用安装器。
 
 若运行失败，请保存从**第一条错误开始**的输出，以及 `lake --version` 的输出；这能区分目录、下载、工具链和证明编译问题。
+
+## Windows：使用 WSL 的 Linux 文件系统
+
+在 Windows 上建议通过 WSL Ubuntu 运行 Git 和 Lean，并把工程保存在 Linux 文件系统，例如 `~/projects/Note198-formalization`。避免在 WSL 中对 `/mnt/c/`、`/mnt/d/` 等 Windows 挂载目录进行大量构建；[Microsoft 的文件系统说明](https://learn.microsoft.com/en-us/windows/wsl/filesystems)解释了跨文件系统访问的性能代价。
+
+先从 Windows 终端进入 Ubuntu：
+
+```powershell
+wsl -d Ubuntu
+```
+
+在 Ubuntu 中安装 Git 和 elan 后，运行：
+
+```sh
+mkdir -p ~/projects
+cd ~/projects
+git clone https://github.com/tqyqiqi1509/Note198-formalization.git
+cd Note198-formalization
+lake exe cache get
+lake build
+```
+
+已有 Linux 工作副本时，直接进入该目录即可，无需重新克隆。编辑时使用 Windows VS Code 的 WSL 扩展，通过 **WSL: Open Folder in WSL** 打开 Linux 中的仓库根目录，同时安装 Lean 4 扩展到 WSL 环境。这样编辑界面仍在 Windows，Git 和 Lean 使用 Linux 工具和文件系统。
+
+本次构建配置修复没有改变原有数学声明或证明。新增的 `Note198.lean` 只导入已有入口；已有 773 个数学 Lean 源文件保持不变。`local-build-logs/` 记录了配置修复后的构建和两处桥接公理查询。原完整 Comparator 验收对应此前固定版本；最终用于平台登记的提交仍应执行该平台要求的验收，并人工核对自然语言命题与 Lean 声明。
