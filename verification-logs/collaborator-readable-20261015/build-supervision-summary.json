@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-15",
+  "lean": "4.34.1",
+  "lake": "5.0.0-src+5045d00",
+  "head": "5769b33f0f30d5f3ce5dbf1300bbc46bfbd26a98",
+  "mathlib_revision": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "original_providers_unchanged": 773,
+  "tracked_dependency_config_unchanged": true,
+  "baseline_build_exit_code": 0,
+  "final_build_exit_code": 0,
+  "final_build_jobs": 9606,
+  "baseline_axiom_queries": 58,
+  "final_audit_exit_code": 0,
+  "full_type_rfl_checks": 8,
+  "final_axiom_queries": 10,
+  "final_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "sorryAx_found": false,
+  "local_recovery_override": ".lake/package-overrides.json",
+  "recovery_used_dependency_download": false
+}

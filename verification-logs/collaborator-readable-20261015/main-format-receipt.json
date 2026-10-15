@@ -1,0 +1,13 @@
+{
+  "type_token_sha256_before": {
+    "theorem_1_1": "290a79a1b1a2109f29efc7c5cf0a3c6635c3a7ff39ffa4d4ee3e047311017cb7",
+    "main_properties_iff_expanded": "40262cd945a3f523416bb6eea1d821ac70a47b5343ae14633bd169c35a848382"
+  },
+  "type_token_sha256_after": {
+    "theorem_1_1": "290a79a1b1a2109f29efc7c5cf0a3c6635c3a7ff39ffa4d4ee3e047311017cb7",
+    "main_properties_iff_expanded": "40262cd945a3f523416bb6eea1d821ac70a47b5343ae14633bd169c35a848382"
+  },
+  "max_line_length": 98,
+  "line_count": 206,
+  "check": "comments and whitespace removed; theorem type strings unchanged; main theorem moved first with 15 direct projections"
+}
