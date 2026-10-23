@@ -1,0 +1,66 @@
+# Derived tensor 定义候选：独立对抗审查
+
+审查对象：work/definition-update-20261023/definition-candidate.tex，当前118行候选；未改论文/代码，未编译，不启动OSV。按math-paper-writing及body-and-proofs的首次符号、作用域与记号经济要求审查。原d_K/H/shift文字将在此前原样保留，本报告不把尚未合并的候选当作已经落地的论文改动。
+
+## 结论
+
+未发现阻断性数学错误。候选明确了整数无界复形、非交换双模、direct-sum totalization和正确总微分；semi-free逐阶段构造能给所有无界输入的functorial K-projective resolution；counit和right Kan方向正确。最后K-flat/左右投射/bounded-above与Db限制均正确。建议在合并前补两处操作级细节，使“自包含且可供NL→Lean”的目标更扎实；它们不改变定理内容。
+
+## 实质逐项核对
+
+1. 第1–8行：从chain complexes而非homotopy category直接按quasi-isomorphisms局部化合法，两种定义给等价派生范畴。q_A首次定义清楚。G与theta使用此source也合法，因为ordinary tensor后q_B已消去homotopy。
+2. 第10–22行：M的(B,A)方向、左右作用交换和k兼容正确；N为left A；输出为left B。总微分为d_M⊗1+(-1)^p1⊗d_N。⊕_p+q=n适用于双无界复形；无有限对角的错误前提。
+3. 第24–46行：K-projective定义对所有acyclic targets；counit η:L_M q_A→q_B(M⊗_A-)正确。对theta:Gq_A→F，唯一sigma:G→L_M满足η sigma_q=theta，是right Kan extension。不是无条件iso比较。
+4. 第49–66行：Q0以全部cycles为基，d=0；每个stage为所有cycle z及所有边界见证y添generator，de=z、εe=y满足d²=0及chain条件。H-surjectivity由Q0，H-injectivity由每个元素有限支持、故位于有限stage，再在下个stage杀其kernel class。没有必要termwise surjective，候选没有作此过强声称。
+5. Functoriality成立：chain map v:N→N'将初始generator[z]送到[vz]，新增e_(z,y)送到e_(Q_i(v)z,vy)。stage构造包含全部pairs，故不需选择边界见证；Q不会是严格additive functor，候选没有声称其加性。即使zero map把某些generator送到zero-labelled generator也不妨碍ordinary functoriality。
+6. 第68–75行：对新generator e，u(e)-h(de)确为cycle，因为d u(e)=u(de)，旧stage已满足d h(de)=u(de)，d²e=0。可以选取h(e)并自由A-linear延拓。初始stage de=0，无起始漏洞；无bound假设。
+7. 第77–85行：K-projective lifting意为lift到同伦交换三角且同伦类唯一；mapping cone acyclic给Hom-homotopy类双射。对quasiiso v，Q(v)因augmentation naturality为quasiiso；source/target均Kproj，故homotopy equivalence。任意M tensor保持homotopy，故其像仍为homotopy equivalence。没有将任意普通tensor声称为quasiiso-preserving。
+8. 第89–95行：factorization公式类型正确。G(q_A ε_N)是iso，theta_QN的target为F(QN)，与L_M(q_A N)通过chosen descent comparison识别。存在性由theta对ε_N的naturality，唯一性由η_QN为iso及sigma对q_A ε_N的naturality。Q_N作为K-projective输入时ε_QN为homotopy equivalence，故η_QN为iso。
+9. 第98–110行：bounded right-projective M为K-flat，其degree filtration由有限个shifted projectives组成，tensor acyclic left-complex保持acyclic；N可任意无界。bounded-above left-projective复形为K-projective，descending homotopy lifting正确。M,N均bounded且termwise finite-dimensional over k时普通tensor仍bounded finite-dimensional，输出Db合法。末尾仍保留外侧left B作用。
+10. 在线核对[Stacks 22.33.2, 09LS](https://stacks.math.columbia.edu/tag/09LS)和[22.20.4, 09KP](https://stacks.math.columbia.edu/tag/09KP)，两项引用对应非交换DG-derived tensor existence与property(P) resolution；没有把commutative rings章节错误套用到本稿。
+
+## 建议的最小补充
+
+### A. tensor homotopy的sign（推荐加入）
+
+第82–83行“Tensoring with M preserves chain homotopies”正确，但后续NL→Lean最容易错sign。若h:N→N'[-1]，应显式写总homotopy
+
+H(x⊗y)=(-1)^p x⊗h(y), x∈M^p。
+
+这给M⊗f−M⊗g=dH+Hd。直接写1⊗h而不乘(-1)^p一般错误。候选没有写错，但也没有把这个计算规则交给读者。
+
+### B. descent comparison与factorization的兼容性（推荐加入一句）
+
+公式最后的≃应明确是chosen localization/descent comparison，并说明Q(ε_N)与ε_(Q_N):Q_(Q_N)→Q_N同伦。二者经ε_N合成相等，这是augmentation自然性；Q_(Q_N)为K-projective、ε_N为quasiiso，所以同伦lifting唯一性给所需同伦。由此L_M(q_A ε_N)与F(Q_N)的识别相容，factorization的identity与uniqueness可直接机械化，无需让读者自行补这一步。
+
+建议句意：The two maps Q(ε_N) and ε_(Q_N) are homotopic by the lifting uniqueness above; hence the displayed comparison is compatible with the augmentations. 此处若引入Q(f)须先说明Q_N构成functor Q；目前只写functorially，可改成“write Q(f):Q_N→Q_(N') for the induced map”或直接用文字描述两张图，避免新无用别名。
+
+### C. 自包含细节（可选择）
+
+第79行mapping cone虽是标准基础对象，在目标读者需要完整操作接口时可简写定义：对f:U→V，cone(f)^n=V^n⊕U^(n+1)，d(v,u)=(d_Vv+f(u),−d_Uu)；f quasiiso iff cone acyclic。若不补，数学仍正确，但“完全自包含”的强措辞应限于具备标准cone基础的读者。
+
+第108行建议明确“bounded and termwise finite-dimensional over k”，不增加假设，只明确finite-dimensional含义。
+
+## 排版与范围
+
+现candidate约1200词，长于最初650–1000目标；其构造、同伦与普遍性质是用户后来要求补存在性下的实质内容，不能为了机械缩短删掉承重步骤。保留proof环境已有一个结束方块；不需要把定义再拆成泛泛小节。新L_M/q_A/ε/η/θ/σ/Q_i/e_(z,y)均有结构作用和清楚scope，不属于无意义短式别名。
+
+本报告未验证最终替换之外字节完全不变；该范围保证需在实际合并后由父代理用原始前后缀比对。没有发现必须改动原稿其他部分的理由。
+
+## 最终候选复审（c_N及外侧right C作用版本）
+
+已再次完整读取新候选。确认此版没有阻断数学错误；c_N明确后，先前建议增加Q(ε_N)与ε_(Q_N)同伦的句子已非必要，不应为此再增加新记号或证明。
+
+设F(N)=q_B(M⊗_A N)。候选定义η_N=F(ε_N)c_N，σ_(q_A N)=c_N^(-1) θ_(Q_N) G(q_A ε_N)^(-1)。故
+
+η_N σ_(q_A N)=F(ε_N) θ_(Q_N) G(q_A ε_N)^(-1)=θ_N，
+
+末个等号直接由θ对ε_N:Q_N→N的自然性。此处确实无需额外调用Qε同伦。c_N的自然性及functorial resolution保证σ先在局部化functor像上自然，再对quasiiso逆自然，故下降为D(A-Mod)上的自然变换。唯一性：若两个factorization在q_A Q_N处经η_(Q_N)合成相同，因Q_N和Q_(Q_N)均K-projective且ε_(Q_N)为quasiiso，η_(Q_N)为iso；再沿q_A ε_N的naturality推出它们在q_A N相同。公式类型和方向均正确。
+
+新增tensor homotopy sign (-1)^p正确，cone differential (dv+fu,-du)正确。末段“any quasi-isomorphism from bounded-above projectives may be used”避免了不存在此类分辨的一般无界输入歧义；bounded、termwise finite-dimensional over k及右投射的Db结论清楚。
+
+新增外侧right C段也正确：把(A,C)-bimodule N视为left A⊗_k C^op-module，对该代数使用前述semi-free构造。限制到left A后，每个free stage借C的k-basis成为free A的直和；generator的d仍在此前stage，故保持semi-free/K-projective。这里k为field确实承担作用，不能无条件替换成任意base ring。于是M⊗_A Q_N保留left B和right C动作，b(x⊗y)c=(bx)⊗(yc)，输出D((B⊗_k C^op)-Mod)类型正确。其底层B对象与原fixed-M derived tensor一致，且对外侧双模范畴的选择独立性仍由该范畴的semi-free分辨和homotopy equivalence保证。
+
+此版没有误称任意K-projective分辨天然保留额外right C；明确改为在A⊗C^op上重新构造，所以没有字典或外侧作用缺口。新semi-free记号有实际结构用途且首次定义完整；无需添加Q函子别名。
+
+最终只读复审结论：可按用户限定范围合并此候选；实际只改开头定义、旧文字移动与其余字节不变仍须由父代理的最终diff/前后缀检查确认。本监督没有修改源文件、编译或启动OSV。

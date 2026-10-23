@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-23",
+  "old_path": "/mnt/e/Formalization/Note198/definition-update-20261023/before/note198.tex",
+  "new_path": "/opt/codex-comparator/workspaces/note198-local-build/paper/note198.tex",
+  "old_sha256": "8c77220a5993568de5b42f7eea872d19c83c0d0aa8c9203cb24a65898fb0b20b",
+  "new_sha256": "ffbf46524071315255d9ca5bb308711799dd6cf427fce5a7b413cb7cefb70d16",
+  "old_allowed_block_start_byte": 6081,
+  "old_allowed_block_end_byte": 6954,
+  "new_allowed_block_start_byte": 6081,
+  "new_allowed_block_end_byte": 14558,
+  "old_allowed_block_lines": [
+    142,
+    158
+  ],
+  "new_allowed_block_lines": [
+    142,
+    304
+  ],
+  "unchanged_prefix_bytes": 6081,
+  "unchanged_suffix_bytes": 76878,
+  "old_label_count": 53,
+  "new_label_count": 53,
+  "old_numbered_environment_count": 47,
+  "new_numbered_environment_count": 47,
+  "old_numbered_result_count": 20,
+  "new_numbered_result_count": 20,
+  "checks": {
+    "prefix_byte_identical": true,
+    "suffix_byte_identical": true,
+    "all_original_labels_unchanged_order": true,
+    "all_numbered_environment_counts_unchanged": true,
+    "all_numbered_result_environments_unchanged_order": true,
+    "only_tex_and_possible_pdf_tracked_changes": true,
+    "definition_block_has_changed": true
+  },
+  "all_checks_pass": true,
+  "tracked_changed_paths": [
+    "paper/note198.tex"
+  ],
+  "git_status": " M paper/note198.tex\n",
+  "boundary": "Byte scope and label preservation audit only; no TeX/Lean compilation or mathematical correctness certification."
+}

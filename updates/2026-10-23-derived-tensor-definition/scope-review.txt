@@ -1,0 +1,22 @@
+# Independent scope review — 2026-10-23
+
+Result: **PASS** for the inspected source snapshot.
+
+Compared the original backup `E:\Formalization\Note198\definition-update-20261023\before\note198.tex` against `/opt/codex-comparator/workspaces/note198-local-build/paper/note198.tex` as raw bytes. The sole allowed interval starts at `All algebras are associative and unital` and ends immediately before the next `\section{...}`.
+
+* The 6,081-byte prefix is byte-for-byte identical.
+* The 76,878-byte suffix is byte-for-byte identical.
+* The original allowed block is lines 142–158; the replacement occupies lines 142–304. All differences are confined to this interval.
+* All 53 labels, including theorem and equation labels, are identical and in the same order.
+* The 20 original numbered theorem/lemma/proposition/corollary results remain in the same order.
+* The sequence of 47 numbered theorem/lemma/proposition/corollary/equation/align/gather environments is unchanged; the replacement adds no such numbered environment.
+* Title/front matter, author information, existing AI disclosure, references, and all subsequent mathematical sections are outside the permitted interval and therefore byte-for-byte unchanged.
+* Tracked Git changes at inspection consist solely of `paper/note198.tex`; the PDF had not yet been updated. No tracked Lean source, provider, dependency configuration, or other manuscript file changed.
+
+Original SHA-256: `8c77220a5993568de5b42f7eea872d19c83c0d0aa8c9203cb24a65898fb0b20b`.
+
+Inspected final candidate SHA-256: `ffbf46524071315255d9ca5bb308711799dd6cf427fce5a7b413cb7cefb70d16`.
+
+Machine-readable details: `scope-review.json`. The exact tracked TeX diff is saved in `git-diff.txt`. The independent checker is `scope_review.py`.
+
+This review establishes edit scope and preservation of existing labels/numbered environments. It does not establish mathematical correctness, rendered equation numbering, layout, or successful compilation. Neither Lean nor TeX was compiled by this reviewer, and no manuscript source was modified. If the candidate changes after this snapshot, rerun the checker before delivery.

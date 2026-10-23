@@ -1,0 +1,54 @@
+# Second independent review: final revised derived-tensor definition
+
+Date: 2026-10-23. Reviewed fragment: `definition-candidate.tex`.
+
+SHA-256 of the reviewed revision: `e10de776b41d775b771390e8c0d4afd0abe30e2729f99dc2a9584899c22b1d66`.
+
+Verdict: **mathematically approved**, subject to the manuscript's existing standing assumption that `k` is a field. The fixed-bimodule construction, existence proof, universal property, finite-model computation, and added outside-right-action paragraph are correct. No substantive mathematical defect was found. The original manuscript was not edited and no compilation was launched by this reviewer. This is an independent mathematical/expository review, not a formal-verification verdict.
+
+## Final first-use improvements recommended
+
+The new enveloping-algebra passage should specify its action explicitly: regard `N` as a left `A ⊗_k C^op`-module by `(a ⊗ c^op)n=anc`. This is the precise input structure used in its resolution, and it makes the noncommutative convention independently readable.
+
+The words “computes the same derived tensor” compare objects in two different derived categories. Clarify that **after forgetting the right `C`-action**, the resulting object is the previously defined derived tensor in `D(B-Mod)`. This is an explanatory clarification, not a new hypothesis or change of construction.
+
+These are local exposition improvements. They do not alter the mathematical verdict.
+
+## Detailed mathematical checks
+
+1. **Sides and signs.** `M` is a `(B,A)`-bimodule complex, `N` is a left `A`-module complex, and the direct-sum tensor totalization has left `B` action. The balancing relation and outside action are now written explicitly. The cochain differential uses the correct sign `(-1)^p` for `x ∈ M^p`. An input homotopy induces `x ⊗ y ↦ (-1)^p x ⊗ h(y)`, which is the correct tensor homotopy.
+2. **Existence without boundedness.** The stage-zero generators represent every cohomology class. At subsequent stages every cycle mapping to a boundary is killed. Every element of the union has finite support and lies at a finite stage; consequently the augmentation is a quasi-isomorphism. Adjoining all cycles and all displayed pairs yields a genuine functor on chain maps. This functor need not be additive, and no step uses additivity.
+3. **K-projectivity.** For a newly adjoined generator `e`, the term `u(e)-h(de)` is a cycle because the homotopy equation holds on the preceding stage and `d²e=0`. Acyclicity supplies the required primitive. Freeness extends the homotopy. This is valid for the unbounded semifree resolution constructed in the proof.
+4. **Lifting level.** Maps out of a K-projective lift across arbitrary quasi-isomorphisms uniquely **up to homotopy**. The candidate does not claim a strict lift for every nonsurjective quasi-isomorphism or strict uniqueness. The displayed mapping-cone terms and differential are correct.
+5. **Descent.** A quasi-isomorphism between K-projectives is a homotopy equivalence. Ordinary tensor preserves those homotopies. Thus `N ↦ M ⊗_A Q_N` sends quasi-isomorphisms to quasi-isomorphisms. This argument does not assert that ordinary tensor with an arbitrary fixed complex preserves all quasi-isomorphisms.
+6. **Comparison and Kan direction.** The comparison `c_N` has source `L_M(q_A N)` and target `q_B(M ⊗_A Q_N)`. The formula `η_N=q_B(M ⊗_A ε_N) ∘ c_N` is correctly typed. The competitor has source `G q_A`, and the unique factorization is `G → L_M`, precisely the right Kan direction. The factorization first applies `G(q_A ε_N)^{-1}`, then `θ_{Q_N}`, then `c_N^{-1}`; every arrow has the correct source and target. On K-projective inputs `η` is invertible, giving uniqueness by naturality with respect to `ε_N`.
+7. **Bounded projective inputs.** Bounded complexes of projective right modules are K-flat: the finite filtration by degree is degreewise split and has shifted projective modules as successive quotients. The conditional sentence for bounded-above projective left-module resolutions is now accurate. It no longer suggests that every unbounded input has a bounded-above resolution. Arbitrary unbounded termwise projectivity is not used as a substitute for K-projectivity.
+8. **Finite-dimensional output.** If both inputs are bounded and termwise finite-dimensional and `M` is termwise right projective, the ordinary tensor computes the derived tensor and is bounded and termwise finite-dimensional. Hence the output belongs to the indicated bounded derived category of finite-dimensional modules.
+9. **Added right `C` action.** For an `(A,C)`-bimodule complex, taking the semifree resolution over `A ⊗_k C^op` preserves that right action. Since `k` is a field, choose a `k`-basis of `C`; each free enveloping-algebra summand is then a free left `A`-module. Every stage is an enveloping-algebra submodule and each new differential lies in the preceding stage, so the restricted left `A`-complex remains semifree and therefore K-projective. The tensor object has commuting actions `b(x ⊗ y)c=(bx) ⊗ (yc)`, and so is a left `B ⊗_k C^op`-module complex as claimed. No flatness extension to arbitrary coefficient rings is implicit in this approval.
+
+## First-use and notation scope
+
+The passage defines the localization, acyclicity, chain homotopy, K-projectivity, resolution/augmentation, direct-sum totalization, comparison, Kan property, cone, K-flatness and semifreeness before substantive use. `p,q,n` range over integers; stage indices are nonnegative integers. The symbol `C` inside the existence proof denotes an acyclic complex; its scope ends at `end{proof}`. The later `C` is explicitly introduced as another algebra, so the two meanings do not overlap. `c_N` is the comparison isomorphism while `c ∈ C` is an element, with distinct notation. The earlier original `d`, cohomology and shift conventions must remain before this fragment, as the parent editor specified. The unchanged surrounding notation must still identify `D^b(B-mod)` with the bounded derived category of finite-dimensional modules.
+
+## Official supporting sources checked
+
+Both cited official pages were retrieved successfully with the built-in web tool:
+
+- [Stacks Project, Lemma 22.33.2, tag 09LS](https://stacks.math.columbia.edu/tag/09LS): existence of the relevant derived tensor functor using property-(P) resolutions and homotopy equivalences.
+- [Stacks Project, Lemma 22.20.4, tag 09KP](https://stacks.math.columbia.edu/tag/09KP): existence of a quasi-isomorphism from a property-(P) differential graded module.
+
+The candidate's explicit construction has been checked on its own. These citations support rather than replace that argument. Opposite algebras convert their right-module convention to the manuscript's left-module convention.
+
+## Numbering and insertion boundary
+
+The fragment contains no numbered theorem, lemma, definition, displayed equation, label or explicit counter command; its proof environment is unnumbered. The parent editor reports that the original manuscript has only the unnumbered first-page keyword footnote text and no later footnotes, so adding the citation footnote cannot shift an existing numbered footnote. I have not independently compared the frozen original with an assembled full manuscript; the exact unchanged prefix/suffix must still be checked by the editor. Preserve the original preceding differential/cohomology/shift sentences and following “Path products” paragraph outside the intended replacement range.
+
+## Final first-occurrence revision re-read
+
+Final reviewed fragment SHA-256: `10090b11b4ab52086c89f402abc9a36344c63a2d17b59ac03eaa8c033f8b16a9`.
+
+The final revision addresses the previous suggestions: it declares the complexes before the homotopy formula, declares the derived functor and comparison isomorphisms before their displayed types, introduces action parameters before the formulas, defines `c^op` before its use, and explicitly identifies the comparison after forgetting the right `C`-action. The noncommutative action `(a ⊗ c^op)v=avc` is correct. Re-reading the revised proof reveals no change to the mathematical construction, the right Kan factorization, or their validity. **Final verdict remains approved.**
+
+One harmless terminology improvement is to use “tensor-product-algebra action” or simply “left `A ⊗_k C^op`-action” instead of “tensor-algebra action”: the latter can denote a different standard construction. The displayed action itself is unambiguous and correct, so this is not a mathematical objection.
+
+The parent editor reports a byte-identical prefix/suffix outside the intended definition replacement, a 26-page PDF, and exactly one visible square for the added proof. Those assembly and rendering checks were not independently repeated by this reviewer. No source edit or compilation was performed here.

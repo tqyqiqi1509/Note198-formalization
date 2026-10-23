@@ -1,0 +1,165 @@
+--- before/paper/note198.tex
++++ after/paper/note198.tex
+@@ -144,8 +144,7 @@
+ right. The notation $\D^b(A\text{-}\modu)$ means the bounded derived
+ category of finite-dimensional left $A$-modules; $\K^b(\proj\text{-}A)$
+ means the homotopy category of bounded finitely generated projective
+-right $A$-module complexes. The symbol $\otL$ denotes derived tensor
+-product. For a complex $K$ and an integer $n$, write
++right $A$-module complexes. For a complex $K$ and an integer $n$, write
+ $d_K^n:K^n\to K^{n+1}$ for its
+ differential and $H^n(K)=\ker d_K^n/\operatorname{im}d_K^{n-1}$
+ for its cohomology. For integers $n,s$, the shift convention is
+@@ -154,6 +153,152 @@
+ \]
+ A module is regarded as a complex concentrated in degree zero, so
+ its shift by $s$ has cohomology in degree $-s$.
++For a $k$-algebra $A$, the category $\D(A\text{-}\Mod)$ is the
++localization of the category of integer-indexed cochain complexes of
++all left $A$-modules at quasi-isomorphisms, namely chain maps inducing
++isomorphisms on every cohomology module.  Write $q_A$ for this
++localization functor.  A complex is acyclic if all its cohomology
++modules vanish.  For complexes $U,V$ of left $A$-modules, a homotopy
++between chain maps $f,g:U\to V$ is a family of $A$-linear maps $h^n:U^n\to V^{n-1}$ satisfying
++$f-g=d_Vh+hd_U$; a map is null-homotopic if it is homotopic to zero.
++
++Let $A$ and $B$ be $k$-algebras.  A complex $M$ of
++$(B,A)$-bimodules has commuting left $B$- and right $A$-actions,
++agreeing on $k$, and bimodule-linear differentials.  For a complex
++$N$ of left $A$-modules, $M\otimes_A N$ denotes the direct-sum
++total complex of left $B$-modules.  For integers $p,q,n$, its terms
++and differential on $x\in M^p$, $y\in N^q$ are
++\[
++ (M\otimes_A N)^n=\bigoplus_{p+q=n}M^p\otimes_A N^q,
++ \qquad
++ d(x\otimes y)=d_Mx\otimes y+(-1)^p x\otimes d_Ny.
++\]
++Here the tensor products in the summands are ordinary balanced
++module tensor products over $A$.  For $a\in A$ the balancing
++relation is $(xa)\otimes y=x\otimes(ay)$.  For $b\in B$ the
++exterior action is $b(x\otimes y)=(bx)\otimes y$.
++
++A complex $Q$ of left $A$-modules is \emph{$K$-projective} if every
++chain map from $Q$ to an acyclic complex is null-homotopic.  Each
++complex $N$ admits a quasi-isomorphism
++$\varepsilon_N:Q_N\to N$ with $Q_N$ $K$-projective.  Such
++resolutions can be chosen functorially.  The symbol $\otL$ denotes
++the total left-derived tensor product.  For fixed $M$, localization
++gives a functor $L_M$ and natural comparison isomorphisms $c_N$
++with the following types:
++\[
++ \begin{gathered}
++ L_M=M\otL_A-:\D(A\text{-}\Mod)\longrightarrow
++                  \D(B\text{-}\Mod),\\
++ L_M(q_A N)\xrightarrow[\sim]{\,c_N\,}q_B(M\otimes_A Q_N).
++ \end{gathered}
++\]
++The maps
++$\eta_N=q_B(M\otimes_A\varepsilon_N)\circ c_N$ define a natural
++transformation
++\[
++ \eta:L_Mq_A\longrightarrow q_B(M\otimes_A-).
++\]
++Its defining universal property is the following.  For any functor
++$G:\D(A\text{-}\Mod)\to\D(B\text{-}\Mod)$ and natural
++transformation $\theta:Gq_A\to q_B(M\otimes_A-)$, there is a
++unique natural transformation $\sigma:G\to L_M$ such that
++$\eta_N\circ\sigma_{q_A N}=\theta_N$ for every $N$.  Thus the
++left-derived functor is a right Kan extension along $q_A$.
++
++\begin{proof}[Existence and well-definedness]
++One may construct $Q_N$ as follows.  Let $Q_0$ be the free graded
++left $A$-module with one generator of degree $n$ for every integer
++$n$ and cycle $z\in N^n$.  Give these generators zero differential
++and map the generator indexed by $z$ to $z$.  Inductively, suppose
++that a chain map $\varepsilon_i:Q_i\to N$ has been defined for
++an integer $i\geq0$.  For every integer $n$ and pair
++$z\in Q_i^n$, $y\in N^{n-1}$ satisfying
++$d_{Q_i}z=0$ and $\varepsilon_i(z)=d_Ny$, adjoin a free generator
++$e_{z,y}$ of degree $n-1$, set $de_{z,y}=z$, and extend the map
++by $\varepsilon_{i+1}(e_{z,y})=y$.  The resulting inclusions
++$Q_i\subset Q_{i+1}$ are split as graded modules.  Set
++$Q_N=\bigcup_{i\geq0}Q_i$, with the induced differential and
++augmentation $\varepsilon_N$.  Every cohomology class of $N$
++is represented by an initial generator.  A cycle in $Q_N$ lies in
++some finite stage; if its image is a boundary in $N$, the next
++stage makes it a boundary.  Hence $\varepsilon_N$ is a
++quasi-isomorphism.  Indexing generators by all the displayed cycles
++and pairs makes this construction functorial in chain maps $N\to N'$.
++
++To verify $K$-projectivity, let $u:Q_N\to C$ be a chain map with
++$C$ acyclic.  Construct a degree $-1$ homotopy $h$ stage by stage.
++For a new generator $e$ of degree $n$, its differential lies in
++the preceding stage, where $h$ is already defined.  The element
++$u(e)-h(de)$ is a cycle of degree $n$ in $C$.  Choose $h(e)$
++of degree $n-1$ with $d_Ch(e)=u(e)-h(de)$ and extend
++$A$-linearly.  Starting with the zero preceding stage for $Q_0$
++gives $u=d_Ch+hd_{Q_N}$ on the union.
++
++Maps from a $K$-projective complex lift along quasi-isomorphisms
++uniquely up to homotopy, as follows by applying maps out of that
++complex to the acyclic mapping cone.  For a chain map $f:U\to V$,
++this cone has degree-$n$ term $V^n\oplus U^{n+1}$ and differential
++$(v,u)\mapsto(d_Vv+f(u),-d_Uu)$.  Consequently,
++quasi-isomorphisms between $K$-projective complexes are homotopy
++equivalences, and any two such resolutions of $N$ are homotopy
++equivalent over $N$ up to homotopy.  An input homotopy $h$ induces the tensor homotopy
++$x\otimes y\mapsto(-1)^p x\otimes h(y)$ for $x\in M^p$;
++thus tensoring with $M$ preserves chain homotopies.  The functor $N\mapsto M\otimes_A Q_N$
++therefore sends quasi-isomorphisms to quasi-isomorphisms and
++descends to $L_M$; the comparison and $\eta$ above are induced by
++localization and the augmentations.  Given $G$ and $\theta$, the
++factorization on $q_A N$ is the composite
++\[
++ \begin{aligned}
++ G(q_A N)&\xrightarrow{\,G(q_A\varepsilon_N)^{-1}\,}
++ G(q_A Q_N)\xrightarrow{\,\theta_{Q_N}\,}q_B(M\otimes_A Q_N)\\
++ &\xrightarrow{\,c_N^{-1}\,}L_M(q_A N).
++ \end{aligned}
++\]
++Naturality gives the required factorization identity.  The transformation $\eta$
++is an isomorphism on $K$-projective inputs, so naturality with
++respect to $\varepsilon_N$ makes this factorization unique.
++\end{proof}
++
++A complex of right $A$-modules is \emph{$K$-flat} if its total
++tensor product with every acyclic complex of left $A$-modules is
++acyclic.  A bounded complex of projective right $A$-modules is
++$K$-flat: its finite filtration by degree has shifted projective
++modules as successive quotients, and tensoring these quotients
++with an acyclic complex remains acyclic.  Thus, when $M$ is such
++a bounded complex, $M\otimes_A N$ itself computes $M\otL_A N$
++for every $N$.  Bounded-above complexes of projective left
++$A$-modules are $K$-projective by descending lifting of homotopies,
++so any quasi-isomorphism from such a complex to $N$ may be used
++as $\varepsilon_N$.  If $M$ and $N$ are bounded and termwise
++finite-dimensional over $k$, with $M$ termwise right projective,
++the result belongs to $\D^b(B\text{-}\modu)$.
++
++Call a complex semi-free if it has homogeneous free generators
++adjoined in stages, with each generator's differential in earlier
++stages.  If $C$ is a further $k$-algebra and $N$ is a complex of
++$(A,C)$-bimodules, its resolution may be constructed over
++$A\otimes_k C^{\mathrm{op}}$, where $C^{\mathrm{op}}$ is the
++algebra with reversed multiplication.  The left action is defined as follows.  For $c\in C$, let $c^{\mathrm{op}}$
++denote its image in $C^{\mathrm{op}}$.  For $a\in A$, $c\in C$,
++$j\in\Z$ and $v\in N^j$, set $(a\otimes c^{\mathrm{op}})v=avc$.
++The underlying left $A$-complex of this resolution is still semi-free: choose a $k$-basis of $C$ to
++express each freely adjoined $A\otimes_k C^{\mathrm{op}}$-module
++as a direct sum of free left $A$-modules.
++After forgetting the right $C$-action this computes the previously
++defined derived tensor.  For $b\in B$ and $c\in C$ the retained
++exterior actions are $b(x\otimes y)c=(bx)\otimes(yc)$.
++It then gives an object of
++$\D((B\otimes_k C^{\mathrm{op}})\text{-}\Mod)$.\footnote{For the derived tensor functor
++over noncommutative algebras, viewed as differential graded
++algebras concentrated in degree zero, see the Stacks Project,
++Lemma 22.33.2, \url{https://stacks.math.columbia.edu/tag/09LS};
++compare the resolutions in Lemma 22.20.4,
++\url{https://stacks.math.columbia.edu/tag/09KP}.  Passing to
++opposite algebras converts its right-module convention to the
++left-module convention used here.}
++
+ Path products and endomorphism products are composed from right to left.
+ 
+ \section{A selection process with unbounded extinction}

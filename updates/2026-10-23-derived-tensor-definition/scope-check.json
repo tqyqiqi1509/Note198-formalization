@@ -1,0 +1,13 @@
+{
+  "old_tex_sha256": "8c77220a5993568de5b42f7eea872d19c83c0d0aa8c9203cb24a65898fb0b20b",
+  "final_tex_sha256": "a9069ca68510645b4cddb6403036ffcb8747d034ffbce4a63ecce618abb506d3",
+  "final_definition_candidate_sha256": "9f5f6765691e49c5da1bdecfb48b05c327c928c6aff582b4415d8ffd84b5213c",
+  "prefix_bytes": 6081,
+  "suffix_bytes": 76878,
+  "prefix_and_suffix_byte_identical": true,
+  "reverting_only_definition_block_restores_original": true,
+  "all_original_labels_identical": true,
+  "original_numbered_results": 20,
+  "numbered_environment_sequence_identical": true,
+  "last_copy_edit": "Replaced tensor-algebra action with left action, as independently recommended."
+}
